@@ -33,11 +33,24 @@ public class GameManager_Script : MonoBehaviour
     {
 
     }
-public    void PausePlayButton()
+public  void PausePlayButton()
     {
         Time.timeScale = Time.timeScale==0?1:0;
     
     }
+
+
+
+
+
+
+
+
+
+
+
+
+    //SceneManager
  public void NewScene(string SceneName)
     {
         SceneManager.LoadScene(SceneName);

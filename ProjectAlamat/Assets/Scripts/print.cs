@@ -6,7 +6,7 @@ using TMPro;
 public class print : MonoBehaviour
 {
     public Salita salita;
-   
+    public TMP_InputField InputA;
     public TextMeshProUGUI textMesh;
     private void Start()
     {
@@ -18,5 +18,13 @@ public class print : MonoBehaviour
     private void Update()
     {
         
+    }
+
+
+    public void Printa(string word)
+    {
+        string text = InputA.text + word;
+        InputA.text=text;
+
     }
 }

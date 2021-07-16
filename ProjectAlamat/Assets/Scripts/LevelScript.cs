@@ -4,7 +4,10 @@ using UnityEngine;
 
 public class LevelScript : MonoBehaviour
 {
-  [SerializeField]  List<Salita> wordList = new List<Salita>();
+    [SerializeField] List<Salita> wordList = new List<Salita>();
+    [SerializeField] GameObject QuestionDialogText;
+    [SerializeField] GameObject PlayerInputBox;
+
     // Start is called before the first frame update
     int round=0;
     int totalRounds;
@@ -36,7 +39,7 @@ public class LevelScript : MonoBehaviour
     }
 
 
-    void LearningPhase()
+    void LearningPhaseSetUp()
     {
         RandmizeList(ref wordList);
        
@@ -54,36 +57,44 @@ public class LevelScript : MonoBehaviour
                
             }
 
-        
 
 
-        
 
 
-       
-            Salita salita = LearningPhaseWords[Random.Range(0, LearningPhaseWords.Count)];
-            List<string> choices = new List<string>();
-            for (int x = 0; x < 4; x++)
+
+
+
+        Salita salita = LearningPhaseWords[Random.Range(0, LearningPhaseWords.Count)];
+        List<string> choices = new List<string>();
+        for (int x = 0; x < 4; x++)
+        {
+            for (int y = 0; y < wordList.Count; y++)
             {
-                for (int y = 0; y < wordList.Count; y++)
+                if (!choices.Contains(wordList[y].name))
                 {
-                    if (!choices.Contains(wordList[y].name))
-                    {
-                        choices.Add(wordList[y].name);
-                        break;
-                    }
-
+                    choices.Add(wordList[y].name);
+                    break;
                 }
 
             }
 
+        }
 
 
 
 
-            choices.Clear();
-        
+
+        //choices.Clear();
+
     }
+
+
+    public void CheckAnswer(string Answer)
+    { 
+
+
+    }
+
     void CombatStage()
     {
 
