@@ -12,7 +12,7 @@ public class print : MonoBehaviour
     {
      
 
-        textMesh.text= salita.tagalogSentenceTraining + "\n" + salita.englishSentenceTraining;
+      //  textMesh.text= salita.tagalogSentenceTraining + "\n" + salita.englishSentenceTraining;
     }
 
     private void Update()
