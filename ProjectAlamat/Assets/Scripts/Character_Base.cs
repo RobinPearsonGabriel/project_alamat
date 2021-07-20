@@ -4,14 +4,32 @@ using UnityEngine;
 
 public class Character_Base : MonoBehaviour
 {
+    [SerializeField] Character_BaseStat characterType;
     // Start is called before the first frame update
-  private  int atk;
+  private  float atk;
     [Min(0)]
-    public int hp;
-    int maxHp;
-    private int def;
-  private  int lvl;
+    public float hp;
+    float maxHp;
+    float def;
+  private float lvl;
+    public string nname;
+   [SerializeField] protected SpriteRenderer spriteRenderer;
 
+    protected virtual void Start()
+    {
+        setStats();
+    }
+    void setStats()
+    {
+        lvl = characterType.StartLvl;
+        atk = characterType.baseAtk * (lvl * 0.5f);
+        def = characterType.baseDef*(lvl*0.3f);
+        maxHp = characterType.baseHp*(lvl*1.5f);
+        hp = maxHp;
+        spriteRenderer.sprite = characterType.sprite;
+        name = characterType.name;
+
+    }
 
      void Update_Stats()
     {
@@ -20,20 +38,30 @@ public class Character_Base : MonoBehaviour
         
     }
 
-    protected virtual void Attack(GameObject Target)
-    { 
-    
+    public virtual void Attack(GameObject Target)
+    {
+        if (Target.tag == "Player")
+        {
+            Target.GetComponent<PlayerScript>().TakeDamage(atk);
+            Debug.Log(name + " attacked " + Target.GetComponent<PlayerScript>().name);
+        }
+        else
+        {
+            Target.GetComponent<EnemyScript>().TakeDamage(atk);
+            Debug.Log(name + " attacked " + Target.GetComponent<EnemyScript>().name);
+
+        }
     }
 
-    public void TakeDamage(int atkdamage)
+    public void TakeDamage(float atkdamage)
     {
-        int actualdamage = (atkdamage * (100 / (100 + def)));
+        float actualdamage = (atkdamage * (100 / (100 + def)));
         actualdamage = Mathf.Max(0, actualdamage);
 
         hp = hp- actualdamage;
         OnDamageRecieve(actualdamage);
     }
-    public void OnDamageRecieve(int damage)
+    public void OnDamageRecieve(float damage)
     {
         
     }
@@ -42,15 +70,20 @@ public class Character_Base : MonoBehaviour
 }
 
 public class Enemy_Class : Character_Base
-{ 
-    
+{
 
+    protected int experiencePoints;
+    public int GetExperincePoint()
+    {
+
+        return experiencePoints;
+    }
 
 }
 public class Player_Class : Character_Base
 {
-    int exp;
-    int maxLevelCap;
+   protected int exp;
+   protected int maxLevelCap;
     
     protected   void LevelUp()
     {
