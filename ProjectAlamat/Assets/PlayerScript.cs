@@ -10,13 +10,18 @@ public class PlayerScript : Player_Class
  protected override  void Start()
     {
         base.Start();
-       //spriteRenderer.sprite = null;
+        expToLevel = 100;
+        currExp = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
         
+    }
+    protected override void Die()
+    {
+        base.Die();
     }
 
 }

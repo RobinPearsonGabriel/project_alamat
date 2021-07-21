@@ -19,6 +19,7 @@ public class Character_BaseStat : ScriptableObject
    public int baseAtk;
    public int baseDef;
     public int StartLvl;
+    public int countDown;
     // Start is called before the first frame update
    
 }

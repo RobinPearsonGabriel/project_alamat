@@ -36,10 +36,15 @@ public class LevelScript : MonoBehaviour
     Salita Currentword;
     [SerializeField] GameObject Trainingphasepanel;
     [SerializeField] List<TextMeshProUGUI> choicesTextboxText;
-    [SerializeField] GameObject Player;
-    [SerializeField] GameObject Enemy;
-    public List<Salita> LearningPhaseWords = new List<Salita>();
-
+    [SerializeField] GameObject playerObj;
+    [SerializeField] GameObject enemyObj;
+     List<Salita> LearningPhaseWords = new List<Salita>();
+    [SerializeField] GameObject learningPhasePanel;
+    [SerializeField] GameObject combatPhasePanel;
+    PlayerScript player;
+    EnemyScript enemy;
+    [SerializeField] GameObject GameOverPanel;
+    [SerializeField] GameObject VictoryPanel;
     // Start is called before the first frame update
     int round = 0;
     int totalRounds;
@@ -50,7 +55,8 @@ public class LevelScript : MonoBehaviour
         RandmizeList(ref wordList);
         totalRounds = wordList.Count;
         LearningPhaseSetUp();
-        LearningPhaseGame();
+        
+        //CombatPhasSetup();
     }
 
     // Update is called once per frame
@@ -77,6 +83,9 @@ public class LevelScript : MonoBehaviour
 
     void LearningPhaseSetUp()
     {
+        combatPhasePanel.SetActive(false);
+        learningPhasePanel.SetActive(true);
+        enemyObj.SetActive(false);
         RandmizeList(ref wordList);
         for (int x = 0; x < wordList.Count; x++)
         {
@@ -88,7 +97,7 @@ public class LevelScript : MonoBehaviour
 
         }
         //choices.Clear();
-
+         LearningPhaseGame();
     }
 
 
@@ -136,7 +145,7 @@ public class LevelScript : MonoBehaviour
         else
         {
             currentPhase = roundPhase.Combat;
-            CombatPhaseGame();
+            CombatPhasSetup();
         }
 
 
@@ -154,57 +163,104 @@ public class LevelScript : MonoBehaviour
         }
 
     }
-
+   void CombatPhasSetup()
+    {
+        currentPhase = roundPhase.Combat;
+        enemyObj.SetActive(true);
+        enemy = enemyObj.GetComponent<EnemyScript>();
+        player = playerObj.GetComponent<PlayerScript>();
+        combatPhasePanel.SetActive (true);
+        learningPhasePanel.SetActive( false);
+        enemyObj.SetActive(true);
+        CombatPhaseGame();
+    }
     void CombatPhaseGame()
     {
+        int rand = Random.Range(0,wordList.Count);
+        Currentword = wordList[rand];
+        dialogTextBox.text = "Filipino : " + Currentword.tagalogSentenceTraining + "\n" + "English :" + Currentword.englishSentenceTraining;
 
 
-    
     }
 
 
 
     public void CheckAnswer(string Answer)
     {
+        //correct answer
         if (Currentword.salita.ToLower() == Answer.ToLower())
         {
-            round++;
+          //  round++;
             if (currentPhase == roundPhase.Learning)
             {
                 LearningPhaseWords.Remove(Currentword);
                 LearningPhaseGame();
-   if(Enemy!=null)
-                Player.GetComponent<PlayerScript>().Attack(Enemy);
+  
+               
             }
             else
             {
-             
+                Debug.LogError("Correct");
+                player.Attack(enemyObj);
+                if (enemy.IsAlive())
+               {
+                   CombatPhaseGame();
+               }
+                else
+                {
+
+                    enemy.GetExperincePoint();
+                }
             }
         }
+        //incorrect
         else
         {
             if (currentPhase == roundPhase.Learning)
             {
-               //LearningPhaseWords.Remove(Currentword);
+                LearningPhaseWords.Remove(Currentword);
                 LearningPhaseGame();
 
             }
-            // takedamage
-        }
+            else 
+            {
 
-        if (currentPhase == roundPhase.Combat)
-        { 
-        
+                CombatPhaseGame();
+            }
         }
+       if (currentPhase == roundPhase.Combat)
+       {
+           enemy.Attack(playerObj);
+       }
 
     }
     //on playerchoices picked
     public void ChoicePressed(TextMeshProUGUI text)
     {
         CheckAnswer(text.text);
+        Debug.Log(text.text);
 
     }
 
+    public void EnterPressed(TMP_InputField answer)
+    {
+        CheckAnswer(answer.text);
+        Debug.Log(answer.text);
 
+    }
+
+    public void Victory(float exp)
+    {
+        VictoryPanel.SetActive(true);
+
+        float currExp = player.getCurrentExp();
+        player.gainExp(exp);
+        VictoryPanel.GetComponent<showPlayerprogress>().expbareffect(player.getCurrentExp(),player.GetExpToLevel(),exp);
+    }
+
+    public void GameOver()
+    {
+        GameOverPanel.SetActive(true);
+    }
 
 }

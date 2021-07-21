@@ -6,6 +6,8 @@ using TMPro;
 public class KeyboardScript : MonoBehaviour
 {
     public TMP_InputField PlayerInput;
+    [SerializeField] GameObject showKeyboardButton;
+    [SerializeField] GameObject Keyboard;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,5 +31,13 @@ public class KeyboardScript : MonoBehaviour
         string text = "";
         PlayerInput.text = text;
 
+    }
+    public void ActivateKeyBoard()
+    {
+        showKeyboardButton.SetActive(Keyboard.activeSelf);
+        Keyboard.SetActive(!Keyboard.activeSelf);
+          
+
+    
     }
 }
