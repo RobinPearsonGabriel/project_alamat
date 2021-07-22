@@ -254,8 +254,11 @@ public class LevelScript : MonoBehaviour
         VictoryPanel.SetActive(true);
 
         float currExp = player.getCurrentExp();
+
+  VictoryPanel.GetComponent<showPlayerprogress>().expbareffect(player.getCurrentExp(),player.GetExpToLevel(),exp);
+
         player.gainExp(exp);
-        VictoryPanel.GetComponent<showPlayerprogress>().expbareffect(player.getCurrentExp(),player.GetExpToLevel(),exp);
+      
     }
 
     public void GameOver()
