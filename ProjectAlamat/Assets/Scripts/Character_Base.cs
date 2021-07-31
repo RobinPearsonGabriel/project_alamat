@@ -16,9 +16,10 @@ public class Character_Base : MonoBehaviour
     characterType type;
  protected   int countdown;
      string Type;
+  
     [SerializeField] Image hpbar;
 
-   [SerializeField] protected SpriteRenderer spriteRenderer;
+   [SerializeField]  SpriteRenderer spriteRenderer;
 
     public string getName()
     {
@@ -38,6 +39,7 @@ public class Character_Base : MonoBehaviour
 
     protected virtual void Start()
     {
+       
         setStats();
     }
     void setStats()
@@ -91,8 +93,22 @@ public class Character_Base : MonoBehaviour
     }
     public void OnDamageRecieve(float damage)
     {
-        
+        StartCoroutine(FlickeringEffect());
     }
+
+    IEnumerator FlickeringEffect()
+    {
+        for (int i = 0; i < 20; i++)
+        {
+  spriteRenderer.color = Color.clear;
+            
+            yield return new WaitForSeconds(0.01f);
+          spriteRenderer.color = Color.white;
+        }
+    }
+
+
+
     // Update is called once per frame
    protected virtual void Die()
     { 
@@ -144,7 +160,7 @@ public class Enemy_Class : Character_Base
 
     protected override void Die()
     {
-        LevelScript.instance.Victory(experiencePoints);
+        LevelScript.instance.Victory();
     }
 
 }
