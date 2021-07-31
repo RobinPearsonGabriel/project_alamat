@@ -1,0 +1,6 @@
+OPTIGoudy-Text = Usually only used for the titles, especially the first letter of the titles.
+
+Bradley Gratis = The main font used for most text. Can be used alongside FetteUNZFraktur.
+
+FetteUNZFraktur = The secondary font used for text. Looks nice, but some letters are incomprehensible,
+so use alongside Bradley Gratis.
