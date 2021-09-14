@@ -6,7 +6,7 @@ using TMPro;
 public class showPlayerprogress : MonoBehaviour
 {
     [SerializeField] Image expbar;
-    [SerializeField] TextMeshProUGUI expText;
+    [SerializeField] Text expText;
     // Start is called before the first frame update
     void Start()
     {

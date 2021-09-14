@@ -13,11 +13,9 @@ MonoBehaviour:
   m_Name: Starting Dialog
   m_EditorClassIdentifier: 
   dialogs:
-  - sentence: hi
+  - sentence: Hi
     speaker: Juan
-  - sentence: has
-    speaker: Juan
-  - sentence: sd
-    speaker: Juan
-  - sentence: dfe
+  - sentence: Hello
+    speaker: Jose
+  - sentence: Kamusta
     speaker: Juan

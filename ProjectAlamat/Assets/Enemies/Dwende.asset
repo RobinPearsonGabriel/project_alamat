@@ -12,9 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cb8f536adff8d794dad7bd4938cd8517, type: 3}
   m_Name: Dwende
   m_EditorClassIdentifier: 
-  charType: 0
-  name: Dwende
-  sprite: {fileID: 21300000, guid: a68c965b27aad7b4e8af27b5ce5de356, type: 3}
+  charType: 1
+  name: Calanget
+  sprite: {fileID: 21300000, guid: ba170e29ba24a2d4db79076d8746fbf4, type: 3}
   baseHp: 20
   baseAtk: 10
   baseDef: 10

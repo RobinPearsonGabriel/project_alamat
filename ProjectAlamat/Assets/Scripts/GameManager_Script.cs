@@ -39,22 +39,17 @@ public  void PausePlayButton()
     
     }
 
-
-
-
-
-
-
-
-
-
-
-
     //SceneManager
  public void NewScene(string SceneName)
     {
         SceneManager.LoadScene(SceneName);
     
+    }
+
+    public void ReloadScene()
+    {
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);
     }
 
 

@@ -47,6 +47,7 @@ public class LevelScript : MonoBehaviour
  public       List<Salita> LearningPhaseWords = new List<Salita>();
     [SerializeField] GameObject learningPhasePanel;
     [SerializeField] GameObject combatPhasePanel;
+    [SerializeField] GameObject statsPanel;
     PlayerScript player;
     EnemyScript enemy;
     [SerializeField] GameObject GameOverPanel;
@@ -65,6 +66,7 @@ public class LevelScript : MonoBehaviour
        // enemy = enemyObj.GetComponent<EnemyScript>();
        //player = playerObj.GetComponent<PlayerScript>();
         combatPhasePanel.SetActive(false);
+        statsPanel.SetActive(false);
         learningPhasePanel.SetActive(false);
         enemyObj.SetActive(false);
         currentPhase = roundPhase.Learning;
@@ -104,6 +106,7 @@ public class LevelScript : MonoBehaviour
     {
 
         learningPhasePanel.SetActive(false);
+        statsPanel.SetActive(false);
         combatPhasePanel.SetActive(false);
         for (int x=0;x< dialogeList.dialogs.Count;x++)
         {
@@ -270,6 +273,7 @@ public class LevelScript : MonoBehaviour
         enemy = enemyObj.GetComponent<EnemyScript>();
         player = playerObj.GetComponent<PlayerScript>();
         combatPhasePanel.SetActive (true);
+        statsPanel.SetActive(true);
         learningPhasePanel.SetActive( false);
        
         CombatPhaseGame();
@@ -295,17 +299,17 @@ public class LevelScript : MonoBehaviour
             //correct answer
             if (Currentword.salita.ToLower() == Answer.ToLower())
             {
-               
+                Debug.Log("Answer was correct");
                 combatPhasePanel.SetActive(false);
                 learningPhasePanel.SetActive(false);
                 nextButton.SetActive(true);
-                 dialogTextBox.text = " Tama!";
+                dialogTextBox.text = " Tama!";
              
                     //  round++;
                     if (currentPhase == roundPhase.Learning)
                     {
                         LearningPhaseWords.Remove(Currentword);
-                        LearningPhaseGame();
+                       //LearningPhaseGame();
                      
 
                     }
@@ -318,7 +322,7 @@ public class LevelScript : MonoBehaviour
                         if (enemy.IsAlive())
                         {
 
-                            CombatPhaseGame();
+                            //CombatPhaseGame();
                         }
                         else
                         {
@@ -333,20 +337,20 @@ public class LevelScript : MonoBehaviour
             else
             {
                 dialogTextBox.text = " Mali!";
-                combatPhasePanel.SetActive(false);
+              //  combatPhasePanel.SetActive(false);
                 learningPhasePanel.SetActive(false);
-        //        nextButton.SetActive(true);
+                nextButton.SetActive(true);
             
                     if (currentPhase == roundPhase.Learning)
                     {
 
-                        LearningPhaseGame();
+                        //LearningPhaseGame();
 
                     }
                     else if (currentPhase == roundPhase.Combat)
                     {
 
-                        CombatPhaseGame();
+                        //CombatPhaseGame();
                     }
                 
             }

@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e8eaa8670c0c0d49a645d3def92af69, type: 3}
   m_Name: Gwantes
   m_EditorClassIdentifier: 
-  salita: gwantes
-  tagalogSentenceTraining: mahilig si Anna magsuot ng _________
-  englishSentenceTraining: Anna likes to wear <u>gloves</u>
-  tagalogSentenceBattle: 
-  englishSentenceBattle: 
+  salita: Maalat
+  tagalogSentenceTraining: <u>______</u> ang dagat.
+  englishSentenceTraining: The sea is <u>salty</u>
+  tagalogSentenceBattle: <u>______</u> ang dagat.
+  englishSentenceBattle: The sea is <u>salty</u>

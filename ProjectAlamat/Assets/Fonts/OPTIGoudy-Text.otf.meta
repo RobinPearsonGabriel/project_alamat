@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f9c05c39eae0d7749abc7b6c6604bcbf
+guid: c23858374243333468d915f07dc35246
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -10,7 +10,8 @@ TrueTypeFontImporter:
   includeFontData: 1
   fontNames:
   - OPTIGoudy-Text
-  fallbackFontReferences: []
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: f9c05c39eae0d7749abc7b6c6604bcbf, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
