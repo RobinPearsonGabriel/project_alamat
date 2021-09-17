@@ -164,8 +164,14 @@ public class Enemy_Class : Character_Base
     }
 
 }
+
+
+
+
+//Player
 public class Player_Class : Character_Base
 {
+   
     protected float currExp;
     protected int maxLevelCap;
     public float expToLevel;

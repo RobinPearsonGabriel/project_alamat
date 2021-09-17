@@ -29,7 +29,7 @@ public class LevelScript : MonoBehaviour
 
   public  roundPhase currentPhase;
     //  public enum characterType { player, enemy };
-
+    SetChoiceBox choiceboxes;
     [SerializeField] GameObject nextButton;
      [SerializeField] DialogList StartingDialog;
     [SerializeField] DialogList precombatDialog;
@@ -41,7 +41,7 @@ public class LevelScript : MonoBehaviour
     [SerializeField] TextMeshProUGUI dialogTextBox;
     Salita Currentword;
     [SerializeField] GameObject Trainingphasepanel;
-    [SerializeField] List<TextMeshProUGUI> choicesTextboxText;
+   // [SerializeField] List<TextMeshProUGUI> choicesTextboxText;
     [SerializeField] GameObject playerObj;
     [SerializeField] GameObject enemyObj;
  public       List<Salita> LearningPhaseWords = new List<Salita>();
@@ -61,6 +61,7 @@ public class LevelScript : MonoBehaviour
 
     void Start()
     {
+        choiceboxes = FindObjectOfType<SetChoiceBox>();
         isStarting = true;
         enemyObj.SetActive(false);
        // enemy = enemyObj.GetComponent<EnemyScript>();
@@ -70,6 +71,8 @@ public class LevelScript : MonoBehaviour
         learningPhasePanel.SetActive(false);
         enemyObj.SetActive(false);
         currentPhase = roundPhase.Learning;
+
+
 
         RandmizeList(ref wordList);
         totalRounds = wordList.Count;
@@ -87,14 +90,19 @@ public class LevelScript : MonoBehaviour
 
     void RandmizeList(ref List<Salita> list)
     {
+        Salita temp;
         for (int i = 0; i < list.Count; i++)
         {
-            Salita temp;
+          
 
             int rand = Random.Range(0, list.Count);
-            temp = list[i];
-            list[i] = wordList[rand];
-            list[rand] = temp;
+
+
+            
+                temp = list[i];
+                list[i] = wordList[rand];
+                list[rand] = temp;
+            
         }
 
     }
@@ -195,7 +203,7 @@ public class LevelScript : MonoBehaviour
 
         }
         //choices.Clear();
-       
+      
         LearningPhaseGame();
     }
 
@@ -208,37 +216,37 @@ public class LevelScript : MonoBehaviour
             learningPhasePanel.SetActive(true);
             canAnswer = true;
             //setChoices
-            List<string> choices = new List<string>();
+            List<Salita> choices = new List<Salita>();
             Currentword = LearningPhaseWords[Random.Range(0, LearningPhaseWords.Count)];
-            choices.Add(Currentword.salita);
+            choices.Add(Currentword);
             for (int x = 1; x < 4; x++)
             { 
                for(int i= 0; i<wordList.Count;i++)
                 { 
              
-                    if (!choices.Contains(wordList[i].salita))
+                    if (!choices.Contains(wordList[i]))
                     {
-                        choices.Add(wordList[i].salita);
+                        choices.Add(wordList[i]);
                         break;
                     }
                 }
             }
 
-           // RandmizeList(ref choices);
-           ////Randomize Choices
-           for (int i = 0; i < choices.Count; i++)
-           {
-               string temp;
+          //  RandmizeList(ref choices);
+            ////Randomize Choices
+            for (int i = 0; i < choices.Count; i++)
+            {
+               Salita temp;
 
-                int rand = Random.Range(0, choices.Count-1);
-               temp = choices[i];
-                choices[i] = choices[rand];
-               choices[rand] = temp;
-            }
+                 int rand = Random.Range(0, choices.Count-1);
+                temp = choices[i];
+                 choices[i] = choices[rand];
+                choices[rand] = temp;
+             }
 
 
-
-            SetchoiceboxText(choices);
+            choiceboxes.setSalita(choices);
+            //SetchoiceboxText(choices);
             dialogTextBox.text = "Filipino : " + Currentword.tagalogSentenceTraining + "\n" + "English :" + Currentword.englishSentenceTraining;
 
            // choices.Clear();
@@ -256,15 +264,7 @@ public class LevelScript : MonoBehaviour
 
 
     //assing string to 
-    void SetchoiceboxText(List<string> salitas)
-    {
-        for (int i = 0; i < choicesTextboxText.Count; i++)
-        {
-            if (choicesTextboxText[i].text != null )
-            choicesTextboxText[i].text = salitas[i];
-        }
-
-    }
+    
    void CombatPhasSetup()
     {
 
@@ -316,7 +316,7 @@ public class LevelScript : MonoBehaviour
                     else if (currentPhase == roundPhase.Combat)
                     {
                         Debug.LogError("Correct");
-                        player.Attack(enemyObj);
+                        player.AtkPercentIncrease(30.0f,enemyObj);
 
                         dialogTextBox.text = "Player Hit Enemy";
                         if (enemy.IsAlive())
