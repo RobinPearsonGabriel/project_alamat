@@ -30,9 +30,9 @@ public class PlayerScript : Player_Class
    public void AtkPercentIncrease(float weight,GameObject enemy)
     {
         atkPercent += weight;
-        atkPercentfill.fillAmount = atkPercent / 100.0f;
+        atkPercentfill.fillAmount = atkPercent / 3.0f;
 
-        if (atkPercent >= 100)
+        if (atkPercent >= 3)
         {
             atkPercent = 0;
             atkPercentfill.fillAmount = 0;

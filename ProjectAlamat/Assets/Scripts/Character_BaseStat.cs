@@ -14,8 +14,11 @@ public class Character_BaseStat : ScriptableObject
 
    
     public new string name;
-    public Sprite sprite;
-   public int baseHp;
+    public Sprite NormalSprite;
+    public List<Sprite> atkAnimation;
+    public List<Sprite> DeathAnimation;
+    public List<Sprite> damagedAnimation;
+    public int baseHp;
    public int baseAtk;
    public int baseDef;
     public int StartLvl;

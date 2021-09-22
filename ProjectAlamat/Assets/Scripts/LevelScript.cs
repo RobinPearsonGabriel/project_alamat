@@ -7,11 +7,11 @@ using TMPro;
 
 
 public enum roundPhase { Learning, Combat,Win, Lose };
+
 public class LevelScript : MonoBehaviour
 {
-
+    Question_Script question_Script;
     public static LevelScript instance = null;
-
     void Awake()
     {
         if (instance == null)
@@ -61,6 +61,7 @@ public class LevelScript : MonoBehaviour
 
     void Start()
     {
+        question_Script = GetComponent<Question_Script>();
         choiceboxes = FindObjectOfType<SetChoiceBox>();
         isStarting = true;
         enemyObj.SetActive(false);
@@ -286,7 +287,7 @@ public class LevelScript : MonoBehaviour
         int rand = Random.Range(0,wordList.Count);
         Currentword = wordList[rand];
         dialogTextBox.text = "Filipino : " + Currentword.tagalogSentenceTraining + "\n" + "English :" + Currentword.englishSentenceTraining;
-
+        question_Script.Identification();
 
     }
 
@@ -316,7 +317,7 @@ public class LevelScript : MonoBehaviour
                     else if (currentPhase == roundPhase.Combat)
                     {
                         Debug.LogError("Correct");
-                        player.AtkPercentIncrease(30.0f,enemyObj);
+                        player.AtkPercentIncrease(1.0f,enemyObj);
 
                         dialogTextBox.text = "Player Hit Enemy";
                         if (enemy.IsAlive())

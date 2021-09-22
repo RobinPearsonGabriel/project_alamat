@@ -49,7 +49,7 @@ public class Character_Base : MonoBehaviour
         def = characterBaseStat.baseDef*(lvl*0.3f);
         maxHp = characterBaseStat.baseHp*(lvl*1.5f);
         hp = maxHp;
-        spriteRenderer.sprite = characterBaseStat.sprite;
+        spriteRenderer.sprite = characterBaseStat.NormalSprite;
         name = characterBaseStat.name;
         type = characterBaseStat.charType;
        
@@ -114,6 +114,14 @@ public class Character_Base : MonoBehaviour
     { 
     
     }
+
+
+    void CharacterAnimation(List<Sprite>animation)
+    { 
+    
+    
+    }
+
 }
 
 public class Enemy_Class : Character_Base
@@ -197,7 +205,7 @@ public class Player_Class : Character_Base
     public void gainExp(float exp)
     {
         currExp += exp; 
-    
+        //save EXP
     
     }
     protected override void Die()
