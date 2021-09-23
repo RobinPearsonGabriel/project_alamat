@@ -25,7 +25,7 @@ public class LevelScript : MonoBehaviour
 
     }
 
-
+  
 
   public  roundPhase currentPhase;
     //  public enum characterType { player, enemy };
@@ -55,7 +55,7 @@ public class LevelScript : MonoBehaviour
     List<string> currentDialog = new List<string>();
     bool isStarting;
     // Start is called before the first frame update
-    int round = 0;
+    int round ;
     int totalRounds;
     bool canAnswer;
 
@@ -187,7 +187,8 @@ public class LevelScript : MonoBehaviour
     {
 
 
-
+        round = 5;
+        round = Mathf.Min(round, wordList.Count);
         currentPhase = roundPhase.Learning;
         combatPhasePanel.SetActive(false);
       
@@ -211,44 +212,46 @@ public class LevelScript : MonoBehaviour
     void LearningPhaseGame()
     {
        
-        if (LearningPhaseWords.Count >= 1)
+        if (round>0)
         {
+
+           
             nextButton.SetActive(false);
             learningPhasePanel.SetActive(true);
             canAnswer = true;
             //setChoices
-            List<Salita> choices = new List<Salita>();
-            Currentword = LearningPhaseWords[Random.Range(0, LearningPhaseWords.Count)];
-            choices.Add(Currentword);
-            for (int x = 1; x < 4; x++)
-            { 
-               for(int i= 0; i<wordList.Count;i++)
-                { 
+            //List<Salita> choices = new List<Salita>();
+            //Currentword = LearningPhaseWords[Random.Range(0, LearningPhaseWords.Count)];
+            //choices.Add(Currentword);
+            //for (int x = 1; x < 4; x++)
+            //{ 
+            //   for(int i= 0; i<wordList.Count;i++)
+            //    { 
              
-                    if (!choices.Contains(wordList[i]))
-                    {
-                        choices.Add(wordList[i]);
-                        break;
-                    }
-                }
-            }
+            //        if (!choices.Contains(wordList[i]))
+            //        {
+            //            choices.Add(wordList[i]);
+            //            break;
+            //        }
+            //    }
+            //}
 
           //  RandmizeList(ref choices);
             ////Randomize Choices
-            for (int i = 0; i < choices.Count; i++)
-            {
-               Salita temp;
+            //for (int i = 0; i < choices.Count; i++)
+            //{
+            //   Salita temp;
 
-                 int rand = Random.Range(0, choices.Count-1);
-                temp = choices[i];
-                 choices[i] = choices[rand];
-                choices[rand] = temp;
-             }
+            //     int rand = Random.Range(0, choices.Count-1);
+            //    temp = choices[i];
+            //     choices[i] = choices[rand];
+            //    choices[rand] = temp;
+            // }
 
 
-            choiceboxes.setSalita(choices);
+          //choiceboxes.setSalita(choices);
             //SetchoiceboxText(choices);
-            dialogTextBox.text = "Filipino : " + Currentword.tagalogSentenceTraining + "\n" + "English :" + Currentword.englishSentenceTraining;
+            dialogTextBox.text = question_Script.multipleChooiceQuestion();
 
            // choices.Clear();
         }
@@ -284,34 +287,37 @@ public class LevelScript : MonoBehaviour
         nextButton.SetActive(false);
         combatPhasePanel.SetActive(true);
         canAnswer = true;
-        int rand = Random.Range(0,wordList.Count);
-        Currentword = wordList[rand];
-        dialogTextBox.text = "Filipino : " + Currentword.tagalogSentenceTraining + "\n" + "English :" + Currentword.englishSentenceTraining;
-        question_Script.Identification();
+        //    int rand = Random.Range(0,wordList.Count);
+        //    Currentword = wordList[rand];
+
+
+        //    dialogTextBox.text = "Filipino : " + Currentword.tagalogSentenceTraining + "\n" + "English :" + Currentword.englishSentenceTraining;
+        dialogTextBox.text = question_Script.Identification();
 
     }
 
 
 
-    public void CheckAnswer(string Answer)
+    public void result(bool isCorrect)
     {
         if (canAnswer)
         {
             //correct answer
-            if (Currentword.salita.ToLower() == Answer.ToLower())
+            if (isCorrect)
             {
                 Debug.Log("Answer was correct");
+                dialogTextBox.text = " Tama!";
                 combatPhasePanel.SetActive(false);
                 learningPhasePanel.SetActive(false);
                 nextButton.SetActive(true);
-                dialogTextBox.text = " Tama!";
+              
              
                     //  round++;
                     if (currentPhase == roundPhase.Learning)
                     {
-                        LearningPhaseWords.Remove(Currentword);
-                       //LearningPhaseGame();
-                     
+                    //   LearningPhaseWords.Remove(Currentword);
+                    //LearningPhaseGame();
+                    round--;
 
                     }
                     else if (currentPhase == roundPhase.Combat)
@@ -338,7 +344,7 @@ public class LevelScript : MonoBehaviour
             else
             {
                 dialogTextBox.text = " Mali!";
-              //  combatPhasePanel.SetActive(false);
+                combatPhasePanel.SetActive(false);
                 learningPhasePanel.SetActive(false);
                 nextButton.SetActive(true);
             
@@ -366,7 +372,7 @@ public class LevelScript : MonoBehaviour
     {
         if (currentPhase == roundPhase.Learning)
         {
-            CheckAnswer(text.text);
+            //CheckAnswer(text.text);
             Debug.Log(text.text);
         }
     }
@@ -375,8 +381,8 @@ public class LevelScript : MonoBehaviour
     {
         if (currentPhase == roundPhase.Combat)
         {
-            CheckAnswer(answer.text);
-            answer.text = "";
+         
+            
             Debug.Log(answer.text);
         }
     }

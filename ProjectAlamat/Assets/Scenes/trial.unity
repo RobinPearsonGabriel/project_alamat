@@ -485,9 +485,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 229873257}
-        m_TargetAssemblyTypeName: LevelScript, Assembly-CSharp
-        m_MethodName: ChoicePressed
+      - m_Target: {fileID: 229873259}
+        m_TargetAssemblyTypeName: Checker, Assembly-CSharp
+        m_MethodName: CheckWord
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1461060135}
@@ -1556,9 +1556,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 229873257}
-        m_TargetAssemblyTypeName: LevelScript, Assembly-CSharp
-        m_MethodName: ChoicePressed
+      - m_Target: {fileID: 229873259}
+        m_TargetAssemblyTypeName: Checker, Assembly-CSharp
+        m_MethodName: CheckWord
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 308981160}
@@ -1964,6 +1964,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11c07299439c1b74c9fc1543acdf9798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  setChoiceBox: {fileID: 411604010}
+  wordList:
+  - {fileID: 11400000, guid: aa3ded49ec8e1ff4598aee262027d8d9, type: 2}
+  - {fileID: 11400000, guid: c75b9e78ae932484f87f851c6fce3152, type: 2}
+  - {fileID: 11400000, guid: 6fef6f64ef4a73541a8cd052ce4d5e8d, type: 2}
+  - {fileID: 11400000, guid: 88b7501c211660f4c929f0dc2df57256, type: 2}
+  - {fileID: 11400000, guid: e92d2e8fb43f4f04a9e3d0279153440f, type: 2}
+  - {fileID: 11400000, guid: eda7950e14c644443814bb83604342f1, type: 2}
+  - {fileID: 11400000, guid: db3e25f6748ee3443a492e76481f7b2d, type: 2}
+  - {fileID: 11400000, guid: db3e25f6748ee3443a492e76481f7b2d, type: 2}
+  - {fileID: 11400000, guid: 5588761142bb9524890b9ce7d1cf1a52, type: 2}
+  - {fileID: 11400000, guid: 10a2e5c540ba28e4498976bd3061757d, type: 2}
 --- !u!114 &229873259
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2779,9 +2791,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 229873257}
-        m_TargetAssemblyTypeName: LevelScript, Assembly-CSharp
-        m_MethodName: EnterPressed
+      - m_Target: {fileID: 229873259}
+        m_TargetAssemblyTypeName: Checker, Assembly-CSharp
+        m_MethodName: InputFieldChecker
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1856135513}
@@ -4492,9 +4504,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 229873257}
-        m_TargetAssemblyTypeName: LevelScript, Assembly-CSharp
-        m_MethodName: ChoicePressed
+      - m_Target: {fileID: 229873259}
+        m_TargetAssemblyTypeName: Checker, Assembly-CSharp
+        m_MethodName: CheckWord
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1778171035}
@@ -15198,9 +15210,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 229873257}
-        m_TargetAssemblyTypeName: LevelScript, Assembly-CSharp
-        m_MethodName: ChoicePressed
+      - m_Target: {fileID: 229873259}
+        m_TargetAssemblyTypeName: Checker, Assembly-CSharp
+        m_MethodName: CheckWord
         m_Mode: 2
         m_Arguments:
           m_ObjectArgument: {fileID: 1123724557}
