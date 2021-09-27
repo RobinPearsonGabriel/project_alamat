@@ -6,7 +6,7 @@ using TMPro;
 
 
 
-public enum roundPhase { Learning, Combat,Win, Lose };
+public enum roundPhase {  Combat,Win, Lose };
 
 public class LevelScript : MonoBehaviour
 {
@@ -24,28 +24,29 @@ public class LevelScript : MonoBehaviour
         }
 
     }
+   [ SerializeField] QuestionType questionType;
 
-  
-
+  [SerializeField]  Text wordsLearnedText;
   public  roundPhase currentPhase;
     //  public enum characterType { player, enemy };
     SetChoiceBox choiceboxes;
+    List<string> wordsLearned;
     [SerializeField] GameObject nextButton;
      [SerializeField] DialogList StartingDialog;
     [SerializeField] DialogList precombatDialog;
     [SerializeField] DialogList VictoryDialog;
     [SerializeField] DialogList DefeatDialog;
-    [SerializeField] List<Salita> wordList = new List<Salita>();
+   // [SerializeField] List<Salita> wordList = new List<Salita>();
     // [SerializeField] GameObject QuestionDialogText;
     [SerializeField] TMP_InputField PlayerInputBox;
     [SerializeField] TextMeshProUGUI dialogTextBox;
-    Salita Currentword;
-    [SerializeField] GameObject Trainingphasepanel;
+  //  Salita Currentword;
+  
    // [SerializeField] List<TextMeshProUGUI> choicesTextboxText;
     [SerializeField] GameObject playerObj;
     [SerializeField] GameObject enemyObj;
- public       List<Salita> LearningPhaseWords = new List<Salita>();
-    [SerializeField] GameObject learningPhasePanel;
+ public   List<Salita> LearningPhaseWords = new List<Salita>();
+    
     [SerializeField] GameObject combatPhasePanel;
     [SerializeField] GameObject statsPanel;
     PlayerScript player;
@@ -53,7 +54,7 @@ public class LevelScript : MonoBehaviour
     [SerializeField] GameObject GameOverPanel;
     [SerializeField] GameObject VictoryPanel;
     List<string> currentDialog = new List<string>();
-    bool isStarting;
+   // bool isStarting;
     // Start is called before the first frame update
     int round ;
     int totalRounds;
@@ -61,24 +62,26 @@ public class LevelScript : MonoBehaviour
 
     void Start()
     {
+        wordsLearned = new List<string>();
         question_Script = GetComponent<Question_Script>();
         choiceboxes = FindObjectOfType<SetChoiceBox>();
-        isStarting = true;
+     //   isStarting = true;
         enemyObj.SetActive(false);
        // enemy = enemyObj.GetComponent<EnemyScript>();
        //player = playerObj.GetComponent<PlayerScript>();
         combatPhasePanel.SetActive(false);
         statsPanel.SetActive(false);
-        learningPhasePanel.SetActive(false);
+
         enemyObj.SetActive(false);
-        currentPhase = roundPhase.Learning;
+        currentPhase = roundPhase.Combat;
 
+        CombatPhasSetup();
 
-
-        RandmizeList(ref wordList);
-        totalRounds = wordList.Count;
+     //   RandmizeList(ref wordList);
+      //  totalRounds = wordList.Count;
 
         DialogStart(StartingDialog);
+        DialogStart(precombatDialog);
   
     }
 
@@ -101,7 +104,7 @@ public class LevelScript : MonoBehaviour
 
             
                 temp = list[i];
-                list[i] = wordList[rand];
+                list[i] = list[rand];
                 list[rand] = temp;
             
         }
@@ -114,7 +117,7 @@ public class LevelScript : MonoBehaviour
     void DialogStart(DialogList dialogeList)
     {
 
-        learningPhasePanel.SetActive(false);
+      
         statsPanel.SetActive(false);
         combatPhasePanel.SetActive(false);
         for (int x=0;x< dialogeList.dialogs.Count;x++)
@@ -144,16 +147,7 @@ public class LevelScript : MonoBehaviour
             
             switch (currentPhase)
             {
-                case roundPhase.Learning:
-                    if (!canAnswer)
-                    {
-                        LearningPhaseSetUp();
-                    }
-                    else
-                    {
-                        LearningPhaseGame();
-                    }
-                    break;
+                
                 case roundPhase.Combat:
                     if (!canAnswer)
                     {
@@ -183,88 +177,7 @@ public class LevelScript : MonoBehaviour
     
     }
 
- void LearningPhaseSetUp()
-    {
 
-
-        round = 5;
-        round = Mathf.Min(round, wordList.Count);
-        currentPhase = roundPhase.Learning;
-        combatPhasePanel.SetActive(false);
-      
-        enemyObj.SetActive(false);
-        RandmizeList(ref wordList);
-        for (int x = 0; x < wordList.Count; x++)
-        {
-            if (!LearningPhaseWords.Contains(wordList[x]))
-            {
-                LearningPhaseWords.Add(wordList[x]);
-            
-            
-            }
-
-        }
-        //choices.Clear();
-      
-        LearningPhaseGame();
-    }
-
-    void LearningPhaseGame()
-    {
-       
-        if (round>0)
-        {
-
-           
-            nextButton.SetActive(false);
-            learningPhasePanel.SetActive(true);
-            canAnswer = true;
-            //setChoices
-            //List<Salita> choices = new List<Salita>();
-            //Currentword = LearningPhaseWords[Random.Range(0, LearningPhaseWords.Count)];
-            //choices.Add(Currentword);
-            //for (int x = 1; x < 4; x++)
-            //{ 
-            //   for(int i= 0; i<wordList.Count;i++)
-            //    { 
-             
-            //        if (!choices.Contains(wordList[i]))
-            //        {
-            //            choices.Add(wordList[i]);
-            //            break;
-            //        }
-            //    }
-            //}
-
-          //  RandmizeList(ref choices);
-            ////Randomize Choices
-            //for (int i = 0; i < choices.Count; i++)
-            //{
-            //   Salita temp;
-
-            //     int rand = Random.Range(0, choices.Count-1);
-            //    temp = choices[i];
-            //     choices[i] = choices[rand];
-            //    choices[rand] = temp;
-            // }
-
-
-          //choiceboxes.setSalita(choices);
-            //SetchoiceboxText(choices);
-            dialogTextBox.text = question_Script.multipleChooiceQuestion();
-
-           // choices.Clear();
-        }
-        else
-        {
-            enemyObj.SetActive(true);
-            currentPhase = roundPhase.Combat;
-            DialogStart(precombatDialog);
-        }
-
-
-
-    }
 
 
     //assing string to 
@@ -278,7 +191,7 @@ public class LevelScript : MonoBehaviour
         player = playerObj.GetComponent<PlayerScript>();
         combatPhasePanel.SetActive (true);
         statsPanel.SetActive(true);
-        learningPhasePanel.SetActive( false);
+        
        
         CombatPhaseGame();
     }
@@ -287,12 +200,8 @@ public class LevelScript : MonoBehaviour
         nextButton.SetActive(false);
         combatPhasePanel.SetActive(true);
         canAnswer = true;
-        //    int rand = Random.Range(0,wordList.Count);
-        //    Currentword = wordList[rand];
 
-
-        //    dialogTextBox.text = "Filipino : " + Currentword.tagalogSentenceTraining + "\n" + "English :" + Currentword.englishSentenceTraining;
-        dialogTextBox.text = question_Script.Identification();
+        dialogTextBox.text = question_Script.GameStart(questionType);
 
     }
 
@@ -305,23 +214,23 @@ public class LevelScript : MonoBehaviour
             //correct answer
             if (isCorrect)
             {
+               
                 Debug.Log("Answer was correct");
                 dialogTextBox.text = " Tama!";
                 combatPhasePanel.SetActive(false);
-                learningPhasePanel.SetActive(false);
+               
                 nextButton.SetActive(true);
               
              
                     //  round++;
-                    if (currentPhase == roundPhase.Learning)
+                
+                    if (currentPhase == roundPhase.Combat)
                     {
-                    //   LearningPhaseWords.Remove(Currentword);
-                    //LearningPhaseGame();
-                    round--;
 
-                    }
-                    else if (currentPhase == roundPhase.Combat)
+                    if (!wordsLearned.Contains(question_Script.GetSalita().salita))
                     {
+                        wordsLearned.Add(question_Script.GetSalita().salita);
+                    }
                         Debug.LogError("Correct");
                         player.AtkPercentIncrease(1.0f,enemyObj);
 
@@ -345,16 +254,10 @@ public class LevelScript : MonoBehaviour
             {
                 dialogTextBox.text = " Mali!";
                 combatPhasePanel.SetActive(false);
-                learningPhasePanel.SetActive(false);
+               
                 nextButton.SetActive(true);
             
-                    if (currentPhase == roundPhase.Learning)
-                    {
-
-                        //LearningPhaseGame();
-
-                    }
-                    else if (currentPhase == roundPhase.Combat)
+                     if (currentPhase == roundPhase.Combat)
                     {
 
                         //CombatPhaseGame();
@@ -368,28 +271,18 @@ public class LevelScript : MonoBehaviour
         }
     }
     //on playerchoices picked
-    public void ChoicePressed(TextMeshProUGUI text)
-    {
-        if (currentPhase == roundPhase.Learning)
-        {
-            //CheckAnswer(text.text);
-            Debug.Log(text.text);
-        }
-    }
 
-    public void EnterPressed(TMP_InputField answer)
-    {
-        if (currentPhase == roundPhase.Combat)
-        {
-         
-            
-            Debug.Log(answer.text);
-        }
-    }
+
+
 
     public void Victory()
     {
         currentPhase = roundPhase.Win;
+        foreach  (string text in wordsLearned)
+        {
+            wordsLearnedText.text +="\n"+ text;
+        }
+
         DialogStart(VictoryDialog);
     }
 
@@ -397,7 +290,7 @@ public class LevelScript : MonoBehaviour
     {
         currentPhase = roundPhase.Lose;
         DialogStart(DefeatDialog);
-
+      
     }
 
 }
