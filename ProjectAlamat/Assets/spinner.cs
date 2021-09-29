@@ -8,7 +8,7 @@ public class spinner : MonoBehaviour
 
     Checker checker;
 
-
+   // Vector4 Rot  Quaternion;
     RectTransform rectTransform;
     //  Vector3 mousepos;
     // Start is called before the first frame update
@@ -18,7 +18,7 @@ public class spinner : MonoBehaviour
         checker = FindObjectOfType<Checker>();
         rectTransform = GetComponent<RectTransform>();
        
-
+        
 
 
        

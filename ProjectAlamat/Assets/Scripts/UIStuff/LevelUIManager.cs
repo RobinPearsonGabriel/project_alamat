@@ -59,8 +59,8 @@ public class LevelUIManager : MonoBehaviour
 
     public void ContinueButtonPressed()
     {
-        SceneManager.LoadScene(LevelSelection);
-        SaveSystem.instance.player.levelsComplete[levelSelected] = true;
+      //  SceneManager.LoadScene(LevelSelection);
+       // SaveSystem.instance.player.levelsComplete[levelSelected] = true;
         SaveSystem.instance.SavePlayer();
     }
 
