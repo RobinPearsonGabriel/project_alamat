@@ -227,9 +227,13 @@ public class LevelScript : MonoBehaviour
                     if (currentPhase == roundPhase.Combat)
                     {
 
-                    if (!wordsLearned.Contains(question_Script.GetSalita().salita))
+
+                    if (question_Script.GetSalita() != null)
                     {
-                        wordsLearned.Add(question_Script.GetSalita().salita);
+                        if (!wordsLearned.Contains(question_Script.GetSalita().salita))
+                        {
+                            wordsLearned.Add(question_Script.GetSalita().salita);
+                        }
                     }
                         Debug.LogError("Correct");
                         player.AtkPercentIncrease(1.0f,enemyObj);

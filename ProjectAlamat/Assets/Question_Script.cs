@@ -4,13 +4,15 @@ using UnityEngine;
 using TMPro;
 
 
-public enum QuestionType { Identification, Choices, ngNang, rinDin, Image };
+public enum QuestionType { Identification, Choices, ngNang, rinDin, Image, wheelGame};
 public class Question_Script : MonoBehaviour
 {
 
     [SerializeField] GameObject IdentificationPanel;
     [SerializeField] GameObject ChoicesPanel;
   [SerializeField]  SetChoiceBox setChoiceBox;
+ [SerializeField]   SetWheelSentences setWheelSentences_scrpt;
+    [SerializeField] GameObject wheelGamePanel;
    [SerializeField] List<Salita> wordList= new List<Salita>();
     Salita Answer;
  
@@ -18,7 +20,7 @@ public class Question_Script : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     QuestionType questionType;
@@ -26,15 +28,14 @@ public class Question_Script : MonoBehaviour
 
   public  Salita GetSalita()
     {
-        Debug.LogError(Answer.salita);
-        return Answer;
 
-
-        if (questionType == QuestionType.Choices)
-        { 
-        
-        
+        if (Answer != null)
+        {
+            Debug.LogError(Answer.salita);
+            return Answer;
         }
+
+        return null;
 
 
 
@@ -50,12 +51,20 @@ public class Question_Script : MonoBehaviour
             case QuestionType.Identification:
                 IdentificationPanel.SetActive(true);
                 ChoicesPanel.SetActive(false);
+                wheelGamePanel.SetActive(false);
                 qText = Identification();
                 break;
             case QuestionType.Choices:
                 IdentificationPanel.SetActive(false);
                 ChoicesPanel.SetActive(true);
+                wheelGamePanel.SetActive(false);
                 qText = multipleChooiceQuestion();
+                break;
+            case QuestionType.wheelGame:
+                wheelGamePanel.SetActive(true);
+                IdentificationPanel.SetActive(false);
+                ChoicesPanel.SetActive(false);
+                qText = wheelGame();
                 break;
             case QuestionType.ngNang:
                 break;
@@ -118,6 +127,30 @@ public class Question_Script : MonoBehaviour
         return "Filipino : " + Answer.tagalogSentenceTraining + "\n" + "English :" + Answer.englishSentenceTraining;
       
     }
+
+    public string wheelGame()
+    {
+
+        List<Salita> phrases = new List<Salita>();
+
+        
+        for (int x = 1; x < 4; x++)
+        {
+            for (int i = 0; i < wordList.Count; i++)
+            {
+
+                if (!phrases.Contains(wordList[i]))
+                {
+                    phrases.Add(wordList[i]);
+                    break;
+                }
+            }
+        }
+
+        setWheelSentences_scrpt.SetPhrases(phrases);
+        return "Match the sentences ";
+    }
+
 
 
     public void FourPicOneWord()
