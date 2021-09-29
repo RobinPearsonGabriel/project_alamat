@@ -28,6 +28,12 @@ public class Question_Script : MonoBehaviour
 
   public  Salita GetSalita()
     {
+<<<<<<< HEAD
+=======
+        Debug.Log(Answer.salita);
+        return Answer;
+
+>>>>>>> ad863b714b9a191eec3e7126008fe72c9860497c
 
         if (Answer != null)
         {
