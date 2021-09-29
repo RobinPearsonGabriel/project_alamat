@@ -57,6 +57,13 @@ public class LevelUIManager : MonoBehaviour
         ActivatePanel(PausePanel);
     }
 
+    public void ContinueButtonPressed()
+    {
+        SceneManager.LoadScene(LevelSelection);
+        SaveSystem.instance.player.levelsComplete[levelSelected] = true;
+        SaveSystem.instance.SavePlayer();
+    }
+
     public void AdjustMusic()
     {
         //Adjust Music

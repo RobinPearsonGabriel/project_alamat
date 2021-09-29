@@ -19,7 +19,7 @@ public class Question_Script : MonoBehaviour
 
   public  Salita GetSalita()
     {
-        Debug.LogError(Answer.salita);
+        Debug.Log(Answer.salita);
         return Answer;
     }
 

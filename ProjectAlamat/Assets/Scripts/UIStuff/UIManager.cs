@@ -7,6 +7,7 @@ public class UIManager : MonoBehaviour
 {
     public GameObject optionsPanel;
     public GameObject mainPanel;
+    public GameObject savePanel;
 
     // Start is called before the first frame update
     void Start()
@@ -16,8 +17,12 @@ public class UIManager : MonoBehaviour
 
     public void StartGame()
     {
-        //Check if there is a json file on the computer if yes load game if not start a new game
         SceneManager.LoadScene("LevelSelection");
+    }
+
+    public void StartGameButton()
+    {
+        ActivatePanel(savePanel);
     }
 
     public void ExitGame()
@@ -48,10 +53,19 @@ public class UIManager : MonoBehaviour
     }
 
 
+    public void GameButtonPressed(int saveNumber)
+    {
+        SaveSystem.instance.ChangeSaveNumber(saveNumber);
+        SaveSystem.instance.Load();
+        StartGame();
+    }
+
+
     public void ActivatePanel(GameObject panelToBeActivated)
     {
         optionsPanel.SetActive(panelToBeActivated.Equals(optionsPanel));
         mainPanel.SetActive(panelToBeActivated.Equals(mainPanel));
+        savePanel.SetActive(panelToBeActivated.Equals(savePanel));
     }
 
 }

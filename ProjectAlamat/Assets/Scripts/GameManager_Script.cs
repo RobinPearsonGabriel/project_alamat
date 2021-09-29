@@ -43,7 +43,6 @@ public  void PausePlayButton()
  public void NewScene(string SceneName)
     {
         SceneManager.LoadScene(SceneName);
-    
     }
 
     public void ReloadScene()
