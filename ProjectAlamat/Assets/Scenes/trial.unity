@@ -12911,8 +12911,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 145405158}
   m_HandleRect: {fileID: 145405157}
   m_Direction: 2
-  m_Value: 0.032364227
-  m_Size: 0.35490513
+  m_Value: 0.03236428
+  m_Size: 0.35490522
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -14486,10 +14486,10 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 267952930}
-        m_TargetAssemblyTypeName: GameManager_Script, Assembly-CSharp
-        m_MethodName: NewScene
-        m_Mode: 5
+      - m_Target: {fileID: 230127422}
+        m_TargetAssemblyTypeName: LevelUIManager, Assembly-CSharp
+        m_MethodName: ContinueButtonPressed
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine

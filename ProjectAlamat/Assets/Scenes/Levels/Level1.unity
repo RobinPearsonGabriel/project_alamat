@@ -15960,30 +15960,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 013aff9902269854780c084d0d80dd88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  questionType: 0
+  wordsLearnedText: {fileID: 0}
   currentPhase: 0
   nextButton: {fileID: 261679607}
   StartingDialog: {fileID: 11400000, guid: 3ba51e8575c51fa4b829d19ab4f8d118, type: 2}
   precombatDialog: {fileID: 11400000, guid: fc2c7185b8aade549b3397b362d3aa45, type: 2}
   VictoryDialog: {fileID: 11400000, guid: f994c96719fd352418b101919cb0e2a8, type: 2}
   DefeatDialog: {fileID: 11400000, guid: 18aaa515044bd2744b052ae81ed9b6f3, type: 2}
-  wordList:
-  - {fileID: 11400000, guid: aa3ded49ec8e1ff4598aee262027d8d9, type: 2}
-  - {fileID: 11400000, guid: 2defc8299afdb034a9de56cc0f4df9ee, type: 2}
-  - {fileID: 11400000, guid: 6fef6f64ef4a73541a8cd052ce4d5e8d, type: 2}
-  - {fileID: 11400000, guid: 88b7501c211660f4c929f0dc2df57256, type: 2}
-  - {fileID: 11400000, guid: c75b9e78ae932484f87f851c6fce3152, type: 2}
-  - {fileID: 11400000, guid: 5588761142bb9524890b9ce7d1cf1a52, type: 2}
-  - {fileID: 11400000, guid: db3e25f6748ee3443a492e76481f7b2d, type: 2}
-  - {fileID: 11400000, guid: eda7950e14c644443814bb83604342f1, type: 2}
-  - {fileID: 11400000, guid: e92d2e8fb43f4f04a9e3d0279153440f, type: 2}
-  - {fileID: 11400000, guid: 10a2e5c540ba28e4498976bd3061757d, type: 2}
   PlayerInputBox: {fileID: 20130416}
   dialogTextBox: {fileID: 302731106}
-  Trainingphasepanel: {fileID: 1571238489}
   playerObj: {fileID: 1514513261}
   enemyObj: {fileID: 589210951}
   LearningPhaseWords: []
-  learningPhasePanel: {fileID: 1571238489}
   combatPhasePanel: {fileID: 1702963363}
   statsPanel: {fileID: 1620602889}
   GameOverPanel: {fileID: 1073416450}
@@ -16000,6 +15989,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11c07299439c1b74c9fc1543acdf9798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  IdentificationPanel: {fileID: 1702963363}
+  ChoicesPanel: {fileID: 1571238489}
   setChoiceBox: {fileID: 1571238491}
   wordList:
   - {fileID: 11400000, guid: aa3ded49ec8e1ff4598aee262027d8d9, type: 2}

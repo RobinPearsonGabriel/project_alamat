@@ -7,11 +7,10 @@ public class SaveSystem: MonoBehaviour
 {
 
     public static SaveSystem instance = null;
-   
+    public Player player;
+
     private int SaveFileNumber = 0;
     private int currentLevel = 0;
-    private Player player;
-
     void Awake()
     {
         DontDestroyOnLoad(this.gameObject);

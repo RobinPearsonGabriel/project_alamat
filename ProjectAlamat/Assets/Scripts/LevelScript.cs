@@ -135,7 +135,7 @@ public class LevelScript : MonoBehaviour
   public  void NextLine()
     {
        
-        Debug.LogError("");
+        Debug.Log("");
         if (currentDialog.Count > 1)
         {
             currentDialog.RemoveAt(0);
@@ -231,10 +231,10 @@ public class LevelScript : MonoBehaviour
                     {
                         wordsLearned.Add(question_Script.GetSalita().salita);
                     }
-                        Debug.LogError("Correct");
+                        Debug.Log("Correct");
                         player.AtkPercentIncrease(1.0f,enemyObj);
 
-                        dialogTextBox.text = "Player Hit Enemy";
+                        //dialogTextBox.text = "Player Hit Enemy";
                         if (enemy.IsAlive())
                         {
 

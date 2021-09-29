@@ -11,7 +11,7 @@ public class LevelUIManager : MonoBehaviour
 
     [Header("LevelSelectionPanel")]
     public GameObject LevelSelectionPanel;
-    private float levelSelected;
+    private int levelSelected;
 
     // Start is called before the first frame update
     void Start()
@@ -24,7 +24,7 @@ public class LevelUIManager : MonoBehaviour
         PausePanel.SetActive(!PausePanel.activeInHierarchy);
     }
 
-    public void OnLevelButtonClicked(float levelNumber)
+    public void OnLevelButtonClicked(int levelNumber)
     {
         levelSelected = levelNumber;
         ActivatePanel(LevelSelectionPanel);
@@ -59,7 +59,7 @@ public class LevelUIManager : MonoBehaviour
 
     public void ContinueButtonPressed()
     {
-        SceneManager.LoadScene(LevelSelection);
+        SceneManager.LoadScene("LevelSelection");
         SaveSystem.instance.player.levelsComplete[levelSelected] = true;
         SaveSystem.instance.SavePlayer();
     }
