@@ -56,4 +56,24 @@ public class Checker : MonoBehaviour
     }
 
 
+    public void WheelChecker(bool e)
+    {
+
+        if (e)
+        {
+            Debug.LogWarning("Correct");
+        }
+        else
+        {
+
+            Debug.LogWarning("wrong");
+        }
+       
+        LevelScript.instance.result(e);
+
+    }
+
+
+
+
 }
