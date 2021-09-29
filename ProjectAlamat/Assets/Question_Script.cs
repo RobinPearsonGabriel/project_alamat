@@ -2,26 +2,77 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
+
+
+public enum QuestionType { Identification, Choices, ngNang, rinDin, Image };
 public class Question_Script : MonoBehaviour
 {
 
-
+    [SerializeField] GameObject IdentificationPanel;
+    [SerializeField] GameObject ChoicesPanel;
   [SerializeField]  SetChoiceBox setChoiceBox;
    [SerializeField] List<Salita> wordList= new List<Salita>();
     Salita Answer;
  
-    public enum questionType { Learning, Synonym,ngNang, rinDin,Image };
+   
     // Start is called before the first frame update
     void Start()
     {
         
     }
 
+    QuestionType questionType;
+   
+
   public  Salita GetSalita()
     {
         Debug.Log(Answer.salita);
         return Answer;
+
+
+        if (questionType == QuestionType.Choices)
+        { 
+        
+        
+        }
+
+
+
     }
+
+
+    public string GameStart(QuestionType type)
+    {
+        questionType = type;
+        string qText="";
+        switch (questionType)
+        {
+            case QuestionType.Identification:
+                IdentificationPanel.SetActive(true);
+                ChoicesPanel.SetActive(false);
+                qText = Identification();
+                break;
+            case QuestionType.Choices:
+                IdentificationPanel.SetActive(false);
+                ChoicesPanel.SetActive(true);
+                qText = multipleChooiceQuestion();
+                break;
+            case QuestionType.ngNang:
+                break;
+            case QuestionType.rinDin:
+                break;
+            case QuestionType.Image:
+                break;
+            default:
+                break;
+
+
+        }
+        return qText;
+    }
+
+
+
 
     //multipulechoice
     public string multipleChooiceQuestion()
@@ -95,7 +146,10 @@ public class Question_Script : MonoBehaviour
     //typedquestion
     //checker
 
-
+   public int Getwordlistcount()
+    {
+        return wordList.Count;
+    }
 
 
 
