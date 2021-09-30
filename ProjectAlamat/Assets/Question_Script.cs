@@ -4,15 +4,20 @@ using UnityEngine;
 using TMPro;
 
 
-public enum QuestionType { Identification, Choices, ngNang, rinDin, Image, wheelGame};
+public enum QuestionType { Identification, Choices, ngNang, rinDin, Image, wheelGame,FourSentenceOneWord};
 public class Question_Script : MonoBehaviour
 {
-
+    [SerializeField] GameObject FourSentecesOnewordPanel;
     [SerializeField] GameObject IdentificationPanel;
     [SerializeField] GameObject ChoicesPanel;
+
+
   [SerializeField]  SetChoiceBox setChoiceBox;
  [SerializeField]   SetWheelSentences setWheelSentences_scrpt;
     [SerializeField] GameObject wheelGamePanel;
+
+
+    [SerializeField] SetFourSentencesOneWord fourSentencesOneWord;
    [SerializeField] List<Salita> wordList= new List<Salita>();
     Salita Answer;
  
@@ -57,19 +62,34 @@ public class Question_Script : MonoBehaviour
                 IdentificationPanel.SetActive(true);
                 ChoicesPanel.SetActive(false);
                 wheelGamePanel.SetActive(false);
+                FourSentecesOnewordPanel.SetActive(false);
+
                 qText = Identification();
                 break;
             case QuestionType.Choices:
                 IdentificationPanel.SetActive(false);
                 ChoicesPanel.SetActive(true);
                 wheelGamePanel.SetActive(false);
+                FourSentecesOnewordPanel.SetActive(false);
+
                 qText = multipleChooiceQuestion();
                 break;
             case QuestionType.wheelGame:
                 wheelGamePanel.SetActive(true);
                 IdentificationPanel.SetActive(false);
                 ChoicesPanel.SetActive(false);
+                FourSentecesOnewordPanel.SetActive(false);
+
                 qText = wheelGame();
+                break;
+
+            case QuestionType.FourSentenceOneWord:
+                IdentificationPanel.SetActive(false);
+                ChoicesPanel.SetActive(false);
+                wheelGamePanel.SetActive(false);
+                FourSentecesOnewordPanel.SetActive(true);
+
+                qText= SetFourSentencesOneWord();
                 break;
             case QuestionType.ngNang:
                 break;
@@ -195,14 +215,12 @@ public class Question_Script : MonoBehaviour
 
 
     // Update is called once per frame
-    void Update()
+    string SetFourSentencesOneWord()
     {
-        
-    }
-    void LearningPhaseMode()
-    { 
-    
-    
+        Answer = wordList[Random.Range(0, wordList.Count)];
+
+        fourSentencesOneWord.SetSenctences(Answer);
+        return "";
     }
 
 
