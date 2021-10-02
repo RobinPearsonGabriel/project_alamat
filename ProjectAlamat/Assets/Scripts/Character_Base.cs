@@ -10,7 +10,7 @@ public class Character_Base : MonoBehaviour
   private  float atk;
     [Min(0)]
     public float hp;
-    float maxHp;
+    public float maxHp;
     float def;
    float lvl;
     characterType type;

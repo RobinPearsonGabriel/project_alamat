@@ -132,7 +132,7 @@ public class LevelScript : MonoBehaviour
     }
 
 
-  public  void NextLine()
+  public void NextLine()
     {
        
         Debug.Log("");
@@ -159,6 +159,7 @@ public class LevelScript : MonoBehaviour
                     }
                     break;
                 case roundPhase.Win:
+                    
                     VictoryPanel.SetActive(true);
 
                     float currExp = player.getCurrentExp();
@@ -281,13 +282,13 @@ public class LevelScript : MonoBehaviour
 
     public void Victory()
     {
-        currentPhase = roundPhase.Win;
         foreach  (string text in wordsLearned)
         {
             wordsLearnedText.text +="\n"+ text;
         }
 
         DialogStart(VictoryDialog);
+        currentPhase = roundPhase.Win;
     }
 
     public void GameOver()

@@ -36,7 +36,7 @@ public class Question_Script : MonoBehaviour
 
         if (Answer != null)
         {
-            Debug.LogError(Answer.salita);
+            Debug.Log(Answer.salita);
             return Answer;
         }
 

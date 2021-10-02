@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class LevelUIManager : MonoBehaviour
@@ -11,7 +12,8 @@ public class LevelUIManager : MonoBehaviour
 
     [Header("LevelSelectionPanel")]
     public GameObject LevelSelectionPanel;
-    private float levelSelected;
+    public Text LevelNameText;
+    private int levelSelected;
 
     // Start is called before the first frame update
     void Start()
@@ -21,19 +23,22 @@ public class LevelUIManager : MonoBehaviour
 
     public void OnPauseButtonClicked()
     {
-        PausePanel.SetActive(!PausePanel.activeInHierarchy);
+        ActivatePanel(PausePanel);
     }
 
-    public void OnLevelButtonClicked(float levelNumber)
+    public void OnLevelButtonClicked(int levelNumber)
     {
         levelSelected = levelNumber;
+        LevelNameText.text = "Level " + levelSelected;
         ActivatePanel(LevelSelectionPanel);
     }
 
     public void OnYesButtonClicked()
     {
-        //SceneManager.LoadScene("Level"+levelSelected);
-        SceneManager.LoadScene("trial");
+        SaveSystem.instance.SetCurrentLevel(levelSelected);
+        SceneManager.LoadScene("Level"+levelSelected);
+
+        //SceneManager.LoadScene("trial");
         Debug.Log("LoadingScene");
     }
 
@@ -45,6 +50,17 @@ public class LevelUIManager : MonoBehaviour
     public void OnResumeButtonClicked()
     {
         ActivatePanel(emptyPanel);
+    }
+
+    public void OnRestartButtonClicked()
+    {
+        Scene scene = SceneManager.GetActiveScene();
+        SceneManager.LoadScene(scene.name);
+    }
+
+    public void OnLevelSelectionButtonClicked()
+    {
+        SceneManager.LoadScene("LevelSelection");
     }
 
     public void OnSettingsButtonClicked()
@@ -59,9 +75,9 @@ public class LevelUIManager : MonoBehaviour
 
     public void ContinueButtonPressed()
     {
-      //  SceneManager.LoadScene(LevelSelection);
-       // SaveSystem.instance.player.levelsComplete[levelSelected] = true;
+        SaveSystem.instance.FinishCurrentLevel();
         SaveSystem.instance.SavePlayer();
+        SceneManager.LoadScene("LevelSelection");
     }
 
     public void AdjustMusic()
