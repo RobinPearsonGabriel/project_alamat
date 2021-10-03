@@ -18,7 +18,7 @@ public class SaveButtons : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (PlayerPrefs.GetString("saveFile" + SaveFileNumber.ToString()) != null)
+        if (PlayerPrefs.GetString("saveFile" + SaveFileNumber.ToString(),"none") != "none")
         {
             this.gameObject.GetComponent<Image>().sprite = ContinueImage;
         }
