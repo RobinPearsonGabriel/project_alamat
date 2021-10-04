@@ -24,7 +24,7 @@ public class Checker : MonoBehaviour
        
 
         bool s = question.GetSalita().salita.ToLower() == text.text.ToLower();
-        Debug.LogWarning(question.GetSalita().salita.ToLower() + text.text.ToLower());
+        Debug.Log(question.GetSalita().salita.ToLower() + text.text.ToLower());
         LevelScript.instance.result(s);
 
 

@@ -42,6 +42,16 @@ public class SaveSystem: MonoBehaviour
         }
     }
 
+    public void SetCurrentLevel(int level)
+    {
+        currentLevel = level;
+    }
+
+    public void FinishCurrentLevel()
+    {
+        player.levelsComplete[currentLevel] = true;
+    }
+
     public void ChangeSaveNumber(int number)
     {
         SaveFileNumber = number;

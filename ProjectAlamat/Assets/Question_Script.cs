@@ -7,7 +7,7 @@ using TMPro;
 public enum QuestionType { Identification, Choices, ngNang, rinDin, Image, wheelGame,FourSentenceOneWord};
 public class Question_Script : MonoBehaviour
 {
-    [SerializeField] GameObject FourSentecesOnewordPanel;
+   // [SerializeField] GameObject FourSentecesOnewordPanel;
     [SerializeField] GameObject IdentificationPanel;
     [SerializeField] GameObject ChoicesPanel;
 
@@ -17,7 +17,7 @@ public class Question_Script : MonoBehaviour
     [SerializeField] GameObject wheelGamePanel;
 
 
-    [SerializeField] SetFourSentencesOneWord fourSentencesOneWord;
+    //[SerializeField] SetFourSentencesOneWord fourSentencesOneWord;
    [SerializeField] List<Salita> wordList= new List<Salita>();
     Salita Answer;
  
@@ -41,7 +41,7 @@ public class Question_Script : MonoBehaviour
 
         if (Answer != null)
         {
-            Debug.LogError(Answer.salita);
+            Debug.Log(Answer.salita);
             return Answer;
         }
 
@@ -62,7 +62,7 @@ public class Question_Script : MonoBehaviour
                 IdentificationPanel.SetActive(true);
                 ChoicesPanel.SetActive(false);
                 wheelGamePanel.SetActive(false);
-                FourSentecesOnewordPanel.SetActive(false);
+               // FourSentecesOnewordPanel.SetActive(false);
 
                 qText = Identification();
                 break;
@@ -70,7 +70,7 @@ public class Question_Script : MonoBehaviour
                 IdentificationPanel.SetActive(false);
                 ChoicesPanel.SetActive(true);
                 wheelGamePanel.SetActive(false);
-                FourSentecesOnewordPanel.SetActive(false);
+                //FourSentecesOnewordPanel.SetActive(false);
 
                 qText = multipleChooiceQuestion();
                 break;
@@ -78,7 +78,7 @@ public class Question_Script : MonoBehaviour
                 wheelGamePanel.SetActive(true);
                 IdentificationPanel.SetActive(false);
                 ChoicesPanel.SetActive(false);
-                FourSentecesOnewordPanel.SetActive(false);
+                //FourSentecesOnewordPanel.SetActive(false);
 
                 qText = wheelGame();
                 break;
@@ -87,9 +87,9 @@ public class Question_Script : MonoBehaviour
                 IdentificationPanel.SetActive(false);
                 ChoicesPanel.SetActive(false);
                 wheelGamePanel.SetActive(false);
-                FourSentecesOnewordPanel.SetActive(true);
+               // FourSentecesOnewordPanel.SetActive(true);
 
-                qText= SetFourSentencesOneWord();
+               // qText= SetFourSentencesOneWord();
                 break;
             case QuestionType.ngNang:
                 break;
@@ -215,13 +215,13 @@ public class Question_Script : MonoBehaviour
 
 
     // Update is called once per frame
-    string SetFourSentencesOneWord()
-    {
-        Answer = wordList[Random.Range(0, wordList.Count)];
+    //string SetFourSentencesOneWord()
+    //{
+    //    Answer = wordList[Random.Range(0, wordList.Count)];
 
-        fourSentencesOneWord.SetSenctences(Answer);
-        return "";
-    }
+    //    fourSentencesOneWord.SetSenctences(Answer);
+    //    return "";
+    //}
 
 
 
