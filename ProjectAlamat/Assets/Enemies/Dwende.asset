@@ -18,6 +18,12 @@ MonoBehaviour:
   atkAnimation: []
   DeathAnimation: []
   damagedAnimation: []
+  CombatDialogs:
+  - adsf
+  - dfasfdsafdsafdsafdsafas
+  - dfasf
+  - dsfadsfdsafdsafdsaf
+  - sadfsadfdsafdsafdsaf
   baseHp: 20
   baseAtk: 10
   baseDef: 10
