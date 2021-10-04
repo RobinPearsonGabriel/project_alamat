@@ -420,3 +420,24 @@ Received Import Request.
   path: Assets/Prefabs/Level Components/LevelUI.prefab
   artifactKey: Guid(8b2387002ff98fc438402d660d8f29a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Prefabs/Level Components/LevelUI.prefab using Guid(8b2387002ff98fc438402d660d8f29a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657d34e28ef84a7669e4ba6d28cf1787') in 0.317366 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006763 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.496 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2133 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.8 MB.
+System memory in use after: 97.0 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2669.
+Total: 6.572400 ms (FindLiveObjects: 0.311600 ms CreateObjectMapping: 0.204800 ms MarkObjects: 6.012700 ms  DeleteObjects: 0.041700 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
