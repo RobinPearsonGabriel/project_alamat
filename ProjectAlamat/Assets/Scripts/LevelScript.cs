@@ -216,7 +216,7 @@ public class LevelScript : MonoBehaviour
             {
                
                 Debug.Log("Answer was correct");
-                dialogTextBox.text = " Tama!";
+                dialogTextBox.text = player.GetCombatDialog();
                 combatPhasePanel.SetActive(false);
                
                 nextButton.SetActive(true);
@@ -256,7 +256,7 @@ public class LevelScript : MonoBehaviour
 
             else
             {
-                dialogTextBox.text = " Mali!";
+                dialogTextBox.text = enemy.GetCombatDialog();
                 combatPhasePanel.SetActive(false);
                
                 nextButton.SetActive(true);

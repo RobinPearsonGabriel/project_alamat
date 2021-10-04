@@ -36,7 +36,11 @@ public class Character_Base : MonoBehaviour
 
         return type;
     }
+    public string GetCombatDialog()
+    {
 
+        return characterBaseStat.getCombatDialog();
+    }
     protected virtual void Start()
     {
        
