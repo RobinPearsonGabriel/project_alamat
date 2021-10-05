@@ -12,14 +12,14 @@ public class Character_Base : MonoBehaviour
     public float hp;
     public float maxHp;
     float def;
-   float lvl;
+    float lvl;
     characterType type;
- protected   int countdown;
-     string Type;
+    protected   int countdown;
+    string Type;
   
     [SerializeField] Image hpbar;
 
-   [SerializeField]  SpriteRenderer spriteRenderer;
+    [SerializeField]  SpriteRenderer spriteRenderer;
 
     public string getName()
     {
