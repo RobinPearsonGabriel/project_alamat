@@ -139,7 +139,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7871639
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2138,6 +2138,8 @@ GameObject:
   - component: {fileID: 92172600}
   - component: {fileID: 92172599}
   - component: {fileID: 92172601}
+  - component: {fileID: 92172603}
+  - component: {fileID: 92172602}
   m_Layer: 0
   m_Name: InnerWheel (1)
   m_TagString: Untagged
@@ -2217,6 +2219,40 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 52fe8f4a73865a5499ef81b4764b920f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &92172602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92172597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates: []
+--- !u!114 &92172603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 92172597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0b148fe25e99eb48b9724523833bab1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Delegates:
+  - eventID: 1
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
+  - eventID: 0
+    callback:
+      m_PersistentCalls:
+        m_Calls: []
 --- !u!1 &93779624
 GameObject:
   m_ObjectHideFlags: 0
@@ -4368,7 +4404,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 013aff9902269854780c084d0d80dd88, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  questionType: 6
+  questionType: 5
   wordsLearnedText: {fileID: 1612036308}
   currentPhase: 0
   nextButton: {fileID: 1205661862}
@@ -4397,13 +4433,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 11c07299439c1b74c9fc1543acdf9798, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  FourSentecesOnewordPanel: {fileID: 1976269990}
   IdentificationPanel: {fileID: 1467528248}
   ChoicesPanel: {fileID: 411604008}
   setChoiceBox: {fileID: 411604010}
   setWheelSentences_scrpt: {fileID: 7871640}
   wheelGamePanel: {fileID: 7871638}
-  fourSentencesOneWord: {fileID: 1976269992}
   wordList:
   - {fileID: 11400000, guid: aa3ded49ec8e1ff4598aee262027d8d9, type: 2}
   - {fileID: 11400000, guid: c75b9e78ae932484f87f851c6fce3152, type: 2}
@@ -4472,6 +4506,7 @@ MonoBehaviour:
   PausePanel: {fileID: 959908967}
   SettingsPanel: {fileID: 1278936886}
   LevelSelectionPanel: {fileID: 176188028}
+  LevelNameText: {fileID: 0}
 --- !u!4 &230127423
 Transform:
   m_ObjectHideFlags: 0
@@ -19590,6 +19625,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterBaseStat: {fileID: 11400000, guid: 34b3cb834dd2f484f853fcfd45a4555c, type: 2}
   hp: 0
+  maxHp: 0
   hpbar: {fileID: 291430390}
   spriteRenderer: {fileID: 1440663131}
   experiencePoints: 20
@@ -19960,6 +19996,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterBaseStat: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
   hp: 0
+  maxHp: 0
   hpbar: {fileID: 1401870223}
   spriteRenderer: {fileID: 1458609724}
   expToLevel: 100
