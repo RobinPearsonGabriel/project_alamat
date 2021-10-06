@@ -130,6 +130,7 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                 else
                 {
                     prevPos = Input.mousePosition;
+                    CurrentPos = prevPos;
                     hasChanged = true;
                     
 
@@ -138,7 +139,7 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
             if (Input.GetMouseButtonUp(0))
             {
 
-                hasChanged = true;
+                hasChanged = false;
             }
 
           
