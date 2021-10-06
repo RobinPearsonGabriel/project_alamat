@@ -114,7 +114,7 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
 
 
-                    Debug.LogError(z);
+                    Debug.Log(z);
                     //  transform.position = Input.mousePosition;
                     //transform.rotation = new Vector4(new);
                     //  transform.position =
@@ -164,7 +164,7 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
 
         Debug.LogWarning((int)rectTransform.eulerAngles.z);
-    checker.WheelChecker(((int)rectTransform.eulerAngles.z %360)<20);
+       checker.WheelChecker(((int)rectTransform.eulerAngles.z %360)<20);
 
 
     }
