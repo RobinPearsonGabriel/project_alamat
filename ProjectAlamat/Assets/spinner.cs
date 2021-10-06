@@ -11,7 +11,7 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     Vector2 Rot;
     Vector3 prevPos;
     Vector3 CurrentPos;
-
+    bool hasChanged;
    // Vector4 Rot  Quaternion;
     RectTransform rectTransform;
     //  Vector3 mousepos;
@@ -21,9 +21,9 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         checker = FindObjectOfType<Checker>();
         rectTransform = GetComponent<RectTransform>();
-       
-        
 
+
+        hasChanged = false;
 
        
 
@@ -31,8 +31,8 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public void offsetStart()
     {
         rectTransform.Rotate(new Vector3(0, 0,0));
-        int rand = Random.Range(1, 4);
-        rectTransform.Rotate(new Vector3(0, 0, 120 * rand));
+        int rand = Random.Range(100, 300);
+        rectTransform.Rotate(new Vector3(0, 0, rand));
     }
     // Update is called once per frame
     void Update()
@@ -47,16 +47,17 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
         {
             if (Input.GetMouseButton(0))
             {
-                if (true)
+                if (hasChanged)
                 {
 
-            
+                    
                     CurrentPos = Input.mousePosition;
                     float movementDirection =1;
                    
                     float A = Vector3.Distance(CurrentPos, prevPos);
                     //float A = ((CurrentPos.x * CurrentPos.x) - (prevPos.x * prevPos.x)) + ((CurrentPos.y * CurrentPos.y) - (prevPos.y * prevPos.y));
                     //A = Mathf.Sqrt(A);
+                    
                     float B = Vector3.Distance(CurrentPos, transform.position);
                     float C = Vector3.Distance(prevPos, transform.position);
                     //find angle A
@@ -109,12 +110,14 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
 
                     }
+                  
+
                     Debug.Log(movementDirection);
 
 
 
 
-                    Debug.Log(z);
+                    Debug.LogError(z);
                     //  transform.position = Input.mousePosition;
                     //transform.rotation = new Vector4(new);
                     //  transform.position =
@@ -124,7 +127,22 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                     //rectTransform.Rotate(new Vector3(0, 0, z));
                     prevPos = CurrentPos;
                 }
+                else
+                {
+                    prevPos = Input.mousePosition;
+                    CurrentPos = prevPos;
+                    hasChanged = true;
+                    
+
+                }
             }
+            if (Input.GetMouseButtonUp(0))
+            {
+
+                hasChanged = false;
+            }
+
+          
 
         }
 
@@ -145,7 +163,7 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public void OnPointerExit(PointerEventData eventData)
     {
         isRotating = false;
-        prevPos = Vector3.zero;
+        hasChanged = false;
     }
 
    
@@ -163,12 +181,19 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     public void CheckWheelrotation()
     {
 
-        Debug.LogWarning((int)rectTransform.eulerAngles.z);
-       checker.WheelChecker(((int)rectTransform.eulerAngles.z %360)<20);
+        
+        Debug.LogWarning(rectTransform.eulerAngles.z % 360 + " " );
+            checker.WheelChecker(rectTransform.eulerAngles.z % 360 < 30.0f|| rectTransform.eulerAngles.z % 360 > 330);
+
+       
+
+
+
+
 
 
     }
-    
+
 
 
 }
