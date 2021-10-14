@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c9f3a6b5396ea448d3556aca4eae6b, type: 3}
+  m_Name: Story_Chapter 2_PostFight
+  m_EditorClassIdentifier: 
+  dialogs:
+  - sentence: After the final blow from Andres, Calanget collapses and falls to the
+      ground. Lying on the ground, Calanget laughs at the two.
+    speaker: 
+  - sentence: All I wanted was peace for once.
+    speaker: Calanget
+  - sentence: All of this for peace? Betraying others just for your selfish needs.
+    speaker: Andres
+  - sentence: Are you even hearing yourself? That's funny coming from you.
+    speaker: Calanget
+  - sentence: Ibneg cuts the conversation after seeing an exit.
+    speaker: 
+  - sentence: I already found a way out. Let's go.
+    speaker: Ibneg
+  - sentence: You won't win.
+    speaker: Calanget
+  - sentence: You won't win.
+    speaker: Calanget

@@ -1,0 +1,92 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c9f3a6b5396ea448d3556aca4eae6b, type: 3}
+  m_Name: Story_Chapter 4
+  m_EditorClassIdentifier: 
+  dialogs:
+  - sentence: Eventually, after a long stay in the forest, they ended up in the marshlands.
+      Ibneg still contemplates the encounter with Josefina.
+    speaker: 
+  - sentence: So, you have a guardian. What happened to your parents?
+    speaker: Ibneg
+  - sentence: My parents live somewhere else. They work in a place far from where
+      we live. That's why they hired a guardian.
+    speaker: Andres
+  - sentence: "Gabriel Olivares\u2026"
+    speaker: Ibneg
+  - sentence: He has been my guardian ever since I was a teenager.
+    speaker: Andres
+  - sentence: You and Gabriel must be close.
+    speaker: Ibneg
+  - sentence: He's like a father to me. He always gives good bits of advice in hard
+      times.
+    speaker: Andres
+  - sentence: Andres thinks for a moment.
+    speaker: 
+  - sentence: "He's a really caring person. He\u2019s probably worried about me,
+      wherever he is."
+    speaker: Andres
+  - sentence: 'Silence and tenseness once again filled the space between the two. '
+    speaker: 
+  - sentence: Ibneg was deep in her thoughts, and her eyes aiming endlessly into
+      the horizon. She faintly asked herself a question.
+    speaker: 
+  - sentence: I wonder what my sister would say to me right now...
+    speaker: Ibneg
+  - sentence: "Despite how faint Ibneg\u2019s whisper was, Andres heard it."
+    speaker: 
+  - sentence: Sister?
+    speaker: Andres
+  - sentence: My older sister. She's usually the outgoing type. Always had a say
+      in important decisions.
+    speaker: Ibneg
+  - sentence: I don't normally have a conversation with others besides my friends
+      and my sister.
+    speaker: Ibneg
+  - sentence: "If she was here what would it be like? I wonder what she would say\u2026"
+    speaker: Ibneg
+  - sentence: Suddenly, a frog-like tongue surfaces from the marsh. Quickly grabbing
+      a hold of Ibneg.
+    speaker: 
+  - sentence: What the--
+    speaker: Ibneg
+  - sentence: Ibneg was trying to escape the hold of the tongue before sinking into
+      the swamp water.
+    speaker: 
+  - sentence: 'Andres, quick on his reflexes, was able to use the book and quickly
+      cast a spell, letting the tongue go of Ibneg. '
+    speaker: 
+  - sentence: '*Pant* *Pant* You used the book.'
+    speaker: Ibneg
+  - sentence: A silhouette rises up from the marsh.
+    speaker: 
+  - sentence: Oh no. Get away from the water, Andres!
+    speaker: Ibneg
+  - sentence: A woman covered in leaves and flowers emerges from the swampy water.
+    speaker: 
+  - sentence: What brings you here, pretty boy?
+    speaker: ???
+  - sentence: Careful. That's a Berberoka.
+    speaker: Ibneg
+  - sentence: "What? I won\u2019t bite. Come a little closer and I'll prove it to
+      you."
+    speaker: Berberoka
+  - sentence: "That\u2026 That would be a terrible idea."
+    speaker: Andres
+  - sentence: "*Laughs* Hard to get. I like that\u2026"
+    speaker: Berberoka
+  - sentence: "Yes\u2026 you're right. But what are you gonna do about it? "
+    speaker: Berberoka
+  - sentence: Berberoka swiftly approaches Ibneg and Andres.
+    speaker: 
+  - sentence: Be on your guard, Andres!
+    speaker: Ibneg

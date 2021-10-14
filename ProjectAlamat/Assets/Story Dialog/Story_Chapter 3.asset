@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c9f3a6b5396ea448d3556aca4eae6b, type: 3}
+  m_Name: Story_Chapter 3
+  m_EditorClassIdentifier: 
+  dialogs:
+  - sentence: The journey to rescue Mayari is long. Andres and Ibneg decide to camp
+      out for the night.
+    speaker: 
+  - sentence: Ibneg makes a campfire to light up the surroundings and keep everything
+      warm.
+    speaker: 
+  - sentence: Rest here. We'll camp out until we get enough energy to continue the
+      journey.
+    speaker: Ibneg
+  - sentence: Silence filled the two. Andres, still thinking about what Calanget
+      said.
+    speaker: 
+  - sentence: Andres, I said sleep. You'll need the energy for tomorrow. Are you
+      even liste--
+    speaker: Ibneg
+  - sentence: I'm sorry.
+    speaker: Andres
+  - sentence: 'Ibneg was struck back a little. '
+    speaker: 
+  - sentence: I'm sorry for all the mess I made. I didn't know the consequences at
+      the time.
+    speaker: Andres
+  - sentence: Now is not the time for thi--
+    speaker: Ibneg
+  - sentence: If it wasn't for me, you'd be out there with your friends.
+    speaker: Andres
+  - sentence: "I destroyed your homes, your lives\u2026 everything."
+    speaker: Andres
+  - sentence: "And now\u2026 I'm doing this mission to restore what I destroyed."
+    speaker: Andres
+  - sentence: 'Ibneg clenches her fists in anger. '
+    speaker: 
+  - sentence: Laman Lupa had a point. This was a fool's errand.
+    speaker: Andres
+  - sentence: Calanget knows we can't beat Sitan.
+    speaker: Andres
+  - sentence: Andres looks at Ibneg. Tears following down Andres' face.
+    speaker: 
+  - sentence: I can't ask for forgiveness... It's over for me now.
+    speaker: Andres
+  - sentence: "But at least with this\u2026 This will somewhat remove some guilt
+      from me."
+    speaker: Andres
+  - sentence: Promise m--
+    speaker: Andres
+  - sentence: Ibneg slaps Andres.
+    speaker: 
+  - sentence: You don't get to do that! You don't get to promise anything. You have
+      no right.
+    speaker: Ibneg
+  - sentence: Ibneg starts crying. Holding her tears, she speaks what's on her heart.
+    speaker: 
+  - sentence: "It wasn't always like this. I had friends, I had a home, I had a life
+      and to lose everything because of you\u2026 "
+    speaker: Ibneg
+  - sentence: Now I lost my friends to those entities that possessed them for fun.
+    speaker: Ibneg
+  - sentence: So yes. I'm the only one here that gets to make a promise! You don't
+      get to do that.
+    speaker: Ibneg
+  - sentence: And the reason why you're with me right now is because of the promise
+      I made to my friends, nothing more.
+    speaker: Ibneg
+  - sentence: Now wipe those tears of yours. We have a journey ahead--
+    speaker: Ibneg
+  - sentence: Suddenly the two felt a massive headache. Andres collapses to the ground
+      in pain. A white lady appears in front of them.
+    speaker: 
+  - sentence: 'You caused all of this! '
+    speaker: ???
+  - sentence: It's a Kaperosa!
+    speaker: Ibneg
+  - sentence: 'A ghost?! '
+    speaker: Andres
+  - sentence: We need to go.
+    speaker: Ibneg
+  - sentence: 'You can''t escape. Not without answering to me! '
+    speaker: Kaperosa
+  - sentence: "Wait, please, let\u2019s sort this out!"
+    speaker: Andres
+  - sentence: Kaperosa, without a hint, attacks Andres.
+    speaker: 

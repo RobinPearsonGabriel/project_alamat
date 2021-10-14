@@ -10,19 +10,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cb8f536adff8d794dad7bd4938cd8517, type: 3}
-  m_Name: Dwende
+  m_Name: LamanLupa
   m_EditorClassIdentifier: 
-  charType: 1
-  name: Calanget
-  NormalSprite: {fileID: 21300000, guid: ba170e29ba24a2d4db79076d8746fbf4, type: 3}
+  charType: 0
+  name: Laman Lupa
+  NormalSprite: {fileID: 21300000, guid: 7de7b21964940254aa2bdb019f638059, type: 3}
   atkAnimation: []
   DeathAnimation: []
   damagedAnimation: []
   CombatDialogs:
-  - '"Wrong... You suck."'
-  - '"Wrong... But hey, there was an attempt."'
-  - '"Were you trying your best? Hahaha... wrong."'
-  - '"Swing and a miss, buddy. Try again."'
+  - '"You fool, wrong answer."'
+  - '"That''s not right."'
+  - '"Wrong!"'
+  - '"Try again."'
   baseHp: 10
   baseAtk: 10
   baseDef: 5

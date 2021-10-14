@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c9f3a6b5396ea448d3556aca4eae6b, type: 3}
+  m_Name: Story_Chapter 5_PostFight
+  m_EditorClassIdentifier: 
+  dialogs:
+  - sentence: After a long grueling fight with the creature, the two were able to
+      remove the entity out of the Santelmo.
+    speaker: 
+  - sentence: After a few seconds of unconsciousness, Santelmo wakes up.
+    speaker: 
+  - sentence: You have restored my sanity. Because of that, I thank thee.
+    speaker: Santelmo
+  - sentence: How did they manage to get you under their spell?
+    speaker: Ibneg
+  - sentence: The circumstances of my possession do not matter. For I know the whereabouts
+      of the invader.
+    speaker: Santelmo
+  - sentence: Where? Where is Sitan?
+    speaker: Andres
+  - sentence: Deep in this fiery cave is their base. This is where you'll see the
+      god face to face.
+    speaker: Santelmo
+  - sentence: Alright then. Thank you.
+    speaker: Ibneg
+  - sentence: We have no time to waste. Let us make haste.
+    speaker: Santelmo

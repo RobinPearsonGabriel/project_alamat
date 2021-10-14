@@ -1,0 +1,173 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c9f3a6b5396ea448d3556aca4eae6b, type: 3}
+  m_Name: Story_Chapter1
+  m_EditorClassIdentifier: 
+  dialogs:
+  - sentence: Andres continues to write more books to fill in stories.
+    speaker: 
+  - sentence: Suddenly, he hears a voice.
+    speaker: 
+  - sentence: 'This is not the end. '
+    speaker: ???
+  - sentence: ' I refuse to call it the end.'
+    speaker: ???
+  - sentence: Who said that?
+    speaker: Andres
+  - sentence: No. This is just the beginning.
+    speaker: ???
+  - sentence: Who are you?
+    speaker: Andres
+  - sentence: Andres' vision becomes hazy and blacks out.
+    speaker: 
+  - sentence: When he opens his eyes, he sees a floating small creature.
+    speaker: 
+  - sentence: Wha-
+    speaker: Andres
+  - sentence: Be quiet.
+    speaker: ???
+  - sentence: What are you doing?
+    speaker: Andres
+  - sentence: Getting you out of here.
+    speaker: ???
+  - sentence: After successfully removing Andres from the dreamworld punishment,
+    speaker: 
+  - sentence: ' The creature grabs Andres and escapes into the wilderness.'
+    speaker: 
+  - sentence: Wait, who are you?
+    speaker: Andres
+  - sentence: I said be quiet.
+    speaker: ???
+  - sentence: Wha-what are you doing?
+    speaker: Andres
+  - sentence: Can you keep it down? You're so loud.
+    speaker: ???
+  - sentence: Andres just follows the tiny flying woman, eventually landing in a
+      safer area.
+    speaker: 
+  - sentence: The woman gives Andres a book
+    speaker: 
+  - sentence: What is this? Who are you?
+    speaker: Andres
+  - sentence: No time to explain. Just touch the book.
+    speaker: ???
+  - sentence: Upon touching the book, he is teleported into an empty white space.
+      The floating creature was gone.
+    speaker: 
+  - sentence: Where am I?
+    speaker: Andres
+  - sentence: In your mind.
+    speaker: ???
+  - sentence: Huh? Who said that?
+    speaker: Andres
+  - sentence: 'My name is Apolaki. '
+    speaker: Apolaki
+  - sentence: " You should know, I\u2019m the brother of Mayari"
+    speaker: Mayari
+  - sentence: the one who punished you for your recklessness.
+    speaker: Mayari
+  - sentence: Why am I here?
+    speaker: Andres Lamat
+  - sentence: "Because I believe in second chances\u2026 Plus, I have no other options. "
+    speaker: Apolaki
+  - sentence: What are you talking about?
+    speaker: Andres
+  - sentence: 'Your actions caused chaos, Andres. When you destroyed the trees, you
+      also destroyed the barriers that protected its inhabitants from the evil forces
+      of Sitan. '
+    speaker: Apolaki
+  - sentence: Sitan?
+    speaker: Andres
+  - sentence: The evil god of the lower world. My sister and I had fought him, and
+      it had echoed in the stars in a different time.
+    speaker: Apolaki
+  - sentence: "Eventually we managed to suppress him and made the barrier to stop
+      the fight\u2026"
+    speaker: Apolaki
+  - sentence: But because of what you did, he is free once again. And after you were
+      banned into punishment, Sitan launched a full-scale invasion.
+    speaker: Apolaki
+  - sentence: "Oh no\u2026 I didn\u2019t mean for this to happen."
+    speaker: Andres
+  - sentence: Mayari was kidnapped by Sitan and possessed most of the inhabitants.
+      Me and my sister have a sworn duty to protect the inhabitants of this land.
+    speaker: Apolaki
+  - sentence: I decided to become the barrier that protects the remaining inhabitants
+      from Sitan.
+    speaker: Apolaki
+  - sentence: But this will only delay the inevitable. We need a plan.
+    speaker: Apolaki
+  - sentence: Plan to do what?
+    speaker: Andres
+  - sentence: "To free my sister. That\u2019s where you come in."
+    speaker: Apolaki
+  - sentence: You see, this book is no ordinary book. This book contains spells that
+      will aid you in your mission to rescue Mayari.
+    speaker: Apolaki
+  - sentence: Why me? I ruined the forest. Why trust me?
+    speaker: Andres
+  - sentence: Like I said, I believe in second chances. Now are you ready?
+    speaker: Apolaki
+  - sentence: "Alright\u2026"
+    speaker: Andres
+  - sentence: Very good. You will be accompanied by Ibneg.
+    speaker: Apolaki
+  - sentence: Ibneg? Is she the floating creature?
+    speaker: Andres
+  - sentence: "Yes. And I believe her kind are called Aghoy. Alright, it\u2019s time
+      for you to wake up."
+    speaker: Apolaki
+  - sentence: Andres wakes up. Shaking his head from dizziness, he looks at Ibneg.
+    speaker: 
+  - sentence: Did that bring you up to speed?
+    speaker: Ibneg
+  - sentence: Before Andres could even answer, she quickly glances away.
+    speaker: 
+  - sentence: "Good. Let\u2019s go."
+    speaker: Ibneg
+  - sentence: As they went into the grasslands, they immediately encounter a possessed
+      inhabitant.
+    speaker: 
+  - sentence: Is the ground shaking?
+    speaker: Andres
+  - sentence: "How should I know? I\u2019m floating, remember?"
+    speaker: Ibneg
+  - sentence: A big lump of soil suddenly formed from the ground.
+    speaker: 
+  - sentence: Okay, You're right.
+    speaker: Ibneg
+  - sentence: "What in the\u2014"
+    speaker: Andres
+  - sentence: Aghhh!
+    speaker: ???
+  - sentence: As Andres stares, the lump grows bigger and bigger, shaking Andres
+      to his core.
+    speaker: 
+  - sentence: What... are you?
+    speaker: Andres
+  - sentence: It's Laman Lupa!
+    speaker: Ibneg
+  - sentence: Who?
+    speaker: Andres
+  - sentence: He is here to fix the problem you caused and face you!
+    speaker: Ibneg
+  - sentence: "You\u2026 You are the one who removed the barrier. All those trees\u2026
+      GONE!"
+    speaker: Laman Lupa
+  - sentence: The ground was shaking harder. Causing Andres to lose balance.
+    speaker: 
+  - sentence: Woah!
+    speaker: Andres
+  - sentence: 'Ibneg helps Andres regain his balance and points to the book. '
+    speaker: 
+  - sentence: What are you waiting for? Bathala? Open the book!
+    speaker: Ibneg

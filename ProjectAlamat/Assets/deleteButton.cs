@@ -4,8 +4,13 @@ using UnityEngine;
 
 public class deleteButton : MonoBehaviour
 {
-    public void onClick()
+    public void onClick(int SaveFileNumber)
     {
-        PlayerPrefs.DeleteAll();
+        if (PlayerPrefs.HasKey("saveFile" + SaveFileNumber.ToString()))
+        {
+            Debug.Log("Key Exists");
+            PlayerPrefs.DeleteKey("saveFile" + SaveFileNumber.ToString());
+            Debug.Log("Deleting Key");
+        }
     }
 }

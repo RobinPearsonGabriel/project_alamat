@@ -288,6 +288,7 @@ public class LevelScript : MonoBehaviour
         }
 
         DialogStart(VictoryDialog);
+        NextLine();
         currentPhase = roundPhase.Win;
     }
 

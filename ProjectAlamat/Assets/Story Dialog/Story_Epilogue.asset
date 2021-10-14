@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c9f3a6b5396ea448d3556aca4eae6b, type: 3}
+  m_Name: Story_Epilogue
+  m_EditorClassIdentifier: 
+  dialogs:
+  - sentence: Andres wakes up from his bed, realizing he has been in a coma for more
+      than a year.
+    speaker: 
+  - sentence: Gabriel is happy to see him awake.
+    speaker: 
+  - sentence: Seeing the errors of mistakes, Andres makes use of his second chance
+      to change his ways.
+    speaker: 
+  - sentence: "As a promise to himself for Josefina, Andres and Gabriel made a special
+      site for Gabriel\u2019s mother."
+    speaker: 
+  - sentence: Andres slowly expanded the forest. By doing so he, inadvertently restored
+      its biodiversity. Flora and fauna are both in harmony.
+    speaker: 
+  - sentence: The end.
+    speaker: 

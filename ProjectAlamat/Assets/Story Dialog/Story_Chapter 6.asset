@@ -1,0 +1,78 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c9f3a6b5396ea448d3556aca4eae6b, type: 3}
+  m_Name: Story_Chapter 6
+  m_EditorClassIdentifier: 
+  dialogs:
+  - sentence: Eventually, they reach the base of Sitan. Ibneg looks around and sees
+      Sitan talking to a chained Mayari.
+    speaker: 
+  - sentence: Any ideas on how to free her?
+    speaker: Ibneg
+  - sentence: For a minute, Andres thinks about what to do.
+    speaker: 
+  - sentence: "Hmm\u2026 We need to free Mayari if we want to have a chance against
+      Sitan. We have no choice. "
+    speaker: Andres
+  - sentence: I'll distract Sitan. Ibneg, you have to free Mayari. Santelmo, if Sitan
+      calls for his companions, you need to stop them.
+    speaker: Andres
+  - sentence: Half a plan. Nonetheless, a plan.
+    speaker: Santelmo
+  - sentence: 'No choice. Let''s do this. '
+    speaker: Ibneg
+  - sentence: Andres Lamat attempts to sneak up on Sitan.
+    speaker: 
+  - sentence: "Can you feel it? Apolaki's strength weakening? I can also feel your
+      strength weakening Mayari\u2026 "
+    speaker: Sitan
+  - sentence: Andres attempts to perform a spell on Sitan without him noticing it.
+    speaker: 
+  - sentence: Meaning any hit from me can end the goddess's life.
+    speaker: Sitan
+  - sentence: But Andres fails to cast a spell, and Sitan finally turns around and
+      sees Andres.
+    speaker: 
+  - sentence: "Ah\u2026 Andres Lamat. The architect of my invasion."
+    speaker: Sitan
+  - sentence: Sitan spots the book that Andres is holding and using.
+    speaker: 
+  - sentence: Sitan spots the book that Andres is holding and using.
+    speaker: 
+  - sentence: "Ah\u2026 that book. I could feel Apolaki's power radiating from it."
+    speaker: Sitan
+  - sentence: I have to admit, I thought Apolaki had less of an imagination than
+      this.
+    speaker: Sitan
+  - sentence: Andres silently talks to Ibneg through a magic spell of telekinesis.
+    speaker: 
+  - sentence: Now, Ibneg.
+    speaker: Andres
+  - sentence: I'm trying!
+    speaker: Ibneg
+  - sentence: And don't worry, once I deal with the last of Apolaki's power from
+      you, I can easily deal with those Aghoy and Santelmo friends of yours.
+    speaker: Sitan
+  - sentence: The imprisoned goddess, Mayari, channels her thoughts to Andres.
+    speaker: 
+  - sentence: Andres Lamat, Sitan's chain will take some time to break. So please
+      hold your ground.
+    speaker: Mayari
+  - sentence: Andres buy us some time!
+    speaker: Ibneg
+  - sentence: I applaud you, Andres. Who knew that it would only take one mortal
+      being to destroy everything in my path?
+    speaker: Sitan
+  - sentence: I swear before I draw my last breath, I will make this right!
+    speaker: Andres
+  - sentence: "We\u2019ll see about that."
+    speaker: Sitan

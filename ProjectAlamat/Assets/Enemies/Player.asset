@@ -13,17 +13,17 @@ MonoBehaviour:
   m_Name: Player
   m_EditorClassIdentifier: 
   charType: 0
-  name: MainCharacter
+  name: Andres Lamat
   NormalSprite: {fileID: 21300000, guid: 0fce4f3771a2fde4086fae617ec87dd9, type: 3}
   atkAnimation: []
   DeathAnimation: []
   damagedAnimation: []
   CombatDialogs:
-  - a
-  - d
-  - c
-  - vadf
-  - dsafqwe
+  - '"The spell''s correct!" '
+  - '"It worked! It worked!"'
+  - '"It''s correct!"'
+  - '"Good job me!"'
+  - '"It''s working."'
   baseHp: 25
   baseAtk: 10
   baseDef: 10

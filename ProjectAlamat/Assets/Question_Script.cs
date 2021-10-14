@@ -142,15 +142,16 @@ public class Question_Script : MonoBehaviour
          }
 
         setChoiceBox.setSalita(choices);
-        return "Filipino : " + Answer.tagalogSentenceTraining + "\n" + "English :" + Answer.englishSentenceTraining;
+        return "English :" + Answer.englishSentenceTraining +"\n" + "Filipino : " + Answer.tagalogSentenceTraining;
     }
 
     public string Identification( )
     {
         Answer = wordList[Random.Range(0, wordList.Count)];
 
-        return "Filipino : " + Answer.tagalogSentenceTraining + "\n" + "English :" + Answer.englishSentenceTraining;
-      
+        return "English :" + Answer.englishSentenceTraining +"\n" + "Filipino : " + Answer.tagalogSentenceTraining;
+
+
     }
 
     public string wheelGame()
@@ -159,7 +160,7 @@ public class Question_Script : MonoBehaviour
         List<Salita> phrases = new List<Salita>();
 
         
-        for (int x = 1; x < 4; x++)
+        for (int x = 1; x < wordList.Count; x++)
         {
             for (int i = 0; i < wordList.Count; i++)
             {

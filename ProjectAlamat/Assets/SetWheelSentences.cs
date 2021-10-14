@@ -21,12 +21,19 @@ public class SetWheelSentences : MonoBehaviour
         
     }
 
-    public void SetPhrases(List<Salita>Salitas)
+    public void SetPhrases(List<Salita> Salitas)
     {
-        for (int i = 0; i < Salitas.Count;i++ )
+        List<Salita> wordsUsed = new List<Salita>();
+        for (int i = 0; i < 3; i++ )
         {
-            OuterPhrases[i].text = Salitas[i].englishSentenceTraining;
-            InnerPhrases[i].text = Salitas[i].salita;
+            int x = Random.Range(0, Salitas.Count);
+            if (!wordsUsed.Contains(Salitas[x]))
+            {
+                wordsUsed.Add(Salitas[x]);
+
+                OuterPhrases[i].text = Salitas[x].englishSentenceTraining;
+                InnerPhrases[i].text = Salitas[x].salita;
+            }
         }
 
         spinner.offsetStart();
