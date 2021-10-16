@@ -34,6 +34,10 @@ public class SetWheelSentences : MonoBehaviour
                 OuterPhrases[i].text = Salitas[x].englishSentenceTraining;
                 InnerPhrases[i].text = Salitas[x].salita;
             }
+            else{
+                Debug.Log("Duplicate Question rechecking");
+                i--;
+            }
         }
 
         spinner.offsetStart();
