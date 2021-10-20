@@ -10,8 +10,11 @@ public class Dialog_Script : MonoBehaviour
     [SerializeField] TextMeshProUGUI dialogTextBox;
     bool endLine=false;
 
-    [SerializeField]Image Andes;
-    [SerializeField]Image Enemy;
+    [SerializeField]Sprite Andes;
+    [SerializeField]Sprite Enemy;
+    [SerializeField] Image Characterface;
+    [SerializeField] GameObject namePanel;
+    [SerializeField] Text nameText;
 
 
 
@@ -45,6 +48,8 @@ public class Dialog_Script : MonoBehaviour
         }
         public Dialog(SpeakerSprite img,string name, string text,bool InCombat)
         {
+          
+
             this.openCombat = InCombat;
             this.Img = img;
             this.Name = name;
@@ -81,25 +86,37 @@ public class Dialog_Script : MonoBehaviour
      
     }
 
-
-    public void setRoundText(string Text)
+    public void setRoundText(string Text,string name)
     {
+        //namePanel.SetActive(true);
 
+        //nameText.text = name;
         dialogTextBox.text = Text;
     }
 
-    public void AddDialog(string Text, bool incombat)
+
+
+    public void AddDialog(string Text, bool incombat,string name,SpeakerSprite speaker)
     {
 
-        SpeakerSprite image = SpeakerSprite.none;
-        string Name = null;
+        
+
+
+            SpeakerSprite image = speaker;
+       
+        //Characterface.enabled=false;
         string text = Text;
-        Dialog dialog = new Dialog(image, Name, text, incombat);
+        Dialog dialog = new Dialog(image, name, text, incombat);
 
         dialogs.Add(dialog);
         //endLine = false;
         dialogTextBox.text = dialogs[0].getText();
-
+        if (dialogs[0].GetName() != null || dialogs[0].GetName() != "")
+        {
+            namePanel.SetActive(true);
+            nameText.text = dialogs[0].GetName();
+            Characterface.color = Color.white;
+        }
     }
 
     public void AddDialogList(DialogList dialogeList, bool incombat)
@@ -118,7 +135,13 @@ public class Dialog_Script : MonoBehaviour
         // endLine = false;
         LevelScript.instance.setCombatPanelActive(dialogs[0].GetIsOpenInCombat());
         dialogTextBox.text = dialogs[0].getText();
-
+        if (dialogs[0].GetName() != null || dialogs[0].GetName() != "")
+        {
+            namePanel.SetActive(true);
+            nameText.text = dialogs[0].GetName();
+            Characterface.color = Color.white;
+        }
+       
     }
 
 
@@ -134,11 +157,22 @@ public class Dialog_Script : MonoBehaviour
         if (dialogs.Count > 0)
         {
             dialogTextBox.text = dialogs[0].getText();
+            if (dialogs[0].GetName() != null || dialogs[0].GetName() != "")
+            {
+                namePanel.SetActive(true);
+                nameText.text = dialogs[0].GetName();
+                Characterface.color = Color.white;
+            }
         }
 
         else
         {
             LevelScript.instance.onDialogEnd();
+         
+                namePanel.SetActive(false);
+                nameText.text = "";
+                Characterface.color = Color.clear;
+            
         }
 
 

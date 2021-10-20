@@ -192,7 +192,7 @@ public class LevelScript : MonoBehaviour
         combatPhasePanel.SetActive(true);
         canAnswer = true;
 
-        dialog_Script.setRoundText (question_Script.GameStart(questionType));
+        dialog_Script.setRoundText (question_Script.GameStart(questionType),enemy.getName());
 
     }
     public void setCombatPanelActive(bool isActive)
@@ -210,7 +210,7 @@ public class LevelScript : MonoBehaviour
             {
                
                 Debug.Log("Answer was correct");
-                dialog_Script.AddDialog(player.GetCombatDialog(), false);
+                dialog_Script.AddDialog(player.GetCombatDialog(),false,player.getName(),Dialog_Script.SpeakerSprite.Andes );
                 
 
                 //combatPhasePanel.SetActive(false);
@@ -252,7 +252,7 @@ public class LevelScript : MonoBehaviour
 
             else
             {
-                dialog_Script.AddDialog ( enemy.GetCombatDialog(),false);
+                dialog_Script.AddDialog ( enemy.GetCombatDialog(), false,player.getName(), Dialog_Script.SpeakerSprite.Enemy);
                // combatPhasePanel.SetActive(false);
                
                 nextButton.SetActive(true);
