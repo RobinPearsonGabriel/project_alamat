@@ -9,16 +9,21 @@ using UnityEngine;
 public class DialogList : ScriptableObject
 {
   public List <Dialog> dialogs;
- [System.Serializable]
-  public struct Dialog
-{
-    public string sentence;
-   public string speaker;
+    [System.Serializable]
+    public struct Dialog
+    {
+        public string sentence;
+        public string speaker;
 
         public string getDialog()
         {
-            return speaker + "\n" + sentence;
-        
+            return sentence;
+
+        }
+
+        public string getSpeaker()
+        {
+            return speaker;
         }
 }
 

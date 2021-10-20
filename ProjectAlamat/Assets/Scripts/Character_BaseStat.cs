@@ -19,6 +19,7 @@ public class Character_BaseStat : ScriptableObject
     public List<Sprite> DeathAnimation;
     public List<Sprite> damagedAnimation;
     public List<string> CombatDialogs;
+    
     public int baseHp;
    public int baseAtk;
    public int baseDef;
@@ -32,10 +33,14 @@ public class Character_BaseStat : ScriptableObject
 
         if (CombatDialogs[rand] != null)
         {
-            x = name+"\n"+CombatDialogs[rand];
+            x = CombatDialogs[rand];
         }
         return x;
 
             
+    }
+    public string getName()
+    {
+        return name;
     }
 }
