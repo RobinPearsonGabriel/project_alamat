@@ -219,7 +219,6 @@ public class LevelScript : MonoBehaviour
                 Debug.Log("Answer was correct");
                 dialogTextBox.text = player.GetCombatDialog();
                 combatPhasePanel.SetActive(false);
-               
                 nextButton.SetActive(true);
               
              
@@ -238,9 +237,11 @@ public class LevelScript : MonoBehaviour
                     }
                         Debug.Log("Correct");
                         player.AtkPercentIncrease(1.0f,enemyObj);
+                        player.gameObject.SetActive(true);
+                        enemy.gameObject.SetActive(true);
 
-                        //dialogTextBox.text = "Player Hit Enemy";
-                        if (enemy.IsAlive())
+                    //dialogTextBox.text = "Player Hit Enemy";
+                    if (enemy.IsAlive())
                         {
 
                             //CombatPhaseGame();
@@ -259,7 +260,7 @@ public class LevelScript : MonoBehaviour
             {
                 dialogTextBox.text = enemy.GetCombatDialog();
                 combatPhasePanel.SetActive(false);
-               
+
                 nextButton.SetActive(true);
             
                      if (currentPhase == roundPhase.Combat)
@@ -272,6 +273,8 @@ public class LevelScript : MonoBehaviour
             if (currentPhase == roundPhase.Combat&& enemy!=null)
             {
                 enemy.Attack(playerObj);
+                player.gameObject.SetActive(true);
+                enemy.gameObject.SetActive(true);
             }
         }
     }

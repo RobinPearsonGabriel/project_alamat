@@ -14,7 +14,7 @@ public class Character_Base : MonoBehaviour
     float def;
     float lvl;
     characterType type;
-    protected   int countdown;
+    protected float countdown;
     string Type;
   
     [SerializeField] Image hpbar;
@@ -130,20 +130,20 @@ public class Character_Base : MonoBehaviour
 
 public class Enemy_Class : Character_Base
 {  public float experiencePoints;
-    int currcountDown;
-   [SerializeField] TextMeshProUGUI countdownText;
+    float currcountDown;
+   [SerializeField]  Image countdownBar;
     protected override void Start()
     {
         base.Start();
-        currcountDown = countdown;
-        countdownText.text = currcountDown.ToString();
+        currcountDown = 0;
+        countdownBar.fillAmount = currcountDown / countdown;
     }
     void deductcountDown()
     {
 
-        currcountDown--;
-        countdownText.text = currcountDown.ToString();
-       
+        currcountDown++;
+        countdownBar.fillAmount = currcountDown / countdown;
+
     }
   
     public float GetExperincePoint()
@@ -154,12 +154,12 @@ public class Enemy_Class : Character_Base
 
     public override void Attack(GameObject Target)
     {
-        if (currcountDown <= 0)
+        if (currcountDown >= countdown)
         {
-            currcountDown = countdown;
+            currcountDown = 0;
             base.Attack(Target);
             Debug.LogWarning("atk");
-            countdownText.text = currcountDown.ToString();
+            countdownBar.fillAmount = currcountDown / countdown;
         }
         else
         {
