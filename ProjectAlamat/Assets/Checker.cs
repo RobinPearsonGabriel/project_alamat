@@ -23,7 +23,7 @@ public class Checker : MonoBehaviour
         if (LevelScript.instance.currentPhase == roundPhase.Combat&&LevelScript.instance.getCanAnswer())
         {
 
-            if (Input.GetKeyDown(KeyCode.Space))
+            if (Input.GetKeyDown(KeyCode.Return))
             {
                 switch (LevelScript.instance.GetQuestionType())
                 {
