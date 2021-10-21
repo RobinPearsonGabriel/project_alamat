@@ -4460,6 +4460,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 37918ae514894ef4d9718b87b8397a14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  spinnerEnterButton: {fileID: 471102859}
+  identificationEnterButton: {fileID: 288904955}
+  fourPicOneWordEnterButton: {fileID: 2020803455}
 --- !u!114 &229873260
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -1,11 +1,16 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class Checker : MonoBehaviour
 {
     Question_Script question;
+    [SerializeField] Button spinnerEnterButton;
+    [SerializeField] Button identificationEnterButton;
+    [SerializeField] Button fourPicOneWordEnterButton;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -15,6 +20,48 @@ public class Checker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (LevelScript.instance.currentPhase == roundPhase.Combat&&LevelScript.instance.getCanAnswer())
+        {
+
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                switch (LevelScript.instance.GetQuestionType())
+                {
+                    case QuestionType.Identification:
+
+                        identificationEnterButton.onClick.Invoke();
+                        break;
+                    case QuestionType.Choices:
+
+
+
+                        break;
+                    case QuestionType.wheelGame:
+
+                        spinnerEnterButton.onClick.Invoke();
+
+
+                        break;
+
+                    case QuestionType.FourSentenceOneWord:
+                        fourPicOneWordEnterButton.onClick.Invoke();
+
+                        break;
+                    case QuestionType.ngNang:
+                        break;
+                    case QuestionType.rinDin:
+                        break;
+                    case QuestionType.Image:
+                        break;
+                    default:
+                        break;
+
+
+                }
+
+            }
+
+    }
         
     }
 
