@@ -88,9 +88,9 @@ public class Dialog_Script : MonoBehaviour
 
     public void setRoundText(string Text,string name)
     {
-        //namePanel.SetActive(true);
+        namePanel.SetActive(true);
 
-        //nameText.text = name;
+        nameText.text = name;
         dialogTextBox.text = Text;
     }
 
@@ -168,10 +168,10 @@ public class Dialog_Script : MonoBehaviour
         else
         {
             LevelScript.instance.onDialogEnd();
-         
-                namePanel.SetActive(false);
-                nameText.text = "";
-                Characterface.color = Color.clear;
+
+            namePanel.SetActive(false);
+            nameText.text = "";
+            Characterface.color = Color.clear;
             
         }
 

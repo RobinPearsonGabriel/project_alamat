@@ -205,10 +205,10 @@ public class LevelScript : MonoBehaviour
     {
         if (canAnswer)
         {
+            combatPhasePanel.SetActive(false);
             //correct answer
             if (isCorrect)
             {
-               
                 Debug.Log("Answer was correct");
                 dialog_Script.AddDialog(player.GetCombatDialog(),false,player.getName(),Dialog_Script.SpeakerSprite.Andes );
                 

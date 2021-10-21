@@ -15,5 +15,8 @@ MonoBehaviour:
   dialogs:
   - sentence: Turn the wheel until the sentences match up correctly
     speaker: Tutorial
+  - sentence: Hold down the Left Mouse Button and move it left or right to turn the
+      circle
+    speaker: Tutorial
   - sentence: Green text indicates the Subject and Blue text indicates the Predicate
     speaker: Tutorial
