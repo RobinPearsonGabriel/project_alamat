@@ -24,6 +24,7 @@ public class LevelScript : MonoBehaviour
         }
 
     }
+
    [ SerializeField] QuestionType questionType;
     Dialog_Script dialog_Script;
   [SerializeField]  Text wordsLearnedText;
@@ -59,6 +60,15 @@ public class LevelScript : MonoBehaviour
     int round ;
     int totalRounds;
     bool canAnswer;
+    
+    public void setCanAnswer(bool x)
+    {
+        canAnswer = x;
+    }
+    public bool getCanAnswer()
+    {
+      return  canAnswer;
+    }
 
     void Start()
     {
@@ -113,12 +123,12 @@ public class LevelScript : MonoBehaviour
     }
 
 
-   
+
 
     //void DialogStart(DialogList dialogeList)
     //{
 
-      
+
     //    statsPanel.SetActive(false);
     //    combatPhasePanel.SetActive(false);
     //    for (int x=0;x< dialogeList.dialogs.Count;x++)
@@ -132,7 +142,10 @@ public class LevelScript : MonoBehaviour
 
     //}
 
-
+    public QuestionType GetQuestionType()
+    {
+        return questionType;
+    }
   public void onDialogEnd()
     {
         switch (currentPhase)
@@ -213,7 +226,7 @@ public class LevelScript : MonoBehaviour
                 dialog_Script.AddDialog(player.GetCombatDialog(),false,player.getName(),Dialog_Script.SpeakerSprite.Andes );
                 
 
-                //combatPhasePanel.SetActive(false);
+                combatPhasePanel.SetActive(false);
                
                 nextButton.SetActive(true);
               
@@ -252,8 +265,8 @@ public class LevelScript : MonoBehaviour
 
             else
             {
-                dialog_Script.AddDialog ( enemy.GetCombatDialog(), false,player.getName(), Dialog_Script.SpeakerSprite.Enemy);
-               // combatPhasePanel.SetActive(false);
+                dialog_Script.AddDialog ( enemy.GetCombatDialog(), false,enemy.getName(), Dialog_Script.SpeakerSprite.Enemy);
+                combatPhasePanel.SetActive(false);
                
                 nextButton.SetActive(true);
             

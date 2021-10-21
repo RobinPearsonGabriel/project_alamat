@@ -78,6 +78,7 @@ public class Dialog_Script : MonoBehaviour
     {
          if (dialogs.Count > 0)
         {
+            LevelScript.instance.setCanAnswer(false);
             if (Input.GetMouseButtonDown(0))
             {
                 NextLine();

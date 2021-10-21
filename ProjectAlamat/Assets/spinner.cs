@@ -37,7 +37,6 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     // Update is called once per frame
     void Update()
     {
-      
 
     }
 
