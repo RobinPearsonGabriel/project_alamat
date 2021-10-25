@@ -10,7 +10,7 @@ public class Checker : MonoBehaviour
     [SerializeField] Button spinnerEnterButton;
     [SerializeField] Button identificationEnterButton;
     [SerializeField] Button fourPicOneWordEnterButton;
-
+    [SerializeField] Button scrollwheelEnterbutton;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,7 +20,7 @@ public class Checker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (LevelScript.instance.currentPhase == roundPhase.Combat&&LevelScript.instance.getCanAnswer())
+        if (LevelScript.instance.currentPhase == roundPhase.Combat && LevelScript.instance.getCanAnswer())
         {
 
             if (Input.GetKeyDown(KeyCode.Return))
@@ -47,6 +47,11 @@ public class Checker : MonoBehaviour
                         fourPicOneWordEnterButton.onClick.Invoke();
 
                         break;
+
+                    case QuestionType.ScrollWheel:
+                        scrollwheelEnterbutton.onClick.Invoke();
+
+                        break;
                     case QuestionType.ngNang:
                         break;
                     case QuestionType.rinDin:
@@ -61,8 +66,8 @@ public class Checker : MonoBehaviour
 
             }
 
-    }
-        
+        }
+
     }
 
     // checker for Tmpprogui
@@ -120,6 +125,11 @@ public class Checker : MonoBehaviour
 
     }
 
+    public void scrollChecker(string text)
+    {
+        bool s = question.GetSalita().salita.ToLower() == text.ToLower();
+        LevelScript.instance.result(s);
+    }
 
 
 

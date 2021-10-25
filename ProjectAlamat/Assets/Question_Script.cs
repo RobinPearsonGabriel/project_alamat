@@ -4,15 +4,16 @@ using UnityEngine;
 using TMPro;
 
 
-public enum QuestionType { Identification, Choices, ngNang, rinDin, Image, wheelGame,FourSentenceOneWord};
+public enum QuestionType { Identification, Choices,ScrollWheel, ngNang, rinDin, Image, wheelGame,FourSentenceOneWord};
 public class Question_Script : MonoBehaviour
 {
    // [SerializeField] GameObject FourSentecesOnewordPanel;
     [SerializeField] GameObject IdentificationPanel;
     [SerializeField] GameObject ChoicesPanel;
-
+    [SerializeField] GameObject ScrollwheelPanel;
 
   [SerializeField]  SetChoiceBox setChoiceBox;
+    [SerializeField] ScrollScript scrollScript;
  [SerializeField]   SetWheelSentences setWheelSentences_scrpt;
     [SerializeField] GameObject wheelGamePanel;
 
@@ -62,7 +63,8 @@ public class Question_Script : MonoBehaviour
                 IdentificationPanel.SetActive(true);
                 ChoicesPanel.SetActive(false);
                 wheelGamePanel.SetActive(false);
-               // FourSentecesOnewordPanel.SetActive(false);
+                ScrollwheelPanel.SetActive(false);
+                // FourSentecesOnewordPanel.SetActive(false);
 
                 qText = Identification();
                 break;
@@ -70,6 +72,7 @@ public class Question_Script : MonoBehaviour
                 IdentificationPanel.SetActive(false);
                 ChoicesPanel.SetActive(true);
                 wheelGamePanel.SetActive(false);
+                ScrollwheelPanel.SetActive(false);
                 //FourSentecesOnewordPanel.SetActive(false);
 
                 qText = multipleChooiceQuestion();
@@ -78,6 +81,7 @@ public class Question_Script : MonoBehaviour
                 wheelGamePanel.SetActive(true);
                 IdentificationPanel.SetActive(false);
                 ChoicesPanel.SetActive(false);
+                ScrollwheelPanel.SetActive(false);
                 //FourSentecesOnewordPanel.SetActive(false);
 
                 qText = wheelGame();
@@ -87,9 +91,21 @@ public class Question_Script : MonoBehaviour
                 IdentificationPanel.SetActive(false);
                 ChoicesPanel.SetActive(false);
                 wheelGamePanel.SetActive(false);
-               // FourSentecesOnewordPanel.SetActive(true);
+                ScrollwheelPanel.SetActive(false);
+                // FourSentecesOnewordPanel.SetActive(true);
 
-               // qText= SetFourSentencesOneWord();
+                // qText= SetFourSentencesOneWord();
+                break;
+            case QuestionType.ScrollWheel:
+                IdentificationPanel.SetActive(false);
+                ChoicesPanel.SetActive(false);
+                wheelGamePanel.SetActive(false);
+                ScrollwheelPanel.SetActive(true);
+                ScrollWheel();
+                qText = "";
+                // FourSentecesOnewordPanel.SetActive(true);
+
+                // qText= SetFourSentencesOneWord();
                 break;
             case QuestionType.ngNang:
                 break;
@@ -210,6 +226,48 @@ public class Question_Script : MonoBehaviour
         return wordList.Count;
     }
 
+
+    void ScrollWheel()
+    {
+        List<string> texts = new List<string>(); 
+        Answer = wordList[Random.Range(0, wordList.Count)];
+        texts.Add(Answer.salita);
+        for (int x = 1; x < 3; x++)
+        {
+            for (int i = 0; i < wordList.Count; i++)
+            {
+
+                if (!texts.Contains(wordList[i].salita))
+                {
+                    texts.Add(wordList[i].salita);
+                    break;
+                }
+            }
+        }
+
+        string temp;
+        //randomize 
+        for (int i = 0; i < texts.Count; i++)
+        {
+
+
+            int rand = Random.Range(0, texts.Count);
+
+
+
+            temp = texts[i];
+            texts[i] = texts[rand];
+            texts[rand] = temp;
+
+        }
+
+    
+
+
+
+    scrollScript.setTexts(Answer.tagalogSentenceTraining, texts);
+
+    }
 
 
 
