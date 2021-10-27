@@ -5,23 +5,37 @@ using UnityEngine;
 public class Skill_Base : MonoBehaviour
 {
     public int cooldown;
-    protected int currentTurn;
+    public int turnsSinceSpawned;
+    public int Duration;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        currentTurn = 0;
+        turnsSinceSpawned = 0;
     }
 
     public virtual void ActivateSkill()
     {
 
     }
-    public virtual void DeactivateSkill() 
+    protected virtual void DeactivateSkill() 
     {
 
     }
 
+    public virtual void CheckSkillCondition()
+    {
+        if (turnsSinceSpawned >= Duration)
+        {
+            DeactivateSkill();
+        }
+    }
+
+    public void AddTurn()
+    {
+        turnsSinceSpawned++;
+        CheckSkillCondition();
+    }
 
 }

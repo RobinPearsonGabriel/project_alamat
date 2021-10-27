@@ -1,10 +1,11 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Migraine : Skill_Base
 {
-
+    public Canvas canvas;
     public GameObject migrainePrefab;
     public Transform spawnPosition;
     private GameObject spawnedObject;
@@ -15,7 +16,7 @@ public class Migraine : Skill_Base
         Instantiate(migrainePrefab, spawnPosition);
     }
 
-    public override void DeactivateSkill()
+    protected override void DeactivateSkill()
     {
         Destroy(spawnedObject);
     }

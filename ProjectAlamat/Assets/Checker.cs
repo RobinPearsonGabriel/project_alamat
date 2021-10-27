@@ -73,32 +73,29 @@ public class Checker : MonoBehaviour
     // checker for Tmpprogui
     public void CheckWord(TextMeshProUGUI text)
     {
+       
+
         bool s = question.GetSalita().salita.ToLower() == text.text.ToLower();
         Debug.Log(question.GetSalita().salita.ToLower() + text.text.ToLower());
         LevelScript.instance.result(s);
+
+
+        
+     
+
     }
     //checker for inputfields
     public void InputFieldChecker(TMP_InputField answer)
     {
-        
 
-
-            Debug.Log(answer.text);
+        Debug.Log(answer.text);
         bool b = question.GetSalita().salita.ToLower() == answer.text.ToLower();
-        Debug.LogWarning(question.GetSalita().salita.ToLower() + answer.text.ToLower());
+        Debug.Log(question.GetSalita().salita.ToLower() + answer.text.ToLower());
         LevelScript.instance.result(b);
 
-
-
         answer.text = "";
+
     }
-
-
-    public void FourSentencesOneWord(string answer)
-    {
-        LevelScript.instance.result(answer==question.GetSalita().salita);
-    }
-
 
 
     public void WheelChecker(bool e)
