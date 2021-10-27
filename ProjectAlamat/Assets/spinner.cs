@@ -6,22 +6,29 @@ using UnityEngine.EventSystems;
 public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 {
 
-    Checker checker;
+  Checker checker;
     bool isRotating;
     Vector2 Rot;
     Vector3 prevPos;
     Vector3 CurrentPos;
     bool hasChanged;
+    float zrot = 0;
+    [SerializeField] List<GameObject> choices;
+    [SerializeField] bool isFourpicOneWord;
    // Vector4 Rot  Quaternion;
     RectTransform rectTransform;
+    float diff;
+    float zPrev;
+    bool hasSnapped;
     //  Vector3 mousepos;
     // Start is called before the first frame update
 
     void Awake()
     {
         checker = FindObjectOfType<Checker>();
+        hasSnapped = false;
         rectTransform = GetComponent<RectTransform>();
-
+ // checker = FindObjectOfType<Checker>();
 
         hasChanged = false;
 
@@ -32,6 +39,7 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         rectTransform.Rotate(new Vector3(0, 0,0));
         int rand = Random.Range(100, 300);
+        zPrev = rectTransform.eulerAngles.z;
         rectTransform.Rotate(new Vector3(0, 0, rand));
     }
     // Update is called once per frame
@@ -116,7 +124,7 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
 
 
-                    Debug.Log(z);
+                   // Debug.Log(z);
                     //  transform.position = Input.mousePosition;
                     //transform.rotation = new Vector4(new);
                     //  transform.position =
@@ -125,29 +133,66 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
                     // transform.localRotation = Quaternion.Euler(0,0,z);
                     //rectTransform.Rotate(new Vector3(0, 0, z));
                     prevPos = CurrentPos;
+                    diff = Mathf.Abs((zPrev%360) -rectTransform.eulerAngles.z);
+                    Debug.LogWarning(zPrev + "  " + rectTransform.eulerAngles.z);
+
                 }
                 else
-                {
+                { 
                     prevPos = Input.mousePosition;
                     CurrentPos = prevPos;
                     hasChanged = true;
-                    
+                    hasSnapped = false;
+                 
+
 
                 }
             }
             if (Input.GetMouseButtonUp(0))
             {
-
+               // Debug.Log(rectTransform.eulerAngles.z % 360);
                 hasChanged = false;
+
+            
+
             }
 
-          
+            if (!hasChanged)
+            {if(!hasSnapped)
+                { 
+                if (diff >= 20)
+                {
+                    zrot = zPrev + 180;
+                }
+                else
+                {
+                    zrot = zPrev;
+                }
+                if (isFourpicOneWord)
+                {
+
+
+
+
+                    Quaternion targetRotations = Quaternion.Euler(new Vector3(0f, 0f, zrot));
+                    transform.rotation = Quaternion.Slerp(transform.rotation, targetRotations, 10.0f);
+
+
+
+                }
+                zPrev = zrot;
+                hasSnapped = true;
+            }
+            }
 
         }
+        
 
 
 
-       
+
+      
+
 
     }
 
@@ -163,6 +208,8 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     {
         isRotating = false;
         hasChanged = false;
+
+      
     }
 
    
@@ -174,6 +221,27 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
 
 
+
+    }
+
+
+    public void checkText()
+    {
+        GameObject obj =null;
+        foreach  (GameObject Texts in choices)
+        {
+            if (obj == null)
+            {
+                obj = Texts;
+            }
+            else if (obj.transform.position.y < Texts.transform.position.y)
+            {
+                obj = Texts;
+            
+            }
+        }
+      
+        checker.FourSentencesOneWord(obj.GetComponent<Text>().text);
 
     }
 

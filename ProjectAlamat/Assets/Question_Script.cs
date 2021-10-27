@@ -11,12 +11,12 @@ public class Question_Script : MonoBehaviour
     [SerializeField] GameObject IdentificationPanel;
     [SerializeField] GameObject ChoicesPanel;
     [SerializeField] GameObject ScrollwheelPanel;
-
+    [SerializeField] SetFourSentencesOneWord sentencesOneWord_Script;
   [SerializeField]  SetChoiceBox setChoiceBox;
     [SerializeField] ScrollScript scrollScript;
  [SerializeField]   SetWheelSentences setWheelSentences_scrpt;
     [SerializeField] GameObject wheelGamePanel;
-
+    [SerializeField] GameObject FourSentecesOnewordPanel;
 
     //[SerializeField] SetFourSentencesOneWord fourSentencesOneWord;
    [SerializeField] List<Salita> wordList= new List<Salita>();
@@ -64,7 +64,7 @@ public class Question_Script : MonoBehaviour
                 ChoicesPanel.SetActive(false);
                 wheelGamePanel.SetActive(false);
                 ScrollwheelPanel.SetActive(false);
-                // FourSentecesOnewordPanel.SetActive(false);
+                 FourSentecesOnewordPanel.SetActive(false);
 
                 qText = Identification();
                 break;
@@ -73,7 +73,7 @@ public class Question_Script : MonoBehaviour
                 ChoicesPanel.SetActive(true);
                 wheelGamePanel.SetActive(false);
                 ScrollwheelPanel.SetActive(false);
-                //FourSentecesOnewordPanel.SetActive(false);
+                FourSentecesOnewordPanel.SetActive(false);
 
                 qText = multipleChooiceQuestion();
                 break;
@@ -82,7 +82,7 @@ public class Question_Script : MonoBehaviour
                 IdentificationPanel.SetActive(false);
                 ChoicesPanel.SetActive(false);
                 ScrollwheelPanel.SetActive(false);
-                //FourSentecesOnewordPanel.SetActive(false);
+                FourSentecesOnewordPanel.SetActive(false);
 
                 qText = wheelGame();
                 break;
@@ -92,15 +92,16 @@ public class Question_Script : MonoBehaviour
                 ChoicesPanel.SetActive(false);
                 wheelGamePanel.SetActive(false);
                 ScrollwheelPanel.SetActive(false);
-                // FourSentecesOnewordPanel.SetActive(true);
+                FourSentecesOnewordPanel.SetActive(true);
 
-                // qText= SetFourSentencesOneWord();
+                SetFourSentencesOneWord();
                 break;
             case QuestionType.ScrollWheel:
                 IdentificationPanel.SetActive(false);
                 ChoicesPanel.SetActive(false);
                 wheelGamePanel.SetActive(false);
                 ScrollwheelPanel.SetActive(true);
+                FourSentecesOnewordPanel.SetActive(false);
                 ScrollWheel();
                 qText = "";
                 // FourSentecesOnewordPanel.SetActive(true);
@@ -166,6 +167,21 @@ public class Question_Script : MonoBehaviour
         Answer = wordList[Random.Range(0, wordList.Count)];
 
         return "English :" + Answer.englishSentenceTraining +"\n" + "Filipino : " + Answer.tagalogSentenceTraining;
+
+
+    }
+
+
+    public void SetFourSentencesOneWord()
+    {
+        string x="";
+        Answer = wordList[Random.Range(0, wordList.Count)];
+        while (x == Answer.salita||x=="")
+        {
+            x = wordList[Random.Range(0, wordList.Count)].salita;
+        }
+
+        sentencesOneWord_Script.SetSenctences(Answer,x);
 
 
     }

@@ -151,7 +151,7 @@ public class Dialog_Script : MonoBehaviour
     {
 
 
-        Debug.Log("");
+       // Debug.Log("");
 
         dialogs.RemoveAt(0);
 

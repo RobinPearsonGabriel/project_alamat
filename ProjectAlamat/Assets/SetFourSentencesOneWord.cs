@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class SetFourSentencesOneWord : MonoBehaviour
 {
-
+    [SerializeField] List<Text> Choices;
     [SerializeField] List<Text> Sentences;
     // Start is called before the first frame update
     void Start()
@@ -19,23 +19,31 @@ public class SetFourSentencesOneWord : MonoBehaviour
         
     }
 
-    public void SetSenctences(Salita salita)
+    public void SetSenctences(Salita salita, string word)
     {
-        Debug.Log("HI");
-        int rand;
-        foreach (Text sentence in Sentences)
+
+
+        for (int i = 0; i < Sentences.Count; i++)
         {
-            rand = Random.Range(0, 2);
-            if (rand >= 1)
-            {
-                sentence.text = salita.tagalogSentenceTraining;
-            }
-            else
-            {
-                sentence.text = salita.englishSentenceTraining;
-            }
-           
+            Sentences[i].text = salita.Sentences[i];
         }
+        int rand = Random.Range(0, 2);
+
+        if (rand == 1)
+        {
+            Choices[0].text = salita.salita;
+            Choices[1].text = word;
+        }
+        else
+        {
+            Choices[1].text = salita.salita;
+            Choices[0].text = word;
+
+
+        }
+      
+           
+        
     
     }
 
