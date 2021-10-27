@@ -20,6 +20,4 @@ public class Salita : ScriptableObject
     [Header(" Question")]
     public string tagalogSentenceBattle;
     public string englishSentenceBattle;
-
-    public List<string> Sentences;
 }
