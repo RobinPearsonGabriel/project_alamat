@@ -130,6 +130,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 3042128336256442372, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: characterBaseStat
+      value: 
+      objectReference: {fileID: 11400000, guid: de46305613233ca4597bc5cab2295e78, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.size
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: d52aba2e7472b3f4b8d2746641508cac, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 20f3f53f1b098ba4a8ee4809c5eb52d9, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: dcffa1aca834ee04aaa9c9870765401b, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5a9f3c9d15be6594cb72e083998c78e4, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5fc09864a76e1ec4d9060ca032586330, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: be8fea6a243fb9647a19fba2ef34fae5, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1ead979589934de4a91459fb0f84a2f4, type: 2}
     - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: questionType
       value: 0

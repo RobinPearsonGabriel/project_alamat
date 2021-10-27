@@ -1761,15 +1761,23 @@ PrefabInstance:
     - target: {fileID: 2403230066455496511, guid: f7b132f254bbad940a77e6502764f596, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: c6895a6117291244fa0ba9e38fd7d921, type: 3}
+      objectReference: {fileID: 12800000, guid: 4d6c08d149b3fd245b339c99e86d9611, type: 3}
+    - target: {fileID: 2403230066455496511, guid: f7b132f254bbad940a77e6502764f596, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 2911190391855006830, guid: f7b132f254bbad940a77e6502764f596, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: c6895a6117291244fa0ba9e38fd7d921, type: 3}
+      objectReference: {fileID: 12800000, guid: 4d6c08d149b3fd245b339c99e86d9611, type: 3}
+    - target: {fileID: 2911190391855006830, guid: f7b132f254bbad940a77e6502764f596, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 40
+      objectReference: {fileID: 0}
     - target: {fileID: 6936187325541414232, guid: f7b132f254bbad940a77e6502764f596, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: c6895a6117291244fa0ba9e38fd7d921, type: 3}
+      objectReference: {fileID: 12800000, guid: 4d6c08d149b3fd245b339c99e86d9611, type: 3}
     - target: {fileID: 6936187325541414233, guid: f7b132f254bbad940a77e6502764f596, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 176
@@ -1781,7 +1789,7 @@ PrefabInstance:
     - target: {fileID: 6936187325775454347, guid: f7b132f254bbad940a77e6502764f596, type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: c6895a6117291244fa0ba9e38fd7d921, type: 3}
+      objectReference: {fileID: 12800000, guid: 4d6c08d149b3fd245b339c99e86d9611, type: 3}
     - target: {fileID: 6936187326343444072, guid: f7b132f254bbad940a77e6502764f596, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 

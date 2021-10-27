@@ -15,8 +15,8 @@ public class EnemyScript : Enemy_Class
     {
         
     }
-    public override void Attack(GameObject Target)
+    public override bool Attack(GameObject Target)
     {
-        base.Attack(Target);
+        return base.Attack(Target);
     }
 }

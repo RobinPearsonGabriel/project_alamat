@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.SceneManagement;
 
 public class UIManager : MonoBehaviour
@@ -8,6 +9,8 @@ public class UIManager : MonoBehaviour
     public GameObject optionsPanel;
     public GameObject mainPanel;
     public GameObject savePanel;
+    public GameObject confirmationPanel;
+    private int saveNumber;
 
     // Start is called before the first frame update
     void Start()
@@ -35,6 +38,28 @@ public class UIManager : MonoBehaviour
     {
         Debug.Log("OptionsButton Pressed");
         ActivatePanel(optionsPanel);
+    }
+
+    public void OpenConfirmation(int Number) {
+        saveNumber = Number;
+        confirmationPanel.SetActive(!confirmationPanel.activeSelf);
+    }
+
+    public void YesDelete()
+    {
+        if (PlayerPrefs.HasKey("saveFile" + saveNumber.ToString()))
+        {
+            Debug.Log("Key Exists");
+            PlayerPrefs.DeleteKey("saveFile" + saveNumber.ToString());
+            Debug.Log("Deleting Key");
+            confirmationPanel.SetActive(!confirmationPanel.activeSelf);
+            SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+
+        }
+        else
+        {
+            Debug.Log("DeleteFailed");
+        }
     }
 
     public void BackButton()

@@ -204,7 +204,8 @@ public class LevelScript : MonoBehaviour
         nextButton.SetActive(false);
         combatPhasePanel.SetActive(true);
         canAnswer = true;
-
+        playerObj.GetComponent<SpriteRenderer>().color = Color.white;
+        enemyObj.GetComponent<SpriteRenderer>().color = Color.white;
         dialog_Script.setRoundText (question_Script.GameStart(questionType),enemy.getName());
 
     }
@@ -245,7 +246,10 @@ public class LevelScript : MonoBehaviour
                         }
                     }
                         Debug.Log("Correct");
-                        player.AtkPercentIncrease(1.0f,enemyObj);
+                    if (player.AtkPercentIncrease(1.0f, enemyObj))
+                    {
+                        dialog_Script.AddDialog(player.getName() + " hit "+ enemy.getName() + "! ", false, " ", Dialog_Script.SpeakerSprite.Enemy);
+                    }
 
                         //dialogTextBox.text = "Player Hit Enemy";
                         if (enemy.IsAlive())
@@ -279,7 +283,10 @@ public class LevelScript : MonoBehaviour
             }
             if (currentPhase == roundPhase.Combat&& enemy!=null)
             {
-                enemy.Attack(playerObj);
+                if (enemy.Attack(playerObj))
+                {
+                    dialog_Script.AddDialog(enemy.getName() + " hit Andres!", false, " ", Dialog_Script.SpeakerSprite.Enemy);
+                }
             }
         }
     }
