@@ -1351,6 +1351,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 92172597}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52fe8f4a73865a5499ef81b4764b920f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isFourpicOneWord: 0
+--- !u!114 &92172602
+MonoBehaviour:
+=======
   serializedVersion: 6
   m_Component:
   - component: {fileID: 78758875}
@@ -1365,6 +1376,7 @@ GameObject:
   m_IsActive: 1
 --- !u!224 &78758875
 RectTransform:
+>>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -2596,6 +2608,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 117218185}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
+--- !u!1 &167598249
+=======
 --- !u!1 &118321388
 GameObject:
   m_ObjectHideFlags: 0
@@ -2809,6 +2824,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 119766422}
   m_CullTransparentMesh: 1
 --- !u!1 &124256086
+>>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17736,7 +17752,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1210822443}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
+--- !u!1 &967906286
+=======
 --- !u!1 &1237905247
+>>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17744,22 +17764,54 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 967906287}
+  m_Layer: 5
+  m_Name: Question Panels
+=======
   - component: {fileID: 1237905248}
   - component: {fileID: 1237905250}
   - component: {fileID: 1237905249}
   m_Layer: 0
   m_Name: Ainner
+>>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
+--- !u!224 &967906287
+=======
 --- !u!224 &1237905248
+>>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
+  m_GameObject: {fileID: 967906286}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 726939669}
+  - {fileID: 1467528249}
+  - {fileID: 411604009}
+  - {fileID: 7871639}
+  - {fileID: 1976269991}
+  - {fileID: 1298907181}
+  m_Father: {fileID: 383828656}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &972955810
+=======
   m_GameObject: {fileID: 1237905247}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
@@ -17816,6 +17868,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 1237905247}
   m_CullTransparentMesh: 1
 --- !u!1 &1270215250
+>>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -20357,7 +20410,99 @@ GameObject:
   - component: {fileID: 1458421146}
   - component: {fileID: 1458421145}
   m_Layer: 5
+<<<<<<< HEAD
+  m_Name: Answer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1215328453
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215328452}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.5284505, y: 0.09675542, z: 0.29155886}
+  m_Children:
+  - {fileID: 2041451529}
+  m_Father: {fileID: 1480262625}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 3.4930878, y: 0.3}
+  m_SizeDelta: {x: 100, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1215328454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215328452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1215328455
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215328452}
+  m_CullTransparentMesh: 1
+--- !u!114 &1215328456
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1215328452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea30631b3971f3b4eb022ff046ab3508, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!1 &1237905247
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1237905248}
+  - component: {fileID: 1237905250}
+  - component: {fileID: 1237905249}
+  m_Layer: 0
+  m_Name: Ainner
+=======
   m_Name: Text (TMP)
+>>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -22510,9 +22655,16 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
+  - component: {fileID: 1480262625}
+  - component: {fileID: 1480262627}
+  - component: {fileID: 1480262626}
+  - component: {fileID: 1480262629}
+=======
   - component: {fileID: 1639530902}
   - component: {fileID: 1639530904}
   - component: {fileID: 1639530903}
+>>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
   m_Layer: 5
   m_Name: C
   m_TagString: Untagged
@@ -22529,6 +22681,17 @@ RectTransform:
   m_GameObject: {fileID: 1639530901}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
+  m_LocalScale: {x: 4.8381314, y: 4.8381314, z: 4.8381314}
+  m_Children:
+  - {fileID: 1215328453}
+  m_Father: {fileID: 1976269991}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 50, y: 2}
+=======
   m_LocalScale: {x: 1.0467917, y: 0.29982007, z: 1}
   m_Children: []
   m_Father: {fileID: 1972967553}
@@ -22537,6 +22700,7 @@ RectTransform:
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 83.899994, y: -201.94827}
+>>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1639530903
@@ -22581,7 +22745,25 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1639530901}
   m_CullTransparentMesh: 1
+<<<<<<< HEAD
+--- !u!114 &1480262629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1480262624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f09923aa14578b44482d2c82d9fd3aa4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  choiceBox: {fileID: 2041451530}
+  isFourpicOneWord: 0
+--- !u!1 &1492302542
+=======
 --- !u!1 &1651679991
+>>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -25843,6 +26025,9 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1889854309}
   m_CullTransparentMesh: 0
+<<<<<<< HEAD
+--- !u!1 &1856135511
+=======
 --- !u!1 &1897528684
 GameObject:
   m_ObjectHideFlags: 0
@@ -25923,6 +26108,7 @@ CanvasRenderer:
   m_GameObject: {fileID: 1897528684}
   m_CullTransparentMesh: 1
 --- !u!1 &1902195380
+>>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -27221,6 +27407,10 @@ RectTransform:
   - {fileID: 1781998172}
   - {fileID: 598759717}
   - {fileID: 119766423}
+<<<<<<< HEAD
+  - {fileID: 1480262625}
+=======
+>>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
   m_Father: {fileID: 967906287}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -27241,11 +27431,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 044b3d67a059698498c83bb453a6a97d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+  fourSentencesOneWord_script: {fileID: 1480262629}
+=======
+>>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
   Sentences:
   - {fileID: 682315479}
   - {fileID: 1104814558}
   - {fileID: 1601208794}
   - {fileID: 464241427}
+<<<<<<< HEAD
+=======
 --- !u!1 &1983231749
 GameObject:
   m_ObjectHideFlags: 0
@@ -27380,6 +27576,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1983231749}
   m_CullTransparentMesh: 0
+>>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
 --- !u!1 &2007419310
 GameObject:
   m_ObjectHideFlags: 0
@@ -27752,10 +27949,17 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
+<<<<<<< HEAD
+      - m_Target: {fileID: 1480262629}
+        m_TargetAssemblyTypeName: FourPicOneWord_Wheel, Assembly-CSharp
+        m_MethodName: checkAnswer
+        m_Mode: 1
+=======
       - m_Target: {fileID: 229873259}
         m_TargetAssemblyTypeName: Checker, Assembly-CSharp
         m_MethodName: InputFieldChecker
         m_Mode: 2
+>>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
         m_Arguments:
           m_ObjectArgument: {fileID: 91795658}
           m_ObjectArgumentAssemblyTypeName: TMPro.TMP_InputField, Unity.TextMeshPro

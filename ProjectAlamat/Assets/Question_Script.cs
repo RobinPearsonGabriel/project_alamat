@@ -170,6 +170,39 @@ public class Question_Script : MonoBehaviour
 
     }
 
+<<<<<<< HEAD
+
+    public void SetFourSentencesOneWord()
+    {
+        string x="";
+        int rand = 0;
+        List<string> choices = new List<string>();
+        Answer = wordList[Random.Range(0, wordList.Count)];
+        for (int i = 0; i < 4; i++)
+        {
+
+            while (true)
+            {
+                rand = Random.Range(0, wordList.Count);
+                if (!choices.Contains(wordList[i].salita))
+                {
+                    choices.Add(wordList[i].salita);
+                    break;
+                }
+
+            }
+          
+      
+            
+        }
+
+        sentencesOneWord_Script.SetSenctences(Answer,choices);
+
+
+    }
+
+=======
+>>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
     public string wheelGame()
     {
 
