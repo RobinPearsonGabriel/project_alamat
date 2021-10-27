@@ -13,7 +13,7 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     Vector3 CurrentPos;
     bool hasChanged;
     float zrot = 0;
-    [SerializeField] List<GameObject> choices;
+
     [SerializeField] bool isFourpicOneWord;
    // Vector4 Rot  Quaternion;
     RectTransform rectTransform;
@@ -213,38 +213,10 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     }
 
    
-    public void RotateWheel(int x)
-    {
-        float z= (( (120 * x)));
-       
-        rectTransform.Rotate(new Vector3(0, 0,z));
 
 
 
-
-    }
-
-
-    public void checkText()
-    {
-        GameObject obj =null;
-        foreach  (GameObject Texts in choices)
-        {
-            if (obj == null)
-            {
-                obj = Texts;
-            }
-            else if (obj.transform.position.y < Texts.transform.position.y)
-            {
-                obj = Texts;
-            
-            }
-        }
-      
-        checker.FourSentencesOneWord(obj.GetComponent<Text>().text);
-
-    }
-
+    
     public void CheckWheelrotation()
     {
 

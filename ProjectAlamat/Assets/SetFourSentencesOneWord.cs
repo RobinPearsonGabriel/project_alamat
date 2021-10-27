@@ -5,12 +5,13 @@ using UnityEngine.UI;
 
 public class SetFourSentencesOneWord : MonoBehaviour
 {
-    [SerializeField] List<Text> Choices;
+
+   [SerializeField] FourPicOneWord_Wheel fourSentencesOneWord_script;
     [SerializeField] List<Text> Sentences;
     // Start is called before the first frame update
     void Start()
     {
-        
+       
     }
 
     // Update is called once per frame
@@ -19,7 +20,7 @@ public class SetFourSentencesOneWord : MonoBehaviour
         
     }
 
-    public void SetSenctences(Salita salita, string word)
+    public void SetSenctences(Salita salita, List<string> words)
     {
 
 
@@ -29,23 +30,16 @@ public class SetFourSentencesOneWord : MonoBehaviour
         }
         int rand = Random.Range(0, 2);
 
-        if (rand == 1)
-        {
-            Choices[0].text = salita.salita;
-            Choices[1].text = word;
-        }
-        else
-        {
-            Choices[1].text = salita.salita;
-            Choices[0].text = word;
-
-
-        }
+        fourSentencesOneWord_script.setchoices(words);
       
            
         
     
     }
-
+   void SetAnswer()
+    { 
+    
+    
+    }
 
 }

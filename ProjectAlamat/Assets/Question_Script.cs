@@ -175,13 +175,28 @@ public class Question_Script : MonoBehaviour
     public void SetFourSentencesOneWord()
     {
         string x="";
+        int rand = 0;
+        List<string> choices = new List<string>();
         Answer = wordList[Random.Range(0, wordList.Count)];
-        while (x == Answer.salita||x=="")
+        for (int i = 0; i < 4; i++)
         {
-            x = wordList[Random.Range(0, wordList.Count)].salita;
+
+            while (true)
+            {
+                rand = Random.Range(0, wordList.Count);
+                if (!choices.Contains(wordList[i].salita))
+                {
+                    choices.Add(wordList[i].salita);
+                    break;
+                }
+
+            }
+          
+      
+            
         }
 
-        sentencesOneWord_Script.SetSenctences(Answer,x);
+        sentencesOneWord_Script.SetSenctences(Answer,choices);
 
 
     }
