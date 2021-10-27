@@ -27,7 +27,7 @@ public class PlayerScript : Player_Class
         base.Die();
     }
 
-   public void AtkPercentIncrease(float weight,GameObject enemy)
+   public bool AtkPercentIncrease(float weight,GameObject enemy)
     {
         atkPercent += weight;
         atkPercentfill.fillAmount = atkPercent / 3.0f;
@@ -37,9 +37,9 @@ public class PlayerScript : Player_Class
             atkPercent = 0;
             atkPercentfill.fillAmount = 0;
             Attack(enemy);
-        
+            return true;
         }
-
+        return false;
 
     }
 

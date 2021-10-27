@@ -65,7 +65,7 @@ public class Character_Base : MonoBehaviour
     }
 
   
-    public virtual void Attack(GameObject Target)
+    public virtual bool Attack(GameObject Target)
     {
         if (Target.tag == "Player")
         {
@@ -78,6 +78,7 @@ public class Character_Base : MonoBehaviour
             Debug.Log(name + " attacked " + Target.GetComponent<EnemyScript>().name);
 
         }
+        return false;
     }
 
     public void TakeDamage(float atkdamage)
@@ -152,7 +153,7 @@ public class Enemy_Class : Character_Base
         return experiencePoints;
     }
 
-    public override void Attack(GameObject Target)
+    public override bool Attack(GameObject Target)
     {
         if (currcountDown >= countdown)
         {
@@ -160,12 +161,13 @@ public class Enemy_Class : Character_Base
             base.Attack(Target);
             Debug.LogWarning("atk");
             countdownBar.fillAmount = currcountDown / countdown;
+            return true;
         }
         else
         {
 
             deductcountDown();
-          
+            return false;
         }
        
     }

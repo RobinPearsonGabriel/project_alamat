@@ -8,7 +8,7 @@ public class Fog : MonoBehaviour
     public Vector2 startPosition;
     private Player myPlayer;
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         //this.transform.position = startPosition;
         if (GameObject.FindGameObjectWithTag("Player").GetComponent<Player>() != null)

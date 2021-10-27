@@ -23,4 +23,10 @@ public class SaveButtons : MonoBehaviour
             this.gameObject.GetComponent<Image>().sprite = ContinueImage;
         }
     }
+
+
+    public void ChangeButton()
+    {
+        this.gameObject.GetComponent<Image>().sprite = newGameImage;
+    }
 }
