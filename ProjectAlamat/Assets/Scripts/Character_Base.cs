@@ -67,7 +67,7 @@ public class Character_Base : MonoBehaviour
   
     public virtual bool Attack(GameObject Target)
     {
-        if (Target.tag == "PlayerObject")
+        if (Target.tag == "Player")
         {
             Target.GetComponent<PlayerScript>().TakeDamage(atk);
             Debug.Log(name + " attacked " + Target.GetComponent<PlayerScript>().name);

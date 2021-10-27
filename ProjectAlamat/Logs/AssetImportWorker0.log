@@ -494,3 +494,24 @@ Received Import Request.
   path: Assets/Scenes/Levels/TestLevel.unity
   artifactKey: Guid(5709cc1450223024bbc85d9096f7984b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Scenes/Levels/TestLevel.unity using Guid(5709cc1450223024bbc85d9096f7984b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1489e9b7edb2699ce7bef05ff281e3a8') in 0.010753 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003186 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.350 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2138 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 96.8 MB.
+System memory in use after: 96.9 MB.
+
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2696.
+Total: 2.768600 ms (FindLiveObjects: 0.159800 ms CreateObjectMapping: 0.080000 ms MarkObjects: 2.502600 ms  DeleteObjects: 0.025100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
