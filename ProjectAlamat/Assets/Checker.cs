@@ -121,6 +121,9 @@ public class Checker : MonoBehaviour
         LevelScript.instance.result(s);
     }
 
-
+    public void FourSentencesOneWord(string Answer)
+    {
+        LevelScript.instance.result(question.GetSalita().salita==Answer);
+    }
 
 }

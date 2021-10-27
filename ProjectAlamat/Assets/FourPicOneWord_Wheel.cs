@@ -152,7 +152,7 @@ public class FourPicOneWord_Wheel : MonoBehaviour, IPointerEnterHandler, IPointe
                     // currentIndex = Mathf.Clamp(currentIndex, 0, choices.Count);
                  //   currentIndex = -1 % choices.Count;   
                     
-                    choiceBox.color = new Vector4(choiceBox.color.r, choiceBox.color.g, choiceBox.color.b, Mathf.Clamp(z % 360, 0.1f, 1.0f));
+                    choiceBox.color = new Vector4(choiceBox.color.r, choiceBox.color.g, choiceBox.color.b, Mathf.Clamp(1-((degree % 360)/360), 0.1f, 1.0f));
 
 
                         // transform.localRotation = Quaternion.Euler(0,0,z);
@@ -167,7 +167,7 @@ public class FourPicOneWord_Wheel : MonoBehaviour, IPointerEnterHandler, IPointe
                         prevPos = Input.mousePosition;
                         CurrentPos = prevPos;
                         hasChanged = true;
-                        hasSnapped = false;
+                 
 
 
 

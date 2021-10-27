@@ -12,12 +12,10 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
     Vector3 prevPos;
     Vector3 CurrentPos;
     bool hasChanged;
-<<<<<<< HEAD
     float zrot = 0;
 
     [SerializeField] bool isFourpicOneWord;
-=======
->>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
+
    // Vector4 Rot  Quaternion;
     RectTransform rectTransform;
     //  Vector3 mousepos;
@@ -173,14 +171,9 @@ public class spinner : MonoBehaviour, IPointerEnterHandler, IPointerExitHandler
 
    
 
-
-<<<<<<< HEAD
-
     
-=======
-    }
 
->>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
+
     public void CheckWheelrotation()
     {
 

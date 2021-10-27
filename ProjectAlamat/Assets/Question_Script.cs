@@ -11,14 +11,15 @@ public class Question_Script : MonoBehaviour
     [SerializeField] GameObject IdentificationPanel;
     [SerializeField] GameObject ChoicesPanel;
     [SerializeField] GameObject ScrollwheelPanel;
+    [SerializeField] GameObject FourSentecesOnewordPanel;
 
-  [SerializeField]  SetChoiceBox setChoiceBox;
+    [SerializeField]  SetChoiceBox setChoiceBox;
     [SerializeField] ScrollScript scrollScript;
  [SerializeField]   SetWheelSentences setWheelSentences_scrpt;
     [SerializeField] GameObject wheelGamePanel;
+   
 
-
-    //[SerializeField] SetFourSentencesOneWord fourSentencesOneWord;
+    [SerializeField] SetFourSentencesOneWord fourSentencesOneWord;
    [SerializeField] List<Salita> wordList= new List<Salita>();
     Salita Answer;
  
@@ -34,11 +35,7 @@ public class Question_Script : MonoBehaviour
 
   public  Salita GetSalita()
     {
-//<<<<<<< HEAD
-//=======
-        
 
-//>>>>>>> ad863b714b9a191eec3e7126008fe72c9860497c
 
         if (Answer != null)
         {
@@ -64,7 +61,7 @@ public class Question_Script : MonoBehaviour
                 ChoicesPanel.SetActive(false);
                 wheelGamePanel.SetActive(false);
                 ScrollwheelPanel.SetActive(false);
-                // FourSentecesOnewordPanel.SetActive(false);
+                 FourSentecesOnewordPanel.SetActive(false);
 
                 qText = Identification();
                 break;
@@ -73,7 +70,7 @@ public class Question_Script : MonoBehaviour
                 ChoicesPanel.SetActive(true);
                 wheelGamePanel.SetActive(false);
                 ScrollwheelPanel.SetActive(false);
-                //FourSentecesOnewordPanel.SetActive(false);
+                FourSentecesOnewordPanel.SetActive(false);
 
                 qText = multipleChooiceQuestion();
                 break;
@@ -82,7 +79,7 @@ public class Question_Script : MonoBehaviour
                 IdentificationPanel.SetActive(false);
                 ChoicesPanel.SetActive(false);
                 ScrollwheelPanel.SetActive(false);
-                //FourSentecesOnewordPanel.SetActive(false);
+                FourSentecesOnewordPanel.SetActive(false);
 
                 qText = wheelGame();
                 break;
@@ -92,9 +89,10 @@ public class Question_Script : MonoBehaviour
                 ChoicesPanel.SetActive(false);
                 wheelGamePanel.SetActive(false);
                 ScrollwheelPanel.SetActive(false);
-                // FourSentecesOnewordPanel.SetActive(true);
+                 FourSentecesOnewordPanel.SetActive(true);
 
-                // qText= SetFourSentencesOneWord();
+             SetFourSentencesOneWord();
+                qText = "";
                 break;
             case QuestionType.ScrollWheel:
                 IdentificationPanel.SetActive(false);
@@ -103,7 +101,7 @@ public class Question_Script : MonoBehaviour
                 ScrollwheelPanel.SetActive(true);
                 ScrollWheel();
                 qText = "";
-                // FourSentecesOnewordPanel.SetActive(true);
+                 FourSentecesOnewordPanel.SetActive(false);
 
                 // qText= SetFourSentencesOneWord();
                 break;
@@ -170,7 +168,7 @@ public class Question_Script : MonoBehaviour
 
     }
 
-<<<<<<< HEAD
+
 
     public void SetFourSentencesOneWord()
     {
@@ -181,28 +179,27 @@ public class Question_Script : MonoBehaviour
         for (int i = 0; i < 4; i++)
         {
 
-            while (true)
+            for (int y = 0; y < wordList.Count; y++)
             {
-                rand = Random.Range(0, wordList.Count);
+
                 if (!choices.Contains(wordList[i].salita))
                 {
                     choices.Add(wordList[i].salita);
                     break;
                 }
-
             }
-          
-      
-            
+
+
+
         }
 
-        sentencesOneWord_Script.SetSenctences(Answer,choices);
+        Debug.LogError(choices.Count);
+        fourSentencesOneWord.SetSenctences(Answer,choices);
 
 
     }
 
-=======
->>>>>>> b8c1b61e4de600620d48bcea4dcc991ed974810a
+
     public string wheelGame()
     {
 
