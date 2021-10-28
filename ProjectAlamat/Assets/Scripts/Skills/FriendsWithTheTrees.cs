@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Earthquake : Skill_Base
+public class NewBehaviourScript : Skill_Base
 {
     public override void ActivateSkill()
     {
-        GameObject.FindWithTag("LevelManager").GetComponent<LevelScript>().result(false);
+        GameObject.FindWithTag("PlayerObject").GetComponent<PlayerScript>().TakeDamage(this.gameObject.GetComponent<Character_Base>().GetAtk()/2);
     }
     // Update is called once per frame
     void Update()

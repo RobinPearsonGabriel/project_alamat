@@ -24,6 +24,11 @@ public class Skill_Base : MonoBehaviour
 
     }
 
+    public int GetDuration()
+    {
+        return Duration;
+    }
+
     public virtual void CheckSkillCondition()
     {
         if (turnsSinceSpawned >= Duration)

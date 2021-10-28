@@ -2,11 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Earthquake : Skill_Base
+public class Scald : Skill_Base
 {
     public override void ActivateSkill()
     {
-        GameObject.FindWithTag("LevelManager").GetComponent<LevelScript>().result(false);
+        GameObject.FindWithTag("PlayerObject").GetComponent<PlayerScript>().AtkPercentIncrease(-1.0f, null);
     }
     // Update is called once per frame
     void Update()

@@ -27,7 +27,7 @@ public class ScrollScript : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     }
    public void setTexts(string questions, List<string>texts)
     {
-        Debug.LogError(questions) ;
+        Debug.Log(questions) ;
         for (int i = 0; i < 3; i++)
         {
             Texts[i].GetComponent<Text>().text = texts[i];

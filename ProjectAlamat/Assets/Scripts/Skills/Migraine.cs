@@ -13,12 +13,22 @@ public class Migraine : Skill_Base
 
     public override void ActivateSkill()
     {
-        Instantiate(migrainePrefab, spawnPosition);
+        spawnedObject = Instantiate(migrainePrefab, spawnPosition);
+        spawnedObject.transform.parent = canvas.transform;
+
     }
 
     protected override void DeactivateSkill()
     {
         Destroy(spawnedObject);
+    }
+
+    void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.E))
+        {
+            ActivateSkill();
+        }
     }
 
 }

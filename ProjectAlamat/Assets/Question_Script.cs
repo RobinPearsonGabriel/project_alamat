@@ -193,7 +193,7 @@ public class Question_Script : MonoBehaviour
 
         }
 
-        Debug.LogError(choices.Count);
+        Debug.LogWarning(choices.Count);
         fourSentencesOneWord.SetSenctences(Answer,choices);
 
 
