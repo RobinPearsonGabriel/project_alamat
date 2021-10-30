@@ -176,11 +176,9 @@ public class Question_Script : MonoBehaviour
         int rand = 0;
         List<string> choices = new List<string>();
         Answer = wordList[Random.Range(0, wordList.Count)];
-<<<<<<< HEAD
-        
-=======
+
         choices.Add(Answer.salita);
->>>>>>> c544d86f872f7c031aea39ce9bb76378b2344a32
+
         for (int i = 0; i < 4; i++)
         {
 
