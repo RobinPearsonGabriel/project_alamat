@@ -549,7 +549,7 @@ GameObject:
   - component: {fileID: 1829098106}
   - component: {fileID: 1829098105}
   m_Layer: 0
-  m_Name: Square
+  m_Name: BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -596,7 +596,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: c65c7419148e2e44190e71b2e196a5e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 9d3768c28648d574192ba362691ce41f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -615,8 +615,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1829098104}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.0657, y: 0.0269, z: 0}
-  m_LocalScale: {x: 0.956852, y: 0.93927234, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1.140821, y: 1.140821, z: 1.140821}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
