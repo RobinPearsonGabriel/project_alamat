@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   salita: ang Surigao.
   tagalogSentenceTraining: 'Misteryoso '
-  englishSentenceTraining: 
-  tagalogSentenceBattle: 
+  englishSentenceTraining: 'Misteryoso '
+  tagalogSentenceBattle: 'Misteryoso '
   englishSentenceBattle: 'Misteryoso '
   Sentences:
   - 'Misteryoso '

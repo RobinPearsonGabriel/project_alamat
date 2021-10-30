@@ -31,9 +31,12 @@ public class Character_Base : MonoBehaviour
         return hp > 0;
 
     }
+    public float GetAtk()
+    {
+        return atk;
+    }
     characterType GetcharType()
     {
-
         return type;
     }
     public string GetCombatDialog()
@@ -67,7 +70,7 @@ public class Character_Base : MonoBehaviour
   
     public virtual bool Attack(GameObject Target)
     {
-        if (Target.tag == "Player")
+        if (Target.tag == "PlayerObject")
         {
             Target.GetComponent<PlayerScript>().TakeDamage(atk);
             Debug.Log(name + " attacked " + Target.GetComponent<PlayerScript>().name);
@@ -131,6 +134,7 @@ public class Character_Base : MonoBehaviour
 
 public class Enemy_Class : Character_Base
 {  public float experiencePoints;
+    public Skill_Base PassiveSkill;
     float currcountDown;
    [SerializeField]  Image countdownBar;
     protected override void Start()
@@ -160,6 +164,7 @@ public class Enemy_Class : Character_Base
             currcountDown = 0;
             base.Attack(Target);
             Debug.LogWarning("atk");
+            PassiveSkill.ActivateSkill();
             countdownBar.fillAmount = currcountDown / countdown;
             return true;
         }
@@ -167,6 +172,10 @@ public class Enemy_Class : Character_Base
         {
 
             deductcountDown();
+            if (PassiveSkill != null && PassiveSkill.GetDuration() > 0)
+            {
+                PassiveSkill.CheckSkillCondition();
+            }
             return false;
         }
        

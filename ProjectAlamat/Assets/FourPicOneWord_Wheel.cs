@@ -56,7 +56,7 @@ public class FourPicOneWord_Wheel : MonoBehaviour, IPointerEnterHandler, IPointe
         // Update is called once per frame
         void Update()
         {
-        Debug.LogError(choices.Count);
+      
         }
 
         void LateUpdate()

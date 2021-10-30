@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Skill_Base : MonoBehaviour
 {
-    public int cooldown;
     public int turnsSinceSpawned;
     public int Duration;
 
@@ -24,12 +23,18 @@ public class Skill_Base : MonoBehaviour
 
     }
 
+    public int GetDuration()
+    {
+        return Duration;
+    }
+
     public virtual void CheckSkillCondition()
     {
         if (turnsSinceSpawned >= Duration)
         {
             DeactivateSkill();
         }
+        turnsSinceSpawned++;
     }
 
     public void AddTurn()

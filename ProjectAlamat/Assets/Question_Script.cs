@@ -176,7 +176,11 @@ public class Question_Script : MonoBehaviour
         int rand = 0;
         List<string> choices = new List<string>();
         Answer = wordList[Random.Range(0, wordList.Count)];
+<<<<<<< HEAD
         
+=======
+        choices.Add(Answer.salita);
+>>>>>>> c544d86f872f7c031aea39ce9bb76378b2344a32
         for (int i = 0; i < 4; i++)
         {
 
@@ -193,8 +197,16 @@ public class Question_Script : MonoBehaviour
 
 
         }
+        for (int i = 0; i < choices.Count-1; i++)
+        {
+            string temp;
 
-        Debug.LogError(choices.Count);
+            int random = Random.Range(0, choices.Count);
+            temp = choices[i];
+            choices[i] = choices[random];
+            choices[random] = temp;
+        }
+        Debug.LogWarning(choices.Count);
         fourSentencesOneWord.SetSenctences(Answer,choices);
 
 
@@ -251,10 +263,31 @@ public class Question_Script : MonoBehaviour
         }
 
     }
+
+    void RandmizeList(ref List<string> list)
+    {
+        string temp;
+        for (int i = 0; i < list.Count; i++)
+        {
+
+
+            int rand = Random.Range(0, list.Count);
+
+
+
+            temp = list[i];
+            list[i] = wordList[rand].salita;
+            list[rand] = temp;
+
+        }
+
+    }
+
+
     //typedquestion
     //checker
 
-   public int Getwordlistcount()
+    public int Getwordlistcount()
     {
         return wordList.Count;
     }
