@@ -149,7 +149,7 @@ public class Question_Script : MonoBehaviour
         {
            Salita temp;
 
-             int random = Random.Range(0, choices.Count-1);
+             int random = Random.Range(0, choices.Count);
             temp = choices[i];
              choices[i] = choices[random];
             choices[random] = temp;
@@ -176,6 +176,7 @@ public class Question_Script : MonoBehaviour
         int rand = 0;
         List<string> choices = new List<string>();
         Answer = wordList[Random.Range(0, wordList.Count)];
+        
         for (int i = 0; i < 4; i++)
         {
 
@@ -218,6 +219,8 @@ public class Question_Script : MonoBehaviour
                 }
             }
         }
+        
+        
 
         setWheelSentences_scrpt.SetPhrases(phrases);
         return "Match the sentences ";
