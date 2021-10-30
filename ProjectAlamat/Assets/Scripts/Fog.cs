@@ -41,7 +41,7 @@ public class Fog : MonoBehaviour
             if (myPlayer.levelsComplete[x])
             {
                 Debug.Log("Moving Fog");
-                float newX = 3.0f + this.transform.position.x;
+                float newX = 5.0f + this.transform.position.x;
                 while (this.transform.position.x < newX)
                 {
                     this.transform.position = new Vector2(this.transform.position.x + 0.01f, this.transform.position.y);

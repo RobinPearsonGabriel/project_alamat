@@ -229,7 +229,7 @@ public class LevelScript : MonoBehaviour
 
                 combatPhasePanel.SetActive(false);
                
-                nextButton.SetActive(true);
+                nextButton.SetActive(false);
               
              
                     //  round++;
@@ -272,7 +272,7 @@ public class LevelScript : MonoBehaviour
                 dialog_Script.AddDialog ( enemy.GetCombatDialog(), false,enemy.getName(), Dialog_Script.SpeakerSprite.Enemy);
                 combatPhasePanel.SetActive(false);
                
-                nextButton.SetActive(true);
+                nextButton.SetActive(false);
             
                      if (currentPhase == roundPhase.Combat)
                     {

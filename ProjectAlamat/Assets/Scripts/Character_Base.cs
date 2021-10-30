@@ -37,7 +37,6 @@ public class Character_Base : MonoBehaviour
     }
     characterType GetcharType()
     {
-
         return type;
     }
     public string GetCombatDialog()
@@ -165,6 +164,7 @@ public class Enemy_Class : Character_Base
             currcountDown = 0;
             base.Attack(Target);
             Debug.LogWarning("atk");
+            PassiveSkill.ActivateSkill();
             countdownBar.fillAmount = currcountDown / countdown;
             return true;
         }
@@ -172,7 +172,7 @@ public class Enemy_Class : Character_Base
         {
 
             deductcountDown();
-            if (PassiveSkill != null && PassiveSkill.GetDuration() <= 0)
+            if (PassiveSkill != null && PassiveSkill.GetDuration() > 0)
             {
                 PassiveSkill.CheckSkillCondition();
             }

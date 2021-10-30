@@ -26,6 +26,11 @@ public class LevelUIManager : MonoBehaviour
         ActivatePanel(PausePanel);
     }
 
+    public void LoadScene(string scenename)
+    {
+        SceneManager.LoadScene(scenename);
+    }
+
     public void OnLevelButtonClicked(int levelNumber)
     {
         levelSelected = levelNumber;

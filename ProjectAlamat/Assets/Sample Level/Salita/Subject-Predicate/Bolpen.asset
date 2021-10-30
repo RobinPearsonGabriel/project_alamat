@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Bolpen
   m_EditorClassIdentifier: 
   salita: sa pagsusulat
-  tagalogSentenceTraining: 
+  tagalogSentenceTraining: Ginagamit ang bolpen
   englishSentenceTraining: Ginagamit ang bolpen
-  tagalogSentenceBattle: 
+  tagalogSentenceBattle: Ginagamit ang bolpen
   englishSentenceBattle: Ginagamit ang bolpen
   Sentences:
   - Ginagamit ang bolpen

@@ -14,8 +14,8 @@ public class ScrollScript : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     [SerializeField] GameObject panel;
     float maxDistance = 50;
     [SerializeField] Text incompleteTextbox;
-    int maxFontsize=30;
-    int minfontsize=8;
+    int maxFontsize=60;
+    int minfontsize=20;
     Checker checkerScript;
     // Start is called before the first frame update
     void Start()

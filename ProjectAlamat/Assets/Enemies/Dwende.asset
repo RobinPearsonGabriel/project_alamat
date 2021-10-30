@@ -23,8 +23,8 @@ MonoBehaviour:
   - '"Wrong... But hey, there was an attempt."'
   - '"Were you trying your best? Hahaha... wrong."'
   - '"Swing and a miss, buddy. Try again."'
-  baseHp: 10
-  baseAtk: 10
+  baseHp: 12
+  baseAtk: 11
   baseDef: 5
   StartLvl: 3
   countDown: 4

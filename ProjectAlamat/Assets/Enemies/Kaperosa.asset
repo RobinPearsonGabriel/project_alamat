@@ -23,8 +23,8 @@ MonoBehaviour:
   - '"Did your head hit something? Wrong."'
   - '"Can you do better than that?"'
   - '"Hay... wrong."'
-  baseHp: 10
-  baseAtk: 10
+  baseHp: 14
+  baseAtk: 12
   baseDef: 5
   StartLvl: 3
   countDown: 4

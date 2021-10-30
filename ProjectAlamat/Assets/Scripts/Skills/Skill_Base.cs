@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Skill_Base : MonoBehaviour
 {
-    public int cooldown;
     public int turnsSinceSpawned;
     public int Duration;
 
@@ -35,6 +34,7 @@ public class Skill_Base : MonoBehaviour
         {
             DeactivateSkill();
         }
+        turnsSinceSpawned++;
     }
 
     public void AddTurn()

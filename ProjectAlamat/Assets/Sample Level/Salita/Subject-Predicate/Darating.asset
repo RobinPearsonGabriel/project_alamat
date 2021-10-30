@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Darating
   m_EditorClassIdentifier: 
   salita: na ang Presidente.
-  tagalogSentenceTraining: 
+  tagalogSentenceTraining: 'Darating '
   englishSentenceTraining: 'Darating '
-  tagalogSentenceBattle: 
+  tagalogSentenceBattle: 'Darating '
   englishSentenceBattle: 'Darating '
   Sentences:
   - 'Darating '

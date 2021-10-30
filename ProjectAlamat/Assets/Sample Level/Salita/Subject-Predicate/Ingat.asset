@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Ingat
   m_EditorClassIdentifier: 
   salita: ang bangin.
-  tagalogSentenceTraining: 
+  tagalogSentenceTraining: Ingat! Malalim
   englishSentenceTraining: Ingat! Malalim
-  tagalogSentenceBattle: 
+  tagalogSentenceBattle: Ingat! Malalim
   englishSentenceBattle: Ingat! Malalim
   Sentences:
   - Ingat! Malalim
