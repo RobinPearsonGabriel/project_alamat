@@ -15,10 +15,20 @@ public class LevelUIManager : MonoBehaviour
     public Text LevelNameText;
     private int levelSelected;
 
+    [Header("Sound Settings")]
+    public Slider musicSlider;
+    public Slider soundSlider;
+    public AudioSource audioSource;
+
+    private float volume;
+
     // Start is called before the first frame update
     void Start()
     {
         ActivatePanel(emptyPanel);
+        audioSource.volume = PlayerPrefs.GetFloat("VolumeLevel", audioSource.volume);
+        musicSlider.value = audioSource.volume;
+        volume = audioSource.volume;
     }
 
     public void OnPauseButtonClicked()
@@ -87,12 +97,19 @@ public class LevelUIManager : MonoBehaviour
 
     public void AdjustMusic()
     {
-        //Adjust Music
+        audioSource.volume = musicSlider.value;
+        SaveVolumeLevel();
     }
 
     public void AdjustSound()
     {
         //Adjust Sound
+    }
+
+    public void SaveVolumeLevel()
+    {
+        volume = audioSource.volume;
+        PlayerPrefs.SetFloat("VolumeLevel", volume);
     }
 
     public void ActivatePanel(GameObject panelToBeActivated)

@@ -10,12 +10,22 @@ public class UIManager : MonoBehaviour
     public GameObject mainPanel;
     public GameObject savePanel;
     public GameObject confirmationPanel;
+
+    [Header("Sound Settings")]
+    public Slider musicSlider;
+    public Slider soundSlider;
+    public AudioSource audioSource;
+
+    private float volume;
     private int saveNumber;
 
     // Start is called before the first frame update
     void Start()
     {
         ActivatePanel(mainPanel);
+        audioSource.volume = PlayerPrefs.GetFloat("VolumeLevel", audioSource.volume);
+        musicSlider.value = audioSource.volume;
+        volume = audioSource.volume;
     }
 
     public void StartGame()
@@ -69,12 +79,19 @@ public class UIManager : MonoBehaviour
 
     public void ChangeMusicVolume()
     {
-
+        audioSource.volume = musicSlider.value;
+        SaveVolumeLevel();
     }
 
     public void ChangeSoundVolume()
     {
 
+    }
+
+    public void SaveVolumeLevel()
+    {
+        volume = audioSource.volume;
+        PlayerPrefs.SetFloat("VolumeLevel", volume);
     }
 
 
