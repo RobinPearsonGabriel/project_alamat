@@ -15,8 +15,8 @@ public class Dialog_Script : MonoBehaviour
     [SerializeField] Image Characterface;
     [SerializeField] GameObject namePanel;
     [SerializeField] Text nameText;
-
-
+    [SerializeField] GameObject DialogPanel;
+    
 
 
     public enum SpeakerSprite { none, Andes, Enemy };
@@ -78,6 +78,7 @@ public class Dialog_Script : MonoBehaviour
     {
          if (dialogs.Count > 0)
         {
+            DialogPanel.SetActive(true);
             LevelScript.instance.setCanAnswer(false);
             if (Input.GetMouseButtonDown(0))
             {
@@ -89,10 +90,10 @@ public class Dialog_Script : MonoBehaviour
 
     public void setRoundText(string Text,string name)
     {
-        namePanel.SetActive(true);
-
-        nameText.text = name;
-        dialogTextBox.text = Text;
+        // namePanel.SetActive(true);
+        DialogPanel.SetActive(false);
+        // nameText.text = name;
+        // dialogTextBox.text = Text;
     }
 
 

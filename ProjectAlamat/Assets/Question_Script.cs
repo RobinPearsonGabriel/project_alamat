@@ -22,6 +22,8 @@ public class Question_Script : MonoBehaviour
     [SerializeField] SetFourSentencesOneWord fourSentencesOneWord;
    [SerializeField] List<Salita> wordList= new List<Salita>();
     Salita Answer;
+    [SerializeField] GameObject BookPanel;
+    [SerializeField] TextMeshProUGUI BookQuestion;
  
    
     // Start is called before the first frame update
@@ -62,8 +64,8 @@ public class Question_Script : MonoBehaviour
                 wheelGamePanel.SetActive(false);
                 ScrollwheelPanel.SetActive(false);
                  FourSentecesOnewordPanel.SetActive(false);
-
-                qText = Identification();
+                BookPanel.SetActive(true);
+                BookQuestion.text = Identification();
                 break;
             case QuestionType.Choices:
                 IdentificationPanel.SetActive(false);
@@ -71,8 +73,8 @@ public class Question_Script : MonoBehaviour
                 wheelGamePanel.SetActive(false);
                 ScrollwheelPanel.SetActive(false);
                 FourSentecesOnewordPanel.SetActive(false);
-
-                qText = multipleChooiceQuestion();
+                BookPanel.SetActive(true);
+                BookQuestion.text = multipleChooiceQuestion();
                 break;
             case QuestionType.wheelGame:
                 wheelGamePanel.SetActive(true);
@@ -80,11 +82,12 @@ public class Question_Script : MonoBehaviour
                 ChoicesPanel.SetActive(false);
                 ScrollwheelPanel.SetActive(false);
                 FourSentecesOnewordPanel.SetActive(false);
-
+                BookPanel.SetActive(false);
                 qText = wheelGame();
                 break;
 
             case QuestionType.FourSentenceOneWord:
+                BookPanel.SetActive(false);
                 IdentificationPanel.SetActive(false);
                 ChoicesPanel.SetActive(false);
                 wheelGamePanel.SetActive(false);
@@ -99,6 +102,7 @@ public class Question_Script : MonoBehaviour
                 ChoicesPanel.SetActive(false);
                 wheelGamePanel.SetActive(false);
                 ScrollwheelPanel.SetActive(true);
+                BookPanel.SetActive(false);
                 ScrollWheel();
                 qText = "";
                  FourSentecesOnewordPanel.SetActive(false);
