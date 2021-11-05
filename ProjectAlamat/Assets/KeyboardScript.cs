@@ -5,13 +5,13 @@ using UnityEngine.UI;
 using TMPro;
 public class KeyboardScript : MonoBehaviour
 {
-    public TMP_InputField PlayerInput;
+    public TextMeshProUGUI PlayerInput;
     [SerializeField] GameObject showKeyboardButton;
     [SerializeField] GameObject Keyboard;
     // Start is called before the first frame update
     void Start()
     {
-        
+        PlayerInput.text = "";
     }
 
     // Update is called once per frame
