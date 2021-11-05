@@ -7,6 +7,8 @@ public class Player : MonoBehaviour
     public int level;
     public bool[] levelsComplete;
 
-
-    
+    public void Start()
+    {
+        bool[] levelsComplete = new bool[7];
+    }
 }

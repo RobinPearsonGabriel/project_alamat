@@ -175,7 +175,7 @@ public class Question_Script : MonoBehaviour
         string x="";
         int rand = 0;
         List<string> choices = new List<string>();
-        Answer = wordList[Random.Range(0, wordList.Count)];
+        Answer = wordList[Random.Range(0, wordList.Count-1)];
 
         choices.Add(Answer.salita);
 

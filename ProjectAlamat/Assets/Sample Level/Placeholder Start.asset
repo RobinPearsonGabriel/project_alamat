@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Placeholder Start
   m_EditorClassIdentifier: 
   dialogs:
-  - sentence: 
-    speaker: 
+  - sentence: (Click to Continue)
+    speaker: System

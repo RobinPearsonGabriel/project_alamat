@@ -138,6 +138,14 @@ PrefabInstance:
       propertyPath: characterBaseStat
       value: 
       objectReference: {fileID: 11400000, guid: ee6ea95b1804ebc4388182078d5e219f, type: 2}
+    - target: {fileID: 3042128336256442373, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_FlipX
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042128336256442374, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 2.83
+      objectReference: {fileID: 0}
     - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: wordList.Array.size
       value: 7
@@ -182,6 +190,10 @@ PrefabInstance:
       propertyPath: StartingDialog
       value: 
       objectReference: {fileID: 11400000, guid: 7bc07291269094c41a022782c8e2604d, type: 2}
+    - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: precombatDialog
+      value: 
+      objectReference: {fileID: 11400000, guid: 7fcbad04f3c48794ba3dda9113075b09, type: 2}
     - target: {fileID: 5540495901209079811, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_Name
       value: LevelPrefab 1
@@ -436,7 +448,7 @@ Transform:
   m_GameObject: {fileID: 1829098104}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.140821, y: 1.140821, z: 1.140821}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1

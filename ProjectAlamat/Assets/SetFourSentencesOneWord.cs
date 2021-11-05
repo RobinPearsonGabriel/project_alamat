@@ -29,18 +29,11 @@ public class SetFourSentencesOneWord : MonoBehaviour
 
         for (int i = 0; i < Sentences.Count; i++)
         {
-
             Sentences[i].text = salita.Sentences[i];
         }
       
-
         fourSentencesOneWord_script.setchoices(words);
-      
 
-           
-          
-
-           
         }
     
     

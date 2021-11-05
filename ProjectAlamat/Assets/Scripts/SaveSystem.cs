@@ -54,7 +54,9 @@ public class SaveSystem: MonoBehaviour
 
     public void ChangeSaveNumber(int number)
     {
+        Debug.Log(number);
         SaveFileNumber = number;
+        Debug.Log(SaveFileNumber);
     }
 
     public void SavePlayer()
@@ -63,13 +65,25 @@ public class SaveSystem: MonoBehaviour
         string json = JsonUtility.ToJson(player);
         Debug.Log(json);
         PlayerPrefs.SetString("saveFile" + SaveFileNumber.ToString(), json);
-        }
+    }
 
     public void Load()
     {
         Debug.Log("Loading...");
-        if (PlayerPrefs.GetString("saveFile" + SaveFileNumber.ToString()) != null)
+        Debug.Log(SaveFileNumber);
+        if (PlayerPrefs.GetString("saveFile" + SaveFileNumber.ToString(), "none") != "none")
         {
+            string json = PlayerPrefs.GetString("saveFile" + SaveFileNumber.ToString());
+            Debug.Log(json);
+            JsonUtility.FromJsonOverwrite(json, player);
+        }
+        else
+        {
+            for (int x = 0; x < 7; x++)
+            {
+                player.levelsComplete[x] = false;
+            }
+            SavePlayer();
             string json = PlayerPrefs.GetString("saveFile" + SaveFileNumber.ToString());
             Debug.Log(json);
             JsonUtility.FromJsonOverwrite(json, player);
