@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Santelmo
   m_EditorClassIdentifier: 
   charType: 0
-  name: 
-  NormalSprite: {fileID: 0}
+  name: Santelmo
+  NormalSprite: {fileID: 21300000, guid: b3a54d7e33104d0458d6e65ed1387c1b, type: 3}
   atkAnimation: []
   DeathAnimation: []
   damagedAnimation: []
@@ -25,6 +25,6 @@ MonoBehaviour:
   - What a joke, you are wrong.
   baseHp: 18
   baseAtk: 14
-  baseDef: 0
+  baseDef: 5
   StartLvl: 3
-  countDown: 0
+  countDown: 5

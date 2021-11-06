@@ -17,7 +17,8 @@ public class UIManager : MonoBehaviour
     public AudioSource audioSource;
 
     private float volume;
-    private int saveNumber;
+    
+    [SerializeField]private int saveNumber;
 
     // Start is called before the first frame update
     void Start()
@@ -28,8 +29,14 @@ public class UIManager : MonoBehaviour
         volume = audioSource.volume;
     }
 
-    public void StartGame()
+    void Awake()
     {
+        saveNumber=0;
+    }
+
+    IEnumerator StartGame()
+    {
+        yield return new WaitForSeconds(0.1f);
         SceneManager.LoadScene("LevelSelection");
     }
 
@@ -97,9 +104,10 @@ public class UIManager : MonoBehaviour
 
     public void GameButtonPressed(int saveNumber)
     {
+        Debug.Log(saveNumber);
         SaveSystem.instance.ChangeSaveNumber(saveNumber);
         SaveSystem.instance.Load();
-        StartGame();
+        StartCoroutine("StartGame");
     }
 
 

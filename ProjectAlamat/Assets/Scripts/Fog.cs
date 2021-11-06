@@ -7,48 +7,70 @@ public class Fog : MonoBehaviour
 
     public Vector2 startPosition;
     private Player myPlayer;
+    private float newX;
     // Start is called before the first frame update
     void Awake()
     {
-        //this.transform.position = startPosition;
         if (GameObject.FindGameObjectWithTag("Player").GetComponent<Player>() != null)
         {
             myPlayer = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();
-            StartCoroutine("MoveFog");
         }
     }
 
-    //void Update()
-    //{
-    //    int movement = myPlayer.levelsComplete.Length;
-    //    for (int x = 0; x < movement; x++)
-    //    {
-    //        if (myPlayer.levelsComplete[x])
-    //        {
-    //            Debug.Log("Moving Fog");
-    //            float newX = 3.0f + this.transform.position.x;
-    //            this.transform.position = new Vector2(Mathf.Lerp(this.transform.position.x, newX, Time.deltaTime * 1), this.transform.position.y);
-    //        }
-    //    }
-    //}
-
-    IEnumerator MoveFog()
+    void OnEnable()
     {
+        Debug.Log("Fog Enabled");
+        FogStart();
+    }
 
-        int movement = myPlayer.levelsComplete.Length;
-        for (int x = 0; x < movement; x++)
+    void FogStart()
+    {
+        newX = 0;
+
+        foreach (bool completeLevel in myPlayer.levelsComplete)
         {
-            if (myPlayer.levelsComplete[x])
+            if (completeLevel)
             {
-                Debug.Log("Moving Fog");
-                float newX = 5.0f + this.transform.position.x;
-                while (this.transform.position.x < newX)
-                {
-                    this.transform.position = new Vector2(this.transform.position.x + 0.01f, this.transform.position.y);
-                    yield return new WaitForSeconds(0.01f);
-                }
+                newX += 4.5f;
             }
-            yield return new WaitForSeconds(0.5f);
+        }
+        this.transform.position = new Vector2 (startPosition.x + newX,startPosition.y);
+        newX = 4.5f + this.transform.position.x;
+        Debug.Log("Setting Fog:" + this.transform.position.x);
+        InvokeRepeating("MoveFog", 1, 0.01f);
+        //StartCoroutine("MoveFog");
+    }
+
+
+    public void MoveFog()
+    {
+        Debug.Log("MovingFog");
+        if (this.transform.position.x < newX)
+        {
+            this.transform.position = new Vector2(this.transform.position.x + 0.01f, this.transform.position.y);
+        }
+        else
+        {
+            Debug.Log("FinishedMoving");
+            CancelInvoke();
         }
     }
+
+
+
+    //IEnumerator MoveFog()
+    //{
+    //    Debug.Log("Moving Fog");
+    //    float newX = 5.0f + this.transform.position.x;
+    //    Debug.Log(newX);
+    //    while (this.transform.position.x < newX)
+    //    {
+            
+    //        this.transform.position = new Vector2(this.transform.position.x + 0.01f, this.transform.position.y);
+    //        yield return new WaitForSeconds(0.01f);
+    //    }
+    //    Debug.Log(this.transform.position.x);
+    //    Debug.Log(newX);
+    //}
 }
+

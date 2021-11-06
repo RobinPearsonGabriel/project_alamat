@@ -23,10 +23,13 @@ public class Underground : Skill_Base
 
     public override void ActivateSkill()
     {
-        //if(Random.Range(0,100) > 50)
-        //{
-            this.gameObject.GetComponent<EnemyScript>().hp = previousHealth;
-            GameObject.FindWithTag("LevelManager").GetComponent<Dialog_Script>().AddDialog(this.gameObject.GetComponent<EnemyScript>().getName() + " recovers his Endurance!", false, " ", Dialog_Script.SpeakerSprite.Enemy);
-        //}
+        if(Random.Range(0,100) > 50)
+          {
+            if (this.gameObject.GetComponent<EnemyScript>().hp != previousHealth)
+            {
+                this.gameObject.GetComponent<EnemyScript>().hp = previousHealth;
+                GameObject.FindWithTag("LevelManager").GetComponent<Dialog_Script>().AddDialog(this.gameObject.GetComponent<EnemyScript>().getName() + " dodged the attack", false, " ", Dialog_Script.SpeakerSprite.Enemy);
+            }
+          }
     }
 }

@@ -13,7 +13,7 @@ public class LevelUIManager : MonoBehaviour
     [Header("LevelSelectionPanel")]
     public GameObject LevelSelectionPanel;
     public Text LevelNameText;
-    private int levelSelected;
+    private int levelSelected=0;
 
     [Header("Sound Settings")]
     public Slider musicSlider;
