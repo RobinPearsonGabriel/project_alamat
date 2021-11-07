@@ -11,6 +11,7 @@ public class Fog : MonoBehaviour
     // Start is called before the first frame update
     void Awake()
     {
+        this.transform.position = startPosition;          
         if (GameObject.FindGameObjectWithTag("Player").GetComponent<Player>() != null)
         {
             myPlayer = GameObject.FindGameObjectWithTag("Player").GetComponent<Player>();

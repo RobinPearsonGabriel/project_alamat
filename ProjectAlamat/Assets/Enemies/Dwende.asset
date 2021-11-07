@@ -19,7 +19,6 @@ MonoBehaviour:
   DeathAnimation: []
   damagedAnimation: []
   CombatDialogs:
-  - '"Wrong... You suck."'
   - '"Wrong... But hey, there was an attempt."'
   - '"Were you trying your best? Hahaha... wrong."'
   - '"Swing and a miss, buddy. Try again."'
