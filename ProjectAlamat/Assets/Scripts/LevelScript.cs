@@ -93,7 +93,7 @@ public class LevelScript : MonoBehaviour
 
         dialog_Script.AddDialogList(StartingDialog,false);
         dialog_Script.AddDialogList(precombatDialog,false);
-  
+
     }
 
     // Update is called once per frame
@@ -224,7 +224,7 @@ public class LevelScript : MonoBehaviour
             if (isCorrect)
             {
                 Debug.Log("Answer was correct");
-                dialog_Script.AddDialog(player.GetCombatDialog(),false,player.getName(),Dialog_Script.SpeakerSprite.Andes );
+                dialog_Script.AddDialog(player.GetCombatDialog(),false,player.getName(),Dialog_Script.SpeakerSprite.Andes,DialogList.Speaker.Andes,DialogList.Pos.farleft );
                 
 
                 combatPhasePanel.SetActive(false);
@@ -248,7 +248,7 @@ public class LevelScript : MonoBehaviour
                         Debug.Log("Correct");
                     if (player.AtkPercentIncrease(1.0f, enemyObj))
                     {
-                        dialog_Script.AddDialog(player.getName() + " hit "+ enemy.getName() + "! ", false, " ", Dialog_Script.SpeakerSprite.Enemy);
+                        dialog_Script.AddDialog(player.getName() + " hit "+ enemy.getName() + "! ", false, " ", Dialog_Script.SpeakerSprite.Enemy,DialogList.Speaker.Enemy,DialogList.Pos.farleft);
                     }
 
                         //dialogTextBox.text = "Player Hit Enemy";
@@ -269,7 +269,7 @@ public class LevelScript : MonoBehaviour
 
             else
             {
-                dialog_Script.AddDialog ( enemy.GetCombatDialog(), false,enemy.getName(), Dialog_Script.SpeakerSprite.Enemy);
+                dialog_Script.AddDialog ( enemy.GetCombatDialog(), false,enemy.getName(), Dialog_Script.SpeakerSprite.Enemy,DialogList.Speaker.Enemy,DialogList.Pos.farright);
                 combatPhasePanel.SetActive(false);
                
                 nextButton.SetActive(false);
@@ -285,7 +285,7 @@ public class LevelScript : MonoBehaviour
             {
                 if (enemy.Attack(playerObj))
                 {
-                    dialog_Script.AddDialog(enemy.getName() + " hit Andres!", false, " ", Dialog_Script.SpeakerSprite.Enemy);
+                    dialog_Script.AddDialog(enemy.getName() + " hit Andres!", false, " ", Dialog_Script.SpeakerSprite.Enemy,DialogList.Speaker.Andes,DialogList.Pos.farright);
                 }
             }
         }

@@ -7,7 +7,7 @@ public class Scald : Skill_Base
     public override void ActivateSkill()
     {
         GameObject.FindWithTag("PlayerObject").GetComponent<PlayerScript>().AtkPercentIncrease(-1.0f, null);
-        GameObject.FindWithTag("LevelManager").GetComponent<Dialog_Script>().AddDialog(this.gameObject.GetComponent<EnemyScript>().getName() + " fires scalding water " + "\n The hot water breaks Andres's concentration!", false, " ", Dialog_Script.SpeakerSprite.Enemy);
+        GameObject.FindWithTag("LevelManager").GetComponent<Dialog_Script>().AddDialog(this.gameObject.GetComponent<EnemyScript>().getName() + " fires scalding water " + "\n The hot water breaks Andres's concentration!", false, " ", Dialog_Script.SpeakerSprite.Enemy,DialogList.Speaker.Enemy,DialogList.Pos.farright);
     }
     // Update is called once per frame
 }

@@ -25,6 +25,23 @@ public class Character_Base : MonoBehaviour
     {
         return name;
     }
+
+    public void SetPos(Transform Pos)
+    {
+        if(Pos!=null)
+        transform.position = Pos.position;
+    
+    }
+
+    public void SetSpriteEndabled(bool isActvie)
+    {
+
+        GetComponent<SpriteRenderer>().enabled = isActvie;
+
+
+    }
+
+
     public bool IsAlive()
     {
 
@@ -56,7 +73,9 @@ public class Character_Base : MonoBehaviour
         def = characterBaseStat.baseDef*(lvl*0.3f);
         maxHp = characterBaseStat.baseHp*(lvl*1.5f);
         hp = maxHp;
+       
         spriteRenderer.sprite = characterBaseStat.NormalSprite;
+     
         name = characterBaseStat.name;
         type = characterBaseStat.charType;
        
