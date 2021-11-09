@@ -13,66 +13,174 @@ MonoBehaviour:
   m_Name: Story_Chapter 6
   m_EditorClassIdentifier: 
   dialogs:
-  - sentence: Eventually, they reach the base of Sitan. Ibneg looks around and sees
+  - speakerSprite: 0
+    pos: 0
+    sentence: Eventually, they reach the base of Sitan. Ibneg looks around and sees
       Sitan talking to a chained Mayari.
     speaker: 
-  - sentence: Any ideas on how to free her?
+    Bg: 1
+    speakerNumber: 0
+  - speakerSprite: 1
+    pos: 3
+    sentence: Any ideas on how to free her?
     speaker: Ibneg
-  - sentence: For a minute, Andres thinks about what to do.
+    Bg: 2
+    speakerNumber: 0
+  - speakerSprite: 1
+    pos: 3
+    sentence: For a minute, Andres thinks about what to do.
     speaker: 
-  - sentence: "Hmm\u2026 We need to free Mayari if we want to have a chance against
+    Bg: 1
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: "Hmm\u2026 We need to free Mayari if we want to have a chance against
       Sitan. We have no choice. "
     speaker: Andres
-  - sentence: I'll distract Sitan. Ibneg, you have to free Mayari. Santelmo, if Sitan
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 1
+    pos: 3
+    sentence: I'll distract Sitan. Ibneg, you have to free Mayari. Santelmo, if Sitan
       calls for his companions, you need to stop them.
     speaker: Andres
-  - sentence: Half a plan. Nonetheless, a plan.
+    Bg: 1
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: Half a plan. Nonetheless, a plan.
     speaker: Santelmo
-  - sentence: 'No choice. Let''s do this. '
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 1
+    pos: 3
+    sentence: 'No choice. Let''s do this. '
     speaker: Ibneg
-  - sentence: Andres Lamat attempts to sneak up on Sitan.
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: Andres Lamat attempts to sneak up on Sitan.
     speaker: 
-  - sentence: "Can you feel it? Apolaki's strength weakening? I can also feel your
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: "Can you feel it? Apolaki's strength weakening? I can also feel your
       strength weakening Mayari\u2026 "
     speaker: Sitan
-  - sentence: Andres attempts to perform a spell on Sitan without him noticing it.
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: Andres attempts to perform a spell on Sitan without him noticing it.
     speaker: 
-  - sentence: Meaning any hit from me can end the goddess's life.
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: Meaning any hit from me can end the goddess's life.
     speaker: Sitan
-  - sentence: But Andres fails to cast a spell, and Sitan finally turns around and
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: But Andres fails to cast a spell, and Sitan finally turns around and
       sees Andres.
     speaker: 
-  - sentence: "Ah\u2026 Andres Lamat. The architect of my invasion."
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: "Ah\u2026 Andres Lamat. The architect of my invasion."
     speaker: Sitan
-  - sentence: Sitan spots the book that Andres is holding and using.
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: Sitan spots the book that Andres is holding and using.
     speaker: 
-  - sentence: Sitan spots the book that Andres is holding and using.
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: Sitan spots the book that Andres is holding and using.
     speaker: 
-  - sentence: "Ah\u2026 that book. I could feel Apolaki's power radiating from it."
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: "Ah\u2026 that book. I could feel Apolaki's power radiating from it."
     speaker: Sitan
-  - sentence: I have to admit, I thought Apolaki had less of an imagination than
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: I have to admit, I thought Apolaki had less of an imagination than
       this.
     speaker: Sitan
-  - sentence: Andres silently talks to Ibneg through a magic spell of telekinesis.
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: Andres silently talks to Ibneg through a magic spell of telekinesis.
     speaker: 
-  - sentence: Now, Ibneg.
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: Now, Ibneg.
     speaker: Andres
-  - sentence: I'm trying!
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: I'm trying!
     speaker: Ibneg
-  - sentence: And don't worry, once I deal with the last of Apolaki's power from
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: And don't worry, once I deal with the last of Apolaki's power from
       you, I can easily deal with those Aghoy and Santelmo friends of yours.
     speaker: Sitan
-  - sentence: The imprisoned goddess, Mayari, channels her thoughts to Andres.
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: The imprisoned goddess, Mayari, channels her thoughts to Andres.
     speaker: 
-  - sentence: Andres Lamat, Sitan's chain will take some time to break. So please
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: Andres Lamat, Sitan's chain will take some time to break. So please
       hold your ground.
     speaker: Mayari
-  - sentence: Andres buy us some time!
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: Andres buy us some time!
     speaker: Ibneg
-  - sentence: I applaud you, Andres. Who knew that it would only take one mortal
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: I applaud you, Andres. Who knew that it would only take one mortal
       being to destroy everything in my path?
     speaker: Sitan
-  - sentence: I swear before I draw my last breath, I will make this right!
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: I swear before I draw my last breath, I will make this right!
     speaker: Andres
-  - sentence: "We\u2019ll see about that."
+    Bg: 0
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: "We\u2019ll see about that."
     speaker: Sitan
+    Bg: 0
+    speakerNumber: 0

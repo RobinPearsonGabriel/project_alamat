@@ -16,7 +16,7 @@ public class Migraine : Skill_Base
         turnsSinceSpawned = 0;
         spawnedObject = Instantiate(migrainePrefab, spawnPosition);
         spawnedObject.transform.parent = canvas.transform;
-        GameObject.FindWithTag("LevelManager").GetComponent<Dialog_Script>().AddDialog(this.gameObject.GetComponent<EnemyScript>().getName() + " is attacking Andres's mind " + "\n Andres isn't able to focus!", false, " ", Dialog_Script.SpeakerSprite.Enemy);
+        GameObject.FindWithTag("LevelManager").GetComponent<Dialog_Script>().AddDialog(this.gameObject.GetComponent<EnemyScript>().getName() + " is attacking Andres's mind " + "\n Andres isn't able to focus!", false, " ", Dialog_Script.SpeakerSprite.Enemy,DialogList.Speaker.Enemy,DialogList.Pos.farleft);
 
     }
 

@@ -28,7 +28,7 @@ public class Underground : Skill_Base
             if (this.gameObject.GetComponent<EnemyScript>().hp != previousHealth)
             {
                 this.gameObject.GetComponent<EnemyScript>().hp = previousHealth;
-                GameObject.FindWithTag("LevelManager").GetComponent<Dialog_Script>().AddDialog(this.gameObject.GetComponent<EnemyScript>().getName() + " dodged the attack", false, " ", Dialog_Script.SpeakerSprite.Enemy);
+                GameObject.FindWithTag("LevelManager").GetComponent<Dialog_Script>().AddDialog(this.gameObject.GetComponent<EnemyScript>().getName() + " dodged the attack", false, " ", Dialog_Script.SpeakerSprite.Enemy,DialogList.Speaker.Enemy,DialogList.Pos.farright);
             }
           }
     }

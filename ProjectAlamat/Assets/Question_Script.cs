@@ -176,8 +176,8 @@ public class Question_Script : MonoBehaviour
 
     public void SetFourSentencesOneWord()
     {
-        string x="";
-        int rand = 0;
+       
+      
         List<string> choices = new List<string>();
         Answer = wordList[Random.Range(0, wordList.Count-1)];
 

@@ -11,6 +11,9 @@ public class ShowHint : MonoBehaviour
     [SerializeField] Button ChoicesHintButton;
     [SerializeField] List<GameObject> Choices;
     Color color;
+   // char[] textArr;
+    List<char> temp= new List<char>();
+    int numOfErasedText = 0;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,36 +33,46 @@ public class ShowHint : MonoBehaviour
 
             Debug.LogError("sfad");
         }
-        identificationHintButton.interactable = false;
-        char[] textArr = question_Script.GetSalita().salita.ToCharArray();
-        int numOfErasedText = textArr.Length / 4;
 
-        for (int i = 0; i < numOfErasedText;)
+        char[] textArr = question_Script.GetSalita().salita.ToCharArray();
+        if (temp.Count <= 0)
+        {
+            for (int x = 0; x < textArr.Length; x++)
+            {
+                temp.Add('_');
+            }
+        }
+       
+        for (int i = 0; i < 1;)
         {
 
 
             int rand = Random.Range(0, textArr.Length);
-            if (textArr[rand] != '_')
+            if (temp[rand] == '_')
             {
-                textArr[rand] = '_';
+                temp[rand] = textArr[rand];
+                numOfErasedText++;
                 i++;
 
             }
 
 
-        }
+        }    Debug.LogError(textArr.Length);
 
-        string text = new string(textArr);
+        string text = new string(temp.ToArray());
 
         HintText.text = text;
         HintText.enabled = true;
-
+    
+       identificationHintButton.interactable = textArr.Length-1 > numOfErasedText;
     }
 
 
 
     public void resetHint()
     {
+        temp.Clear();
+        numOfErasedText = 0;
         HintText.text = "";
         HintText.enabled = true;
         identificationHintButton.interactable = true;
