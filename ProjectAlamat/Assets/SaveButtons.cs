@@ -10,23 +10,25 @@ public class SaveButtons : MonoBehaviour
     public Sprite ContinueImage;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         this.gameObject.GetComponent<Image>().sprite = newGameImage;
+        this.gameObject.transform.localPosition = new Vector3(511, this.gameObject.transform.localPosition.y, 0);
+        this.gameObject.GetComponent<RectTransform>().sizeDelta = new Vector2(newGameImage.texture.width, newGameImage.texture.height);
+
+        CheckButton();
     }
 
-    // Update is called once per frame
-    void Update()
+
+
+    void CheckButton()
     {
-        if (PlayerPrefs.GetString("saveFile" + SaveFileNumber.ToString(),"none") != "none")
+        if (PlayerPrefs.GetString("saveFile" + SaveFileNumber.ToString(), "none") != "none")
         {
             this.gameObject.GetComponent<Image>().sprite = ContinueImage;
+            this.gameObject.transform.localPosition = new Vector3(468, this.gameObject.transform.localPosition.y, 0);
+            this.gameObject.GetComponent<RectTransform>().sizeDelta = new Vector2(ContinueImage.texture.width, ContinueImage.texture.height);
         }
     }
 
-
-    public void ChangeButton()
-    {
-        this.gameObject.GetComponent<Image>().sprite = newGameImage;
-    }
 }

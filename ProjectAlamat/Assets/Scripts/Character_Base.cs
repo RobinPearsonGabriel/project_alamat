@@ -81,6 +81,7 @@ public class Character_Base : MonoBehaviour
             Debug.Log(name + " attacked " + Target.GetComponent<EnemyScript>().name);
 
         }
+        LevelScript.instance.gameObject.GetComponent<ActionsScript>().ActivateActionCanvas();
         return false;
     }
 
