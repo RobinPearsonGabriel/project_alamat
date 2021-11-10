@@ -18,6 +18,8 @@ public class Character_Base : MonoBehaviour
     string Type;
   
     [SerializeField] Image hpbar;
+    public Sprite attackImage;
+    public Sprite attackedImage;
 
     [SerializeField]  SpriteRenderer spriteRenderer;
 
@@ -92,15 +94,16 @@ public class Character_Base : MonoBehaviour
         if (Target.tag == "PlayerObject")
         {
             Target.GetComponent<PlayerScript>().TakeDamage(atk);
+            LevelScript.instance.gameObject.GetComponent<ActionsScript>().ActivateActionCanvas(Target.GetComponent<PlayerScript>().attackedImage, attackImage);
             Debug.Log(name + " attacked " + Target.GetComponent<PlayerScript>().name);
         }
         else
         {
             Target.GetComponent<EnemyScript>().TakeDamage(atk);
+            LevelScript.instance.gameObject.GetComponent<ActionsScript>().ActivateActionCanvas(attackImage, Target.GetComponent<EnemyScript>().attackedImage);
             Debug.Log(name + " attacked " + Target.GetComponent<EnemyScript>().name);
 
         }
-        LevelScript.instance.gameObject.GetComponent<ActionsScript>().ActivateActionCanvas();
         return false;
     }
 

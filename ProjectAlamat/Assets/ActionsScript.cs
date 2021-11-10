@@ -8,6 +8,9 @@ public class ActionsScript : MonoBehaviour
     public Camera camera;
     public Canvas mainCanvas;
     public Canvas actionCanvas;
+    public Image enemyImage;
+    public Image playerImage;
+    public GameObject WinPanel;
     public float rotateMagnitude;
 
     private float cameraSize;
@@ -17,10 +20,23 @@ public class ActionsScript : MonoBehaviour
         cameraSize = camera.orthographicSize;
     }
 
-    public void ActivateActionCanvas()
+    public void ActivateWinPanel()
+    {
+        VictoryPanel.SetActive(true);
+        Invoke("DeactivateWinPanel", 1.0f);
+    }   
+
+    void DeactivateWinPanel()
+    {
+       WinPanel.SetActive(false);
+    }
+
+    public void ActivateActionCanvas(Sprite playersImage, Sprite enemysImage)
     {
         mainCanvas.gameObject.SetActive(false);
         actionCanvas.gameObject.SetActive(true);
+        enemyImage.sprite = enemysImage;
+        playerImage.sprite = playersImage;
         camera.orthographicSize = 4;
         camera.transform.Rotate(new Vector3(0, 0, rotateMagnitude));
 

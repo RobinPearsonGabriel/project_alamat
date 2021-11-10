@@ -301,7 +301,7 @@ public class LevelScript : MonoBehaviour
         {
             wordsLearnedText.text +="\n"+ text;
         }
-
+        this.gameObject.GetComponent<ActionsScript>().ActivateWinPanel();
         dialog_Script.AddDialogList(VictoryDialog,false);
         //NextLine();
         currentPhase = roundPhase.Win;
