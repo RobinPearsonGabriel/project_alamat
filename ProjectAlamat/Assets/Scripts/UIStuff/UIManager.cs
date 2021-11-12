@@ -24,7 +24,8 @@ public class UIManager : MonoBehaviour
     void Start()
     {
         ActivatePanel(mainPanel);
-        audioSource.volume = PlayerPrefs.GetFloat("VolumeLevel", audioSource.volume);
+        audioSource.volume = PlayerPrefs.GetFloat("MusicLevel", audioSource.volume);
+        soundSlider.value = PlayerPrefs.GetFloat("SoundLevel", soundSlider.value);
         musicSlider.value = audioSource.volume;
         volume = audioSource.volume;
     }
@@ -92,13 +93,19 @@ public class UIManager : MonoBehaviour
 
     public void ChangeSoundVolume()
     {
-
+        volume = soundSlider.value;
+            SaveSoundLevel();
     }
 
     public void SaveVolumeLevel()
     {
         volume = audioSource.volume;
-        PlayerPrefs.SetFloat("VolumeLevel", volume);
+        PlayerPrefs.SetFloat("MusicLevel", volume);
+    }
+
+    public void SaveSoundLevel()
+    {
+        PlayerPrefs.SetFloat("SoundLevel", volume);
     }
 
 

@@ -9,6 +9,7 @@ TagManager:
   - UI
   - GameUI
   - MenuUI
+  - LGameUI
   layers:
   - Default
   - TransparentFX

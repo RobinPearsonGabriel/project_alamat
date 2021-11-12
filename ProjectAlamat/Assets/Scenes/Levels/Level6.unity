@@ -279,6 +279,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1269601216, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: Bg
+      value: 
+      objectReference: {fileID: 774092575}
+    - target: {fileID: 1269601216, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: AndesBase
+      value: 
+      objectReference: {fileID: 1543079154}
+    - target: {fileID: 1269601216, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: EnemyBase
+      value: 
+      objectReference: {fileID: 1543079153}
+    - target: {fileID: 1269601216, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: bgSprite.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: 4f373b63139dcc14bac3ca7b2b009ccf, type: 3}
     - target: {fileID: 3042128336256442372, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: PassiveSkill
       value: 
@@ -457,3 +473,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   turnsSinceSpawned: 0
   Duration: 0
+--- !u!114 &1543079153 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3042128336256442372, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+  m_PrefabInstance: {fileID: 1543079150}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1543079151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a625a7b4c69f7254188f107ccd0f8ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1543079154 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3042128337451099682, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+  m_PrefabInstance: {fileID: 1543079150}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bbfa1caf5ea80247b8901df8ede399e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

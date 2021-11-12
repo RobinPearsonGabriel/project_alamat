@@ -40,8 +40,6 @@ public class Cursor : MonoBehaviour
             {
                 ChangeCursorLocation(result.gameObject);
             }
-            Debug.Log("Hit " + result.gameObject.name);
-
         }
     }
 }

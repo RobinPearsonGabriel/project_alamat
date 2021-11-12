@@ -24,6 +24,7 @@ public class Question_Script : MonoBehaviour
     Salita Answer;
     [SerializeField] GameObject BookPanel;
     [SerializeField] TextMeshProUGUI BookQuestion;
+
  
    
     // Start is called before the first frame update

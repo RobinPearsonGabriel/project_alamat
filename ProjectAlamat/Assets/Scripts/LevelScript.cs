@@ -46,7 +46,10 @@ public class LevelScript : MonoBehaviour
    // [SerializeField] List<TextMeshProUGUI> choicesTextboxText;
     [SerializeField] GameObject playerObj;
     [SerializeField] GameObject enemyObj;
- public   List<Salita> LearningPhaseWords = new List<Salita>();
+    public GameObject Indicator;
+    public Sprite correctImage;
+    public Sprite wrongImage;
+    public List<Salita> LearningPhaseWords = new List<Salita>();
     
     [SerializeField] GameObject combatPhasePanel;
     [SerializeField] GameObject statsPanel;
@@ -55,8 +58,13 @@ public class LevelScript : MonoBehaviour
     [SerializeField] GameObject GameOverPanel;
     [SerializeField] GameObject VictoryPanel;
     List<string> currentDialog = new List<string>();
-   // bool isStarting;
+    // bool isStarting;
     // Start is called before the first frame update
+
+    [Header("GameOverPanel")]
+    public Image enemyImage;
+    public Text enemyName;
+    public Text enemyDefeatDialog;
     int round ;
     int totalRounds;
     bool canAnswer;
@@ -223,6 +231,9 @@ public class LevelScript : MonoBehaviour
             //correct answer
             if (isCorrect)
             {
+                Indicator.GetComponent<Image>().sprite = correctImage;
+                Indicator.SetActive(true);
+
                 Debug.Log("Answer was correct");
                 dialog_Script.AddDialog(player.GetCombatDialog(),false,player.getName(),Dialog_Script.SpeakerSprite.Andes,DialogList.Speaker.Andes,DialogList.Pos.farleft );
                 
@@ -269,6 +280,9 @@ public class LevelScript : MonoBehaviour
 
             else
             {
+
+                Indicator.GetComponent<Image>().sprite = wrongImage;
+                Indicator.SetActive(true);
                 dialog_Script.AddDialog ( enemy.GetCombatDialog(), false,enemy.getName(), Dialog_Script.SpeakerSprite.Enemy,DialogList.Speaker.Enemy,DialogList.Pos.farright);
                 combatPhasePanel.SetActive(false);
                
@@ -309,6 +323,10 @@ public class LevelScript : MonoBehaviour
 
     public void GameOver()
     {
+        enemyImage.sprite = enemy.GetFaceImage();
+        enemyImage.SetNativeSize();
+        enemyName.text = enemy.getName();
+        enemyDefeatDialog.text = enemy.GetDefeatDialog();
         currentPhase = roundPhase.Lose;
         dialog_Script.AddDialogList(DefeatDialog,false);
       

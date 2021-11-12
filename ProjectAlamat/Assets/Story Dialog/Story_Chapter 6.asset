@@ -18,19 +18,31 @@ MonoBehaviour:
     sentence: Eventually, they reach the base of Sitan. Ibneg looks around and sees
       Sitan talking to a chained Mayari.
     speaker: 
+<<<<<<< HEAD
     Bg: {fileID: 21300000, guid: 8e861ea0c59e9d54d8b253b6c6636d75, type: 3}
+=======
+    Bg: 0
+>>>>>>> aacbc4911eaa693bc6953c9cc60a4e797c943923
     speakerNumber: 0
   - speakerSprite: 1
     pos: 3
     sentence: Any ideas on how to free her?
     speaker: Ibneg
+<<<<<<< HEAD
     Bg: {fileID: 21300000, guid: 4f373b63139dcc14bac3ca7b2b009ccf, type: 3}
+=======
+    Bg: 0
+>>>>>>> aacbc4911eaa693bc6953c9cc60a4e797c943923
     speakerNumber: 0
   - speakerSprite: 1
     pos: 3
     sentence: For a minute, Andres thinks about what to do.
     speaker: 
+<<<<<<< HEAD
     Bg: {fileID: 0}
+=======
+    Bg: 0
+>>>>>>> aacbc4911eaa693bc6953c9cc60a4e797c943923
     speakerNumber: 0
   - speakerSprite: 0
     pos: 0
