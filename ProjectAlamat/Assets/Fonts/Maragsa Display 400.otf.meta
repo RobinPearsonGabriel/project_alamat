@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 34921ef14deae764983ac99ddf94761a
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Maragsa
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: c6895a6117291244fa0ba9e38fd7d921, type: 3}
+  - {fileID: 12800000, guid: 210663d8551255d4d8d5c8204e7cb2cd, type: 3}
+  - {fileID: 12800000, guid: 125e86f1edfcafe4287fac0ca66c2728, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

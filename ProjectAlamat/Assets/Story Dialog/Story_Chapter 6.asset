@@ -18,19 +18,19 @@ MonoBehaviour:
     sentence: Eventually, they reach the base of Sitan. Ibneg looks around and sees
       Sitan talking to a chained Mayari.
     speaker: 
-    Bg: 1
+    Bg: 0
     speakerNumber: 0
   - speakerSprite: 1
     pos: 3
     sentence: Any ideas on how to free her?
     speaker: Ibneg
-    Bg: 2
+    Bg: 0
     speakerNumber: 0
   - speakerSprite: 1
     pos: 3
     sentence: For a minute, Andres thinks about what to do.
     speaker: 
-    Bg: 1
+    Bg: 0
     speakerNumber: 0
   - speakerSprite: 0
     pos: 0

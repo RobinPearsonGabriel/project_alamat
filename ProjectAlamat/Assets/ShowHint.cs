@@ -31,7 +31,7 @@ public class ShowHint : MonoBehaviour
         if (question_Script == null)
         {
 
-            Debug.LogError("sfad");
+            Debug.LogWarning("sfad");
         }
 
         char[] textArr = question_Script.GetSalita().salita.ToCharArray();
@@ -57,7 +57,7 @@ public class ShowHint : MonoBehaviour
             }
 
 
-        }    Debug.LogError(textArr.Length);
+        }    Debug.LogWarning(textArr.Length);
 
         string text = new string(temp.ToArray());
 

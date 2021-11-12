@@ -15,6 +15,10 @@ MonoBehaviour:
   charType: 0
   name: Kaperosa
   NormalSprite: {fileID: 21300000, guid: 198fde27de012cf4f9e4b2e551dc79e3, type: 3}
+  attackImage: {fileID: 21300000, guid: 9cb6e41e29abb0b42a84d6ca2a3270b5, type: 3}
+  attackSfx: {fileID: 8300000, guid: b3f928d86ffa2ba45be4a832fbef90f4, type: 3}
+  attackedImage: {fileID: 21300000, guid: cae30912568cb664f953d0abe6e0b791, type: 3}
+  faceImage: {fileID: 21300000, guid: ea5ba9875104ac34090df10aa957227b, type: 3}
   atkAnimation: []
   DeathAnimation: []
   damagedAnimation: []
@@ -23,6 +27,7 @@ MonoBehaviour:
   - '"Did your head hit something? Wrong."'
   - '"Can you do better than that?"'
   - '"Hay... wrong."'
+  defeatDialog: 
   baseHp: 14
   baseAtk: 12
   baseDef: 5

@@ -18,8 +18,10 @@ public class Character_Base : MonoBehaviour
     string Type;
   
     [SerializeField] Image hpbar;
-    public Sprite attackImage;
-    public Sprite attackedImage;
+     Sprite attackImage;
+     AudioClip attackSfx;
+     Sprite attackedImage;
+    string defeatDialog;
 
     [SerializeField]  SpriteRenderer spriteRenderer;
 
@@ -35,12 +37,10 @@ public class Character_Base : MonoBehaviour
     
     }
 
-    public void SetSpriteEndabled(bool isActvie)
+    public void SetSpriteEndabled(bool isActive)
     {
 
-        GetComponent<SpriteRenderer>().enabled = isActvie;
-
-
+        GetComponent<SpriteRenderer>().enabled = isActive;
     }
 
 
@@ -63,6 +63,38 @@ public class Character_Base : MonoBehaviour
 
         return characterBaseStat.getCombatDialog();
     }
+
+    public Sprite GetImage()
+    {
+        return spriteRenderer.sprite;
+    }
+
+    public Sprite GetFaceImage()
+    {
+        return characterBaseStat.faceImage;
+    }
+
+    public string GetDefeatDialog()
+    {
+        return defeatDialog;
+    }
+
+    public Sprite GetAttackImage()
+    {
+        return attackImage;
+    }
+
+    public AudioClip GetAttackSFX()
+    {
+        return attackSfx;
+    }
+
+    public Sprite GetAttackedImage()
+    {
+        return attackedImage;
+    }
+
+   
     protected virtual void Start()
     {
        
@@ -77,12 +109,16 @@ public class Character_Base : MonoBehaviour
         hp = maxHp;
        
         spriteRenderer.sprite = characterBaseStat.NormalSprite;
-     
+        attackImage = characterBaseStat.attackImage;
+        attackSfx = characterBaseStat.attackSfx;
+        attackedImage = characterBaseStat.attackedImage;
+
         name = characterBaseStat.name;
         type = characterBaseStat.charType;
+        defeatDialog = characterBaseStat.defeatDialog;
        
 
-            countdown = characterBaseStat.countDown;
+        countdown = characterBaseStat.countDown;
         
 
         hpbar.fillAmount = hp / maxHp;
@@ -94,13 +130,15 @@ public class Character_Base : MonoBehaviour
         if (Target.tag == "PlayerObject")
         {
             Target.GetComponent<PlayerScript>().TakeDamage(atk);
-            LevelScript.instance.gameObject.GetComponent<ActionsScript>().ActivateActionCanvas(Target.GetComponent<PlayerScript>().attackedImage, attackImage);
+            LevelScript.instance.gameObject.GetComponent<ActionsScript>().ActivateActionCanvas(Target.GetComponent<PlayerScript>().GetAttackedImage(), attackImage);
+            AudioManager.instance.PlayAudioClip(attackSfx);
             Debug.Log(name + " attacked " + Target.GetComponent<PlayerScript>().name);
         }
         else
         {
             Target.GetComponent<EnemyScript>().TakeDamage(atk);
-            LevelScript.instance.gameObject.GetComponent<ActionsScript>().ActivateActionCanvas(attackImage, Target.GetComponent<EnemyScript>().attackedImage);
+            LevelScript.instance.gameObject.GetComponent<ActionsScript>().ActivateActionCanvas(attackImage, Target.GetComponent<EnemyScript>().GetAttackedImage());
+            AudioManager.instance.PlayAudioClip(attackSfx);
             Debug.Log(name + " attacked " + Target.GetComponent<EnemyScript>().name);
 
         }

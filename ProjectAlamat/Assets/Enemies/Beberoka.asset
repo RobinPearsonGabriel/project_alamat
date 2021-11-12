@@ -15,6 +15,10 @@ MonoBehaviour:
   charType: 1
   name: Beberoka
   NormalSprite: {fileID: 21300000, guid: 3ee364577ff0a774aa44224ba56f0848, type: 3}
+  attackImage: {fileID: 21300000, guid: 4c30c7355bd8a5e49bbafe7ef5ee0097, type: 3}
+  attackSfx: {fileID: 8300000, guid: 09cbecc76984a4449bcc74a1521ece3d, type: 3}
+  attackedImage: {fileID: 21300000, guid: 14a2350a7dc89574fbd398fe3a7327cf, type: 3}
+  faceImage: {fileID: 21300000, guid: b19a9687d5277614abf3f2d8b2152b8c, type: 3}
   atkAnimation: []
   DeathAnimation: []
   damagedAnimation: []
@@ -23,6 +27,7 @@ MonoBehaviour:
   - Really? That's not right.
   - Hahaha that's wrong. No, no, no keep doing it, it's fine.
   - Keep doing wrong stuff. I'm still making scalding water.
+  defeatDialog: 
   baseHp: 16
   baseAtk: 13
   baseDef: 5

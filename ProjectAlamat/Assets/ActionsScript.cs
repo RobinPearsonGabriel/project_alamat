@@ -22,7 +22,7 @@ public class ActionsScript : MonoBehaviour
 
     public void ActivateWinPanel()
     {
-        VictoryPanel.SetActive(true);
+        WinPanel.SetActive(true);
         Invoke("DeactivateWinPanel", 1.0f);
     }   
 
@@ -36,8 +36,10 @@ public class ActionsScript : MonoBehaviour
         mainCanvas.gameObject.SetActive(false);
         actionCanvas.gameObject.SetActive(true);
         enemyImage.sprite = enemysImage;
+        enemyImage.SetNativeSize();
         playerImage.sprite = playersImage;
-        camera.orthographicSize = 4;
+        playerImage.SetNativeSize();
+        camera.orthographicSize = 3;
         camera.transform.Rotate(new Vector3(0, 0, rotateMagnitude));
 
         Invoke("DeactivateActionCanvas", 1.0f);
@@ -47,7 +49,7 @@ public class ActionsScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.S))
         {
-            ActivateActionCanvas();
+            ActivateActionCanvas(null,null);
         }
     }
 

@@ -15,6 +15,10 @@ MonoBehaviour:
   charType: 1
   name: Sitan
   NormalSprite: {fileID: 21300000, guid: bc5e2470d6982b944bc7b6c815ca119f, type: 3}
+  attackImage: {fileID: 21300000, guid: bc5e2470d6982b944bc7b6c815ca119f, type: 3}
+  attackSfx: {fileID: 8300000, guid: d616cfb00b064324b9901e4032258a34, type: 3}
+  attackedImage: {fileID: 21300000, guid: bc5e2470d6982b944bc7b6c815ca119f, type: 3}
+  faceImage: {fileID: 21300000, guid: 120011da4ed2b504eb0a4de02e2c68a6, type: 3}
   atkAnimation: []
   DeathAnimation: []
   damagedAnimation: []
@@ -23,8 +27,9 @@ MonoBehaviour:
   - 
   - 
   - 
+  defeatDialog: GG EZ
   baseHp: 20
-  baseAtk: 18
+  baseAtk: 20
   baseDef: 5
   StartLvl: 3
   countDown: 4

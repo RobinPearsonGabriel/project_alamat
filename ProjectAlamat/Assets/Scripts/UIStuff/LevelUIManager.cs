@@ -26,7 +26,8 @@ public class LevelUIManager : MonoBehaviour
     void Start()
     {
         ActivatePanel(emptyPanel);
-        audioSource.volume = PlayerPrefs.GetFloat("VolumeLevel", audioSource.volume);
+        audioSource.volume = PlayerPrefs.GetFloat("MusicLevel", audioSource.volume);
+        soundSlider.value = PlayerPrefs.GetFloat("SoundLevel", soundSlider.value);
         musicSlider.value = audioSource.volume;
         volume = audioSource.volume;
     }
@@ -65,6 +66,9 @@ public class LevelUIManager : MonoBehaviour
     public void OnResumeButtonClicked()
     {
         ActivatePanel(emptyPanel);
+        if (GameManager_Script.instance != null){
+            GameManager_Script.instance.paused = false;
+        }
     }
 
     public void OnRestartButtonClicked()
@@ -103,17 +107,24 @@ public class LevelUIManager : MonoBehaviour
 
     public void AdjustSound()
     {
-        //Adjust Sound
+        volume = soundSlider.value;
+        SaveSoundLevel();
     }
 
     public void SaveVolumeLevel()
     {
-        volume = audioSource.volume;
-        PlayerPrefs.SetFloat("VolumeLevel", volume);
+        volume = musicSlider.value;
+        PlayerPrefs.SetFloat("MusicLevel", volume);
+    }
+
+    public void SaveSoundLevel()
+    {
+        PlayerPrefs.SetFloat("SoundLevel", volume);
     }
 
     public void ActivatePanel(GameObject panelToBeActivated)
     {
+        
         emptyPanel.SetActive(panelToBeActivated.Equals(emptyPanel));
         PausePanel.SetActive(panelToBeActivated.Equals(PausePanel));
         SettingsPanel.SetActive(panelToBeActivated.Equals(SettingsPanel));

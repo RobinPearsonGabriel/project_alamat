@@ -6,7 +6,7 @@ using UnityEngine;
 public class GameManager_Script : MonoBehaviour
 {
 
-
+    public bool paused = false;
 
     public static GameManager_Script instance = null;
 
@@ -35,8 +35,8 @@ public class GameManager_Script : MonoBehaviour
     }
 public  void PausePlayButton()
     {
-        Time.timeScale = Time.timeScale==0?1:0;
-    
+        //Time.timeScale = Time.timeScale==0?1:0;
+        paused = true;
     }
 
     //SceneManager

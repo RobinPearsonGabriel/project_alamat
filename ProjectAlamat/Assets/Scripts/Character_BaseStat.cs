@@ -15,10 +15,16 @@ public class Character_BaseStat : ScriptableObject
    
     public new string name;
     public Sprite NormalSprite;
+    public Sprite attackImage;
+    public AudioClip attackSfx;
+    public Sprite attackedImage;
+    public Sprite faceImage;
     public List<Sprite> atkAnimation;
     public List<Sprite> DeathAnimation;
     public List<Sprite> damagedAnimation;
     public List<string> CombatDialogs;
+    public string defeatDialog;
+
     
     public int baseHp;
    public int baseAtk;

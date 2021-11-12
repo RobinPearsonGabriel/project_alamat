@@ -13,20 +13,46 @@ MonoBehaviour:
   m_Name: Story_Chapter 2_PostFight
   m_EditorClassIdentifier: 
   dialogs:
-  - sentence: After the final blow from Andres, Calanget collapses and falls to the
+  - speakerSprite: 3
+    pos: 0
+    sentence: After the final blow from Andres, Calanget collapses and falls to the
       ground. Lying on the ground, Calanget laughs at the two.
     speaker: 
-  - sentence: All I wanted was peace for once.
+    Bg: 2
+    speakerNumber: 0
+  - speakerSprite: 1
+    pos: 0
+    sentence: All I wanted was peace for once.
     speaker: Calanget
-  - sentence: All of this for peace? Betraying others just for your selfish needs.
+    Bg: 2
+    speakerNumber: 0
+  - speakerSprite: 0
+    pos: 0
+    sentence: All of this for peace? Betraying others just for your selfish needs.
     speaker: Andres
-  - sentence: Are you even hearing yourself? That's funny coming from you.
+    Bg: 2
+    speakerNumber: 0
+  - speakerSprite: 1
+    pos: 0
+    sentence: Are you even hearing yourself? That's funny coming from you.
     speaker: Calanget
-  - sentence: Ibneg cuts the conversation after seeing an exit.
+    Bg: 2
+    speakerNumber: 0
+  - speakerSprite: 3
+    pos: 0
+    sentence: Ibneg cuts the conversation after seeing an exit.
     speaker: 
-  - sentence: I already found a way out. Let's go.
+    Bg: 2
+    speakerNumber: 0
+  - speakerSprite: 2
+    pos: 1
+    sentence: I already found a way out. Let's go.
     speaker: Ibneg
-  - sentence: You won't win.
+    Bg: 2
+    speakerNumber: 2
+  - speakerSprite: 1
+    pos: 3
+    sentence: You won't win.
     speaker: Calanget
-  - sentence: You won't win.
-    speaker: Calanget
+    Bg: 2
+    speakerNumber: 3

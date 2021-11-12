@@ -91,7 +91,7 @@ public class Dialog_Script : MonoBehaviour
     {
         //  AddDialog(StartingDialog,false);
         // AddDialog(precombatDialog,false);
-        Bg.sprite = bgSprite[3];
+        Bg.sprite = bgSprite[0];
     }
 
     // Update is called once per frame
@@ -107,7 +107,7 @@ public class Dialog_Script : MonoBehaviour
         {
             DialogPanel.SetActive(true);
             LevelScript.instance.setCanAnswer(false);
-            if (Input.GetMouseButtonDown(0))
+            if (Input.GetMouseButtonDown(0) && !GameManager_Script.instance.paused)
             {
                 NextLine();
             }
@@ -237,12 +237,12 @@ public class Dialog_Script : MonoBehaviour
         {
             case DialogList.Speaker.Andes:
                 AndesBase.SetSpriteEndabled(true);
-                AndesBase.SetPos(setPos(dialog.GetPos()));
+               // AndesBase.SetPos(setPos(dialog.GetPos()));
                 break;
 
             case DialogList.Speaker.Enemy:
                 EnemyBase.SetSpriteEndabled(true);
-                EnemyBase.SetPos(setPos(dialog.GetPos()));
+               // EnemyBase.SetPos(setPos(dialog.GetPos()));
                 break;
             case DialogList.Speaker.Ibneng:
                 Ibneng.SetActive(true);

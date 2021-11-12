@@ -279,6 +279,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1269601216, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: Bg
+      value: 
+      objectReference: {fileID: 1039690827}
+    - target: {fileID: 1269601216, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: AndesBase
+      value: 
+      objectReference: {fileID: 1410813753}
+    - target: {fileID: 1269601216, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: EnemyBase
+      value: 
+      objectReference: {fileID: 1410813752}
     - target: {fileID: 3042128336256442372, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: PassiveSkill
       value: 
@@ -478,6 +490,28 @@ MonoBehaviour:
   canvas: {fileID: 1410813750}
   migrainePrefab: {fileID: 8692072262851734497, guid: 8735c38258b4a4246913dc6dfef1b4b0, type: 3}
   spawnPosition: {fileID: 1410813748}
+--- !u!114 &1410813752 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3042128336256442372, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+  m_PrefabInstance: {fileID: 1410813747}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1410813749}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a625a7b4c69f7254188f107ccd0f8ba0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1410813753 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3042128337451099682, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+  m_PrefabInstance: {fileID: 1410813747}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6bbfa1caf5ea80247b8901df8ede399e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2034572359
 GameObject:
   m_ObjectHideFlags: 0
