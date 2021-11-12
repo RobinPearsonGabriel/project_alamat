@@ -471,6 +471,17 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 3042128336195651844, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
   m_PrefabInstance: {fileID: 1269601214}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &342647087 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3042128337296898509, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+  m_PrefabInstance: {fileID: 1269601214}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &423345999 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 5052705369265545074, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
@@ -533,6 +544,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &753736735 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 5226428647456195849, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+  m_PrefabInstance: {fileID: 1269601214}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &811501250
 GameObject:
   m_ObjectHideFlags: 0
@@ -619,6 +641,11 @@ Transform:
 --- !u!1 &1012242674 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3042128336646646957, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+  m_PrefabInstance: {fileID: 1269601214}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1039699186 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4004008400992533169, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
   m_PrefabInstance: {fileID: 1269601214}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1094396231
@@ -906,7 +933,7 @@ PrefabInstance:
     - target: {fileID: 1269601216, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: Ibneng
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 3482915245465190418, guid: 9490ab855c489f140b4c73dafc0bed9b, type: 3}
     - target: {fileID: 1269601216, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: farleft
       value: 
@@ -1609,7 +1636,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: questionType
-      value: 0
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 3042128337046551106, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_AnchorMax.y
@@ -2039,6 +2066,18 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 8669151815635770247, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: WinPanel
+      value: 
+      objectReference: {fileID: 1039699186}
+    - target: {fileID: 8669151815635770247, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: enemyImage
+      value: 
+      objectReference: {fileID: 342647087}
+    - target: {fileID: 8669151815635770247, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: playerImage
+      value: 
+      objectReference: {fileID: 753736735}
     - target: {fileID: 8679186652489597352, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -8.54

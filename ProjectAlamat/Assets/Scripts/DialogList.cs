@@ -22,7 +22,7 @@ public class DialogList : ScriptableObject
         public Pos pos;
         public string sentence;
         public string speaker;
-        public int Bg;
+        public Sprite Bg;
 
 
        //0-Andes 2-

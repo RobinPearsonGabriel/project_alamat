@@ -32,7 +32,7 @@ public class Dialog_Script : MonoBehaviour
         bool openCombat;
         DialogList.Pos pos;
         DialogList.Speaker speaker1;
-        int bg;
+        Sprite bg;
   
         public string GetName()
         {
@@ -62,13 +62,13 @@ public class Dialog_Script : MonoBehaviour
          {
             return speaker1;
             }
-        public int GetBg()
+        public Sprite GetBg()
         {
             return bg;
         }
 
        
-        public Dialog(SpeakerSprite img,string name, string text,bool InCombat, DialogList.Pos Pos,DialogList.Speaker Speaker1,int Bg)
+        public Dialog(SpeakerSprite img,string name, string text,bool InCombat, DialogList.Pos Pos,DialogList.Speaker Speaker1,Sprite Bg)
         {
           
 
@@ -91,7 +91,7 @@ public class Dialog_Script : MonoBehaviour
     {
         //  AddDialog(StartingDialog,false);
         // AddDialog(precombatDialog,false);
-        Bg.sprite = bgSprite[3];
+       // Bg.sprite = bgSprite[3];
     }
 
     // Update is called once per frame
@@ -141,7 +141,7 @@ public class Dialog_Script : MonoBehaviour
        
         //Characterface.enabled=false;
         string text = Text;
-        Dialog dialog = new Dialog(image, name, text, incombat,pos, speakerimg, 0);
+        Dialog dialog = new Dialog(image, name, text, incombat,pos, speakerimg, null);
 
         dialogs.Add(dialog);
         //endLine = false;
@@ -229,8 +229,13 @@ public class Dialog_Script : MonoBehaviour
 
     void setCharSprites(Dialog dialog)
     {
-     
-        Bg.sprite = bgSprite[Mathf.Clamp(dialog.GetBg(), 0, bgSprite.Count-1)];
+
+        //Bg.sprite = bgSprite[Mathf.Clamp(dialog.GetBg(), 0, bgSprite.Count-1)];
+
+        if (dialog.GetBg() != null)
+        {
+            Bg.sprite = dialog.GetBg();
+        }
 
 
         switch (dialog.Getspeaker())

@@ -22,7 +22,7 @@ public class ActionsScript : MonoBehaviour
 
     public void ActivateWinPanel()
     {
-        VictoryPanel.SetActive(true);
+        //VictoryPanel.SetActive(true);
         Invoke("DeactivateWinPanel", 1.0f);
     }   
 
@@ -47,7 +47,7 @@ public class ActionsScript : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.S))
         {
-            ActivateActionCanvas();
+            //ActivateActionCanvas();
         }
     }
 
