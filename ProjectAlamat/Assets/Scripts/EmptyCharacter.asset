@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb8f536adff8d794dad7bd4938cd8517, type: 3}
+  m_Name: EmptyCharacter
+  m_EditorClassIdentifier: 
+  charType: 1
+  name: '  '
+  NormalSprite: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
+  attackImage: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
+  attackSfx: {fileID: 8300000, guid: d179efea8e6cf354ebfa6e7e6c1d6ed6, type: 3}
+  attackedImage: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
+  faceImage: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
+  atkAnimation: []
+  DeathAnimation: []
+  damagedAnimation: []
+  CombatDialogs: []
+  defeatDialog: 
+  baseHp: 0
+  baseAtk: 0
+  baseDef: 0
+  StartLvl: 0
+  countDown: 0

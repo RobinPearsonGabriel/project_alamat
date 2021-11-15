@@ -27,9 +27,9 @@ MonoBehaviour:
   - '"Did your head hit something? Wrong."'
   - '"Can you do better than that?"'
   - '"Hay... wrong."'
-  defeatDialog: 
+  defeatDialog: asdfasdf
   baseHp: 14
-  baseAtk: 12
+  baseAtk: 122
   baseDef: 5
   StartLvl: 3
   countDown: 4

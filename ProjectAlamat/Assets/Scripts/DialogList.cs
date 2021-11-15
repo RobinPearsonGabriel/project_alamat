@@ -18,11 +18,10 @@ public class DialogList : ScriptableObject
     public struct Dialog
     {
         public Speaker speakerSprite;
-
+        public Character_BaseStat speaker;
         public Pos pos;
         public string sentence;
-        public string speaker;
-        public int Bg;
+        public Sprite Bg;
 
 
        //0-Andes 2-
@@ -34,7 +33,11 @@ public class DialogList : ScriptableObject
 
         }
 
-        public string getSpeaker()
+        public string getSpeakerName()
+        {
+            return speaker.getName();
+        }
+        public Character_BaseStat getSpeaker()
         {
             return speaker;
         }

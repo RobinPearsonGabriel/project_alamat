@@ -40,6 +40,7 @@ public class Cursor : MonoBehaviour
             {
                 ChangeCursorLocation(result.gameObject);
             }
+
         }
     }
 }

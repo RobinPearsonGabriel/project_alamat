@@ -13,5 +13,9 @@ MonoBehaviour:
   m_Name: PlaceholderDialogLose
   m_EditorClassIdentifier: 
   dialogs:
-  - sentence: Try Again!
-    speaker: Tutorial
+  - speakerSprite: 0
+    speaker: {fileID: 0}
+    pos: 0
+    sentence: Try Again!
+    Bg: {fileID: 0}
+    speakerNumber: 0

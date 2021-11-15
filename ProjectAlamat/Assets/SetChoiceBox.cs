@@ -10,6 +10,7 @@ public class SetChoiceBox : MonoBehaviour
     List<Salita> salitas;
     [SerializeField] GameObject descriptionPanel;
     Text descriptionText;
+   
 
     // Start is called before the first frame update
     void Start()

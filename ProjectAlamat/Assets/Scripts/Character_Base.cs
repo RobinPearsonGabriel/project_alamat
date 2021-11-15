@@ -16,7 +16,8 @@ public class Character_Base : MonoBehaviour
     characterType type;
     protected float countdown;
     string Type;
-  
+
+    public Animator animator; 
     [SerializeField] Image hpbar;
      Sprite attackImage;
      AudioClip attackSfx;

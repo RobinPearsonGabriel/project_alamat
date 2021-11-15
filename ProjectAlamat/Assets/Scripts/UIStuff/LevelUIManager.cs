@@ -45,7 +45,7 @@ public class LevelUIManager : MonoBehaviour
     public void OnLevelButtonClicked(int levelNumber)
     {
         levelSelected = levelNumber;
-        LevelNameText.text = "Level " + levelSelected;
+        LevelNameText.text = "Proceed to Level " + levelSelected + "?";
         ActivatePanel(LevelSelectionPanel);
     }
 
@@ -124,7 +124,6 @@ public class LevelUIManager : MonoBehaviour
 
     public void ActivatePanel(GameObject panelToBeActivated)
     {
-        
         emptyPanel.SetActive(panelToBeActivated.Equals(emptyPanel));
         PausePanel.SetActive(panelToBeActivated.Equals(PausePanel));
         SettingsPanel.SetActive(panelToBeActivated.Equals(SettingsPanel));

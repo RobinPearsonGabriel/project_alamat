@@ -49,4 +49,14 @@ public class Character_BaseStat : ScriptableObject
     {
         return name;
     }
+
+    public Sprite GetFaceImage()
+    {
+        return faceImage;
+    }
+
+    public Sprite getSpriteImage()
+    {
+        return NormalSprite;
+    }
 }

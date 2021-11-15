@@ -13,174 +13,174 @@ MonoBehaviour:
   m_Name: Story_Chapter 6
   m_EditorClassIdentifier: 
   dialogs:
-  - speakerSprite: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: Eventually, they reach the base of Sitan. Ibneg looks around and sees
       Sitan talking to a chained Mayari.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 21300000, guid: 4f373b63139dcc14bac3ca7b2b009ccf, type: 3}
     speakerNumber: 0
-  - speakerSprite: 1
-    pos: 3
+  - speakerSprite: 2
+    speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
+    pos: 1
     sentence: Any ideas on how to free her?
-    speaker: Ibneg
-    Bg: 0
-    speakerNumber: 0
-  - speakerSprite: 1
+    Bg: {fileID: 0}
+    speakerNumber: 1
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 3
     sentence: For a minute, Andres thinks about what to do.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
     pos: 0
     sentence: "Hmm\u2026 We need to free Mayari if we want to have a chance against
       Sitan. We have no choice. "
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
     pos: 3
     sentence: I'll distract Sitan. Ibneg, you have to free Mayari. Santelmo, if Sitan
       calls for his companions, you need to stop them.
-    speaker: Andres
-    Bg: 1
-    speakerNumber: 0
-  - speakerSprite: 0
-    pos: 0
-    sentence: Half a plan. Nonetheless, a plan.
-    speaker: Santelmo
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: ee6ea95b1804ebc4388182078d5e219f, type: 2}
+    pos: 2
+    sentence: Half a plan. Nonetheless, a plan.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 2
+    speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
     pos: 3
     sentence: 'No choice. Let''s do this. '
-    speaker: Ibneg
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
     pos: 0
     sentence: Andres Lamat attempts to sneak up on Sitan.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: "Can you feel it? Apolaki's strength weakening? I can also feel your
       strength weakening Mayari\u2026 "
-    speaker: Sitan
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
-  - speakerSprite: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: Andres attempts to perform a spell on Sitan without him noticing it.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: Meaning any hit from me can end the goddess's life.
-    speaker: Sitan
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: But Andres fails to cast a spell, and Sitan finally turns around and
       sees Andres.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: "Ah\u2026 Andres Lamat. The architect of my invasion."
-    speaker: Sitan
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: Sitan spots the book that Andres is holding and using.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: Sitan spots the book that Andres is holding and using.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: "Ah\u2026 that book. I could feel Apolaki's power radiating from it."
-    speaker: Sitan
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: I have to admit, I thought Apolaki had less of an imagination than
       this.
-    speaker: Sitan
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: Andres silently talks to Ibneg through a magic spell of telekinesis.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: Now, Ibneg.
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: I'm trying!
-    speaker: Ibneg
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: And don't worry, once I deal with the last of Apolaki's power from
       you, I can easily deal with those Aghoy and Santelmo friends of yours.
-    speaker: Sitan
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: The imprisoned goddess, Mayari, channels her thoughts to Andres.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: Andres Lamat, Sitan's chain will take some time to break. So please
       hold your ground.
-    speaker: Mayari
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: Andres buy us some time!
-    speaker: Ibneg
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: I applaud you, Andres. Who knew that it would only take one mortal
       being to destroy everything in my path?
-    speaker: Sitan
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: I swear before I draw my last breath, I will make this right!
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: "We\u2019ll see about that."
-    speaker: Sitan
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0

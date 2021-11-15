@@ -40,12 +40,12 @@ public class LevelScript : MonoBehaviour
    // [SerializeField] List<Salita> wordList = new List<Salita>();
     // [SerializeField] GameObject QuestionDialogText;
     [SerializeField] TMP_InputField PlayerInputBox;
- //   [SerializeField] TextMeshProUGUI dialogTextBox;
-  //  Salita Currentword;
-  
-   // [SerializeField] List<TextMeshProUGUI> choicesTextboxText;
-    [SerializeField] GameObject playerObj;
-    [SerializeField] GameObject enemyObj;
+    //   [SerializeField] TextMeshProUGUI dialogTextBox;
+    //  Salita Currentword;
+
+    // [SerializeField] List<TextMeshProUGUI> choicesTextboxText;
+    public GameObject playerObj;
+    public GameObject enemyObj;
     public GameObject Indicator;
     public Sprite correctImage;
     public Sprite wrongImage;
@@ -60,6 +60,9 @@ public class LevelScript : MonoBehaviour
     List<string> currentDialog = new List<string>();
     // bool isStarting;
     // Start is called before the first frame update
+
+    public Image enemyFaceImage;
+    public Image playerFaceImage;
 
     [Header("GameOverPanel")]
     public Image enemyImage;
@@ -201,6 +204,12 @@ public class LevelScript : MonoBehaviour
         enemyObj.SetActive(true);
         enemy = enemyObj.GetComponent<EnemyScript>();
         player = playerObj.GetComponent<PlayerScript>();
+        playerFaceImage.gameObject.SetActive(true);
+        enemyFaceImage.gameObject.SetActive(true);
+        playerFaceImage.sprite = player.GetFaceImage();
+        enemyFaceImage.sprite = enemy.GetFaceImage();
+        playerFaceImage.SetNativeSize();
+        enemyFaceImage.SetNativeSize();
         combatPhasePanel.SetActive (true);
         statsPanel.SetActive(true);
         
@@ -209,7 +218,7 @@ public class LevelScript : MonoBehaviour
     }
     void CombatPhaseGame()
     {
-        nextButton.SetActive(false);
+        
         combatPhasePanel.SetActive(true);
         canAnswer = true;
         playerObj.GetComponent<SpriteRenderer>().color = Color.white;
@@ -240,7 +249,7 @@ public class LevelScript : MonoBehaviour
 
                 combatPhasePanel.SetActive(false);
                
-                nextButton.SetActive(false);
+               
               
              
                     //  round++;
@@ -286,7 +295,7 @@ public class LevelScript : MonoBehaviour
                 dialog_Script.AddDialog ( enemy.GetCombatDialog(), false,enemy.getName(), Dialog_Script.SpeakerSprite.Enemy,DialogList.Speaker.Enemy,DialogList.Pos.farright);
                 combatPhasePanel.SetActive(false);
                
-                nextButton.SetActive(false);
+                
             
                      if (currentPhase == roundPhase.Combat)
                     {
@@ -311,11 +320,11 @@ public class LevelScript : MonoBehaviour
 
     public void Victory()
     {
+        this.gameObject.GetComponent<ActionsScript>().ActivateWinPanel();
         foreach  (string text in wordsLearned)
         {
             wordsLearnedText.text +="\n"+ text;
         }
-        this.gameObject.GetComponent<ActionsScript>().ActivateWinPanel();
         dialog_Script.AddDialogList(VictoryDialog,false);
         //NextLine();
         currentPhase = roundPhase.Win;

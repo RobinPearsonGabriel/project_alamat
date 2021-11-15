@@ -14,448 +14,448 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogs:
   - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 1
     sentence: Andres continues to write more books to fill in stories.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 1
     sentence: Suddenly, he hears a voice.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
+    speaker: {fileID: 0}
     pos: 1
     sentence: 'This is not the end. '
-    speaker: ???
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
+    speaker: {fileID: 0}
     pos: 1
     sentence: ' I refuse to call it the end.'
-    speaker: ???
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Who said that?
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: No. This is just the beginning.
-    speaker: ???
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Who are you?
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Andres' vision becomes hazy and blacks out.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: When he opens his eyes, he sees a floating small creature.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Wha-
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Be quiet.
-    speaker: ???
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: What are you doing?
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Getting you out of here.
-    speaker: ???
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: After successfully removing Andres from the dreamworld punishment,
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: ' The creature grabs Andres and escapes into the wilderness.'
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Wait, who are you?
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: I said be quiet.
-    speaker: ???
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Wha-what are you doing?
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Can you keep it down? You're so loud.
-    speaker: ???
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Andres just follows the tiny flying woman, eventually landing in a
       safer area.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: The woman gives Andres a book
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: What is this? Who are you?
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: No time to explain. Just touch the book.
-    speaker: ???
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Upon touching the book, he is teleported into an empty white space.
       The floating creature was gone.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Where am I?
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: In your mind.
-    speaker: ???
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Huh? Who said that?
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: 'My name is Apolaki. '
-    speaker: Apolaki
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: " You should know, I\u2019m the brother of Mayari"
-    speaker: Mayari
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: the one who punished you for your recklessness.
-    speaker: Mayari
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Why am I here?
-    speaker: Andres Lamat
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: "Because I believe in second chances\u2026 Plus, I have no other options. "
-    speaker: Apolaki
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: What are you talking about?
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: 'Your actions caused chaos, Andres. When you destroyed the trees, you
       also destroyed the barriers that protected its inhabitants from the evil forces
       of Sitan. '
-    speaker: Apolaki
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Sitan?
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: The evil god of the lower world. My sister and I had fought him, and
       it had echoed in the stars in a different time.
-    speaker: Apolaki
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: "Eventually we managed to suppress him and made the barrier to stop
       the fight\u2026"
-    speaker: Apolaki
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: But because of what you did, he is free once again. And after you were
       banned into punishment, Sitan launched a full-scale invasion.
-    speaker: Apolaki
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: "Oh no\u2026 I didn\u2019t mean for this to happen."
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Mayari was kidnapped by Sitan and possessed most of the inhabitants.
       Me and my sister have a sworn duty to protect the inhabitants of this land.
-    speaker: Apolaki
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: I decided to become the barrier that protects the remaining inhabitants
       from Sitan.
-    speaker: Apolaki
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: But this will only delay the inevitable. We need a plan.
-    speaker: Apolaki
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Plan to do what?
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: "To free my sister. That\u2019s where you come in."
-    speaker: Apolaki
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: You see, this book is no ordinary book. This book contains spells that
       will aid you in your mission to rescue Mayari.
-    speaker: Apolaki
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Why me? I ruined the forest. Why trust me?
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Like I said, I believe in second chances. Now are you ready?
-    speaker: Apolaki
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: "Alright\u2026"
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Very good. You will be accompanied by Ibneg.
-    speaker: Apolaki
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Ibneg? Is she the floating creature?
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: "Yes. And I believe her kind are called Aghoy. Alright, it\u2019s time
       for you to wake up."
-    speaker: Apolaki
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Andres wakes up. Shaking his head from dizziness, he looks at Ibneg.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Did that bring you up to speed?
-    speaker: Ibneg
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Before Andres could even answer, she quickly glances away.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: "Good. Let\u2019s go."
-    speaker: Ibneg
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: As they went into the grasslands, they immediately encounter a possessed
       inhabitant.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Is the ground shaking?
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: "How should I know? I\u2019m floating, remember?"
-    speaker: Ibneg
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: A big lump of soil suddenly formed from the ground.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Okay, You're right.
-    speaker: Ibneg
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: "What in the\u2014"
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Aghhh!
-    speaker: ???
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: As Andres stares, the lump grows bigger and bigger, shaking Andres
       to his core.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: What... are you?
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: It's Laman Lupa!
-    speaker: Ibneg
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Who?
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: He is here to fix the problem you caused and face you!
-    speaker: Ibneg
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 1
+    speaker: {fileID: 0}
     pos: 0
     sentence: "You\u2026 You are the one who removed the barrier. All those trees\u2026
       GONE!"
-    speaker: Laman Lupa
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: The ground was shaking harder. Causing Andres to lose balance.
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Woah!
-    speaker: Andres
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: 'Ibneg helps Andres regain his balance and points to the book. '
-    speaker: 
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: What are you waiting for? Bathala? Open the book!
-    speaker: Ibneg
-    Bg: 0
+    Bg: {fileID: 0}
     speakerNumber: 0

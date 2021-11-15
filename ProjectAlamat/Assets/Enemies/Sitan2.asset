@@ -15,7 +15,7 @@ MonoBehaviour:
   charType: 1
   name: Sitan
   NormalSprite: {fileID: 21300000, guid: e1ebae725cf166744a1fcdeb04b753d8, type: 3}
-  attackImage: {fileID: 21300000, guid: e1ebae725cf166744a1fcdeb04b753d8, type: 3}
+  attackImage: {fileID: 21300000, guid: c2b4f7a65a88b074e91d81ed8a8a292e, type: 3}
   attackSfx: {fileID: 8300000, guid: 93ed09d0a34c63d4392278ae9cc5b1f9, type: 3}
   attackedImage: {fileID: 21300000, guid: e1ebae725cf166744a1fcdeb04b753d8, type: 3}
   faceImage: {fileID: 21300000, guid: 50cc90fbed2cba94aaadda6d07600e53, type: 3}

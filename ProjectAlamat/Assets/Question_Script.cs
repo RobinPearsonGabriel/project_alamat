@@ -24,6 +24,7 @@ public class Question_Script : MonoBehaviour
     Salita Answer;
     [SerializeField] GameObject BookPanel;
     [SerializeField] TextMeshProUGUI BookQuestion;
+    [SerializeField] KeyboardScript keyboard;
 
  
    
@@ -64,7 +65,7 @@ public class Question_Script : MonoBehaviour
                 ChoicesPanel.SetActive(false);
                 wheelGamePanel.SetActive(false);
                 ScrollwheelPanel.SetActive(false);
-                 FourSentecesOnewordPanel.SetActive(false);
+                FourSentecesOnewordPanel.SetActive(false);
                 BookPanel.SetActive(true);
                 BookQuestion.text = Identification();
                 break;
@@ -161,14 +162,14 @@ public class Question_Script : MonoBehaviour
          }
 
         setChoiceBox.setSalita(choices);
-        return "English :" + Answer.englishSentenceTraining +"\n" + "Filipino : " + Answer.tagalogSentenceTraining;
+        return "English :"+ Answer.englishSentenceTraining + "\n" + "Filipino : " + Answer.tagalogSentenceTraining;
     }
 
-    public string Identification( )
+    public string Identification()
     {
         Answer = wordList[Random.Range(0, wordList.Count)];
-
-        return "English :" + Answer.englishSentenceTraining +"\n" + "Filipino : " + Answer.tagalogSentenceTraining;
+        keyboard.SetUnderline();
+        return Answer.englishSentenceTraining + "\n" + "English :" + "\n" + "Filipino : " + Answer.tagalogSentenceTraining;
 
 
     }

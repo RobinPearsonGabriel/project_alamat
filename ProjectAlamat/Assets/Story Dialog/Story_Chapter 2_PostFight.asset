@@ -18,41 +18,41 @@ MonoBehaviour:
     sentence: After the final blow from Andres, Calanget collapses and falls to the
       ground. Lying on the ground, Calanget laughs at the two.
     speaker: 
-    Bg: 2
+    Bg: {fileID: 21300000, guid: e706d7f874d103f4c9f8464b6cb087e3, type: 3}
     speakerNumber: 0
   - speakerSprite: 1
     pos: 0
     sentence: All I wanted was peace for once.
     speaker: Calanget
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
     pos: 0
     sentence: All of this for peace? Betraying others just for your selfish needs.
     speaker: Andres
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 1
     pos: 0
     sentence: Are you even hearing yourself? That's funny coming from you.
     speaker: Calanget
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     pos: 0
     sentence: Ibneg cuts the conversation after seeing an exit.
     speaker: 
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 2
     pos: 1
     sentence: I already found a way out. Let's go.
     speaker: Ibneg
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 2
   - speakerSprite: 1
     pos: 3
     sentence: You won't win.
     speaker: Calanget
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 3

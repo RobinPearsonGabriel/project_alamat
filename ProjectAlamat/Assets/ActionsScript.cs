@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class ActionsScript : MonoBehaviour
 {
     public Camera camera;
-    public Canvas mainCanvas;
+    public GameObject sentencePanel;
     public Canvas actionCanvas;
     public Image enemyImage;
     public Image playerImage;
@@ -22,8 +22,9 @@ public class ActionsScript : MonoBehaviour
 
     public void ActivateWinPanel()
     {
+        Debug.Log("Win");
         WinPanel.SetActive(true);
-        Invoke("DeactivateWinPanel", 1.0f);
+        Invoke("DeactivateWinPanel", 6.0f);
     }   
 
     void DeactivateWinPanel()
@@ -33,7 +34,7 @@ public class ActionsScript : MonoBehaviour
 
     public void ActivateActionCanvas(Sprite playersImage, Sprite enemysImage)
     {
-        mainCanvas.gameObject.SetActive(false);
+        sentencePanel.SetActive(false);
         actionCanvas.gameObject.SetActive(true);
         enemyImage.sprite = enemysImage;
         enemyImage.SetNativeSize();
@@ -42,7 +43,7 @@ public class ActionsScript : MonoBehaviour
         camera.orthographicSize = 3;
         camera.transform.Rotate(new Vector3(0, 0, rotateMagnitude));
 
-        Invoke("DeactivateActionCanvas", 1.0f);
+        Invoke("DeactivateActionCanvas", 3.0f);
     }
 
     void Update()
@@ -55,7 +56,7 @@ public class ActionsScript : MonoBehaviour
 
     void DeactivateActionCanvas()
     {
-        mainCanvas.gameObject.SetActive(true);
+        sentencePanel.SetActive(true);
         actionCanvas.gameObject.SetActive(false);
         camera.transform.rotation = new Quaternion(0, 0, 0 ,0);
         camera.orthographicSize = cameraSize;
