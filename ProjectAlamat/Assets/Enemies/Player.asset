@@ -29,6 +29,7 @@ MonoBehaviour:
   - '"Good job me!"'
   - '"It''s working."'
   defeatDialog: 
+  DialogSprite: {fileID: 21300000, guid: ea5ba9875104ac34090df10aa957227b, type: 3}
   baseHp: 25
   baseAtk: 10
   baseDef: 10
