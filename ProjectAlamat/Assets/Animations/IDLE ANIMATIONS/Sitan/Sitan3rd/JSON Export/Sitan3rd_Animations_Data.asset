@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a64e5b0e436d4bed9780211ae245f7b, type: 3}
+  m_Name: Sitan3rd_Animations_Data
+  m_EditorClassIdentifier: 
+  dataName: Sitan3rd_Animations
+  dragonBonesJSON: {fileID: 4900000, guid: 63413df95131fa7459b0b2fa6f5a202d, type: 3}
+  textureAtlas:
+  - textureAtlasJSON: {fileID: 4900000, guid: a66b6e2b351450e4181d56a6c28c2a92, type: 3}
+    texture: {fileID: 2800000, guid: 53de6329245757842b47aa8891b0ab14, type: 3}
+    material: {fileID: 2100000, guid: 181f5d60142745b4b8184343eb94facd, type: 2}
+    uiMaterial: {fileID: 0}

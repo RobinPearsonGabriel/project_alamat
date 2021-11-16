@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a64e5b0e436d4bed9780211ae245f7b, type: 3}
+  m_Name: Kaperosa_Animations_Data
+  m_EditorClassIdentifier: 
+  dataName: Kaperosa_Animations
+  dragonBonesJSON: {fileID: 4900000, guid: d0dba10004d469e4aa5069b9843d01bc, type: 3}
+  textureAtlas:
+  - textureAtlasJSON: {fileID: 4900000, guid: f3209b3f56afb694099f9b4bf59fe73e, type: 3}
+    texture: {fileID: 2800000, guid: 74595ec7828adf64fae89a8186defa19, type: 3}
+    material: {fileID: 2100000, guid: 5cf49b14eda257547aa05ea446a68de2, type: 2}
+    uiMaterial: {fileID: 0}
