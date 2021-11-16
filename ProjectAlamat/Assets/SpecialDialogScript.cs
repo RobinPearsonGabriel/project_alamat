@@ -10,18 +10,8 @@ public class SpecialDialogScript : MonoBehaviour
     [SerializeField] Image textboxSprite;
     [SerializeField] GameObject Panel;
     int Index;
-    [SerializeField] List<Line> lines;  
-    [System.Serializable]
-    public struct Line
-    {
+    [SerializeField] DialogList lines ;  
 
-      
-        public string name;
-        public string sentence;
-        public Sprite Bg;
-        public Sprite characterSprite;
-       
-    }
 
 
 
@@ -29,12 +19,17 @@ public class SpecialDialogScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Index=0;    
-        if (lines.Count > 0)
+        Index=0;
+
+        if (lines != null)
         {
-            talking();
-       
-        
+
+            if (lines.dialogs.Count > 0)
+            {
+                talking();
+
+
+            }
         }
     }
 
@@ -46,16 +41,17 @@ public class SpecialDialogScript : MonoBehaviour
 
   public  void talking()
     {
-        nameText.text = lines[Index].name;
-        textbox.text = lines[Index].sentence;
-        if (lines[Index].Bg != null)
+      
+        nameText.text = lines.dialogs[Index].getSpeakerName();
+        textbox.text = lines.dialogs[Index].sentence;
+        if (lines.dialogs[Index].Bg != null)
         {
-            Background.sprite = lines[Index].Bg;
+            Background.sprite = lines.dialogs[Index].Bg;
         }
-        if (lines[Index].characterSprite != null)
+        if (lines.dialogs[Index].speaker.DialogSprite != null)
         {
             textboxSprite.enabled = true;
-            textboxSprite.sprite = lines[Index].characterSprite;
+            textboxSprite.sprite = lines.dialogs[Index].speaker.DialogSprite;
         }
         else
         {
@@ -66,7 +62,7 @@ public class SpecialDialogScript : MonoBehaviour
 
 
         Index++;
-        if (lines.Count <= Index)
+        if (lines.dialogs.Count <= Index)
         {
             Panel.SetActive (false);
             DialogEnd();
@@ -74,7 +70,7 @@ public class SpecialDialogScript : MonoBehaviour
     }
     void DialogEnd()
     {
-        
+    
     }    
 
 }

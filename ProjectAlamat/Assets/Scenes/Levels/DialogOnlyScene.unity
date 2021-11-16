@@ -161,8 +161,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -146.78304}
-  m_SizeDelta: {x: 0, y: -293.5661}
+  m_AnchoredPosition: {x: -0.00048828125, y: -154.91}
+  m_SizeDelta: {x: 248.75, y: -277.33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &390514365
 MonoBehaviour:
@@ -311,7 +311,8 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
+  m_Children:
+  - {fileID: 1762898466}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -332,7 +333,7 @@ MonoBehaviour:
   Background: {fileID: 0}
   textboxSprite: {fileID: 0}
   Panel: {fileID: 0}
-  lines: []
+  lines: {fileID: 0}
 --- !u!1 &1030604213
 GameObject:
   m_ObjectHideFlags: 0
@@ -344,7 +345,7 @@ GameObject:
   - component: {fileID: 1030604215}
   - component: {fileID: 1030604214}
   m_Layer: 0
-  m_Name: Dialogue Manager
+  m_Name: GameObject
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -367,23 +368,7 @@ MonoBehaviour:
   Background: {fileID: 2123814538}
   textboxSprite: {fileID: 1673345434}
   Panel: {fileID: 390514363}
-  lines:
-  - name: Andes
-    sentence: 1
-    Bg: {fileID: 21300000, guid: 7956a90c8257e8a4898b808338f74ba9, type: 3}
-    characterSprite: {fileID: 21300000, guid: ea5ba9875104ac34090df10aa957227b, type: 3}
-  - name: billie
-    sentence: 2
-    Bg: {fileID: 21300000, guid: 9d3768c28648d574192ba362691ce41f, type: 3}
-    characterSprite: {fileID: 21300000, guid: 7a499644cfe9d1f4fbcd3662f320d5f0, type: 3}
-  - name: ghanna
-    sentence: 3
-    Bg: {fileID: 0}
-    characterSprite: {fileID: 0}
-  - name: billie
-    sentence: 4
-    Bg: {fileID: 0}
-    characterSprite: {fileID: 0}
+  lines: {fileID: 11400000, guid: b9efaceaa6159df43bde0be5c94f80b5, type: 2}
 --- !u!4 &1030604215
 Transform:
   m_ObjectHideFlags: 0
@@ -729,8 +714,8 @@ RectTransform:
   m_Children:
   - {fileID: 2123814537}
   - {fileID: 390514364}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
+  m_Father: {fileID: 629975410}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -786,8 +771,8 @@ Canvas:
   m_GameObject: {fileID: 1762898465}
   m_Enabled: 1
   serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_RenderMode: 1
+  m_Camera: {fileID: 629975409}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -830,10 +815,10 @@ RectTransform:
   m_Father: {fileID: 1762898466}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -0.00048828, y: -13.09}
+  m_SizeDelta: {x: 888.75, y: 486.32}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2123814538
 MonoBehaviour:
