@@ -1,6 +1,7 @@
 Using pre-set license
 Built from '2021.1/staging' branch; Version is '2021.1.6f1 (c0fade0cc7e9) revision 12647134'; Using compiler version '192528614'; Build Type 'Release'
 <<<<<<< HEAD
+<<<<<<< HEAD
 OS: 'Windows 10 Home; OS build 19043.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 24419 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
@@ -13,12 +14,20 @@ BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, I
  COMMAND LINE ARGUMENTS:
 D:\MAIN_RED\INSTALLS\Unity 2021.1.6f1\Editor\Unity.exe
 >>>>>>> e1b8b70e20f77f23b4dc82ecaff2646aa1bc97ce
+=======
+OS: 'Windows 10 Home; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 24511 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\2021.1.6f1\Editor\Unity.exe
+>>>>>>> b10fc0c0801085cf3aa95cfd23bee869501257eb
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
+<<<<<<< HEAD
 <<<<<<< HEAD
 D:/My Files/OneDrive/Documents/projectalamatdesproc/ProjectAlamat
 -logFile
@@ -16289,3 +16298,104 @@ Received Import Request.
 Start importing Assets/Animations/IDLE ANIMATIONS/Sitan/Sitan3rd/JSON Export/Sitan3rd_Animations_tex_Mat.mat using Guid(181f5d60142745b4b8184343eb94facd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd18ca6f99eed3d7ce13965b55c83725') in 0.023925 seconds 
 >>>>>>> e1b8b70e20f77f23b4dc82ecaff2646aa1bc97ce
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+=======
+E:/Repositories/ProjectAlamat3/ProjectAlamat
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56078
+Successfully changed project path to: E:/Repositories/ProjectAlamat3/ProjectAlamat
+E:/Repositories/ProjectAlamat3/ProjectAlamat
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 102.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/2021.1.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Repositories/ProjectAlamat3/ProjectAlamat/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/2021.1.6f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56168
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007670 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 75.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.158 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004274 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 77.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.008 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.20 seconds
+Refreshing native plugins compatible for Editor in 0.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2172 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 99.2 MB.
+System memory in use after: 99.3 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2627.
+Total: 2.792400 ms (FindLiveObjects: 0.188700 ms CreateObjectMapping: 0.162100 ms MarkObjects: 2.315700 ms  DeleteObjects: 0.124800 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Enemies/Sitan3.asset
+  artifactKey: Guid(bd0b222ec21fc0547a283575f9e18c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Sitan3.asset using Guid(bd0b222ec21fc0547a283575f9e18c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436d251be6248d9a22534d6c22b4b544') in 0.077445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Enemies/Sitan1.asset
+  artifactKey: Guid(ac68a678a0c2e004eb392e21db323a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Sitan1.asset using Guid(ac68a678a0c2e004eb392e21db323a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5dd51a6624ed6e3cfa0dcbffff95ed30') in 0.019974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Enemies/Sitan2.asset
+  artifactKey: Guid(3a088557b3e63da4da07d24bc46b083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Enemies/Sitan2.asset using Guid(3a088557b3e63da4da07d24bc46b083f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2af5cece4bf74ac9545a682f74166a58') in 0.013220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Scenes/Levels/Level1.unity
+  artifactKey: Guid(de6b84218e0a87b47b22ade6db6a3c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Levels/Level1.unity using Guid(de6b84218e0a87b47b22ade6db6a3c39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6423282cecb4bad59481ae7f7ba2f0') in 0.007227 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004931 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.022 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2148 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.3 MB.
+System memory in use after: 97.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 2631.
+Total: 3.128900 ms (FindLiveObjects: 0.180000 ms CreateObjectMapping: 0.101500 ms MarkObjects: 2.821300 ms  DeleteObjects: 0.025000 ms)
+
+>>>>>>> b10fc0c0801085cf3aa95cfd23bee869501257eb
