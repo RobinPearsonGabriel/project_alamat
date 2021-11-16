@@ -13,19 +13,43 @@ MonoBehaviour:
   m_Name: Story_Epilogue
   m_EditorClassIdentifier: 
   dialogs:
-  - sentence: Andres wakes up from his bed, realizing he has been in a coma for more
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: Andres wakes up from his bed, realizing he has been in a coma for more
       than a year.
-    speaker: 
-  - sentence: Gabriel is happy to see him awake.
-    speaker: 
-  - sentence: Seeing the errors of mistakes, Andres makes use of his second chance
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: Gabriel is happy to see him awake.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: Seeing the errors of mistakes, Andres makes use of his second chance
       to change his ways.
-    speaker: 
-  - sentence: "As a promise to himself for Josefina, Andres and Gabriel made a special
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: "As a promise to himself for Josefina, Andres and Gabriel made a special
       site for Gabriel\u2019s mother."
-    speaker: 
-  - sentence: Andres slowly expanded the forest. By doing so he, inadvertently restored
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: Andres slowly expanded the forest. By doing so he, inadvertently restored
       its biodiversity. Flora and fauna are both in harmony.
-    speaker: 
-  - sentence: The end.
-    speaker: 
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: The end.
+    Bg: {fileID: 0}
+    speakerNumber: 0

@@ -24,8 +24,8 @@ public class Character_BaseStat : ScriptableObject
     public List<Sprite> damagedAnimation;
     public List<string> CombatDialogs;
     public string defeatDialog;
+    public Sprite DialogSprite;
 
-    
     public int baseHp;
    public int baseAtk;
    public int baseDef;
