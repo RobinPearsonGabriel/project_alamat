@@ -20,12 +20,6 @@ public class SpecialDialogScript : MonoBehaviour
         public string sentence;
         public Sprite Bg;
         public Sprite characterSprite;
-
-
-        
-
-       
-
        
     }
 
@@ -80,7 +74,7 @@ public class SpecialDialogScript : MonoBehaviour
     }
     void DialogEnd()
     {
-    
+        
     }    
 
 }

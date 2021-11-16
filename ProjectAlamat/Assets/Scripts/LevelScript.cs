@@ -64,6 +64,10 @@ public class LevelScript : MonoBehaviour
     public Image enemyFaceImage;
     public Image playerFaceImage;
 
+    [Header("TutorialPanel")]
+    public GameObject tutorialPanel;
+    bool tutorialComplete = false;
+
     [Header("GameOverPanel")]
     public Image enemyImage;
     public Text enemyName;
@@ -111,6 +115,11 @@ public class LevelScript : MonoBehaviour
     void Update()
     {
        
+    }
+
+    public void completeTutorial(bool finished)
+    {
+        tutorialComplete = finished;
     }
 
 

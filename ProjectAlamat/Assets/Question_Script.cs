@@ -169,7 +169,7 @@ public class Question_Script : MonoBehaviour
     {
         Answer = wordList[Random.Range(0, wordList.Count)];
         keyboard.SetUnderline();
-        return Answer.englishSentenceTraining + "\n" + "English :" + "\n" + "Filipino : " + Answer.tagalogSentenceTraining;
+        return Answer.englishSentenceTraining + "\n" + "English: ________" + "\n" + "Filipino: " + Answer.tagalogSentenceTraining;
 
 
     }

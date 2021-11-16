@@ -252,52 +252,53 @@ public class Dialog_Script : MonoBehaviour
             Bg.sprite = dialog.GetBg();
         }
 
-
-        switch (dialog.Getspeaker())
+        if (dialog.getSpeaker() != null)
         {
-            case DialogList.Speaker.Andes:
-                AndesBase.SetActive(true);
-                Characterface.gameObject.SetActive(true);
-                AndesBase.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
-                EnemyBase.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
-                Ibneng.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
-                Characterface.sprite = dialog.getSpeaker().GetFaceImage();
-                AndesBase.gameObject.GetComponent<SpriteRenderer>().sprite = dialog.getSpeaker().getSpriteImage();
-                Characterface.SetNativeSize();
-                AndesBase.transform.position = setPos(dialog.GetPos()).position;
-                break;
+            switch (dialog.Getspeaker())
+            {
+                case DialogList.Speaker.Andes:
+                    AndesBase.SetActive(true);
+                    Characterface.gameObject.SetActive(true);
+                    AndesBase.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
+                    EnemyBase.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
+                    Ibneng.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
+                    Characterface.sprite = dialog.getSpeaker().GetFaceImage();
+                    AndesBase.gameObject.GetComponent<SpriteRenderer>().sprite = dialog.getSpeaker().getSpriteImage();
+                    Characterface.SetNativeSize();
+                    AndesBase.transform.position = setPos(dialog.GetPos()).position;
+                    break;
 
-            case DialogList.Speaker.Enemy:
-                EnemyBase.SetActive(true);
-                EnemyBase.GetComponent<SpriteRenderer>().color = Color.white;
-                AndesBase.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
-                Ibneng.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
-                EnemyBase.GetComponent<SpriteRenderer>().sprite = dialog.getSpeaker().getSpriteImage();
-                Characterface.gameObject.SetActive(true);
-                Characterface.sprite = dialog.getSpeaker().GetFaceImage();
-                Characterface.SetNativeSize();
-                EnemyBase.transform.position = setPos(dialog.GetPos()).position;
-                break;
-            case DialogList.Speaker.Ibneng:
-                Ibneng.SetActive(true);
-                Ibneng.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
-                AndesBase.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
-                EnemyBase.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
-                Characterface.sprite = dialog.getSpeaker().GetFaceImage();
-                Ibneng.transform.position = setPos(dialog.GetPos()).position;
-                break;
-            case DialogList.Speaker.NoOneSpeaking:
-                Characterface.gameObject.SetActive(false);
-                AndesBase.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
-                EnemyBase.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
-                Ibneng.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
-                break;
-            default:
-                break;
+                case DialogList.Speaker.Enemy:
+                    EnemyBase.SetActive(true);
+                    EnemyBase.GetComponent<SpriteRenderer>().color = Color.white;
+                    AndesBase.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
+                    Ibneng.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
+                    EnemyBase.GetComponent<SpriteRenderer>().sprite = dialog.getSpeaker().getSpriteImage();
+                    Characterface.gameObject.SetActive(true);
+                    Characterface.sprite = dialog.getSpeaker().GetFaceImage();
+                    Characterface.SetNativeSize();
+                    EnemyBase.transform.position = setPos(dialog.GetPos()).position;
+                    break;
+                case DialogList.Speaker.Ibneng:
+                    Ibneng.SetActive(true);
+                    Ibneng.gameObject.GetComponent<SpriteRenderer>().color = Color.white;
+                    AndesBase.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
+                    EnemyBase.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
+                    Characterface.sprite = dialog.getSpeaker().GetFaceImage();
+                    Ibneng.transform.position = setPos(dialog.GetPos()).position;
+                    break;
+                case DialogList.Speaker.NoOneSpeaking:
+                    Characterface.gameObject.SetActive(false);
+                    AndesBase.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
+                    EnemyBase.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
+                    Ibneng.gameObject.GetComponent<SpriteRenderer>().color = Color.black;
+                    break;
+                default:
+                    break;
 
 
+            }
         }
-
     }
 
     public void NextLine()
@@ -331,6 +332,9 @@ public class Dialog_Script : MonoBehaviour
             LevelScript.instance.onDialogEnd();
             LevelScript.instance.playerObj.SetActive(true);
             LevelScript.instance.enemyObj.SetActive(true);
+            AndesBase.SetActive(false);
+            EnemyBase.SetActive(false);
+            Ibneng.SetActive(false);
             namePanel.SetActive(false);
             nameText.text = "";
             Characterface.color = Color.clear;
