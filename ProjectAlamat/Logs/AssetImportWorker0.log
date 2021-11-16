@@ -656,3 +656,28 @@ System memory in use after: 168.6 MB.
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3218.
 Total: 3.067000 ms (FindLiveObjects: 0.350100 ms CreateObjectMapping: 0.164500 ms MarkObjects: 2.533500 ms  DeleteObjects: 0.017900 ms)
 
+========================================================================
+Received Prepare
+The file 'UserSettings/EditorUserSettings.asset' seems to have merge conflicts. Please open it in a text editor and fix the merge.
+
+Trying to reload asset but can't find object on disk
+
+Registering precompiled user dll's ...
+Registered in 0.003302 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.112 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2214 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 168.5 MB.
+System memory in use after: 168.7 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 3222.
+Total: 3.096500 ms (FindLiveObjects: 0.212000 ms CreateObjectMapping: 0.095000 ms MarkObjects: 2.771900 ms  DeleteObjects: 0.016400 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
