@@ -10,6 +10,7 @@ public class UIManager : MonoBehaviour
     public GameObject mainPanel;
     public GameObject savePanel;
     public GameObject confirmationPanel;
+    public GameObject creditsPanel;
 
     [Header("Sound Settings")]
     public Slider musicSlider;
@@ -123,6 +124,7 @@ public class UIManager : MonoBehaviour
         optionsPanel.SetActive(panelToBeActivated.Equals(optionsPanel));
         mainPanel.SetActive(panelToBeActivated.Equals(mainPanel));
         savePanel.SetActive(panelToBeActivated.Equals(savePanel));
+        creditsPanel.SetActive(panelToBeActivated.Equals(creditsPanel));
     }
 
 }

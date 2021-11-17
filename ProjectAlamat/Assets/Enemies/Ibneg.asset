@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   charType: 0
   name: Ibneg
-  NormalSprite: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
+  NormalSprite: {fileID: 21300000, guid: bafa81efa66e33442bbb748974dcf367, type: 3}
   attackImage: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
   attackSfx: {fileID: 8300000, guid: d179efea8e6cf354ebfa6e7e6c1d6ed6, type: 3}
   attackedImage: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}

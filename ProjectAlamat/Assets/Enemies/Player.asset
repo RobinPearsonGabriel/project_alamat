@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   charType: 0
   name: Andres Lamat
-  NormalSprite: {fileID: 21300000, guid: 05b1a9e6a4e8526498e1ffaec512503a, type: 3}
+  NormalSprite: {fileID: 21300000, guid: 052fcc35862496e4aa1e613de0b5f8b2, type: 3}
   attackImage: {fileID: 21300000, guid: a0bd41eb88381c2469baa154dd39d1f1, type: 3}
   attackSfx: {fileID: 8300000, guid: d179efea8e6cf354ebfa6e7e6c1d6ed6, type: 3}
-  attackedImage: {fileID: 21300000, guid: 05b1a9e6a4e8526498e1ffaec512503a, type: 3}
+  attackedImage: {fileID: 21300000, guid: 052fcc35862496e4aa1e613de0b5f8b2, type: 3}
   faceImage: {fileID: 21300000, guid: aad8de4dd607d6041bcb89da23a71b64, type: 3}
   atkAnimation: []
   DeathAnimation: []

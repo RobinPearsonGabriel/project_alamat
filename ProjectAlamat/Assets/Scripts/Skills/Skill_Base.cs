@@ -18,7 +18,7 @@ public class Skill_Base : MonoBehaviour
     {
 
     }
-    protected virtual void DeactivateSkill() 
+    public virtual void DeactivateSkill() 
     {
 
     }

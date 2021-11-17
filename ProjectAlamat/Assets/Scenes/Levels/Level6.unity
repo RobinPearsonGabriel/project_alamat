@@ -476,6 +476,10 @@ PrefabInstance:
       propertyPath: animationName
       value: Sitan1st_Idle
       objectReference: {fileID: 0}
+    - target: {fileID: 1682864940014924524, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -349
+      objectReference: {fileID: 0}
     - target: {fileID: 3042128336256442372, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: PassiveSkill
       value: 
@@ -552,6 +556,15 @@ PrefabInstance:
       propertyPath: wordList.Array.data[11]
       value: 
       objectReference: {fileID: 11400000, guid: 49f2c6c1e5b0c33449001aa74c6d3369, type: 2}
+    - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: tutorialPanel
+      value: 
+      objectReference: {fileID: 1543079153}
+    - target: {fileID: 4424025905783726531, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_Text
+      value: Rotate the right spell wheel, by pressing on the wheel and rotating
+        it, to match the phrases and form the correct sentence.
+      objectReference: {fileID: 0}
     - target: {fileID: 5540495901209079811, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_Name
       value: LevelPrefab 1
@@ -661,7 +674,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turnsSinceSpawned: 0
-  Duration: 0
+  Duration: 3
+--- !u!1 &1543079153 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 779159429327738935, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+  m_PrefabInstance: {fileID: 1543079150}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1543079157 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3042128336256442374, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}

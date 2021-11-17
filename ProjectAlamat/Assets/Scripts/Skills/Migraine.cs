@@ -10,7 +10,6 @@ public class Migraine : Skill_Base
     public Transform spawnPosition;
     private GameObject spawnedObject;
 
-
     public override void ActivateSkill()
     {
         turnsSinceSpawned = 0;
@@ -20,7 +19,7 @@ public class Migraine : Skill_Base
 
     }
 
-    protected override void DeactivateSkill()
+    public override void DeactivateSkill()
     {
         Destroy(spawnedObject);
     }

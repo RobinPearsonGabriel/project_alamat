@@ -20,6 +20,7 @@ public class TutorialPanel : MonoBehaviour
 
     public void NextPage()
     {
+        tutorialImages[currentPanel].SetActive(false);
         currentPanel++;
         if (tutorialImages[currentPanel] != null)
         {
@@ -34,6 +35,7 @@ public class TutorialPanel : MonoBehaviour
     }
     public void PreviousPage()
     {
+        tutorialImages[currentPanel].SetActive(false);
         currentPanel--;
         if (tutorialImages != null)
         {

@@ -376,6 +376,10 @@ PrefabInstance:
       propertyPath: bgSprite.Array.data[0]
       value: 
       objectReference: {fileID: 21300000, guid: 7956a90c8257e8a4898b808338f74ba9, type: 3}
+    - target: {fileID: 77873800956487658, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 148029128677013750, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_SizeDelta.x
       value: 848
@@ -392,10 +396,26 @@ PrefabInstance:
       propertyPath: armatureName
       value: Armature
       objectReference: {fileID: 0}
+    - target: {fileID: 212431436871509815, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: animationName
+      value: Berberoka_Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 735769109599719468, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1022995806144801088, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_Text
       value: Press and move the spell word up and down to match the word in the middle
         with the incomplete sentence.
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682864940014924524, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 119
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682864940014924524, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -287
       objectReference: {fileID: 0}
     - target: {fileID: 2043890994812527144, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: initialMusic
@@ -405,9 +425,13 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -93.74652
       objectReference: {fileID: 0}
+    - target: {fileID: 2291267478482023615, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_Mesh
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 2607791001347403176, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3042128336256442372, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: PassiveSkill
@@ -418,8 +442,12 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: f21ce2b63fc65234cae5ea09b2e617bf, type: 2}
     - target: {fileID: 3042128336256442374, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.29
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042128336256442374, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.94
+      value: -4.5
       objectReference: {fileID: 0}
     - target: {fileID: 3042128336256442379, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_Name
@@ -441,6 +469,10 @@ PrefabInstance:
       propertyPath: precombatDialog
       value: 
       objectReference: {fileID: 11400000, guid: 7fcbad04f3c48794ba3dda9113075b09, type: 2}
+    - target: {fileID: 3042128337451099682, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: characterBaseStat
+      value: 
+      objectReference: {fileID: 11400000, guid: 3c9f4d38ca8c42e4b9e25ac2a0a2839c, type: 2}
     - target: {fileID: 3868293168584217542, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 1
@@ -448,6 +480,15 @@ PrefabInstance:
     - target: {fileID: 4100634845920764493, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4424025905783726531, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_Text
+      value: Press and move the spell word up and down to match the word in the middle
+        with the incomplete sentence.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4796073878349331781, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_Mesh
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 5416570381728129441, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_LocalPosition.z
@@ -545,6 +586,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 21300000, guid: 912e2e3a6322aab4fb19644476befbef, type: 3}
+    - target: {fileID: 7710371201883434756, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8679186652489597352, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_LocalPosition.z
       value: 1

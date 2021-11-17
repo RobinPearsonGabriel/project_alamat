@@ -43,7 +43,7 @@ public class FourPicOneWord_Wheel : MonoBehaviour, IPointerEnterHandler, IPointe
 
             hasChanged = false;
 
-        currentIndex = Random.Range(0, choices.Count);
+        currentIndex = Random.Range(0, choices.Count-1);
 
         }
         public void offsetStart()
@@ -150,7 +150,7 @@ public class FourPicOneWord_Wheel : MonoBehaviour, IPointerEnterHandler, IPointe
                         currentIndex += choices.Count;
                     }
                     // currentIndex = Mathf.Clamp(currentIndex, 0, choices.Count);
-                 //   currentIndex = -1 % choices.Count;   
+                    // currentIndex = -1 % choices.Count;   
                     
                     choiceBox.color = new Vector4(choiceBox.color.r, choiceBox.color.g, choiceBox.color.b, Mathf.Clamp(1-((rectTransform.eulerAngles.z % 360)/360), 0.1f, 1.0f));
 
@@ -174,7 +174,10 @@ public class FourPicOneWord_Wheel : MonoBehaviour, IPointerEnterHandler, IPointe
                     }
                 }
 
-            choiceBox.text = choices[currentIndex];
+            if (choices != null&& currentIndex < choices.Count)
+            {
+                choiceBox.text = choices[currentIndex];
+            }
                 if (Input.GetMouseButtonUp(0))
                 {
                     // Debug.Log(rectTransform.eulerAngles.z % 360);
@@ -184,7 +187,7 @@ public class FourPicOneWord_Wheel : MonoBehaviour, IPointerEnterHandler, IPointe
 
                 }
 
-              
+            
 
             }
         }

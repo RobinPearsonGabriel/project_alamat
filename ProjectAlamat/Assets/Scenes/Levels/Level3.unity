@@ -383,6 +383,10 @@ PrefabInstance:
       propertyPath: EnemyBase
       value: 
       objectReference: {fileID: 218120331}
+    - target: {fileID: 1955214670, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 319
+      objectReference: {fileID: 0}
     - target: {fileID: 148029128677013750, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_SizeDelta.x
       value: 898
@@ -403,6 +407,10 @@ PrefabInstance:
       propertyPath: animationName
       value: Kaperosa_Idle
       objectReference: {fileID: 0}
+    - target: {fileID: 401161373740921708, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 756197301383898592, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_SortingOrder
       value: 1
@@ -412,13 +420,37 @@ PrefabInstance:
       value: Rotate the right spell wheel, by pressing on the wheel and rotating
         it, to match the phrases and form the correct sentence.
       objectReference: {fileID: 0}
+    - target: {fileID: 1075424234447097914, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075424234447097914, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1075424234447097914, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1682864940014924524, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 384
+      objectReference: {fileID: 0}
     - target: {fileID: 2058743308688238938, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: -112.74652
       objectReference: {fileID: 0}
     - target: {fileID: 2607791001347403176, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2867550634356130851, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -17
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042128335811313628, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3042128335914306638, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_IsActive
@@ -532,9 +564,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3482487958682913826, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -366.61877
+      objectReference: {fileID: 0}
     - target: {fileID: 3543490419572284784, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_hasFontAssetChanged
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4424025905783726531, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_Text
+      value: Rotate the right spell wheel, by pressing on the wheel and rotating
+        it, to match the phrases and form the correct sentence.
       objectReference: {fileID: 0}
     - target: {fileID: 5111141074924399500, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_SortingOrder
@@ -658,6 +699,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1706300188, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+    - {fileID: 623572653, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
 --- !u!224 &1410813748 stripped
 RectTransform:

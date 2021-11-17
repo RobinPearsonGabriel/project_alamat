@@ -7,7 +7,7 @@ public class Indicator : MonoBehaviour
     // Start is called before the first frame update
     void OnEnable()
     {
-        Invoke("DeleteObject", 1.0f);
+        Invoke("DeleteObject", 0.5f);
     }
 
     // Update is called once per frame

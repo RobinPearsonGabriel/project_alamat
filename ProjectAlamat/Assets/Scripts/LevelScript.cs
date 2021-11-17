@@ -50,9 +50,8 @@ public class LevelScript : MonoBehaviour
     public Sprite correctImage;
     public Sprite wrongImage;
     public List<Salita> LearningPhaseWords = new List<Salita>();
-    
     [SerializeField] GameObject combatPhasePanel;
-    [SerializeField] GameObject statsPanel;
+    public GameObject statsPanel;
     PlayerScript player;
     EnemyScript enemy;
     [SerializeField] GameObject GameOverPanel;
@@ -193,7 +192,7 @@ public class LevelScript : MonoBehaviour
             case roundPhase.Win:
 
                 VictoryPanel.SetActive(true);
-
+                enemy.DeactivateSkill();
                 float currExp = player.getCurrentExp();
 
                 VictoryPanel.GetComponent<showPlayerprogress>().expbareffect(player.getCurrentExp(), player.GetExpToLevel(), enemy.GetExperincePoint());
@@ -225,7 +224,9 @@ public class LevelScript : MonoBehaviour
         playerFaceImage.gameObject.SetActive(true);
         enemyFaceImage.gameObject.SetActive(true);
         playerFaceImage.sprite = player.GetFaceImage();
+        playerFaceImage.SetNativeSize();
         enemyFaceImage.sprite = enemy.GetFaceImage();
+        enemyFaceImage.SetNativeSize();
         //playerFaceImage.SetNativeSize();
         //enemyFaceImage.SetNativeSize();
         combatPhasePanel.SetActive (true);
@@ -236,7 +237,7 @@ public class LevelScript : MonoBehaviour
     }
     void CombatPhaseGame()
     {
-        
+        statsPanel.SetActive(true);
         combatPhasePanel.SetActive(true);
         canAnswer = true;
         playerObj.GetComponent<SpriteRenderer>().color = Color.white;
@@ -338,12 +339,15 @@ public class LevelScript : MonoBehaviour
 
     public void Victory()
     {
+        statsPanel.SetActive(false);
         this.gameObject.GetComponent<ActionsScript>().ActivateWinPanel();
         foreach  (string text in wordsLearned)
         {
             wordsLearnedText.text +="\n"+ text;
         }
-        dialog_Script.AddDialogList(VictoryDialog,false);
+        dialog_Script.AddDialogList(VictoryDialog,true);
+        playerObj.transform.position = new Vector3(playerObj.transform.position.x, playerObj.transform.position.y, -5);
+        enemyObj.transform.position = new Vector3(enemyObj.transform.position.x, enemyObj.transform.position.y, -5);
         //NextLine();
         currentPhase = roundPhase.Win;
     }
@@ -355,7 +359,7 @@ public class LevelScript : MonoBehaviour
         enemyName.text = enemy.getName();
         enemyDefeatDialog.text = enemy.GetDefeatDialog();
         currentPhase = roundPhase.Lose;
-        dialog_Script.AddDialogList(DefeatDialog,false);
+        dialog_Script.AddDialogList(DefeatDialog,true);
       
     }
 

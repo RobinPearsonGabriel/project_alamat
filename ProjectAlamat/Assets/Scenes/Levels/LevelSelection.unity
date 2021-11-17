@@ -564,7 +564,7 @@ MonoBehaviour:
   PausePanel: {fileID: 646809644}
   SettingsPanel: {fileID: 1407288641}
   LevelSelectionPanel: {fileID: 174344033}
-  LevelNameText: {fileID: 0}
+  LevelNameText: {fileID: 348101537}
   musicSlider: {fileID: 2139348745}
   soundSlider: {fileID: 1052253882}
   audioSource: {fileID: 1618825220}

@@ -131,14 +131,14 @@ public class Character_Base : MonoBehaviour
         if (Target.tag == "PlayerObject")
         {
             Target.GetComponent<PlayerScript>().TakeDamage(atk);
-            LevelScript.instance.gameObject.GetComponent<ActionsScript>().ActivateActionCanvas(Target.GetComponent<PlayerScript>().GetAttackedImage(), attackImage);
+            LevelScript.instance.gameObject.GetComponent<ActionsScript>().ActivateActionCanvas(Target.GetComponent<PlayerScript>().GetAttackedImage(), attackImage,false);
             AudioManager.instance.PlayAudioClip(attackSfx);
             Debug.Log(name + " attacked " + Target.GetComponent<PlayerScript>().name);
         }
         else
         {
             Target.GetComponent<EnemyScript>().TakeDamage(atk);
-            LevelScript.instance.gameObject.GetComponent<ActionsScript>().ActivateActionCanvas(attackImage, Target.GetComponent<EnemyScript>().GetAttackedImage());
+            LevelScript.instance.gameObject.GetComponent<ActionsScript>().ActivateActionCanvas(attackImage, Target.GetComponent<EnemyScript>().GetAttackedImage(),true);
             AudioManager.instance.PlayAudioClip(attackSfx);
             Debug.Log(name + " attacked " + Target.GetComponent<EnemyScript>().name);
 
@@ -245,7 +245,13 @@ public class Enemy_Class : Character_Base
 
     protected override void Die()
     {
+        PassiveSkill.DeactivateSkill();
         LevelScript.instance.Victory();
+    }
+
+    public void DeactivateSkill()
+    {
+        PassiveSkill.DeactivateSkill();
     }
 
 }

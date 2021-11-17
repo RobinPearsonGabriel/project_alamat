@@ -471,6 +471,10 @@ PrefabInstance:
       propertyPath: animationName
       value: Sitan2nd_Idle
       objectReference: {fileID: 0}
+    - target: {fileID: 735769109599719468, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3042128336256442372, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: PassiveSkill
       value: 
@@ -512,6 +516,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 11400000, guid: 7fcbad04f3c48794ba3dda9113075b09, type: 2}
     - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: tutorialPanel
+      value: 
+      objectReference: {fileID: 2114597939}
+    - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: StartingDialog
       value: 
       objectReference: {fileID: 11400000, guid: 7fcbad04f3c48794ba3dda9113075b09, type: 2}
@@ -519,6 +527,11 @@ PrefabInstance:
       propertyPath: precombatDialog
       value: 
       objectReference: {fileID: 11400000, guid: 7fcbad04f3c48794ba3dda9113075b09, type: 2}
+    - target: {fileID: 4424025905783726531, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_Text
+      value: Press and move the spell word up and down to match the word in the middle
+        with the incomplete sentence.
+      objectReference: {fileID: 0}
     - target: {fileID: 5540495901209079811, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_Name
       value: LevelPrefab 1
@@ -628,7 +641,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   turnsSinceSpawned: 0
-  Duration: 0
+  Duration: 3
 --- !u!1 &2114597936 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3897252997240176596, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
@@ -642,5 +655,10 @@ GameObject:
 --- !u!4 &2114597938 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3042128336256442374, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+  m_PrefabInstance: {fileID: 2114597933}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &2114597939 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 779159429327738935, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
   m_PrefabInstance: {fileID: 2114597933}
   m_PrefabAsset: {fileID: 0}
