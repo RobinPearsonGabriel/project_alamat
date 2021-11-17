@@ -15,7 +15,7 @@ public class FourPicOneWord_Wheel : MonoBehaviour, IPointerEnterHandler, IPointe
     // Update is called once per frame
 
   int  currentIndex;
-    List<string> choices;
+   public List<string> choices;
         Checker checker;
         bool isRotating;
         Vector2 Rot;
