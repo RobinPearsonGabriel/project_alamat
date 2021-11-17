@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c9f3a6b5396ea448d3556aca4eae6b, type: 3}
+  m_Name: Chapter3End
+  m_EditorClassIdentifier: 
+  dialogs:
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: Andres tries to beat the Kaperosa, but his best was not enough. Kaperosa
+      overwhelmed Andres and threw him away.
+    Bg: {fileID: 21300000, guid: 7a38d7d2e41341b4ca63e605780c0a71, type: 3}
+    speakerNumber: 0
+  - speakerSprite: 2
+    speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
+    pos: 0
+    sentence: "It\u2019s no use! We need to remove Sitan's influence. Now!"
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: e3a018c029f27b54fba1bc4c25b43261, type: 2}
+    pos: 0
+    sentence: Andres, aim my book at Kaperosa!
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: The ray of light hits Kaperosa, removing Sitan's inluence.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: ed7ada080364d4f4eaa515af6da0cd23, type: 2}
+    pos: 0
+    sentence: "He's gone. I can't hear him anymore. Thank you\u2026"
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: e3a018c029f27b54fba1bc4c25b43261, type: 2}
+    pos: 0
+    sentence: Now that you are restored, we need you to protect and defend this place
+      from Sitan's place.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: ed7ada080364d4f4eaa515af6da0cd23, type: 2}
+    pos: 0
+    sentence: 'Of course.  '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: She fades into the night once more.
+    Bg: {fileID: 0}
+    speakerNumber: 0

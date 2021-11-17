@@ -16,9 +16,9 @@ MonoBehaviour:
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
-    sentence: 'With Apolaki returning Calanget into his normal state. It collapses
+    sentence: With Apolaki returning Calanget into his normal state, he collapses
       and falls to the ground. Upon realizing the influence of Sitan is now gone,
-      Calanget apologizes.  '
+      Calanget apologizes.
     Bg: {fileID: 21300000, guid: 8e861ea0c59e9d54d8b253b6c6636d75, type: 3}
     speakerNumber: 0
   - speakerSprite: 1
@@ -30,13 +30,13 @@ MonoBehaviour:
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
     pos: 0
-    sentence: 'Its alright.  '
+    sentence: "It\u2019s alright."
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
     pos: 1
-    sentence: 'Calanget. We need you to help us push back Sitan''s forces.  '
+    sentence: Calanget, we need you to help us push back Sitan's forces.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3

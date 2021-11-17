@@ -1,0 +1,97 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c9f3a6b5396ea448d3556aca4eae6b, type: 3}
+  m_Name: Chapter5Start
+  m_EditorClassIdentifier: 
+  dialogs:
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: At the volcano, they were taking a break when suddenly a fireball approaches
+      them.
+    Bg: {fileID: 21300000, guid: 9d3768c28648d574192ba362691ce41f, type: 3}
+    speakerNumber: 0
+  - speakerSprite: 2
+    speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
+    pos: 0
+    sentence: Andres watch out!
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: 'Andres was able to avoid the fireball. '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: Woah! What is that?!
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: Suddenly, a floating fireball comes out of nowhere and surrounds the
+      two.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: 458721d9b69397f458cd645536cab0f2, type: 2}
+    pos: 0
+    sentence: Sitan's will must be done. His will that you begone!
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: What is that floating hot ball?!
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 2
+    speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
+    pos: 0
+    sentence: A Santelmo!
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: Santelmo rushes towards the two. Luckily, they manage to avoid the
+      charge attack.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 2
+    speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
+    pos: 0
+    sentence: "Oh no, Santelmo is possessed! How did Sitan\u2019s entities manage
+      to possess a Santelmo?"
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: Santelmo fires another shot to the two.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 2
+    speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
+    pos: 0
+    sentence: Looks like we must fight this thing.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: ee6ea95b1804ebc4388182078d5e219f, type: 2}
+    pos: 0
+    sentence: 'No one can fight the might of a wrathful light! '
+    Bg: {fileID: 0}
+    speakerNumber: 0

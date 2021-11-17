@@ -1,0 +1,231 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c9f3a6b5396ea448d3556aca4eae6b, type: 3}
+  m_Name: Chapter6End
+  m_EditorClassIdentifier: 
+  dialogs:
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: With no other options, Andres continues to barrage Sitan with spells,
+      but Sitan is persistent. Eventually, Sitan finds an opening for him to counter
+      Andres.
+    Bg: {fileID: 21300000, guid: 4f373b63139dcc14bac3ca7b2b009ccf, type: 3}
+    speakerNumber: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: bd0b222ec21fc0547a283575f9e18c98, type: 2}
+    pos: 0
+    sentence: I got you.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: Agh!
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: Andres was able to make a shield as Sitan approaches him.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: bd0b222ec21fc0547a283575f9e18c98, type: 2}
+    pos: 0
+    sentence: A shield? Is that the best thing you can come up with?
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: Sitan pounds the shield that Andres casted. With every strike Sitan
+      does, the shield continues to break.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: bd0b222ec21fc0547a283575f9e18c98, type: 2}
+    pos: 0
+    sentence: "Like I said earlier\u2026 it\u2019s only a matter of time."
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: Sitan shatters the shield, weakening Andres in the process.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 2
+    speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
+    pos: 0
+    sentence: 'Andres! '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: "I must\u2026 fight on\u2026"
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: bd0b222ec21fc0547a283575f9e18c98, type: 2}
+    pos: 0
+    sentence: It's over.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: Before Sitan could strike the final blow. Ibneg was finally able to
+      release Mayari from the chains.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
+    pos: 0
+    sentence: Ibneg, help Andres. I'll deal with Sitan.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: Ibneg rushes to aid Andres. Mayari meanwhile approaches Sitan.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
+    pos: 0
+    sentence: Sitan, this has gone on far enough.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: 'Mayari unleashes a ray of her magic on Sitan. '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: bd0b222ec21fc0547a283575f9e18c98, type: 2}
+    pos: 0
+    sentence: You face me on the verge of my victory?
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
+    pos: 0
+    sentence: Is that even a question?
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: A fight ensued between the two. Mayari and Sitan are neck-in-neck on
+      each other, but Mayari is able to strike Sitan and incapacitate him.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: ee6ea95b1804ebc4388182078d5e219f, type: 2}
+    pos: 0
+    sentence: We are finished with this fight. Let us go and escape his sight!
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: 'No! We still need to remove the entities from the other possessed
+      inhabitants. '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: Besides, Sitan will just come back and wreak havoc in the land!
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: Mayari looks at Andres. Seeing the book in his possession, Mayari commands
+      him.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
+    pos: 0
+    sentence: Andres, I can't do this alone. I need Apolaki's power to stop this
+      fiend's plan.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: Andres, now capable of fighting once again, aids Mayari.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: Mayari and Andres are able to put all of the entities that possessed
+      the inhabitants of the land back into the lair.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: Is it over?
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 2
+    speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
+    pos: 0
+    sentence: "We\u2026 We did it!"
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
+    pos: 0
+    sentence: Now is not the time to celebrate. We must get out of here.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: Mere moments before Sitan regains consciousness, Mayari uses her powers
+      to block the entrance of his lair with magic, effectively trapping him from
+      the inside.
+    Bg: {fileID: 21300000, guid: 9d3768c28648d574192ba362691ce41f, type: 3}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: As the four escape the lair in the volcano, they can feel the anger
+      of Sitan through the earth-shaking.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: bd0b222ec21fc0547a283575f9e18c98, type: 2}
+    pos: 0
+    sentence: 'One day I''ll free myself from this! '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: bd0b222ec21fc0547a283575f9e18c98, type: 2}
+    pos: 0
+    sentence: And when that day comes, there will be a reckoning!
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: The four go back safely to Apolaki. The god greeted the four with relief.
+    Bg: {fileID: 0}
+    speakerNumber: 0

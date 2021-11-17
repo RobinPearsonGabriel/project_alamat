@@ -16,34 +16,33 @@ MonoBehaviour:
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
-    sentence: 'The two now journey to the grasslands. Ibneg explains to Andres what
-      he has done. '
+    sentence: The two now journey to the grasslands. Ibneg further explains to Andres
+      what he has done.
     Bg: {fileID: 21300000, guid: e706d7f874d103f4c9f8464b6cb087e3, type: 3}
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
     pos: 1
-    sentence: 'Once you destroyed the tree barrier, Sitan and his forces started
-      to invade. He possessed several creatures which would help him conquer the
-      overworld.  '
+    sentence: Once you destroyed the tree barrier, Sitan and his forces started to
+      invade. He possessed several creatures which would help him conquer the overworld.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
     pos: 0
-    sentence: 'All of this is my fault.  '
+    sentence: "All of this is my fault\u2026"
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
     pos: 1
-    sentence: 'What made you destroy the tree barrier, to begin with. '
+    sentence: What made you destroy the tree barrier, to begin with?
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 1
-    sentence: 'But before Andres could answer, he could feel something.  '
+    sentence: Before Andres could answer, he could feel something.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
@@ -55,19 +54,19 @@ MonoBehaviour:
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
     pos: 1
-    sentence: 'Does it look like I could know. I''m floating, remember? '
+    sentence: Does it look like I would know? I'm floating, remember?
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 3
-    sentence: 'A big lump of soil suddenly formed from the ground. '
+    sentence: A big lump of soil suddenly formed from the ground.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
     pos: 1
-    sentence: 'You''re right. '
+    sentence: Well, looks like you're right.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 1
@@ -91,19 +90,19 @@ MonoBehaviour:
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 2
-    sentence: 'The ground shakes harder. Causing Andres to lose balance.  '
+    sentence: The ground shakes harder, causing Andres to lose balance.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 2
-    sentence: 'Ibneg attempts to help Andres regain his balance and points to the
-      book.  '
+    sentence: Ibneg attempts to help Andres regain his balance and points to the
+      book.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
     pos: 2
-    sentence: 'Are you waiting for Bathala? Open the book! '
+    sentence: Are you waiting for Bathala? Open the book!
     Bg: {fileID: 0}
     speakerNumber: 0
