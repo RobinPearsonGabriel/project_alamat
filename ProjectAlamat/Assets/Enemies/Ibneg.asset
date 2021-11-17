@@ -18,12 +18,13 @@ MonoBehaviour:
   attackImage: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
   attackSfx: {fileID: 8300000, guid: d179efea8e6cf354ebfa6e7e6c1d6ed6, type: 3}
   attackedImage: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
-  faceImage: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
+  faceImage: {fileID: 21300000, guid: a4df0ca23b5430348acc7151b6364a89, type: 3}
   atkAnimation: []
   DeathAnimation: []
   damagedAnimation: []
   CombatDialogs: []
   defeatDialog: 
+  DialogSprite: {fileID: 21300000, guid: a4df0ca23b5430348acc7151b6364a89, type: 3}
   baseHp: 1
   baseAtk: 1
   baseDef: 1

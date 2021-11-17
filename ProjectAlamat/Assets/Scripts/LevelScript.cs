@@ -85,6 +85,15 @@ public class LevelScript : MonoBehaviour
       return  canAnswer;
     }
 
+
+    public void TutorialCheck()
+    {
+        if (!tutorialComplete)
+        {
+            tutorialPanel.SetActive(true);
+        }
+    }
+
     void Start()
     {
         dialog_Script = GetComponent<Dialog_Script>();
@@ -217,8 +226,8 @@ public class LevelScript : MonoBehaviour
         enemyFaceImage.gameObject.SetActive(true);
         playerFaceImage.sprite = player.GetFaceImage();
         enemyFaceImage.sprite = enemy.GetFaceImage();
-        playerFaceImage.SetNativeSize();
-        enemyFaceImage.SetNativeSize();
+        //playerFaceImage.SetNativeSize();
+        //enemyFaceImage.SetNativeSize();
         combatPhasePanel.SetActive (true);
         statsPanel.SetActive(true);
         

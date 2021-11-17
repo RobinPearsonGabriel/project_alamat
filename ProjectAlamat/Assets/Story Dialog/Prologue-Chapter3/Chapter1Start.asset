@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c9f3a6b5396ea448d3556aca4eae6b, type: 3}
+  m_Name: Chapter1Start
+  m_EditorClassIdentifier: 
+  dialogs:
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: 'The two now journey to the grasslands. Ibneg explains to Andres what
+      he has done. '
+    Bg: {fileID: 21300000, guid: e706d7f874d103f4c9f8464b6cb087e3, type: 3}
+    speakerNumber: 0
+  - speakerSprite: 2
+    speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
+    pos: 1
+    sentence: 'Once you destroyed the tree barrier, Sitan and his forces started
+      to invade. He possessed several creatures which would help him conquer the
+      overworld.  '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: 'All of this is my fault.  '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 2
+    speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
+    pos: 1
+    sentence: 'What made you destroy the tree barrier, to begin with. '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 1
+    sentence: 'But before Andres could answer, he could feel something.  '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: 'Is the ground shaking? '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 2
+    speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
+    pos: 1
+    sentence: 'Does it look like I could know. I''m floating, remember? '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 3
+    sentence: 'A big lump of soil suddenly formed from the ground. '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 2
+    speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
+    pos: 1
+    sentence: 'You''re right. '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: de46305613233ca4597bc5cab2295e78, type: 2}
+    pos: 3
+    sentence: Graaaaaahh!
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 2
+    speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
+    pos: 1
+    sentence: 'It''s Laman Lupa! '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: de46305613233ca4597bc5cab2295e78, type: 2}
+    pos: 3
+    sentence: 'Must... Help Sitan.  '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 2
+    sentence: 'The ground shakes harder. Causing Andres to lose balance.  '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 2
+    sentence: 'Ibneg attempts to help Andres regain his balance and points to the
+      book.  '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
+    pos: 2
+    sentence: 'Are you waiting for Bathala? Open the book! '
+    Bg: {fileID: 0}
+    speakerNumber: 0

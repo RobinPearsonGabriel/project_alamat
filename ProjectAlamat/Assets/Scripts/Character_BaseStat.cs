@@ -59,4 +59,9 @@ public class Character_BaseStat : ScriptableObject
     {
         return NormalSprite;
     }
+
+    public Sprite getDialogImage()
+    {
+        return DialogSprite;
+    }
 }

@@ -5,8 +5,7 @@ using UnityEngine.UI;
 
 public class TutorialPanel : MonoBehaviour
 {
-    public List<Sprite> tutorialImages= new List<Sprite>();
-    public Image panelImage;
+    public List<GameObject> tutorialImages= new List<GameObject>();
     int currentPanel = 0;
 
 
@@ -15,7 +14,7 @@ public class TutorialPanel : MonoBehaviour
     {
         if(tutorialImages[0] != null)
         {
-            panelImage.sprite = tutorialImages[0];
+            tutorialImages[0].SetActive(true);
         }
     }
 
@@ -24,12 +23,27 @@ public class TutorialPanel : MonoBehaviour
         currentPanel++;
         if (tutorialImages[currentPanel] != null)
         {
-            panelImage.sprite = tutorialImages[0];
+
+           tutorialImages[currentPanel].SetActive(true); 
         }
         else if(currentPanel > tutorialImages.Count)
         {
             LevelScript.instance.completeTutorial(true);
             this.gameObject.SetActive(false);
         }
+    }
+    public void PreviousPage()
+    {
+        currentPanel--;
+        if (tutorialImages != null)
+        {
+            tutorialImages[currentPanel].SetActive(true);
+        }
+    }
+
+    public void CloseTutorial()
+    {
+        LevelScript.instance.completeTutorial(true);
+        this.gameObject.SetActive(false);
     }
 }

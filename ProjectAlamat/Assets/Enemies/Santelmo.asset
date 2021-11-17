@@ -18,7 +18,7 @@ MonoBehaviour:
   attackImage: {fileID: 21300000, guid: 75e3aab5534bd42439e2ca22af1aadd5, type: 3}
   attackSfx: {fileID: 8300000, guid: 59b3cbf8a00275849a1f9574338a2a97, type: 3}
   attackedImage: {fileID: 21300000, guid: b3a54d7e33104d0458d6e65ed1387c1b, type: 3}
-  faceImage: {fileID: 21300000, guid: 8c45a1d25874627438014b038088d258, type: 3}
+  faceImage: {fileID: 21300000, guid: cb04bc9808915d249a5067265ef13dd1, type: 3}
   atkAnimation: []
   DeathAnimation: []
   damagedAnimation: []
@@ -28,6 +28,7 @@ MonoBehaviour:
   - Ahh... It looks like you made a wrong choice.
   - What a joke, you are wrong.
   defeatDialog: 
+  DialogSprite: {fileID: 21300000, guid: 8c45a1d25874627438014b038088d258, type: 3}
   baseHp: 18
   baseAtk: 14
   baseDef: 5

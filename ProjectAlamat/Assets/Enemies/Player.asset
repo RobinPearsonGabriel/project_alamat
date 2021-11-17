@@ -18,7 +18,7 @@ MonoBehaviour:
   attackImage: {fileID: 21300000, guid: a0bd41eb88381c2469baa154dd39d1f1, type: 3}
   attackSfx: {fileID: 8300000, guid: d179efea8e6cf354ebfa6e7e6c1d6ed6, type: 3}
   attackedImage: {fileID: 21300000, guid: 05b1a9e6a4e8526498e1ffaec512503a, type: 3}
-  faceImage: {fileID: 21300000, guid: 53ae3bcbab757c5409e5b3ffb385cbd3, type: 3}
+  faceImage: {fileID: 21300000, guid: aad8de4dd607d6041bcb89da23a71b64, type: 3}
   atkAnimation: []
   DeathAnimation: []
   damagedAnimation: []
@@ -29,7 +29,7 @@ MonoBehaviour:
   - '"Good job me!"'
   - '"It''s working."'
   defeatDialog: 
-  DialogSprite: {fileID: 21300000, guid: ea5ba9875104ac34090df10aa957227b, type: 3}
+  DialogSprite: {fileID: 21300000, guid: 53ae3bcbab757c5409e5b3ffb385cbd3, type: 3}
   baseHp: 25
   baseAtk: 10
   baseDef: 10

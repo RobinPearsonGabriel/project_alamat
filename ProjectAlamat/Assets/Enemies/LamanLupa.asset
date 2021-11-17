@@ -18,7 +18,7 @@ MonoBehaviour:
   attackImage: {fileID: 21300000, guid: 7de7b21964940254aa2bdb019f638059, type: 3}
   attackSfx: {fileID: 8300000, guid: 464196213d3986246b0b67a91d4de926, type: 3}
   attackedImage: {fileID: 21300000, guid: 7de7b21964940254aa2bdb019f638059, type: 3}
-  faceImage: {fileID: 21300000, guid: 7de7b21964940254aa2bdb019f638059, type: 3}
+  faceImage: {fileID: 21300000, guid: d87c895fa3ee8fa4db05e430cd238745, type: 3}
   atkAnimation: []
   DeathAnimation: []
   damagedAnimation: []
@@ -28,6 +28,7 @@ MonoBehaviour:
   - '"Wrong!"'
   - '"Try again."'
   defeatDialog: 
+  DialogSprite: {fileID: 21300000, guid: d87c895fa3ee8fa4db05e430cd238745, type: 3}
   baseHp: 10
   baseAtk: 10
   baseDef: 5

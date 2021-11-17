@@ -28,6 +28,7 @@ MonoBehaviour:
   - '"Can you do better than that?"'
   - '"Hay... wrong."'
   defeatDialog: asdfasdf
+  DialogSprite: {fileID: 21300000, guid: cae30912568cb664f953d0abe6e0b791, type: 3}
   baseHp: 14
   baseAtk: 122
   baseDef: 5

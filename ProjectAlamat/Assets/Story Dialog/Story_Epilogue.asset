@@ -18,20 +18,20 @@ MonoBehaviour:
     pos: 0
     sentence: Andres wakes up from his bed, realizing he has been in a coma for more
       than a year.
-    Bg: {fileID: 0}
+    Bg: {fileID: 21300000, guid: 8e861ea0c59e9d54d8b253b6c6636d75, type: 3}
     speakerNumber: 0
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
     pos: 0
     sentence: Gabriel is happy to see him awake.
-    Bg: {fileID: 0}
+    Bg: {fileID: 21300000, guid: 4f373b63139dcc14bac3ca7b2b009ccf, type: 3}
     speakerNumber: 0
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
     pos: 0
     sentence: Seeing the errors of mistakes, Andres makes use of his second chance
       to change his ways.
-    Bg: {fileID: 0}
+    Bg: {fileID: 21300000, guid: 7956a90c8257e8a4898b808338f74ba9, type: 3}
     speakerNumber: 0
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}

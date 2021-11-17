@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Placeholder Start
   m_EditorClassIdentifier: 
   dialogs:
-  - speakerSprite: 0
+  - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
     sentence: (Click to Continue)

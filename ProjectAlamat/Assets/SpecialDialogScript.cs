@@ -52,6 +52,7 @@ public class SpecialDialogScript : MonoBehaviour
         {
             textboxSprite.enabled = true;
             textboxSprite.sprite = lines.dialogs[Index].speaker.DialogSprite;
+            textboxSprite.SetNativeSize();
         }
         else
         {

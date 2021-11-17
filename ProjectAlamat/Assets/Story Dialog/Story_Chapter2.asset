@@ -14,171 +14,171 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogs:
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Follow my lead and don't make too much noise.
-    speaker: Ibneg
-    Bg: 2
+    Bg: {fileID: 21300000, guid: e706d7f874d103f4c9f8464b6cb087e3, type: 3}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: They finally reach the boundary between the grassland and the forest.
       Silence filled the journey inside the woods. As they venture into the woods,
       Andres sees a silhouette that resembles a kid.
-    speaker: 
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Is that a boy?
-    speaker: Andres
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Ibneg sees the silhouette and shouts.
-    speaker: 
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: RUN!
-    speaker: Ibneg
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Suddenly tree branches begin to block the paths, trapping the two in
       a circle.
-    speaker: 
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Ibneg, what brings you here?
-    speaker: ???
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Calanget...
-    speaker: Ibneg
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Who?
-    speaker: Andres
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: In the flesh. Also, not a boy to point that out.
-    speaker: Calanget
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: What do you want?
-    speaker: Ibneg
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: "Aww\u2026 That's not how you treat a friend. Besides, thinking you
       can run away without introducing me to him\u2026 you didn't think this through,
       did you?"
-    speaker: Calanget
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: I managed to get out of this place once. I can do it again.
-    speaker: Ibneg
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Well, duh.
-    speaker: Calanget
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Ibneg furiously aims at Calanget's face but is stopped by Andres.
-    speaker: 
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: I don't think you understand. I let you run away because I knew something
       was up.
-    speaker: Calanget
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: What do you mean?
-    speaker: Andres
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Oh, come on people. Look around! There are no trees here in this "forest".
-    speaker: Calanget
-    Bg: 2
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Suddenly eyes pop out of every tree.
-    speaker: 
-    Bg: 3
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: "Those are\u2026 EYES!"
-    speaker: Andres
-    Bg: 3
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: "People kept vandalizing my place\u2026 making me constantly angry.
       That's why I made a deal with Sitan. In return, he gave me them."
-    speaker: Calanget
-    Bg: 3
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: What deal?
-    speaker: Andres
-    Bg: 3
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: "That you would be gone. It's simple, really\u2026"
-    speaker: Calanget
-    Bg: 3
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: You will not stop us.
-    speaker: Ibneg
-    Bg: 3
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: I already have.
-    speaker: Calanget
-    Bg: 3
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: We need to find a way to get out of here!
-    speaker: Ibneg
-    Bg: 3
+    Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
+    speaker: {fileID: 0}
     pos: 0
     sentence: Well, you can try. Anyways, finish them.
-    speaker: Calanget
-    Bg: 3
+    Bg: {fileID: 0}
     speakerNumber: 0

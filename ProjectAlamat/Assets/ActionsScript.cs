@@ -42,6 +42,8 @@ public class ActionsScript : MonoBehaviour
         playerImage.SetNativeSize();
         camera.orthographicSize = 3;
         camera.transform.Rotate(new Vector3(0, 0, rotateMagnitude));
+        LevelScript.instance.playerObj.SetActive(false);
+        LevelScript.instance.enemyObj.SetActive(false);
 
         Invoke("DeactivateActionCanvas", 3.0f);
     }
@@ -56,6 +58,8 @@ public class ActionsScript : MonoBehaviour
 
     void DeactivateActionCanvas()
     {
+        LevelScript.instance.playerObj.SetActive(true);
+        LevelScript.instance.enemyObj.SetActive(true);
         sentencePanel.SetActive(true);
         actionCanvas.gameObject.SetActive(false);
         camera.transform.rotation = new Quaternion(0, 0, 0 ,0);
