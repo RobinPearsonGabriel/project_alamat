@@ -90,9 +90,9 @@ public class ShowHint : MonoBehaviour
         foreach (GameObject obj in Choices)
         {
             TextMeshProUGUI[] texts = obj.GetComponentsInChildren<TextMeshProUGUI>();
-            if (texts[1].text== question_Script.GetSalita().salita)
+            if (texts[1].text!= question_Script.GetSalita().salita)
             {
-                obj.GetComponent<Image>().color= Color.red;
+                obj.GetComponent<Image>().color= Color.clear;
             
             }
         }
