@@ -25868,3 +25868,2554 @@ System memory in use after: 397.3 MB.
 Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 6003.
 Total: 5.546300 ms (FindLiveObjects: 0.672900 ms CreateObjectMapping: 0.297000 ms MarkObjects: 4.554800 ms  DeleteObjects: 0.020600 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.004571 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.65 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Unable to allocate new scene culling mask
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 672]
+
+Performance warning: There are more than 100 preview scenes. There might be code not releasing the preview scene after creating it.
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene (bool)
+UnityEditor.SceneManagement.EditorSceneManager:NewPreviewScene ()
+UnityEditor.PreviewScene:.ctor (string)
+UnityEditor.PreviewRenderUtility:.ctor ()
+UnityEditor.Texture3DPreview:InitPreviewUtility ()
+UnityEditor.Texture3DPreview:OnEnable ()
+
+[C:\buildslave\unity\build\Editor/Src/SceneManager/EditorSceneManager.cpp line 650]
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.335 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2214 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 397.1 MB.
+System memory in use after: 397.4 MB.
+
+Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 6007.
+Total: 3.673700 ms (FindLiveObjects: 0.457700 ms CreateObjectMapping: 0.138800 ms MarkObjects: 3.053500 ms  DeleteObjects: 0.022600 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
