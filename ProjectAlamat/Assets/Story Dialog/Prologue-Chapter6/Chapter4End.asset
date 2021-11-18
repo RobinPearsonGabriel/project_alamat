@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c9f3a6b5396ea448d3556aca4eae6b, type: 3}
+  m_Name: Chapter4End
+  m_EditorClassIdentifier: 
+  dialogs:
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: "After removing Sitan's power over her. Berberoka\u2019s head clears
+      out."
+    Bg: {fileID: 21300000, guid: 7956a90c8257e8a4898b808338f74ba9, type: 3}
+    speakerNumber: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: f21ce2b63fc65234cae5ea09b2e617bf, type: 2}
+    pos: 0
+    sentence: "Oh, my head\u2026 Ugh!"
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 2
+    speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
+    pos: 0
+    sentence: Now that you're back-
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: f21ce2b63fc65234cae5ea09b2e617bf, type: 2}
+    pos: 0
+    sentence: "Yeah, I know. I'll do what I can to stop Sitan from advancing. Ow\u2026
+      my head still hurts."
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: Berberoka leaves the two by swimming away.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: Was she always like that?
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: e3a018c029f27b54fba1bc4c25b43261, type: 2}
+    pos: 0
+    sentence: Yes. We are not far from Sitan. Let us go.
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: They continue to push forward outside the swamplands.
+    Bg: {fileID: 0}
+    speakerNumber: 0

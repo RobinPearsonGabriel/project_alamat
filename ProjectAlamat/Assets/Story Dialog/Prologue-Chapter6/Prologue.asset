@@ -16,95 +16,89 @@ MonoBehaviour:
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
-    sentence: 'There are three planes of existance in the world. The overworld is
+    sentence: 'There are three planes of existence in the world. The overworld is
       ruled by Mayari and Apolaki. '
-    Bg: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
+    Bg: {fileID: 21300000, guid: cda4c2fdb3a398946a4fd498c54e62c9, type: 3}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
-    sentence: 'Humans roam in the middleworld. While Sitan ,the evil lord , controls
-      the fiends in the underworld. '
+    sentence: Humans roam in the middleworld. While Sitan, the evil lord, controls
+      the fiends in the underworld.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
-    sentence: 'Many millennias ago, the three fought for the dominion of the overworld.
-      Mayari and Apolaki defending it while Sitan was looking conquering it.  '
+    sentence: Many millennia ago, the three fought for the dominion of the overworld.
+      Mayari and Apolaki defending it while Sitan was looking conquering it.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
-    sentence: 'Eventually they defeated the evil lord. Locking him away in the underworld
-      by putting a tree barrier in the middleworld. '
+    sentence: Eventually they defeated the evil lord, locking him away in the underworld
+      by putting a tree barrier in the middleworld.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
-    sentence: 'Millenias later a man, named Andres Lamat, who came along and destroyed
-      it '
+    sentence: Then came along a man named Andres Lamat, who destroyed it a millennia
+      later.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
-    sentence: Andres Lamat's actions were felt in all three worlds. Sitan instantly
+    sentence: Andres Lamat's actions are felt in all three worlds. Sitan instantly
       conjures a plan to invade the overworld once more.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
-    sentence: 'Because of his action, Andres was punished by Mayari. '
+    sentence: Because of his actions, Andres was punished by Mayari by filling up
+      a bottomless pit of books to read.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
-    sentence: He was made to fill up a bottomless pit with written books
+    sentence: And while Apolaki defends the overworld as Sitan and his forces invade.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
-    sentence: Apolaki was trying to defend the overworld from Sitan and his forces
-      from the underworld
+    sentence: However, this is not the end. A creature frees Andres Lamat to turn
+      the tide of the fight in Apolaki and Mayari's favor.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
-    sentence: But this is not the end. A creature frees Andres Lamat to turn the
-      tide of the fight to Apolaki and Mayari's favor.
-    Bg: {fileID: 0}
-    speakerNumber: 0
-  - speakerSprite: 3
-    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
-    pos: 0
-    sentence: After freeing Andres Lamat from his punishment. He wakes up next to
-      this small flying creature.
+    sentence: After being freed from his punishment, Andres Lamat wakes up next to
+      a small flying creature.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
     pos: 0
-    sentence: 'Wait who are you? '
+    sentence: 'Wait, who are you? '
     Bg: {fileID: 21300000, guid: cda4c2fdb3a398946a4fd498c54e62c9, type: 3}
     speakerNumber: 0
-  - speakerSprite: 0
+  - speakerSprite: 2
     speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
     pos: 0
-    sentence: 'Quickly, we have no time. We must make haste and head to safety. '
+    sentence: Quickly, we have no time. We must make haste and head to safety.
     Bg: {fileID: 0}
     speakerNumber: 0
-  - speakerSprite: 0
+  - speakerSprite: 3
     speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
     pos: 0
-    sentence: 'Despite his doubts Andres follows this woman. Eventually arriving
-      in a safer area. The woman gives Andres a book.  '
+    sentence: 'Despite his doubts, Andres follows this woman. Eventually arriving
+      in a safer area. The woman gives Andres a book. '
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
@@ -113,13 +107,13 @@ MonoBehaviour:
     sentence: 'What is this? Who are you? '
     Bg: {fileID: 0}
     speakerNumber: 0
-  - speakerSprite: 0
+  - speakerSprite: 2
     speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
     pos: 0
-    sentence: 'No time to explain. Just touch the book. '
+    sentence: No time to explain. Just touch the book.
     Bg: {fileID: 0}
     speakerNumber: 0
-  - speakerSprite: 0
+  - speakerSprite: 3
     speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
     pos: 0
     sentence: Andres touches the book.
@@ -140,7 +134,7 @@ MonoBehaviour:
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
     pos: 0
-    sentence: In here I can stop time but it does take a toll on my power.
+    sentence: In here I can pause the time, but it does take a toll on my power.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
@@ -152,7 +146,7 @@ MonoBehaviour:
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: e3a018c029f27b54fba1bc4c25b43261, type: 2}
     pos: 0
-    sentence: 'My name is Apolaki. And I am giving you a mission. '
+    sentence: My name is Apolaki, and I am giving you a mission.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
@@ -164,65 +158,67 @@ MonoBehaviour:
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: e3a018c029f27b54fba1bc4c25b43261, type: 2}
     pos: 0
-    sentence: You destroyed the barrier my sister and I made millennias ago.
+    sentence: You destroyed the barrier, Andres, the one my sister and I made millennia
+      ago.
     Bg: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
     speakerNumber: 0
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: e3a018c029f27b54fba1bc4c25b43261, type: 2}
     pos: 0
-    sentence: He took my sister to prevent us from locking him away again.
+    sentence: The underworld lord, Sitan, took my sister to prevent us from locking
+      him away.
     Bg: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
     speakerNumber: 0
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: e3a018c029f27b54fba1bc4c25b43261, type: 2}
     pos: 0
-    sentence: 'Now that he''s free, He will do whatever it takes to conquer the overworld. '
+    sentence: Now that he's free, He will do whatever it takes to conquer the overworld.
     Bg: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
     speakerNumber: 0
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: e3a018c029f27b54fba1bc4c25b43261, type: 2}
     pos: 0
-    sentence: 'I know you have a lot of questions but right now we need to act before
-      Sitan gets full control of the overworld. By rescuing my sister and shutting
-      him away once more. '
+    sentence: I know you have a lot of questions but right now we need to act before
+      Sitan gets full control of the overworld. You must rescue my sister and shut
+      him away once more.
     Bg: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
-    sentence: 'Before Andres could even reply Apolaki continues. '
+    sentence: Before Andres could even reply, Apolaki continues.
     Bg: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
     speakerNumber: 0
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: e3a018c029f27b54fba1bc4c25b43261, type: 2}
     pos: 0
-    sentence: 'You shall be protected by this book you are holding. Ibneg will guide
-      you to Sitan''s location. '
+    sentence: You shall be protected by the book you are holding while Ibneg will
+      guide you to Sitan's location.
     Bg: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
     speakerNumber: 0
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
     pos: 0
-    sentence: 'You mean that floating creature?  '
+    sentence: You mean that floating creature?
     Bg: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
     speakerNumber: 0
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: e3a018c029f27b54fba1bc4c25b43261, type: 2}
     pos: 0
-    sentence: 'Yes. We have no more time to waste. I too shall accompany you through
-      the book. Now go.  '
+    sentence: 'Yes, she is an Aghoy. We have no more time to waste. I, too, shall
+      accompany you through the book. Now go. '
     Bg: {fileID: 21300000, guid: f5a0010c091705e479164ee0bd6cff0b, type: 3}
     speakerNumber: 0
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
     pos: 0
-    sentence: 'So are you up to date? '
+    sentence: So, are you up to date?
     Bg: {fileID: 21300000, guid: cda4c2fdb3a398946a4fd498c54e62c9, type: 3}
     speakerNumber: 0
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
     pos: 0
-    sentence: Mostly.
+    sentence: M-Mostly.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0

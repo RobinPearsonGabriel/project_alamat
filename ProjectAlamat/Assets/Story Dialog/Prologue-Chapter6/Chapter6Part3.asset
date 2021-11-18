@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 38c9f3a6b5396ea448d3556aca4eae6b, type: 3}
+  m_Name: Chapter6Part3
+  m_EditorClassIdentifier: 
+  dialogs:
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: bd0b222ec21fc0547a283575f9e18c98, type: 2}
+    pos: 0
+    sentence: This ends now!
+    Bg: {fileID: 21300000, guid: 4f373b63139dcc14bac3ca7b2b009ccf, type: 3}
+    speakerNumber: 0
+  - speakerSprite: 3
+    speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
+    pos: 0
+    sentence: 'Sitan transform into a shadow. '
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: bd0b222ec21fc0547a283575f9e18c98, type: 2}
+    pos: 0
+    sentence: I applaud you, Andres. Who knew that it would only take one mortal
+      being to destroy everything?
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: I swear before I draw my last breath, I will make this right!
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: bd0b222ec21fc0547a283575f9e18c98, type: 2}
+    pos: 0
+    sentence: "We\u2019ll see about that."
+    Bg: {fileID: 0}
+    speakerNumber: 0

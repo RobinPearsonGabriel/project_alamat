@@ -185,7 +185,7 @@ public class Question_Script : MonoBehaviour
 
         choices.Add(Answer.salita);
 
-        for (int i = 0; i < 4; i++)
+        for (int i = 0; choices.Count < 5; i++)
         {
 
             for (int y = 0; y < wordList.Count; y++)

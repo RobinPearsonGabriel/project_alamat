@@ -16,58 +16,58 @@ MonoBehaviour:
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
-    sentence: 'Laman Lupa trying to keep himself afloat after the confrontation with
-      Andres Lamat and Ibneg. '
+    sentence: 'Laman Lupa tries to keep himself composed after the confrontation
+      with Andres Lamat and Ibneg. '
     Bg: {fileID: 21300000, guid: e706d7f874d103f4c9f8464b6cb087e3, type: 3}
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: de46305613233ca4597bc5cab2295e78, type: 2}
     pos: 3
-    sentence: I cannot let you...I cannot...
+    sentence: "I cannot let you\u2026 I cannot\u2026"
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
     pos: 1
-    sentence: 'We need to remove Sitan''s influence over Laman Lupa. '
+    sentence: We need to remove Sitan's influence over Laman Lupa.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: e3a018c029f27b54fba1bc4c25b43261, type: 2}
     pos: 1
-    sentence: 'I can help you with that.  '
+    sentence: I think I can help you with that.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 1
-    sentence: 'The book then glows and unleashes a beam of light. Hitting Laman Lupa. '
+    sentence: The book then glows and unleashes a beam of light, hitting Laman Lupa.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 1
-    sentence: 'Upon severing Sitan''s influence over Laman Lupa. Laman Lupa thanks
-      the Andres and Ibneg. '
+    sentence: Upon cutting Sitan's influence over Laman Lupa, he thanks Andres and
+      Ibneg.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: de46305613233ca4597bc5cab2295e78, type: 2}
     pos: 3
-    sentence: 'Thank you... All of you. '
+    sentence: "Thank you\u2026 both of you."
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
     pos: 1
-    sentence: 'We will do everything to restore it. '
+    sentence: We will do everything to restore the barrier.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: de46305613233ca4597bc5cab2295e78, type: 2}
     pos: 3
-    sentence: 'I''m free from Sitan''s influence. I will try my best to prevent Sitan''s
-      force to come here.  '
+    sentence: Now that I'm free from Sitan's influence, I will try my best to prevent
+      Sitan's forces from coming here.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 2
@@ -79,7 +79,7 @@ MonoBehaviour:
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: de46305613233ca4597bc5cab2295e78, type: 2}
     pos: 3
-    sentence: 'But be warned, now that Sitan has seen what you have done to me. He''s
-      coming for you.   '
+    sentence: But be warned, now that Sitan has seen what you have done to me, he
+      will come for you.
     Bg: {fileID: 0}
     speakerNumber: 0

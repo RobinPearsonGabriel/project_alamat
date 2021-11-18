@@ -16,7 +16,7 @@ MonoBehaviour:
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
     pos: 1
-    sentence: 'Follow my lead and don''t make much noise. '
+    sentence: Follow my lead and don't make much noise.
     Bg: {fileID: 21300000, guid: e706d7f874d103f4c9f8464b6cb087e3, type: 3}
     speakerNumber: 0
   - speakerSprite: 0
@@ -28,15 +28,15 @@ MonoBehaviour:
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
-    sentence: 'They finally reach the boundary between the grassland and the forest. '
+    sentence: They finally reach the boundary between the grassland and the forest.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
-    sentence: 'Silence filled the journey inside the woods. As they venture deeper
+    sentence: Silence filled the journey inside the woods. As they venture deeper
       into the forest, tree branches begin to block the exit. Trapping the two in
-      a circle. '
+      a circle.
     Bg: {fileID: 21300000, guid: 8e861ea0c59e9d54d8b253b6c6636d75, type: 3}
     speakerNumber: 0
   - speakerSprite: 1
@@ -48,31 +48,31 @@ MonoBehaviour:
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
     pos: 1
-    sentence: 'Calanget! How did you know we''re here? '
+    sentence: Calanget! How did you know we were here?
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: 34b3cb834dd2f484f853fcfd45a4555c, type: 2}
     pos: 3
-    sentence: 'Oh come on, people. Look around there are no trees here in this "forest".  '
+    sentence: 'Oh, come on people. Look around! There are no trees here in this "forest". '
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 1
-    sentence: 'Suddenly eyes pop out of every tree.  '
+    sentence: Suddenly eyes pop out of every tree.
     Bg: {fileID: 21300000, guid: 501b347b5294a6f44bdcc9802fd369b2, type: 3}
     speakerNumber: 0
   - speakerSprite: 0
     speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
     pos: 0
-    sentence: 'THOSE ARE EYES! '
+    sentence: THOSE ARE EYES!
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: 34b3cb834dd2f484f853fcfd45a4555c, type: 2}
     pos: 3
-    sentence: 'You see human. Sitan will take over the overworld. '
+    sentence: You see human? Sitan will take over the overworld.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 2
@@ -84,6 +84,6 @@ MonoBehaviour:
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: 34b3cb834dd2f484f853fcfd45a4555c, type: 2}
     pos: 3
-    sentence: 'I already did. Anyways, I''ll finish you both. '
+    sentence: I already have. Anyways, I'll finish you both.
     Bg: {fileID: 0}
     speakerNumber: 0
