@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: libro
   m_EditorClassIdentifier: 
   salita: libro si Miguel.
-  tagalogSentenceTraining: 
-  englishSentenceTraining: 'Magbabasa ng '
+  tagalogSentenceTraining: T
+  englishSentenceTraining: 'EMagbabasa ng '
   tagalogSentenceBattle: 
   englishSentenceBattle: 'Magbabasa ng '
   Sentences:

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Dumating
   m_EditorClassIdentifier: 
   salita: ang kaibigan ko kanina.
-  tagalogSentenceTraining: 'Nahihilong dumating '
-  englishSentenceTraining: 'Nahihilong dumating '
+  tagalogSentenceTraining: 'TNahihilong dumating '
+  englishSentenceTraining: 'ENahihilong dumating '
   tagalogSentenceBattle: 'Nahihilong dumating '
   englishSentenceBattle: 
   Sentences:
