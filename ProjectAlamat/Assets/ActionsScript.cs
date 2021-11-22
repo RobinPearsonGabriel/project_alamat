@@ -61,8 +61,8 @@ public class ActionsScript : MonoBehaviour
         enemyImage.SetNativeSize();
         playerImage.sprite = playersImage;
         playerImage.SetNativeSize();
-        LevelScript.instance.playerObj.transform.position = new Vector3(LevelScript.instance.playerObj.transform.position.x, LevelScript.instance.playerObj.transform.position.y, -5);
-        LevelScript.instance.enemyObj.transform.position = new Vector3(LevelScript.instance.enemyObj.transform.position.x, LevelScript.instance.enemyObj.transform.position.y, -5);
+        LevelScript.instance.playerObj.transform.position = new Vector3(LevelScript.instance.playerObj.transform.position.x, LevelScript.instance.playerObj.transform.position.y, -1);
+        LevelScript.instance.enemyObj.transform.position = new Vector3(LevelScript.instance.enemyObj.transform.position.x, LevelScript.instance.enemyObj.transform.position.y, -1);
 
         Invoke("DeactivateActionCanvas", 3.0f);
     }
@@ -79,8 +79,8 @@ public class ActionsScript : MonoBehaviour
     {
         playerImage.transform.rotation = new Quaternion(0, 0, 0, 0);
         enemyImage.transform.rotation = new Quaternion(0, 0, 0, 0);
-        LevelScript.instance.playerObj.transform.position = new Vector3(LevelScript.instance.playerObj.transform.position.x, LevelScript.instance.playerObj.transform.position.y, 0);
-        LevelScript.instance.enemyObj.transform.position = new Vector3(LevelScript.instance.enemyObj.transform.position.x, LevelScript.instance.enemyObj.transform.position.y, 0);
+        LevelScript.instance.playerObj.transform.position = new Vector3(LevelScript.instance.playerObj.transform.position.x, LevelScript.instance.playerObj.transform.position.y, -0.02f);
+        LevelScript.instance.enemyObj.transform.position = new Vector3(LevelScript.instance.enemyObj.transform.position.x, LevelScript.instance.enemyObj.transform.position.y, -0.02f);
         sentencePanel.SetActive(true);
         actionCanvas.gameObject.SetActive(false);
         camera.transform.rotation = new Quaternion(0, 0, 0 ,0);

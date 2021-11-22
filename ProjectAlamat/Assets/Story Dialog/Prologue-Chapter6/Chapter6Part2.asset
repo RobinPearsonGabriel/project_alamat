@@ -21,13 +21,13 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: 3a088557b3e63da4da07d24bc46b083f, type: 2}
-    pos: 0
+    pos: 3
     sentence: "Ah\u2026 That book. "
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: 3a088557b3e63da4da07d24bc46b083f, type: 2}
-    pos: 0
+    pos: 3
     sentence: I could feel Apolaki's power radiating from it. I must admit, I thought
       Apolaki had less of an imagination than this.
     Bg: {fileID: 0}
@@ -40,26 +40,26 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: I'm trying!
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: 3a088557b3e63da4da07d24bc46b083f, type: 2}
-    pos: 0
+    pos: 3
     sentence: And don't worry, once I deal with the last of Apolaki's power from
       you, I can easily deal with those Aghoy and Santelmo friends of yours.
     Bg: {fileID: 0}
     speakerNumber: 0
-  - speakerSprite: 0
-    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
-    pos: 0
+  - speakerSprite: 2
+    speaker: {fileID: 11400000, guid: d98e8c50e094f5649bdb1ce768a41337, type: 2}
+    pos: 1
     sentence: Sitan's chain will take up some time, so please hold your ground.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: Andres, buy us some time!
     Bg: {fileID: 0}
     speakerNumber: 0

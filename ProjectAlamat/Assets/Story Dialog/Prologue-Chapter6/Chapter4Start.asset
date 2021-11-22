@@ -21,8 +21,14 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: Alright, this is a dangerous area. Be carefu-
+    Bg: {fileID: 0}
+    speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: Oka-
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
@@ -34,15 +40,15 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: What the--
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 3
     speaker: {fileID: 11400000, guid: 30f9a16d8885d1e41bce6bc2419dfea6, type: 2}
     pos: 0
-    sentence: Ibneg was tries to escape the hold of the tongue before sinking into
-      the swamp water. Andres, quick on his reflexes, uses the book and quickly casts
+    sentence: Ibneg tries to escape the hold of the tongue before sinking into the
+      swamp water. Andres, quick on his reflexes, uses the book and quickly casts
       a spell, cutting the tongue from Ibneg.
     Bg: {fileID: 0}
     speakerNumber: 0
@@ -60,7 +66,7 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: Oh no. Get away from the water, Andres!
     Bg: {fileID: 0}
     speakerNumber: 0
@@ -72,19 +78,19 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: 60b6ad4031cdd614dbeff2cc6edc9b1e, type: 2}
-    pos: 0
+    pos: 3
     sentence: What brings you here, pretty boy?
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: Careful. That's a Berberoka.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: f21ce2b63fc65234cae5ea09b2e617bf, type: 2}
-    pos: 0
+    pos: 3
     sentence: "What? I won\u2019t bite. Come a little closer and I'll show you."
     Bg: {fileID: 0}
     speakerNumber: 0

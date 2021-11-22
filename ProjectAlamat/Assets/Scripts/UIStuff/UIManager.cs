@@ -42,6 +42,12 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene("LevelSelection");
     }
 
+    IEnumerator NewGame()
+    {
+        yield return new WaitForSeconds(0.1f);
+        SceneManager.LoadScene("Prologue");
+    }
+
     public void StartGameButton()
     {
         ActivatePanel(savePanel);
@@ -84,6 +90,14 @@ public class UIManager : MonoBehaviour
     public void BackButton()
     {
         ActivatePanel(mainPanel);
+    }
+
+    public void NewGamePressed(int saveNumber)
+    {
+        Debug.Log(saveNumber);
+        SaveSystem.instance.ChangeSaveNumber(saveNumber);
+        SaveSystem.instance.Load();
+        StartCoroutine("NewGame");
     }
 
     public void ChangeMusicVolume()

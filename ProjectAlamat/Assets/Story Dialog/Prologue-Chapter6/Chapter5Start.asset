@@ -20,9 +20,15 @@ MonoBehaviour:
       them.
     Bg: {fileID: 21300000, guid: 9d3768c28648d574192ba362691ce41f, type: 3}
     speakerNumber: 0
+  - speakerSprite: 0
+    speaker: {fileID: 11400000, guid: 62fd02583edd0c44aa549a42b0c0f13d, type: 2}
+    pos: 0
+    sentence: Haa.. It's really hot..
+    Bg: {fileID: 0}
+    speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: Andres watch out!
     Bg: {fileID: 0}
     speakerNumber: 0
@@ -47,7 +53,7 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: 458721d9b69397f458cd645536cab0f2, type: 2}
-    pos: 0
+    pos: 3
     sentence: Sitan's will must be done. His will that you begone!
     Bg: {fileID: 0}
     speakerNumber: 0
@@ -59,7 +65,7 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: A Santelmo!
     Bg: {fileID: 0}
     speakerNumber: 0
@@ -72,7 +78,7 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: "Oh no, Santelmo is possessed! How did Sitan\u2019s entities manage
       to possess a Santelmo?"
     Bg: {fileID: 0}
@@ -85,13 +91,13 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: Looks like we must fight this thing.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: ee6ea95b1804ebc4388182078d5e219f, type: 2}
-    pos: 0
+    pos: 3
     sentence: 'No one can fight the might of a wrathful light! '
     Bg: {fileID: 0}
     speakerNumber: 0

@@ -24,7 +24,6 @@ public class TutorialPanel : MonoBehaviour
         currentPanel++;
         if (tutorialImages[currentPanel] != null)
         {
-
            tutorialImages[currentPanel].SetActive(true); 
         }
         else if(currentPanel > tutorialImages.Count)

@@ -9,6 +9,8 @@ public class AudioManager : MonoBehaviour
     public AudioSource soundSource;
     public AudioClip bgm;
     public AudioClip initialMusic;
+    public AudioClip secondMusic;
+    public bool multipleInitialMusic;
 
     public static AudioManager instance = null;
     void Awake()
@@ -33,7 +35,7 @@ public class AudioManager : MonoBehaviour
         {
             musicSource.clip = initialMusic;
             musicSource.Play();
-            Invoke("ChangeMusic", musicSource.clip.length);
+            Invoke("ChangeMusic", musicSource.clip.length-0.195f);
         }
         else
         {
@@ -53,9 +55,19 @@ public class AudioManager : MonoBehaviour
 
     public void ChangeMusic()
     {
-        musicSource.clip = bgm;
-        musicSource.Play();
-        musicSource.loop = true;
+        if (secondMusic != null && multipleInitialMusic==true)
+        {
+            musicSource.clip = secondMusic;
+            musicSource.PlayDelayed(0.01f);
+            multipleInitialMusic = false;
+            Invoke("ChangeMusic", musicSource.clip.length);
+        }
+        else
+        {
+            musicSource.clip = bgm;
+            musicSource.PlayDelayed(0.01f);
+            musicSource.loop = true;
+        }
     }
 
     public void PlayAudioClip(AudioClip clipToPlay)

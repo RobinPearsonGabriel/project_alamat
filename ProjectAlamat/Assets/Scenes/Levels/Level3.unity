@@ -396,7 +396,7 @@ PrefabInstance:
       objectReference: {fileID: 218120331}
     - target: {fileID: 1955214670, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 319
+      value: -153
       objectReference: {fileID: 0}
     - target: {fileID: 148029128677013750, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_SizeDelta.x
@@ -681,36 +681,36 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: wordList.Array.size
-      value: 10
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: wordList.Array.data[0]
       value: 
-      objectReference: {fileID: 11400000, guid: aa3ded49ec8e1ff4598aee262027d8d9, type: 2}
+      objectReference: {fileID: 11400000, guid: f49105357334143418f8d8f62312b1a2, type: 2}
     - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: wordList.Array.data[1]
       value: 
-      objectReference: {fileID: 11400000, guid: c75b9e78ae932484f87f851c6fce3152, type: 2}
+      objectReference: {fileID: 11400000, guid: bcdf2a2c6f9ac1e4ebfdcace4ab9f630, type: 2}
     - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: wordList.Array.data[2]
       value: 
-      objectReference: {fileID: 11400000, guid: 2defc8299afdb034a9de56cc0f4df9ee, type: 2}
+      objectReference: {fileID: 11400000, guid: 6e1fed4a8294f924d9e9e46a3304a846, type: 2}
     - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: wordList.Array.data[3]
       value: 
-      objectReference: {fileID: 11400000, guid: 6fef6f64ef4a73541a8cd052ce4d5e8d, type: 2}
+      objectReference: {fileID: 11400000, guid: 990ea2d01aac65a42bcae88e99f20979, type: 2}
     - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: wordList.Array.data[4]
       value: 
-      objectReference: {fileID: 11400000, guid: 88b7501c211660f4c929f0dc2df57256, type: 2}
+      objectReference: {fileID: 11400000, guid: d15ece28dcb08fc46bbfd0733434e8c1, type: 2}
     - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: wordList.Array.data[5]
       value: 
-      objectReference: {fileID: 11400000, guid: 10a2e5c540ba28e4498976bd3061757d, type: 2}
+      objectReference: {fileID: 11400000, guid: 538a769e909a8c44a82e55795d330169, type: 2}
     - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: wordList.Array.data[6]
       value: 
-      objectReference: {fileID: 11400000, guid: 5588761142bb9524890b9ce7d1cf1a52, type: 2}
+      objectReference: {fileID: 11400000, guid: 49f2c6c1e5b0c33449001aa74c6d3369, type: 2}
     - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: wordList.Array.data[7]
       value: 
@@ -729,20 +729,20 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: questionType
-      value: 1
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: VictoryDialog
       value: 
-      objectReference: {fileID: 11400000, guid: bcd91d7f33a9bf849b3893dda37fdf75, type: 2}
+      objectReference: {fileID: 11400000, guid: 82328bc5fce1a9745ad114f368bfb191, type: 2}
     - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: StartingDialog
       value: 
-      objectReference: {fileID: 11400000, guid: e860da310539d784a921e28fe80ce563, type: 2}
+      objectReference: {fileID: 11400000, guid: ba927cadb17965746a4b6b92ada5a3d6, type: 2}
     - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: precombatDialog
       value: 
-      objectReference: {fileID: 11400000, guid: 8c840ae764c21e84c82f91621094bd8e, type: 2}
+      objectReference: {fileID: 11400000, guid: aaa1b19b80637084c959495afa6888f5, type: 2}
     - target: {fileID: 3042128337284153344, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1

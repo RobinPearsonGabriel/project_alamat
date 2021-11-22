@@ -10,12 +10,11 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3e8eaa8670c0c0d49a645d3def92af69, type: 3}
-  m_Name: Laro
+  m_Name: Aga
   m_EditorClassIdentifier: 
-  salita: Maglalaro
-  tagalogSentenceTraining: ________ ba kayo ng mga kaibigan ninyo mamaya?________
-    ba kayo ng mga kaibigan ninyo mamaya?
+  salita: ni Andres para sa handaan.
+  tagalogSentenceTraining: 'Ang aga naman '
   englishSentenceTraining: 
-  tagalogSentenceBattle: ________ ba kayo ng mga kaibigan ninyo mamaya?
+  tagalogSentenceBattle: 'Ang aga naman '
   englishSentenceBattle: 
   Sentences: []

@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class SaveButtons : MonoBehaviour
 {
+    public UIManager uiManager;
     public int SaveFileNumber;
     public Sprite newGameImage;
     public Sprite ContinueImage;
@@ -19,6 +20,18 @@ public class SaveButtons : MonoBehaviour
         deleteButton.gameObject.SetActive(false);
 
         CheckButton();
+    }
+
+    public void ButtonClick()
+    {
+        if(this.gameObject.GetComponent<Image>().sprite == ContinueImage)
+        {
+            uiManager.GameButtonPressed(SaveFileNumber);
+        }
+        else if (this.gameObject.GetComponent<Image>().sprite == newGameImage)
+        {
+            uiManager.NewGamePressed(SaveFileNumber);
+        }
     }
 
 

@@ -276,6 +276,7 @@ public class Dialog_Script : MonoBehaviour
                     break;
                 case DialogList.Speaker.Ibneng:
                     Ibneng.SetActive(true);
+                    Ibneng.GetComponent<SpriteRenderer>().sprite = dialog.getSpeaker().getSpriteImage();
                     Characterface.sprite = dialog.getSpeaker().getDialogImage();
                     Characterface.SetNativeSize();
                     Ibneng.transform.position = setPos(dialog.GetPos()).position;
