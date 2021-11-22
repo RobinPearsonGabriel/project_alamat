@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Darating
   m_EditorClassIdentifier: 
   salita: na ang Presidente.
-  tagalogSentenceTraining: The president is coming
-  englishSentenceTraining: Darating _______
-  tagalogSentenceBattle: The president is coming
-  englishSentenceBattle: Darating _______
+  tagalogSentenceTraining: 'TDarating '
+  englishSentenceTraining: 'EDarating '
+  tagalogSentenceBattle: 'Darating '
+  englishSentenceBattle: 'Darating '
   Sentences:
   - 'Darating '
   - 'Darating '

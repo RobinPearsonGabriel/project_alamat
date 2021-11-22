@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Ingat
   m_EditorClassIdentifier: 
   salita: ang bangin.
-  tagalogSentenceTraining: Watch out! The chasm is deep
-  englishSentenceTraining: Ingat! Malalim _______
-  tagalogSentenceBattle: Watch out! The chasm is deep
-  englishSentenceBattle: Ingat! Malalim _______
+  tagalogSentenceTraining: TIngat! Malalim
+  englishSentenceTraining: EIngat! Malalim
+  tagalogSentenceBattle: Ingat! Malalim
+  englishSentenceBattle: Ingat! Malalim
   Sentences:
   - Ingat! Malalim
   - Ingat! Malalim

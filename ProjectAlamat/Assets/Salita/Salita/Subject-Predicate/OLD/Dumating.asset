@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Dumating
   m_EditorClassIdentifier: 
   salita: ang kaibigan ko kanina.
-  tagalogSentenceTraining: My friend came earlier
-  englishSentenceTraining: Nahihilong dumating _______
-  tagalogSentenceBattle: My friend came earlier
-  englishSentenceBattle: Nahihilong dumating _______
+  tagalogSentenceTraining: 'TNahihilong dumating '
+  englishSentenceTraining: 'ENahihilong dumating '
+  tagalogSentenceBattle: 'Nahihilong dumating '
+  englishSentenceBattle: 
   Sentences:
   - 'Nahihilong dumating '
   - 'Nahihilong dumating '

@@ -17,9 +17,13 @@ public class ScrollScript : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     int maxFontsize=60;
     int minfontsize=20;
     Checker checkerScript;
+    bool isTranslated;
+    Question_Script question_Script;
     // Start is called before the first frame update
     void Start()
     {
+        question_Script = FindObjectOfType<Question_Script>();
+       
         checkerScript = FindObjectOfType<Checker>();
         maxDistance += this.transform.position.y;
         onPanel = false;
@@ -27,12 +31,28 @@ public class ScrollScript : MonoBehaviour, IPointerEnterHandler, IPointerExitHan
     }
    public void setTexts(string questions, List<string>texts)
     {
+        isTranslated = false;
         Debug.Log(questions) ;
         for (int i = 0; i < 3; i++)
         {
             Texts[i].GetComponent<Text>().text = texts[i];
         }
         incompleteTextbox.text = questions;
+    }
+
+    public void Translate()
+    {
+        isTranslated = !isTranslated;
+        if (isTranslated)
+        {
+            incompleteTextbox.text = question_Script.GetSalita().englishSentenceTraining;
+        }
+        else
+        {
+            incompleteTextbox.text = question_Script.GetSalita().tagalogSentenceTraining;
+
+        }
+    
     }
 
 public    void CheckText()

@@ -13,10 +13,10 @@ MonoBehaviour:
   m_Name: Bolpen
   m_EditorClassIdentifier: 
   salita: sa pagsusulat
-  tagalogSentenceTraining: Use a ballpen to write
-  englishSentenceTraining: Ginagamit ang bolpen _______
-  tagalogSentenceBattle: Use a ballpen to write
-  englishSentenceBattle: Ginagamit ang bolpen _______
+  tagalogSentenceTraining: TGinagamit ang bolpen
+  englishSentenceTraining: BGinagamit ang bolpen
+  tagalogSentenceBattle: Ginagamit ang bolpen
+  englishSentenceBattle: Ginagamit ang bolpen
   Sentences:
   - Ginagamit ang bolpen
   - Ginagamit ang bolpen
