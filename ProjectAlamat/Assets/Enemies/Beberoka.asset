@@ -27,7 +27,7 @@ MonoBehaviour:
   - Really? That's not right.
   - Hahaha that's wrong. No, no, no keep doing it, it's fine.
   - Keep doing wrong stuff. I'm still making scalding water.
-  defeatDialog: 
+  defeatDialog: '"Lukewarm. Try again."'
   DialogSprite: {fileID: 21300000, guid: b19a9687d5277614abf3f2d8b2152b8c, type: 3}
   baseHp: 16
   baseAtk: 13

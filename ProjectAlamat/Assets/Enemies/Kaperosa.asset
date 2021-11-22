@@ -27,7 +27,7 @@ MonoBehaviour:
   - '"Did your head hit something? Wrong."'
   - '"Can you do better than that?"'
   - '"Hay... wrong."'
-  defeatDialog: asdfasdf
+  defeatDialog: '"I won''t stop until I get him back."'
   DialogSprite: {fileID: 21300000, guid: cae30912568cb664f953d0abe6e0b791, type: 3}
   baseHp: 14
   baseAtk: 12

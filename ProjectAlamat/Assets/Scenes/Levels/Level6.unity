@@ -480,6 +480,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -349
       objectReference: {fileID: 0}
+    - target: {fileID: 2043890994812527144, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: bgm
+      value: 
+      objectReference: {fileID: 8300000, guid: 175b5ddb232f63944b0c9792d11d8747, type: 3}
+    - target: {fileID: 2043890994812527144, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: initialMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 54b25b0dbe940bb48944ab86af2a7f9a, type: 3}
     - target: {fileID: 3042128336256442372, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: PassiveSkill
       value: 
@@ -560,10 +568,18 @@ PrefabInstance:
       propertyPath: tutorialPanel
       value: 
       objectReference: {fileID: 1543079153}
+    - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: StartingDialog
+      value: 
+      objectReference: {fileID: 11400000, guid: da19ea3128e4a7d4e805741dd224f524, type: 2}
     - target: {fileID: 4424025905783726531, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_Text
       value: Rotate the right spell wheel, by pressing on the wheel and rotating
         it, to match the phrases and form the correct sentence.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312137053433895754, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: Loop
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5540495901209079811, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_Name

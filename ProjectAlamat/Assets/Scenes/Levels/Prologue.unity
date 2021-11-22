@@ -123,6 +123,17 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!114 &483506127 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6560777724808423984, guid: 3de10a76efb7d2646bf8ac00032f5298, type: 3}
+  m_PrefabInstance: {fileID: 1619525512}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8d942b3189554014d955e3f27fca93bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1619525512
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -130,6 +141,26 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2648466529358991399, guid: 3de10a76efb7d2646bf8ac00032f5298, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822772226507516832, guid: 3de10a76efb7d2646bf8ac00032f5298, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 483506127}
+    - target: {fileID: 2822772226507516832, guid: 3de10a76efb7d2646bf8ac00032f5298, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: NextPage
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822772226507516832, guid: 3de10a76efb7d2646bf8ac00032f5298, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: StorybookScript, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 2822772226507516832, guid: 3de10a76efb7d2646bf8ac00032f5298, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3725587001993323324, guid: 3de10a76efb7d2646bf8ac00032f5298, type: 3}
       propertyPath: m_Name
       value: DialogLevel
@@ -178,8 +209,106 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5827598290655128674, guid: 3de10a76efb7d2646bf8ac00032f5298, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: 21300000, guid: 0e55cfd9822c71a489d95933f9b3b2f3, type: 3}
+    - target: {fileID: 6560777724808423984, guid: 3de10a76efb7d2646bf8ac00032f5298, type: 3}
+      propertyPath: Images.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6560777724808423984, guid: 3de10a76efb7d2646bf8ac00032f5298, type: 3}
+      propertyPath: Images.Array.data[0]
+      value: 
+      objectReference: {fileID: 21300000, guid: df6b7127d3595064cb7be203807fee2c, type: 3}
+    - target: {fileID: 6560777724808423984, guid: 3de10a76efb7d2646bf8ac00032f5298, type: 3}
+      propertyPath: Images.Array.data[1]
+      value: 
+      objectReference: {fileID: 21300000, guid: b5c4d49116c0a31459530a9b8c73b32e, type: 3}
+    - target: {fileID: 6560777724808423984, guid: 3de10a76efb7d2646bf8ac00032f5298, type: 3}
+      propertyPath: Images.Array.data[2]
+      value: 
+      objectReference: {fileID: 21300000, guid: 37b7537ffb0ccb94ca3565cc1c9b7f4e, type: 3}
+    - target: {fileID: 6560777724808423984, guid: 3de10a76efb7d2646bf8ac00032f5298, type: 3}
+      propertyPath: Images.Array.data[3]
+      value: 
+      objectReference: {fileID: 21300000, guid: 0506188614e90424f8254e3a3ef28487, type: 3}
+    - target: {fileID: 6560777724808423984, guid: 3de10a76efb7d2646bf8ac00032f5298, type: 3}
+      propertyPath: Images.Array.data[4]
+      value: 
+      objectReference: {fileID: 21300000, guid: 97973577034916c42a89b65115c218ba, type: 3}
+    - target: {fileID: 6560777724808423984, guid: 3de10a76efb7d2646bf8ac00032f5298, type: 3}
+      propertyPath: Images.Array.data[5]
+      value: 
+      objectReference: {fileID: 21300000, guid: 42ea33205903b434a8966815c1cf3dba, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3de10a76efb7d2646bf8ac00032f5298, type: 3}
+--- !u!1 &1767585860
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1767585863}
+  - component: {fileID: 1767585862}
+  - component: {fileID: 1767585861}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1767585861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767585860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1767585862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767585860}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1767585863
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1767585860}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1950373038
 GameObject:
   m_ObjectHideFlags: 0

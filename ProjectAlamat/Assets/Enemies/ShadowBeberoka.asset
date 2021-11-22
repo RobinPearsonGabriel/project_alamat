@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ShadowBeberoka
   m_EditorClassIdentifier: 
   charType: 0
-  name: 
+  name: ???
   NormalSprite: {fileID: 21300000, guid: 9197cddc4a9ce594c80ec1020d32b533, type: 3}
   attackImage: {fileID: 0}
   attackSfx: {fileID: 0}

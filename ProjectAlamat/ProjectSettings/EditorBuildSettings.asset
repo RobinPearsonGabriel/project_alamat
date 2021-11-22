@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Levels/LevelSelection.unity
     guid: c7a6db59151d7614facef17989910cef
   - enabled: 1
+    path: Assets/Scenes/Levels/Prologue.unity
+    guid: af6283730b1dc4f45b5c29f88a5f79ce
+  - enabled: 1
     path: Assets/Scenes/Levels/Level1.unity
     guid: de6b84218e0a87b47b22ade6db6a3c39
   - enabled: 1
@@ -35,4 +38,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Levels/Level6.unity
     guid: 3634820f9eacea74e94ad857bd0299bf
+  - enabled: 1
+    path: Assets/Scenes/Levels/Epilogue.unity
+    guid: 252ca36916dfcbc41a6069bc6f7006c1
   m_configObjects: {}

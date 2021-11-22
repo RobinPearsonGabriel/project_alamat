@@ -23,7 +23,7 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: Rest here. We'll camp out until we get enough energy to continue the
       journey.
     Bg: {fileID: 0}
@@ -48,7 +48,7 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: What do you mean?
     Bg: {fileID: 0}
     speakerNumber: 0
@@ -78,9 +78,9 @@ MonoBehaviour:
     sentence: "If I just knew that the tree was a barrier\u2026"
     Bg: {fileID: 0}
     speakerNumber: 0
-  - speakerSprite: 0
+  - speakerSprite: 1
     speaker: {fileID: 11400000, guid: e3a018c029f27b54fba1bc4c25b43261, type: 2}
-    pos: 0
+    pos: 2
     sentence: My sister thought that you were trying to free Sitan on purpose, but
       it was Sitan who influenced you to cut the barrier down.
     Bg: {fileID: 0}
@@ -93,7 +93,7 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: That's the--
     Bg: {fileID: 0}
     speakerNumber: 0
@@ -105,7 +105,7 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: Kaperosa!
     Bg: {fileID: 0}
     speakerNumber: 0
@@ -117,7 +117,7 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: ed7ada080364d4f4eaa515af6da0cd23, type: 2}
-    pos: 0
+    pos: 3
     sentence: HE will win!
     Bg: {fileID: 0}
     speakerNumber: 0

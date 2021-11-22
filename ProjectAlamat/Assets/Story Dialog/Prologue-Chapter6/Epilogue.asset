@@ -20,7 +20,7 @@ MonoBehaviour:
     Bg: {fileID: 21300000, guid: e706d7f874d103f4c9f8464b6cb087e3, type: 3}
     speakerNumber: 0
   - speakerSprite: 0
-    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
+    speaker: {fileID: 11400000, guid: d98e8c50e094f5649bdb1ce768a41337, type: 2}
     pos: 0
     sentence: Likewise, brother.
     Bg: {fileID: 0}
@@ -45,31 +45,31 @@ MonoBehaviour:
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
-    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
+    speaker: {fileID: 11400000, guid: d98e8c50e094f5649bdb1ce768a41337, type: 2}
     pos: 0
     sentence: Andres Lamat, the first time I saw you, I saw regret.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
-    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
+    speaker: {fileID: 11400000, guid: d98e8c50e094f5649bdb1ce768a41337, type: 2}
     pos: 0
     sentence: Since then, you have restored everything you have destroyed.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
-    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
+    speaker: {fileID: 11400000, guid: d98e8c50e094f5649bdb1ce768a41337, type: 2}
     pos: 0
     sentence: You helped in stopping Sitan's invasion.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
-    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
+    speaker: {fileID: 11400000, guid: d98e8c50e094f5649bdb1ce768a41337, type: 2}
     pos: 0
     sentence: You even aided in trapping Sitan in his lair.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
-    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
+    speaker: {fileID: 11400000, guid: d98e8c50e094f5649bdb1ce768a41337, type: 2}
     pos: 0
     sentence: I am glad to say, that you deserve a second chance.
     Bg: {fileID: 0}
@@ -143,12 +143,6 @@ MonoBehaviour:
     pos: 0
     sentence: 'You will see this as a dream, although everything that transpired
       here is reality. '
-    Bg: {fileID: 0}
-    speakerNumber: 0
-  - speakerSprite: 0
-    speaker: {fileID: 11400000, guid: e3a018c029f27b54fba1bc4c25b43261, type: 2}
-    pos: 0
-    sentence: You'll wake up in your bed as if nothing happened.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0

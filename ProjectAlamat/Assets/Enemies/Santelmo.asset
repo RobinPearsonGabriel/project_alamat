@@ -27,8 +27,9 @@ MonoBehaviour:
   - You tried, you failed.
   - Ahh... It looks like you made a wrong choice.
   - What a joke, you are wrong.
-  defeatDialog: 
-  DialogSprite: {fileID: 21300000, guid: 8c45a1d25874627438014b038088d258, type: 3}
+  defeatDialog: '"Attacking me is a big mistake. And it will be the last thing you''ll
+    ever make."'
+  DialogSprite: {fileID: 21300000, guid: 0b90f5a6e6b83b245861d10701da3b71, type: 3}
   baseHp: 18
   baseAtk: 14
   baseDef: 5

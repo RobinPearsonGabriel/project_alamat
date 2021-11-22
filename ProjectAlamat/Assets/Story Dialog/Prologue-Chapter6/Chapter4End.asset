@@ -22,19 +22,19 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: f21ce2b63fc65234cae5ea09b2e617bf, type: 2}
-    pos: 0
+    pos: 3
     sentence: "Oh, my head\u2026 Ugh!"
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: Now that you're back-
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: f21ce2b63fc65234cae5ea09b2e617bf, type: 2}
-    pos: 0
+    pos: 3
     sentence: "Yeah, I know. I'll do what I can to stop Sitan from advancing. Ow\u2026
       my head still hurts."
     Bg: {fileID: 0}
@@ -51,9 +51,9 @@ MonoBehaviour:
     sentence: Was she always like that?
     Bg: {fileID: 0}
     speakerNumber: 0
-  - speakerSprite: 0
+  - speakerSprite: 1
     speaker: {fileID: 11400000, guid: e3a018c029f27b54fba1bc4c25b43261, type: 2}
-    pos: 0
+    pos: 2
     sentence: Yes. We are not far from Sitan. Let us go.
     Bg: {fileID: 0}
     speakerNumber: 0

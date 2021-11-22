@@ -31,7 +31,7 @@ public class SetWheelSentences : MonoBehaviour
             {
                 wordsUsed.Add(Salitas[x]);
 
-                OuterPhrases[i].text = Salitas[x].englishSentenceTraining;
+                OuterPhrases[i].text = Salitas[x].englishSentenceTraining + "\n\n" + Salitas[x].tagalogSentenceTraining;
                 InnerPhrases[i].text = Salitas[x].salita;
             }
             else{

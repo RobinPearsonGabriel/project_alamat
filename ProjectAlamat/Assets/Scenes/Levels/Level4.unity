@@ -449,6 +449,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -4.5
       objectReference: {fileID: 0}
+    - target: {fileID: 3042128336256442374, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3042128336256442379, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_Name
       value: Armature
@@ -460,11 +464,11 @@ PrefabInstance:
     - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: VictoryDialog
       value: 
-      objectReference: {fileID: 11400000, guid: 34d3ac28aa9f03940a83b96d978a3b90, type: 2}
+      objectReference: {fileID: 11400000, guid: 7f2691598694e794c86e45cde0f37944, type: 2}
     - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: StartingDialog
       value: 
-      objectReference: {fileID: 11400000, guid: c32c8c8838b8bcb4c92a7467e4c7567b, type: 2}
+      objectReference: {fileID: 11400000, guid: 1113eb5565b25ba48a82c7b25c85f52b, type: 2}
     - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: precombatDialog
       value: 
@@ -541,10 +545,6 @@ PrefabInstance:
     - target: {fileID: 5635160683978270419, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_LocalPosition.y
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 5635160683978270419, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -1.0201707
       objectReference: {fileID: 0}
     - target: {fileID: 5635160683978270419, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_LocalRotation.w

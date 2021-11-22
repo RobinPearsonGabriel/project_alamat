@@ -22,13 +22,13 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: "It\u2019s no use! We need to remove Sitan's influence. Now!"
     Bg: {fileID: 0}
     speakerNumber: 0
-  - speakerSprite: 0
+  - speakerSprite: 2
     speaker: {fileID: 11400000, guid: e3a018c029f27b54fba1bc4c25b43261, type: 2}
-    pos: 0
+    pos: 2
     sentence: Andres, aim my book at Kaperosa!
     Bg: {fileID: 0}
     speakerNumber: 0
@@ -40,13 +40,13 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: ed7ada080364d4f4eaa515af6da0cd23, type: 2}
-    pos: 0
+    pos: 3
     sentence: "He's gone. I can't hear him anymore. Thank you\u2026"
     Bg: {fileID: 0}
     speakerNumber: 0
-  - speakerSprite: 0
+  - speakerSprite: 2
     speaker: {fileID: 11400000, guid: e3a018c029f27b54fba1bc4c25b43261, type: 2}
-    pos: 0
+    pos: 1
     sentence: Now that you are restored, we need you to protect and defend this place
       from Sitan's place.
     Bg: {fileID: 0}

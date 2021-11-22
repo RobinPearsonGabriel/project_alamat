@@ -23,19 +23,19 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: ee6ea95b1804ebc4388182078d5e219f, type: 2}
-    pos: 0
+    pos: 3
     sentence: You have restored my sanity. Because of that, I thank thee.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: How did they manage to get you under their spell?
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: ee6ea95b1804ebc4388182078d5e219f, type: 2}
-    pos: 0
+    pos: 3
     sentence: The circumstances of my possession do not matter, for I know the whereabouts
       of the invader.
     Bg: {fileID: 0}
@@ -48,14 +48,14 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: ee6ea95b1804ebc4388182078d5e219f, type: 2}
-    pos: 0
+    pos: 3
     sentence: Deep in this fiery cave is their lair, where you'll see the evil god
       face to face.
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: Alright then.
     Bg: {fileID: 0}
     speakerNumber: 0
@@ -67,7 +67,7 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: ee6ea95b1804ebc4388182078d5e219f, type: 2}
-    pos: 0
+    pos: 3
     sentence: Then let us make haste.
     Bg: {fileID: 0}
     speakerNumber: 0

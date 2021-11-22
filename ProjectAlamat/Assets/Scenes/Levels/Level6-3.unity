@@ -503,6 +503,22 @@ PrefabInstance:
       propertyPath: m_NormalizedViewPortRect.x
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2043890994812527144, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: bgm
+      value: 
+      objectReference: {fileID: 8300000, guid: a8cd76cd6747fc64f9562313a7f7bed1, type: 3}
+    - target: {fileID: 2043890994812527144, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: secondMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 1ce4a9c3a6c538d4aa4de230dbb5fda1, type: 3}
+    - target: {fileID: 2043890994812527144, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: initialMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 8f322c7dfdabe974c897155858e6fb05, type: 3}
+    - target: {fileID: 2043890994812527144, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: multipleInitialMusic
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3042128336256442372, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: PassiveSkill
       value: 
@@ -522,6 +538,18 @@ PrefabInstance:
     - target: {fileID: 3042128336256442379, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_Name
       value: Armature
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042128336537949729, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042128336537949729, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: LoadScene
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042128336537949729, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: Epilogue
       objectReference: {fileID: 0}
     - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: wordList.Array.size
@@ -562,7 +590,7 @@ PrefabInstance:
     - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: VictoryDialog
       value: 
-      objectReference: {fileID: 11400000, guid: 4890203e04a77ba4987846a950e28f36, type: 2}
+      objectReference: {fileID: 11400000, guid: 76193b22ee20ac3479b5d1711adc6390, type: 2}
     - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: tutorialPanel
       value: 
@@ -570,7 +598,7 @@ PrefabInstance:
     - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: StartingDialog
       value: 
-      objectReference: {fileID: 11400000, guid: 7fcbad04f3c48794ba3dda9113075b09, type: 2}
+      objectReference: {fileID: 11400000, guid: 5e163c2fa90b55d4fa75d6ef4e38e1c8, type: 2}
     - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: precombatDialog
       value: 
@@ -583,6 +611,10 @@ PrefabInstance:
       propertyPath: m_Text
       value: 'Press and rotate the spell wheel to change the word until it fits all
         the sentences in the spell wheel. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5312137053433895754, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: Loop
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5540495901209079811, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_Name

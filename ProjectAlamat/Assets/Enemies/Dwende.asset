@@ -26,7 +26,7 @@ MonoBehaviour:
   - '"Wrong... But hey, there was an attempt."'
   - '"Were you trying your best? Hahaha... wrong."'
   - '"Swing and a miss, buddy. Try again."'
-  defeatDialog: 
+  defeatDialog: '"Not much of a fighter huh?"'
   DialogSprite: {fileID: 21300000, guid: 8ba2ebe67659afd4aa725bc7067448b5, type: 3}
   baseHp: 12
   baseAtk: 11

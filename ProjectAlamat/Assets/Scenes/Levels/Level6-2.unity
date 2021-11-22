@@ -473,8 +473,16 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 735769109599719468, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2043890994812527144, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: bgm
+      value: 
+      objectReference: {fileID: 8300000, guid: a7df00e1cbfb6e0498bbf4e980fe10fc, type: 3}
+    - target: {fileID: 2043890994812527144, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: initialMusic
+      value: 
+      objectReference: {fileID: 8300000, guid: 95f131f5dd95aaf4b82a05c667ccec4f, type: 3}
     - target: {fileID: 3042128336256442372, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: PassiveSkill
       value: 
@@ -522,7 +530,7 @@ PrefabInstance:
     - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: StartingDialog
       value: 
-      objectReference: {fileID: 11400000, guid: 7fcbad04f3c48794ba3dda9113075b09, type: 2}
+      objectReference: {fileID: 11400000, guid: d32901dca59b51f4faba9083d0dfbbd1, type: 2}
     - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: precombatDialog
       value: 

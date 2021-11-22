@@ -23,7 +23,7 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: bd0b222ec21fc0547a283575f9e18c98, type: 2}
-    pos: 0
+    pos: 1
     sentence: I got you.
     Bg: {fileID: 0}
     speakerNumber: 0
@@ -41,7 +41,7 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: bd0b222ec21fc0547a283575f9e18c98, type: 2}
-    pos: 0
+    pos: 1
     sentence: A shield? Is that the best thing you can come up with?
     Bg: {fileID: 0}
     speakerNumber: 0
@@ -54,7 +54,7 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: bd0b222ec21fc0547a283575f9e18c98, type: 2}
-    pos: 0
+    pos: 1
     sentence: "Like I said earlier\u2026 it\u2019s only a matter of time."
     Bg: {fileID: 0}
     speakerNumber: 0
@@ -66,7 +66,7 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: 'Andres! '
     Bg: {fileID: 0}
     speakerNumber: 0
@@ -78,7 +78,7 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: bd0b222ec21fc0547a283575f9e18c98, type: 2}
-    pos: 0
+    pos: 3
     sentence: It's over.
     Bg: {fileID: 0}
     speakerNumber: 0
@@ -90,7 +90,7 @@ MonoBehaviour:
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
-    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
+    speaker: {fileID: 11400000, guid: d98e8c50e094f5649bdb1ce768a41337, type: 2}
     pos: 0
     sentence: Ibneg, help Andres. I'll deal with Sitan.
     Bg: {fileID: 0}
@@ -102,7 +102,7 @@ MonoBehaviour:
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
-    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
+    speaker: {fileID: 11400000, guid: d98e8c50e094f5649bdb1ce768a41337, type: 2}
     pos: 0
     sentence: Sitan, this has gone on far enough.
     Bg: {fileID: 0}
@@ -120,7 +120,7 @@ MonoBehaviour:
     Bg: {fileID: 0}
     speakerNumber: 0
   - speakerSprite: 0
-    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
+    speaker: {fileID: 11400000, guid: d98e8c50e094f5649bdb1ce768a41337, type: 2}
     pos: 0
     sentence: Is that even a question?
     Bg: {fileID: 0}
@@ -132,9 +132,9 @@ MonoBehaviour:
       each other, but Mayari is able to strike Sitan and incapacitate him.
     Bg: {fileID: 0}
     speakerNumber: 0
-  - speakerSprite: 0
+  - speakerSprite: 2
     speaker: {fileID: 11400000, guid: ee6ea95b1804ebc4388182078d5e219f, type: 2}
-    pos: 0
+    pos: 1
     sentence: We are finished with this fight. Let us go and escape his sight!
     Bg: {fileID: 0}
     speakerNumber: 0
@@ -158,9 +158,9 @@ MonoBehaviour:
       him.
     Bg: {fileID: 0}
     speakerNumber: 0
-  - speakerSprite: 0
-    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
-    pos: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: d98e8c50e094f5649bdb1ce768a41337, type: 2}
+    pos: 1
     sentence: Andres, I can't do this alone. I need Apolaki's power to stop this
       fiend's plan.
     Bg: {fileID: 0}
@@ -186,13 +186,13 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 2
     speaker: {fileID: 11400000, guid: c326dc43f816e314fb2806cfd46c1e6d, type: 2}
-    pos: 0
+    pos: 1
     sentence: "We\u2026 We did it!"
     Bg: {fileID: 0}
     speakerNumber: 0
-  - speakerSprite: 0
-    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
-    pos: 0
+  - speakerSprite: 1
+    speaker: {fileID: 11400000, guid: d98e8c50e094f5649bdb1ce768a41337, type: 2}
+    pos: 1
     sentence: Now is not the time to celebrate. We must get out of here.
     Bg: {fileID: 0}
     speakerNumber: 0
@@ -219,7 +219,7 @@ MonoBehaviour:
     speakerNumber: 0
   - speakerSprite: 1
     speaker: {fileID: 11400000, guid: bd0b222ec21fc0547a283575f9e18c98, type: 2}
-    pos: 0
+    pos: 3
     sentence: And when that day comes, there will be a reckoning!
     Bg: {fileID: 0}
     speakerNumber: 0

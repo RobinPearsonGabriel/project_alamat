@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
+
 public class SpecialDialogScript : MonoBehaviour
 {
     [SerializeField] Text textbox;
@@ -9,10 +11,24 @@ public class SpecialDialogScript : MonoBehaviour
     [SerializeField] Image Background;
     [SerializeField] Image textboxSprite;
     [SerializeField] GameObject Panel;
+    public GameObject Storybook;
+    public bool AfterDialog;
     int Index;
-    [SerializeField] DialogList lines ;  
+    [SerializeField] DialogList lines ;
 
+    public static SpecialDialogScript instance = null;
+    void Awake()
+    {
+        if (instance == null)
+        {
+            instance = this;
+        }
+        else
+        {
+            Destroy(this.gameObject);
+        }
 
+    }
 
 
 
@@ -41,37 +57,47 @@ public class SpecialDialogScript : MonoBehaviour
 
   public  void talking()
     {
-      
-        nameText.text = lines.dialogs[Index].getSpeakerName();
-        textbox.text = lines.dialogs[Index].sentence;
-        if (lines.dialogs[Index].Bg != null)
+        if (lines.dialogs.Count <= Index)
         {
-            Background.sprite = lines.dialogs[Index].Bg;
-        }
-        if (lines.dialogs[Index].speaker.DialogSprite != null)
-        {
-            textboxSprite.enabled = true;
-            textboxSprite.sprite = lines.dialogs[Index].speaker.DialogSprite;
-            textboxSprite.SetNativeSize();
+            Panel.SetActive(false);
+            DialogEnd();
         }
         else
         {
-            textboxSprite.enabled = false;
+            nameText.text = lines.dialogs[Index].getSpeakerName();
+            textbox.text = lines.dialogs[Index].sentence;
+            if (lines.dialogs[Index].Bg != null)
+            {
+                Background.sprite = lines.dialogs[Index].Bg;
+            }
+            if (lines.dialogs[Index].speaker.DialogSprite != null)
+            {
+                textboxSprite.enabled = true;
+                textboxSprite.sprite = lines.dialogs[Index].speaker.DialogSprite;
+                textboxSprite.SetNativeSize();
+            }
+            else
+            {
+                textboxSprite.enabled = false;
 
-        }
-       
+            }
 
 
-        Index++;
-        if (lines.dialogs.Count <= Index)
-        {
-            Panel.SetActive (false);
-            DialogEnd();
+
+            Index++;
         }
     }
+
     void DialogEnd()
     {
-    
+        if (AfterDialog)
+        {
+            Storybook.SetActive(true);
+        }
+        else
+        {
+            SceneManager.LoadScene("LevelSelection");
+        }
     }    
 
 }
