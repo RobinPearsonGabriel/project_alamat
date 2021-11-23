@@ -7686,6 +7686,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 5341382649637978113}
+        m_TargetAssemblyTypeName: ShowHint, Assembly-CSharp
+        m_MethodName: resetHint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &3042128336397570931
 GameObject:
   m_ObjectHideFlags: 0
@@ -11027,8 +11039,6 @@ MonoBehaviour:
   actionCanvas: {fileID: 5522230938320849702}
   enemyImage: {fileID: 5673478725999406846}
   playerImage: {fileID: 4189758522557159461}
-  gag: {fileID: 0}
-  burh: {fileID: 0}
   WinPanel: {fileID: 4004008400992533169}
   rotateMagnitude: 7
 --- !u!1 &3042128337046551105
@@ -12691,6 +12701,7 @@ MonoBehaviour:
   - {fileID: 3042128336435677944}
   - {fileID: 3042128336501447306}
   descriptionPanel: {fileID: 3042128336535962741}
+  AnswerLockButton: {fileID: 0}
 --- !u!222 &6571325555636483938
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -20034,8 +20045,6 @@ MonoBehaviour:
   actionCanvas: {fileID: 5522230938320849702}
   enemyImage: {fileID: 0}
   playerImage: {fileID: 0}
-  gag: {fileID: 0}
-  burh: {fileID: 0}
   WinPanel: {fileID: 0}
   rotateMagnitude: 3
 --- !u!1 &8934349843636494744

@@ -49,20 +49,14 @@ public class SetChoiceBox : MonoBehaviour
             }
         }
     }
-    public void AnswerLock()
-    {
-        checker.CheckWord(AnswerSelected);
-    }
 
     public void setSalita(List<Salita> words)
     {
-        AnswerSelected = null;
-        AnswerLockButton.interactable = false;
-            for (int i = 0; i < choicesText.Count; i++)
-            {
-              //  if (choicesText[i].text != null)
-                    choicesText[i].text = words[i].salita;
-            choicesText[i].color = Color.black;
+      for (int i = 0; i < choicesText.Count; i++)
+        {
+          //  if (choicesText[i].text != null)
+           choicesText[i].text = words[i].salita;
+           choicesText[i].color = Color.black;
             }
         salitas = words;
 

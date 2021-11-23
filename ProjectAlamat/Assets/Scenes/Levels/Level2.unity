@@ -682,38 +682,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Armature
       objectReference: {fileID: 0}
-    - target: {fileID: 3042128336386925222, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3042128336386925222, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3042128336386925222, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Target
-      value: 
-      objectReference: {fileID: 559342152}
-    - target: {fileID: 3042128336386925222, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3042128336386925222, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: resetHint
-      objectReference: {fileID: 0}
-    - target: {fileID: 3042128336386925222, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_TargetAssemblyTypeName
-      value: ShowHint, Assembly-CSharp
-      objectReference: {fileID: 0}
-    - target: {fileID: 3042128336386925222, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgument
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 3042128336386925222, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
-      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
-      value: UnityEngine.Object, UnityEngine
-      objectReference: {fileID: 0}
     - target: {fileID: 3042128336506767912, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: -136
@@ -932,7 +900,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3042128337486919445, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3042128337588285793, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_FillAmount

@@ -11,8 +11,6 @@ public class ActionsScript : MonoBehaviour
     public Canvas actionCanvas;
     public Image enemyImage;
     public Image playerImage;
-    public Sprite gag;
-    public Sprite burh;
     public GameObject WinPanel;
     public float rotateMagnitude;
 
@@ -61,10 +59,6 @@ public class ActionsScript : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.S))
-        {
-            ActivateActionCanvas(gag, burh, true);
-        }
     }
 
     void DeactivateActionCanvas()
