@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e8eaa8670c0c0d49a645d3def92af69, type: 3}
   m_Name: Init
   m_EditorClassIdentifier: 
-  salita: 
-  tagalogSentenceTraining: 
-  englishSentenceTraining: 
-  tagalogSentenceBattle: 
-  englishSentenceBattle: 
+  salita: Init
+  description: The state of having  high temperatures
+  tagalogSentenceTraining: Masasanay ka rin sa ____ diyan.
+  englishSentenceTraining: You'll get used to the  <u>heat</u> here.
+  tagalogSentenceBattle: Masasanay ka rin sa ____ diyan.
+  englishSentenceBattle: You'll get used to the  <u>heat</u> here.
   Sentences: []

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   salita: tubig na nilalanggoy ni Berberoka.
   tagalogSentenceTraining: 'Hindi maalat ang '
-  englishSentenceTraining: 
+  englishSentenceTraining: The water that Berberoka is swimming in is not salty.
   tagalogSentenceBattle: 'Hindi maalat ang '
-  englishSentenceBattle: 
+  englishSentenceBattle: The water that Berberoka is swimming in is not salty.
   Sentences: []

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   salita: ang tanong ni Andres.
   tagalogSentenceTraining: Sinagot ng bata
-  englishSentenceTraining: 
+  englishSentenceTraining: The kid answered Andres' question.
   tagalogSentenceBattle: Sinagot ng bata
-  englishSentenceBattle: 
+  englishSentenceBattle: The kid answered Andres' question.
   Sentences: []

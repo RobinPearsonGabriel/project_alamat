@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class TutorialPanel : MonoBehaviour
 {
     public List<GameObject> tutorialImages= new List<GameObject>();
+    public AudioClip pageChange;
     int currentPanel = 0;
 
 
@@ -20,6 +21,7 @@ public class TutorialPanel : MonoBehaviour
 
     public void NextPage()
     {
+        AudioManager.instance.PlayAudioClip(pageChange);
         tutorialImages[currentPanel].SetActive(false);
         currentPanel++;
         if (tutorialImages[currentPanel] != null)
@@ -44,6 +46,7 @@ public class TutorialPanel : MonoBehaviour
 
     public void CloseTutorial()
     {
+        AudioManager.instance.PlayAudioClip(pageChange);
         LevelScript.instance.completeTutorial(true);
         this.gameObject.SetActive(false);
     }

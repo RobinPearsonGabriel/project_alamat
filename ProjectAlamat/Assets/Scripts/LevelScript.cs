@@ -281,7 +281,7 @@ public class LevelScript : MonoBehaviour
                     {
                         if (!wordsLearned.Contains(question_Script.GetSalita().salita))
                         {
-                            wordsLearned.Add(question_Script.GetSalita().salita);
+                            wordsLearned.Add(question_Script.GetSalita().name);
                         }
                     }
                         Debug.Log("Correct");
@@ -354,7 +354,7 @@ public class LevelScript : MonoBehaviour
 
     public void GameOver()
     {
-        enemyImage.sprite = enemy.GetFaceImage();
+        enemyImage.sprite = enemy.GetDialogueImage();
         enemyImage.SetNativeSize();
         enemyName.text = enemy.getName();
         enemyDefeatDialog.text = enemy.GetDefeatDialog();

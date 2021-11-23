@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   salita: Nahugasan
   tagalogSentenceTraining: '[________] mo ba kanina ang pinggan?'
-  englishSentenceTraining: 
+  englishSentenceTraining: Did you wash the dishes earlier?
   tagalogSentenceBattle: '[________] mo ba kanina ang pinggan?'
-  englishSentenceBattle: 
+  englishSentenceBattle: Did you wash the dishes earlier?
   Sentences: []

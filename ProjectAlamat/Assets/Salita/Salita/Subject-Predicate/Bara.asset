@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   salita: dahil kay Laman Lupa
   tagalogSentenceTraining: 'Nakabara ang daan '
-  englishSentenceTraining: 
+  englishSentenceTraining: The road is blocked because of Laman Lupa.
   tagalogSentenceBattle: 'Nakabara ang daan '
-  englishSentenceBattle: 
+  englishSentenceBattle: The road is blocked because of Laman Lupa.
   Sentences: []

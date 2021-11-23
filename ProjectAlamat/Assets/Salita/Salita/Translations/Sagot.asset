@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e8eaa8670c0c0d49a645d3def92af69, type: 3}
   m_Name: Sagot
   m_EditorClassIdentifier: 
-  salita: 
-  tagalogSentenceTraining: 
-  englishSentenceTraining: 
-  tagalogSentenceBattle: 
-  englishSentenceBattle: 
+  salita: Sagot
+  description: A thing said as a reaction to a question.
+  tagalogSentenceTraining: Ano ang _____ mo sa tanong?
+  englishSentenceTraining: What was your <u>answer</u> to the question?
+  tagalogSentenceBattle: Ano ang _____ mo sa tanong?
+  englishSentenceBattle: What was your <u>answer</u> to the question?
   Sentences: []

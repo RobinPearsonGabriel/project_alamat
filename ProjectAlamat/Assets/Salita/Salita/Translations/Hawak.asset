@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e8eaa8670c0c0d49a645d3def92af69, type: 3}
   m_Name: Hawak
   m_EditorClassIdentifier: 
-  salita: 
-  tagalogSentenceTraining: 
-  englishSentenceTraining: 
-  tagalogSentenceBattle: 
-  englishSentenceBattle: 
+  salita: Hawak
+  description: To grip something with your hand
+  tagalogSentenceTraining: _____ ka sa riles!
+  englishSentenceTraining: <u>Hold</u> onto the rails!
+  tagalogSentenceBattle: _____ ka sa riles!
+  englishSentenceBattle: <u>Hold</u> onto the rails!
   Sentences: []

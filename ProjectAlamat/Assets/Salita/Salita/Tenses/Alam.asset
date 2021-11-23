@@ -14,7 +14,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   salita: Inalam
   tagalogSentenceTraining: '[________] ko ang sitwasyon kagabi bago ako sumagot.'
-  englishSentenceTraining: 
+  englishSentenceTraining: I found out about the situation first last night before
+    I answered.
   tagalogSentenceBattle: '[________] ko ang sitwasyon kagabi bago ako sumagot.'
-  englishSentenceBattle: 
+  englishSentenceBattle: I found out about the situation first last night before
+    I answered.
   Sentences: []

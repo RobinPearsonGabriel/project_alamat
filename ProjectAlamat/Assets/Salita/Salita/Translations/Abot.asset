@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e8eaa8670c0c0d49a645d3def92af69, type: 3}
   m_Name: Abot
   m_EditorClassIdentifier: 
-  salita: 
-  tagalogSentenceTraining: 
-  englishSentenceTraining: 
-  tagalogSentenceBattle: 
-  englishSentenceBattle: 
+  salita: Abot
+  description: To try to claim or grasp something
+  tagalogSentenceTraining: _____ mo ba ang itaas ng mesa
+  englishSentenceTraining: Can you <u>reach</u> the top of the table
+  tagalogSentenceBattle: _____ mo ba ang itaas ng mesa
+  englishSentenceBattle: Can you <u>reach</u> the top of the table
   Sentences: []

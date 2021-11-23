@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Ang
   m_EditorClassIdentifier: 
   salita: Ang
+  description: 
   tagalogSentenceTraining: 
   englishSentenceTraining: 
   tagalogSentenceBattle: 
   englishSentenceBattle: 
   Sentences:
-  - Nasa kuwarto nakalagay [________] libro.
-  - Paano ba lumilipad [________] ibon na iyon?
-  - Sino [________] nagluto kagabi?
-  - Magkano ba [________] pagkain?
+  - Naglalaro [________] magkakapatid sa labas.
+  - Nakatira [________] pamilya malapit sa ilog.
+  - '[________] guro ay natutulog sa silid. '
+  - Malaking harang [________] kalabaw sa daanan.

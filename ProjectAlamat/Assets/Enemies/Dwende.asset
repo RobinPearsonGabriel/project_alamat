@@ -14,10 +14,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   charType: 1
   name: Calanget
-  NormalSprite: {fileID: 21300000, guid: ba170e29ba24a2d4db79076d8746fbf4, type: 3}
+  NormalSprite: {fileID: 21300000, guid: 3a5eca1841b980d4187d44aefff9c7cf, type: 3}
   attackImage: {fileID: 21300000, guid: b3af8191f0ecf5547bc011a8589e88bc, type: 3}
   attackSfx: {fileID: 8300000, guid: 65f4ae43115f36e4096469d1bed1a1b1, type: 3}
-  attackedImage: {fileID: 21300000, guid: ba170e29ba24a2d4db79076d8746fbf4, type: 3}
+  attackedImage: {fileID: 21300000, guid: 3a5eca1841b980d4187d44aefff9c7cf, type: 3}
   faceImage: {fileID: 21300000, guid: 829525faa4ecc624992ccb0263b0bdcb, type: 3}
   atkAnimation: []
   DeathAnimation: []

@@ -74,6 +74,10 @@ public class Character_Base : MonoBehaviour
     {
         return characterBaseStat.faceImage;
     }
+    public Sprite GetDialogueImage()
+    {
+        return characterBaseStat.getDialogImage();
+    }
 
     public string GetDefeatDialog()
     {
@@ -153,15 +157,20 @@ public class Character_Base : MonoBehaviour
 
         hp = hp- actualdamage;
         hpbar.fillAmount = hp / maxHp;
+        if(hpbar.fillAmount < 0.02f && hpbar.fillAmount > 0)
+        {
+            Debug.Log("HP Fixing");
+            hpbar.fillAmount = 0.02f;
+        }
         hp = Mathf.Max(0.0f, hp);
         if (hp <= 0)
         {
             Die();
         
         }
-        OnDamageRecieve(actualdamage);
+        OnDamageRecieve();
     }
-    public void OnDamageRecieve(float damage)
+    public void OnDamageRecieve()
     {
         StartCoroutine(FlickeringEffect());
     }

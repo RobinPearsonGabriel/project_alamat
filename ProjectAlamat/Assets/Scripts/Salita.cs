@@ -11,6 +11,7 @@ public class Salita : ScriptableObject
  
     // Start is called before the first frame update
     public string salita;
+    public string description;
     
     //in training question
     [Header("In Training Question")]

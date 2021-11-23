@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   salita: Nagpunas
   tagalogSentenceTraining: '[________] ka ba ng salamin noong dumating si Inay kanina?'
-  englishSentenceTraining: 
+  englishSentenceTraining: Did you wipe the mirrors when mom arrived earlier?
   tagalogSentenceBattle: '[________] ka ba ng salamin noong dumating si Inay kanina?'
-  englishSentenceBattle: 
+  englishSentenceBattle: Did you wipe the mirrors when mom arrived earlier?
   Sentences: []

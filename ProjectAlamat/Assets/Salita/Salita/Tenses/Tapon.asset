@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   salita: Tinapon
   tagalogSentenceTraining: '[________] mo kagabi yung basura?'
-  englishSentenceTraining: 
+  englishSentenceTraining: You threw the trash last night?
   tagalogSentenceBattle: '[________] mo kagabi yung basura?'
-  englishSentenceBattle: 
+  englishSentenceBattle: You threw the trash last night?
   Sentences: []

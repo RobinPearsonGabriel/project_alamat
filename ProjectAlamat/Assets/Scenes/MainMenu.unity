@@ -174,6 +174,7 @@ MonoBehaviour:
   musicSlider: {fileID: 884483224}
   soundSlider: {fileID: 1895428456}
   audioSource: {fileID: 924753115}
+  soundSource: {fileID: 1697594179}
   saveNumber: 0
 --- !u!1 &87178010
 GameObject:
@@ -365,7 +366,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: 4d6c08d149b3fd245b339c99e86d9611, type: 3}
+    m_Font: {fileID: 12800000, guid: 34921ef14deae764983ac99ddf94761a, type: 3}
     m_FontSize: 28
     m_FontStyle: 0
     m_BestFit: 0
@@ -2206,7 +2207,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &680922465
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2247,7 +2248,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: aee5b23dbf77d8f4ba352c4a3d273b20, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 318ce65501de1444a8234efe8fff3849, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2802,7 +2803,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3f1e5038b074d1a439ccdf8f4814ad78, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 0}
+  player: {fileID: 894895500}
 --- !u!114 &894895500
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2816,7 +2817,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   level: 0
-  levelsComplete: 00000000000000
+  levelsComplete: 01010101010101
 --- !u!4 &894895501
 Transform:
   m_ObjectHideFlags: 0
@@ -4349,8 +4350,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 8300000, guid: 7f76de843b9c65d49ac2e9bbd6dbdcf0, type: 3}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0

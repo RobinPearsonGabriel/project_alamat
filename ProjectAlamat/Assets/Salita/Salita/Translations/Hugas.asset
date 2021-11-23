@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e8eaa8670c0c0d49a645d3def92af69, type: 3}
   m_Name: Hugas
   m_EditorClassIdentifier: 
-  salita: 
-  tagalogSentenceTraining: 
-  englishSentenceTraining: 
-  tagalogSentenceBattle: 
-  englishSentenceBattle: 
+  salita: Hugas
+  description: To clean with water and, typically, soap or detergent.
+  tagalogSentenceTraining: Mag_____ ka ng kamay.
+  englishSentenceTraining: <u>Wash</u> your hands.
+  tagalogSentenceBattle: Mag_____ ka ng kamay.
+  englishSentenceBattle: <u>Wash</u> your hands.
   Sentences: []

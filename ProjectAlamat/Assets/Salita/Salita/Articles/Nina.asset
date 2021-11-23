@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Nina
   m_EditorClassIdentifier: 
   salita: Nina
+  description: 
   tagalogSentenceTraining: 
   englishSentenceTraining: 
   tagalogSentenceBattle: 
   englishSentenceBattle: 
   Sentences:
-  - Kaibigan  [________]  Ibneg at Santelmo si Andres.
-  - 'Nabayaran na ba ang utang [________] Juan? '
-  - Milagro ang kailangan  [________]  Ibneg at Andres.
-  - Sino pa ang inaantay [________] Apolaki at Mayari
+  - Huwag hawakan ang gamit [________] Andres at Juan
+  - Ang pagkain [________] Juan at Ibneg ay nakatago.
+  - Bahay ito  [________]  Maria at Mariano.
+  - Tinatapon [________] Ysabel at Andres ang basura.

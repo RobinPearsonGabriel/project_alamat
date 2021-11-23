@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   salita: Hinahawakan
   tagalogSentenceTraining: '[________] mo ba ang libro ngayon?'
-  englishSentenceTraining: 
+  englishSentenceTraining: Are you holding the book right now?
   tagalogSentenceBattle: '[________] mo ba ang libro ngayon?'
-  englishSentenceBattle: 
+  englishSentenceBattle: Are you holding the book right now?
   Sentences: []

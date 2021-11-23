@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e8eaa8670c0c0d49a645d3def92af69, type: 3}
   m_Name: Lamig
   m_EditorClassIdentifier: 
-  salita: 
-  tagalogSentenceTraining: 
-  englishSentenceTraining: 
-  tagalogSentenceBattle: 
-  englishSentenceBattle: 
+  salita: Lamig
+  description: What it feels like at low temperatures
+  tagalogSentenceTraining: Ang _____ dito sa Baguio!
+  englishSentenceTraining: It's <u>cold</u> here in Baguio!
+  tagalogSentenceBattle: Ang _____ dito sa Baguio!
+  englishSentenceBattle: It's <u>cold</u> here in Baguio!
   Sentences: []

@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   salita: Early
   tagalogSentenceTraining: Aga
-  englishSentenceTraining: ___:Before the usual or expected time;The opposite of
-    late.
+  englishSentenceTraining: When you arrive before the usual or expected time
   tagalogSentenceBattle: Aga
-  englishSentenceBattle: ___:Before the usual or expected time; The opposite of late.
+  englishSentenceBattle: When you arrive before the usual or expected time
+  Sentences: []

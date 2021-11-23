@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   salita: para magpunas ng sahig.
   tagalogSentenceTraining: Nasa kuwarto si Andres
-  englishSentenceTraining: 
+  englishSentenceTraining: Andres is in the room to wipe the floor.
   tagalogSentenceBattle: Nasa kuwarto si Andres
-  englishSentenceBattle: 
+  englishSentenceBattle: Andres is in the room to wipe the floor.
   Sentences: []

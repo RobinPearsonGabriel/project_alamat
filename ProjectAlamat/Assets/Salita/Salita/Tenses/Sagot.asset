@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   salita: Sasagutin
   tagalogSentenceTraining: '[________] mo ba ang tanong ko ngayon o hindi?'
-  englishSentenceTraining: 
+  englishSentenceTraining: Will you or will you not answer my question now?
   tagalogSentenceBattle: '[________] mo ba ang tanong ko ngayon o hindi?'
-  englishSentenceBattle: 
+  englishSentenceBattle: Will you or will you not answer my question now?
   Sentences: []

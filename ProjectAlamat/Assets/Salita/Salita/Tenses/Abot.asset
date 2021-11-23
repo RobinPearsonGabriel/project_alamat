@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   salita: Maabot
   tagalogSentenceTraining: '[________] mo ba yung gubat bago ang hapon?'
-  englishSentenceTraining: 
+  englishSentenceTraining: Will you reach the forest before afternoon?
   tagalogSentenceBattle: '[________] mo ba yung gubat bago ang hapon?'
-  englishSentenceBattle: 
+  englishSentenceBattle: Will you reach the forest before afternoon?
   Sentences: []

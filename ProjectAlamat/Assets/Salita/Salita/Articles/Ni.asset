@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Ni
   m_EditorClassIdentifier: 
   salita: Ni
+  description: 
   tagalogSentenceTraining: 
   englishSentenceTraining: 
   tagalogSentenceBattle: 
   englishSentenceBattle: 
   Sentences:
-  - Sinulat [________] Andres ang pangyayari sa kanyang libro.
-  - Hinalo [________] Ibneg ang mga pagkain.
-  - Nasa ilalim ang gamit [________] Kaperosa
-  - Paano babasahin [________] Andres ang nakasulat sa papel?
+  - Malaki ang apoy [________] Santelmo.
+  - Paano natalo [________] Mayari si Sitan?
+  - Sinakop [________] Sitan ang kalangitan noong nakatakas siya.
+  - Niluto [________] Ibneg ang Adobo.

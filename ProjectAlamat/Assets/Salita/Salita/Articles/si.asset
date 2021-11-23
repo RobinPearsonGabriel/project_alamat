@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: si
   m_EditorClassIdentifier: 
   salita: Si
+  description: 
   tagalogSentenceTraining: 
   englishSentenceTraining: 
   tagalogSentenceBattle: 
   englishSentenceBattle: 
   Sentences:
-  - '[________] Andres ang nagsira ng puno.'
-  - Nagtatapon ng gamit [________] Ibneg.
-  - Naging libro [________] Apolaki.
-  - Natalo [________] Sitan noong kinalaban niya ang magkapatid.
+  - Paano [________] Kaperosa kung ganoon ang kinalabasan?
+  - Lumalangoy [________] si Berberoka palabas ng batis.
+  - Nakatira [________] Calanget sa ilalim ng lupa.
+  - 'Natamaan [________] Andres. '

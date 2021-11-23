@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Sina
   m_EditorClassIdentifier: 
   salita: Sina
+  description: 
   tagalogSentenceTraining: 
   englishSentenceTraining: 
   tagalogSentenceBattle: 
   englishSentenceBattle: 
   Sentences:
-  - Tuso  [________]  Sitan at Hukluban kaya magingat kayo.
-  - Naglalaro [________] Juan at Juanita ng taya tayaan.
-  - Paano na kung  [________]  Ibneg at Andres?
-  - '[________] Andres at Santelmo ang bahala doon.'
+  - Kumusta  [________]  Geronimo?
+  - Delikado at mapanganib  [________] Gregorio
+  - Mabuting nilalang  [________]  Ibneg at Laman Lupa
+  - Nasa bayan  [________]  Ibneg at Andres.

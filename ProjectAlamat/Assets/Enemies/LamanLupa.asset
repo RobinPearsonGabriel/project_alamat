@@ -16,7 +16,7 @@ MonoBehaviour:
   name: Laman Lupa
   NormalSprite: {fileID: 21300000, guid: 7de7b21964940254aa2bdb019f638059, type: 3}
   attackImage: {fileID: 21300000, guid: 7de7b21964940254aa2bdb019f638059, type: 3}
-  attackSfx: {fileID: 8300000, guid: 464196213d3986246b0b67a91d4de926, type: 3}
+  attackSfx: {fileID: 8300000, guid: 15388a0c5faea724b8dcd2d15c2c4c1e, type: 3}
   attackedImage: {fileID: 21300000, guid: 7de7b21964940254aa2bdb019f638059, type: 3}
   faceImage: {fileID: 21300000, guid: d87c895fa3ee8fa4db05e430cd238745, type: 3}
   atkAnimation: []

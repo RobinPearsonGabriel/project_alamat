@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Kay
   m_EditorClassIdentifier: 
   salita: Kay
+  description: 
   tagalogSentenceTraining: 
   englishSentenceTraining: 
   tagalogSentenceBattle: 
   englishSentenceBattle: 
   Sentences:
-  - Na [________] Sitan si Mayari.
-  - Para [________] Apolaki ang librong ito.
-  - Itanong mo [________] Apolaki.
   - Pakibigay mo [________] Mayari.
+  - Sino nagsabi [________] Pedro?
+  - '[________] lola ba itong inumin?'
+  - Para [________] Apolaki ang librong ito.

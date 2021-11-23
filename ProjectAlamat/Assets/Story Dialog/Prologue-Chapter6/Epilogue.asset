@@ -126,8 +126,8 @@ MonoBehaviour:
       and Apolaki appears beside them.
     Bg: {fileID: 0}
     speakerNumber: 0
-  - speakerSprite: 0
-    speaker: {fileID: 11400000, guid: d468f95b9baee5a4eb139780a6a8e395, type: 2}
+  - speakerSprite: 2
+    speaker: {fileID: 11400000, guid: d98e8c50e094f5649bdb1ce768a41337, type: 2}
     pos: 0
     sentence: Andres Lamat you have your chance to go back home.
     Bg: {fileID: 0}

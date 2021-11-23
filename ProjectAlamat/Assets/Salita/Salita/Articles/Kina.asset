@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Kina
   m_EditorClassIdentifier: 
   salita: Kina
+  description: 
   tagalogSentenceTraining: 
   englishSentenceTraining: 
   tagalogSentenceBattle: 
   englishSentenceBattle: 
   Sentences:
-  - Ibigay [________] Andres at Ibneg.
-  - Sino pababa ang nagaantay [________] Santelmo at Juan?
   - Magkikipag-usap ako [________] Apolaki at Mayari.
+  - Nagbisa ka na ba [________] itay at inay?
   - Para [________] Andres at Ibneg ang sulat.
+  - Galing ito [________] Santelmo at Ibneg.

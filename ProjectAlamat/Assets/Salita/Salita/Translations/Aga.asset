@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e8eaa8670c0c0d49a645d3def92af69, type: 3}
   m_Name: Aga
   m_EditorClassIdentifier: 
-  salita: 
-  tagalogSentenceTraining: 
-  englishSentenceTraining: 
-  tagalogSentenceBattle: 
-  englishSentenceBattle: 
+  salita: Aga
+  description: When you arrive before the usual or expected time
+  tagalogSentenceTraining: Masyado pang ma___ para sa hapunan.
+  englishSentenceTraining: It's too <u>early</u> for dinner.
+  tagalogSentenceBattle: Masyado pang ma___ para sa hapunan.
+  englishSentenceBattle: It's too <u>early</u> for dinner.
   Sentences: []

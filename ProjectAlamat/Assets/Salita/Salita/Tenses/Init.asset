@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   salita: Naginit
   tagalogSentenceTraining: '[________] ng pagkain kanina si Berberoka'
-  englishSentenceTraining: 
+  englishSentenceTraining: Berberoka heated some food earlier.
   tagalogSentenceBattle: '[________] ng pagkain kanina si Berberoka'
-  englishSentenceBattle: 
+  englishSentenceBattle: Berberoka heated some food earlier.
   Sentences: []

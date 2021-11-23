@@ -499,6 +499,10 @@ PrefabInstance:
       propertyPath: m_LocalPosition.y
       value: -3.56
       objectReference: {fileID: 0}
+    - target: {fileID: 3042128336256442374, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3042128336256442379, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_Name
       value: Armature
@@ -515,6 +519,70 @@ PrefabInstance:
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
       value: Level6-3
       objectReference: {fileID: 0}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.size
+      value: 15
+      objectReference: {fileID: 0}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[0]
+      value: 
+      objectReference: {fileID: 11400000, guid: d8029c38d83ecb843bde8651f0e3cde6, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[1]
+      value: 
+      objectReference: {fileID: 11400000, guid: 5c02556ad3d133844a24a12297417934, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[2]
+      value: 
+      objectReference: {fileID: 11400000, guid: f5236c2f896303144b9039671e3b66e9, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[3]
+      value: 
+      objectReference: {fileID: 11400000, guid: 0311cf23fd0f45d46a1d3d6694a3bbfc, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[4]
+      value: 
+      objectReference: {fileID: 11400000, guid: dd876111f895fe044bd254b19276d263, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[5]
+      value: 
+      objectReference: {fileID: 11400000, guid: ff7ff0f2bef91da498e9d9271596972d, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[6]
+      value: 
+      objectReference: {fileID: 11400000, guid: 4a2f7e6c83e0f1849a89a3fb52a71ca8, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[7]
+      value: 
+      objectReference: {fileID: 11400000, guid: 8676ca32072571d4dbd357788c9601d1, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[8]
+      value: 
+      objectReference: {fileID: 11400000, guid: 01012a6dc0d0c8f449b98320a8dea570, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[9]
+      value: 
+      objectReference: {fileID: 11400000, guid: 647f86fd8c6c2104d9dc4a414a35d1b2, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[10]
+      value: 
+      objectReference: {fileID: 11400000, guid: 1a2ee9cb6c35bea41a66f73f50301fb8, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[11]
+      value: 
+      objectReference: {fileID: 11400000, guid: c188665ed19842c4f93176d9e62bb248, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[12]
+      value: 
+      objectReference: {fileID: 11400000, guid: 19908fb17026ad04e8e2df0455d0a0d1, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[13]
+      value: 
+      objectReference: {fileID: 11400000, guid: e689fd8fe5ccbf848931869d697d6f3a, type: 2}
+    - target: {fileID: 3042128336989478752, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: wordList.Array.data[14]
+      value: 
+      objectReference: {fileID: 11400000, guid: baa74709bb96a7f45a7bac88124d4485, type: 2}
     - target: {fileID: 3042128336989478759, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: questionType
       value: 2
@@ -535,6 +603,10 @@ PrefabInstance:
       propertyPath: precombatDialog
       value: 
       objectReference: {fileID: 11400000, guid: 7fcbad04f3c48794ba3dda9113075b09, type: 2}
+    - target: {fileID: 4241758624079277825, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
+      propertyPath: m_audioClip
+      value: 
+      objectReference: {fileID: 8300000, guid: 422921e14c6164548b915db3c9e44c72, type: 3}
     - target: {fileID: 4424025905783726531, guid: 7c6b180051560454bbadaab1a66f8e0e, type: 3}
       propertyPath: m_Text
       value: Press and move the spell word up and down to match the word in the middle

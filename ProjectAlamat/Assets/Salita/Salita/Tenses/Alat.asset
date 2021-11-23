@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   salita: Umalat
   tagalogSentenceTraining: '[________] masiyado ang pagkain nang lumabas tayo.'
-  englishSentenceTraining: 
+  englishSentenceTraining: The food got too salty while we went out.
   tagalogSentenceBattle: '[________] masiyado ang pagkain nang lumabas tayo.'
-  englishSentenceBattle: 
+  englishSentenceBattle: The food got too salty while we went out.
   Sentences: []

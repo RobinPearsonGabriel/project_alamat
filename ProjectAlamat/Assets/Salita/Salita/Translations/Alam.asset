@@ -12,9 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e8eaa8670c0c0d49a645d3def92af69, type: 3}
   m_Name: Alam
   m_EditorClassIdentifier: 
-  salita: 
-  tagalogSentenceTraining: 
-  englishSentenceTraining: To be aware of through observation, inquiry, or information.
-  tagalogSentenceBattle: 
-  englishSentenceBattle: 
+  salita: Alam
+  description: When you have knowledge of something
+  tagalogSentenceTraining: ____ ko ang mga sangkap ng pankeyk.
+  englishSentenceTraining: I <u>know</u> the ingredients of pancakes.
+  tagalogSentenceBattle: ____ ko ang mga sangkap ng pankeyk.
+  englishSentenceBattle: I <u>know</u> the ingredients of pancakes.
   Sentences: []

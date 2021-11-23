@@ -16,6 +16,7 @@ public class UIManager : MonoBehaviour
     public Slider musicSlider;
     public Slider soundSlider;
     public AudioSource audioSource;
+    public AudioSource soundSource;
 
     private float volume;
     
@@ -24,9 +25,12 @@ public class UIManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+
         ActivatePanel(mainPanel);
+        soundSource.volume = 0;
         audioSource.volume = PlayerPrefs.GetFloat("MusicLevel", audioSource.volume);
         soundSlider.value = PlayerPrefs.GetFloat("SoundLevel", soundSlider.value);
+        soundSource.volume = soundSlider.value;
         musicSlider.value = audioSource.volume;
         volume = audioSource.volume;
     }
@@ -50,6 +54,7 @@ public class UIManager : MonoBehaviour
 
     public void StartGameButton()
     {
+        soundSource.Play();
         ActivatePanel(savePanel);
     }
 
@@ -109,7 +114,12 @@ public class UIManager : MonoBehaviour
     public void ChangeSoundVolume()
     {
         volume = soundSlider.value;
-            SaveSoundLevel();
+        soundSource.volume = volume;
+        if (!soundSource.isPlaying)
+        {
+            soundSource.Play();
+        }
+        SaveSoundLevel();
     }
 
     public void SaveVolumeLevel()
@@ -123,9 +133,15 @@ public class UIManager : MonoBehaviour
         PlayerPrefs.SetFloat("SoundLevel", volume);
     }
 
+    public void GameStart()
+    {
+        SceneManager.LoadScene("LevelSelection");
+    }
+
 
     public void GameButtonPressed(int saveNumber)
     {
+  
         Debug.Log(saveNumber);
         SaveSystem.instance.ChangeSaveNumber(saveNumber);
         SaveSystem.instance.Load();
@@ -135,6 +151,7 @@ public class UIManager : MonoBehaviour
 
     public void ActivatePanel(GameObject panelToBeActivated)
     {
+        soundSource.Play();
         optionsPanel.SetActive(panelToBeActivated.Equals(optionsPanel));
         mainPanel.SetActive(panelToBeActivated.Equals(mainPanel));
         savePanel.SetActive(panelToBeActivated.Equals(savePanel));

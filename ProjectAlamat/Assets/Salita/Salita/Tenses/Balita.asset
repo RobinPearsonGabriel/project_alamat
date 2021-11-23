@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   salita: Makikibalita
   tagalogSentenceTraining: '[________] ako kay Ibneg mamaya tungkol sa nangyari kanina'
-  englishSentenceTraining: 
+  englishSentenceTraining: I will ask Ibneg later about what happened earlier.
   tagalogSentenceBattle: '[________] ako kay Ibneg mamaya tungkol sa nangyari kanina'
-  englishSentenceBattle: 
+  englishSentenceBattle: I will ask Ibneg later about what happened earlier.
   Sentences: []
