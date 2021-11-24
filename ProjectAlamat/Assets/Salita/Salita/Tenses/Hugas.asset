@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Hugas
   m_EditorClassIdentifier: 
   salita: Nahugasan
+  description: 
   tagalogSentenceTraining: '[________] mo ba kanina ang pinggan?'
-  englishSentenceTraining: Did you wash the dishes earlier?
+  englishSentenceTraining: Were you able to wash the dishes earlier?
   tagalogSentenceBattle: '[________] mo ba kanina ang pinggan?'
-  englishSentenceBattle: Did you wash the dishes earlier?
+  englishSentenceBattle: Were you able to wash the dishes earlier?
   Sentences: []
