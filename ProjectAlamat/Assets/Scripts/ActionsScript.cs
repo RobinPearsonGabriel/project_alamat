@@ -69,7 +69,5 @@ public class ActionsScript : MonoBehaviour
         LevelScript.instance.enemyObj.transform.position = new Vector3(LevelScript.instance.enemyObj.transform.position.x, LevelScript.instance.enemyObj.transform.position.y, -0.02f);
         sentencePanel.SetActive(true);
         actionCanvas.gameObject.SetActive(false);
-        camera.transform.rotation = new Quaternion(0, 0, 0 ,0);
-        camera.orthographicSize = cameraSize;
     }
 }
