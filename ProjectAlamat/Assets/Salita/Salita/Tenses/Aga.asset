@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Aga
   m_EditorClassIdentifier: 
   salita: Aagahan
-  tagalogSentenceTraining: '[________] ang pagpunta ni Santelmo sa bulkan bukas.'
+  description: 
+  tagalogSentenceTraining: '[________] ni Santelmo ang pagpunta sa bulkan bukas.'
   englishSentenceTraining: Santelmo will go to the volcano early tomorrow.
-  tagalogSentenceBattle: '[________] ang pagpunta ni Santelmo sa bulkan bukas.'
+  tagalogSentenceBattle: '[________] ni Santelmo ang pagpunta sa bulkan bukas.'
   englishSentenceBattle: Santelmo will go to the volcano early tomorrow.
   Sentences: []

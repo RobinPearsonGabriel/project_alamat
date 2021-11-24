@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Away
   m_EditorClassIdentifier: 
   salita: makipag-away sa iba.
+  description: 
   tagalogSentenceTraining: Mahilig si Sitan
-  englishSentenceTraining: Sitan loves to fight others.
+  englishSentenceTraining: Sitan loves to fight with others.
   tagalogSentenceBattle: makipag-away sa iba.
-  englishSentenceBattle: Sitan loves to fight others.
+  englishSentenceBattle: Sitan loves to fight with others.
   Sentences: []

@@ -1,0 +1,957 @@
+Using pre-set license
+Built from '2021.1/staging' branch; Version is '2021.1.6f1 (c0fade0cc7e9) revision 12647134'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19042.1348; Version 2009; 64bit' Language: 'en' Physical Memory: 16252 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+D:\MAIN_RED\INSTALLS\Unity 2021.1.6f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/MAIN_RED/RED/5th Year College/1st Term/CAPSTN1/Project Alamat Unity Directory/ProjectAlamat
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+56037
+Successfully changed project path to: D:/MAIN_RED/RED/5th Year College/1st Term/CAPSTN1/Project Alamat Unity Directory/ProjectAlamat
+D:/MAIN_RED/RED/5th Year College/1st Term/CAPSTN1/Project Alamat Unity Directory/ProjectAlamat
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 76.40 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.1.6f1 (c0fade0cc7e9)
+[Subsystems] Discovering subsystems at path D:/MAIN_RED/INSTALLS/Unity 2021.1.6f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/MAIN_RED/RED/5th Year College/1st Term/CAPSTN1/Project Alamat Unity Directory/ProjectAlamat/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 960M (ID=0x139b)
+    Vendor:   NVIDIA
+    VRAM:     4055 MB
+    Driver:   30.0.14.7212
+Initialize mono
+Mono path[0] = 'D:/MAIN_RED/INSTALLS/Unity 2021.1.6f1/Editor/Data/Managed'
+Mono path[1] = 'D:/MAIN_RED/INSTALLS/Unity 2021.1.6f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/MAIN_RED/INSTALLS/Unity 2021.1.6f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56820
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/MAIN_RED/INSTALLS/Unity 2021.1.6f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001724 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 90.93 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.073 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006617 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 87.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.007 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2248 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.5 MB.
+System memory in use after: 105.6 MB.
+
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2704.
+Total: 3.527900 ms (FindLiveObjects: 0.185700 ms CreateObjectMapping: 0.092600 ms MarkObjects: 3.095200 ms  DeleteObjects: 0.153300 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/DragonBones/Demos/Resources/SwardMan_NestArmature/SwordsMan_tex_Mat.mat
+  artifactKey: Guid(eb9f7561cf2daf642b7ed584102a9f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DragonBones/Demos/Resources/SwardMan_NestArmature/SwordsMan_tex_Mat.mat using Guid(eb9f7561cf2daf642b7ed584102a9f0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d421dece9a942e200ed70863b42c9f6') in 0.983431 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000412 seconds.
+  path: Assets/DragonBones/Demos/Resources/SwardMan_NestArmature/SwordsMan_tex.png
+  artifactKey: Guid(a56574ea03205424098318bd87b44161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DragonBones/Demos/Resources/SwardMan_NestArmature/SwordsMan_tex.png using Guid(a56574ea03205424098318bd87b44161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '828274951939634a69507814e20db09d') in 0.306512 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000407 seconds.
+  path: Assets/DragonBones/Demos/Resources/SwardMan_NestArmature/SwordsMan_Data.asset
+  artifactKey: Guid(eb3dbaf4d7dc52047a17bcebf78aa608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DragonBones/Demos/Resources/SwardMan_NestArmature/SwordsMan_Data.asset using Guid(eb3dbaf4d7dc52047a17bcebf78aa608) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df51a1fea0c01a2b05dee53983e4daa6') in 0.265601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/DragonBones/Demos/Resources/SwardMan_NestArmature/SwordsMan_tex_UI_Mat.mat
+  artifactKey: Guid(270f971d07ab9f4439a8c24b2eb2701b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DragonBones/Demos/Resources/SwardMan_NestArmature/SwordsMan_tex_UI_Mat.mat using Guid(270f971d07ab9f4439a8c24b2eb2701b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c5e4903369115a3667557470a50e1e8') in 0.042683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.572788 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/Q.png
+  artifactKey: Guid(cf2b439804d6e7f4aa0b7e132df07240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/Q.png using Guid(cf2b439804d6e7f4aa0b7e132df07240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61375823c1b627b11187b17e495f21f1') in 0.284287 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Cursors/Question (Level3).png
+  artifactKey: Guid(e3503c3e990e85a409942d871ee1fd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Cursors/Question (Level3).png using Guid(e3503c3e990e85a409942d871ee1fd7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1b751661fbff9f7c7b4dcced2efd883') in 0.051265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Images/MenuImages/NewMenu/Main Menu/QUIT.png
+  artifactKey: Guid(858d1b273068c2b42abbbd04a71e7cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/MenuImages/NewMenu/Main Menu/QUIT.png using Guid(858d1b273068c2b42abbbd04a71e7cda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56a92bf95c227029fdcd55c7acda90fe') in 0.093277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000499 seconds.
+  path: Assets/Music and SFX/SFX/SFX_Earthquake1.wav
+  artifactKey: Guid(15388a0c5faea724b8dcd2d15c2c4c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Music and SFX/SFX/SFX_Earthquake1.wav using Guid(15388a0c5faea724b8dcd2d15c2c4c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5511bb31ab1532dd28e46a70ce9e06df') in 0.206557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000446 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Cursors/Question Line.png
+  artifactKey: Guid(4b3055c61aa93cb40ac5498663a4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Cursors/Question Line.png using Guid(4b3055c61aa93cb40ac5498663a4be35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a5cc2f22480627c4b08cbb22460cae5') in 0.102198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.051843 seconds.
+  path: Assets/Scripts/Question_Script.cs
+  artifactKey: Guid(11c07299439c1b74c9fc1543acdf9798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Question_Script.cs using Guid(11c07299439c1b74c9fc1543acdf9798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55c231de1ad12da97da08db6d06b9ec') in 0.022933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.858370 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Cursors/Dot Cursor.png
+  artifactKey: Guid(a4ec89be302431944a1d45b2b608ae21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Cursors/Dot Cursor.png using Guid(a4ec89be302431944a1d45b2b608ae21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b7452e86d8046dce3128a093b0aed52') in 0.079743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.155135 seconds.
+  path: Assets/Salita/Salita/Definitions
+  artifactKey: Guid(c8dd398a97b916043b85f7990fea721f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Definitions using Guid(c8dd398a97b916043b85f7990fea721f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c4d2bf4c975bc09ffdb764dba8b67e') in 0.009239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.488037 seconds.
+  path: Assets/Salita/Salita/Definitions/Abot.asset
+  artifactKey: Guid(71b59a78fcaf2e94083b92ea820d00af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Definitions/Abot.asset using Guid(71b59a78fcaf2e94083b92ea820d00af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a94798f22d4298ea4e3f2abc82da9231') in 0.008766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Salita/Salita/Definitions/Hugas.asset
+  artifactKey: Guid(143db929402d0514b86f25e47469db16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Definitions/Hugas.asset using Guid(143db929402d0514b86f25e47469db16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05c9cbd955525c3929947334ff081ac1') in 0.007753 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000386 seconds.
+  path: Assets/Salita/Salita/Definitions/Hawak.asset
+  artifactKey: Guid(2109ca0f02a43974782d89732ff8d0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Definitions/Hawak.asset using Guid(2109ca0f02a43974782d89732ff8d0d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bceb2a49d169c988d2be35d0a9a2ee54') in 0.039861 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000931 seconds.
+  path: Assets/Salita/Salita/Definitions/Alam.asset
+  artifactKey: Guid(f6c2cb43fee821b40892acb10432cd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Definitions/Alam.asset using Guid(f6c2cb43fee821b40892acb10432cd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb3195b491a00e485cb2bb99a667e38e') in 0.009312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/Salita/Salita/Definitions/Bara.asset
+  artifactKey: Guid(cb9fba5a18cc4244d982aba23f881117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Definitions/Bara.asset using Guid(cb9fba5a18cc4244d982aba23f881117) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bdd18bd02d877117aa36d50b4190494') in 0.012374 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000480 seconds.
+  path: Assets/Salita/Salita/Definitions/Tapon.asset
+  artifactKey: Guid(53b3f80d3fb18d246ae78168856d8111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Definitions/Tapon.asset using Guid(53b3f80d3fb18d246ae78168856d8111) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31464f498f7875efa5d0be8d2e0885c2') in 0.008639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000451 seconds.
+  path: Assets/Salita/Salita/Definitions/Takbo.asset
+  artifactKey: Guid(a5197a62733b99742b36d8509eb288d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Definitions/Takbo.asset using Guid(a5197a62733b99742b36d8509eb288d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9401af5605e40f9dc160358852e2122') in 0.009630 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Salita/Salita/Definitions/Punas.asset
+  artifactKey: Guid(350b7a7d62a698748a5f94bd5d9d8584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Definitions/Punas.asset using Guid(350b7a7d62a698748a5f94bd5d9d8584) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f976b0977b6c76b4bb9e29f18b5ca306') in 0.010478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/Salita/Salita/Definitions/Aga.asset
+  artifactKey: Guid(e62607f7399f9794ea7bc1decd32a363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Definitions/Aga.asset using Guid(e62607f7399f9794ea7bc1decd32a363) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '774f9665e06e10bf03e6565cf8fb5dc7') in 0.009968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Salita/Salita/Definitions/Lamig.asset
+  artifactKey: Guid(cb42f94ecfafb2a47ba97f30f4db7dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Definitions/Lamig.asset using Guid(cb42f94ecfafb2a47ba97f30f4db7dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74107b73fe280214f03a7799a23b4b20') in 0.010670 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Salita/Salita/Definitions/Sagot.asset
+  artifactKey: Guid(670990a9999ca22449aaa9d26eff9570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Definitions/Sagot.asset using Guid(670990a9999ca22449aaa9d26eff9570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b6019d0fc6175d63d017ebd13636f63') in 0.011307 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Salita/Salita/Definitions/Away.asset
+  artifactKey: Guid(ff52e0a4eba55d84692f8b3648d5c464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Definitions/Away.asset using Guid(ff52e0a4eba55d84692f8b3648d5c464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b2b9a6d3f553fce72ac4cfd3b357a45') in 0.013026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000510 seconds.
+  path: Assets/Salita/Salita/Definitions/Balita.asset
+  artifactKey: Guid(ce1370296139d0d40a69bc4a29e5eeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Definitions/Balita.asset using Guid(ce1370296139d0d40a69bc4a29e5eeb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf22a4d53d7729e4d8bcf6d8e5e99265') in 0.018173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/Salita/Salita/Definitions/Init.asset
+  artifactKey: Guid(70c64124b28043240948461fc8a4e1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Definitions/Init.asset using Guid(70c64124b28043240948461fc8a4e1c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4b59628d69d401c7b9de81b5a2c1a3') in 0.007659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Salita/Salita/Definitions/Alat.asset
+  artifactKey: Guid(563b9d9b49f035b4db62cbe4b0c39ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Definitions/Alat.asset using Guid(563b9d9b49f035b4db62cbe4b0c39ad5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b95f48be5eee6c2f492276c105596a46') in 0.014131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 86.139777 seconds.
+  path: Assets/Salita/Salita/Translations
+  artifactKey: Guid(0a1cdc81f5fb5b144ad706517c33569f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Translations using Guid(0a1cdc81f5fb5b144ad706517c33569f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc5e23adef0afbf6a39e014c7275cf6') in 0.014467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.011347 seconds.
+  path: Assets/Salita/Salita/Translations/Abot.asset
+  artifactKey: Guid(9483f5a114bcf8a47b045c867af34e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Translations/Abot.asset using Guid(9483f5a114bcf8a47b045c867af34e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7aa2ffb5faf2a121436a7bf84c4092fc') in 0.003968 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Salita/Salita/Translations/Aga.asset
+  artifactKey: Guid(da1912978b7cd5c45a1081c4ec15d4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Translations/Aga.asset using Guid(da1912978b7cd5c45a1081c4ec15d4f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4b29105993105c9d17f96ad68b09597') in 0.003428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000327 seconds.
+  path: Assets/Salita/Salita/Translations/Away.asset
+  artifactKey: Guid(03c70f8887d88ea4eacc214e0720fcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Translations/Away.asset using Guid(03c70f8887d88ea4eacc214e0720fcc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979801cc3846e5028c235d561077efec') in 0.003776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000621 seconds.
+  path: Assets/Salita/Salita/Translations/Alam.asset
+  artifactKey: Guid(35b9dfbcffdfb6541a35a283fa0f4f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Translations/Alam.asset using Guid(35b9dfbcffdfb6541a35a283fa0f4f44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cc8cbfa31bf19516613365daee150b5') in 0.003422 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000448 seconds.
+  path: Assets/Salita/Salita/Translations/Hawak.asset
+  artifactKey: Guid(49836c32217de4347823af4edd421e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Translations/Hawak.asset using Guid(49836c32217de4347823af4edd421e95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1926cdcbdadfb30468167ab3f6fd29') in 0.003997 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Salita/Salita/Translations/Init.asset
+  artifactKey: Guid(eb4241a9e1e5b664988fa670d832b5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Translations/Init.asset using Guid(eb4241a9e1e5b664988fa670d832b5bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8648d5f24b2e1f1130104351f136156') in 0.004164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Salita/Salita/Translations/Lamig.asset
+  artifactKey: Guid(fc385f380e74d7f43a374e8a161b518b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Translations/Lamig.asset using Guid(fc385f380e74d7f43a374e8a161b518b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3275ab8894e420c9beb186983000c904') in 0.005892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/Salita/Salita/Translations/Punas.asset
+  artifactKey: Guid(c8bdaf927fde18f4b8fe58ccaf8af265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Translations/Punas.asset using Guid(c8bdaf927fde18f4b8fe58ccaf8af265) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e59401a65d37e20244804656281368') in 0.003840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Salita/Salita/Translations/Sagot.asset
+  artifactKey: Guid(17c125572e1a5d64387bd9000529a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Translations/Sagot.asset using Guid(17c125572e1a5d64387bd9000529a881) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb98052989f63e748ba5a244a716521c') in 0.004751 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000379 seconds.
+  path: Assets/Salita/Salita/Translations/Takbo.asset
+  artifactKey: Guid(b1c1f1f41ab00e34bb2bb795119c59f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Translations/Takbo.asset using Guid(b1c1f1f41ab00e34bb2bb795119c59f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '033eac44f617472b0968958c7d05bc41') in 0.006784 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000519 seconds.
+  path: Assets/Salita/Salita/Translations/Tapon.asset
+  artifactKey: Guid(160225bdd51457f4a8d68d58e0f0c86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Translations/Tapon.asset using Guid(160225bdd51457f4a8d68d58e0f0c86f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '859ae564810b7e4d9fe489a5ef25c8e3') in 0.004580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000352 seconds.
+  path: Assets/Salita/Salita/Translations/Hugas.asset
+  artifactKey: Guid(501a2c910260321439b0b9137e433134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Translations/Hugas.asset using Guid(501a2c910260321439b0b9137e433134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cea279aeef4a3d444b3224647025657') in 0.004188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000399 seconds.
+  path: Assets/Salita/Salita/Translations/Bara.asset
+  artifactKey: Guid(7076156dbe6260b4db039e351da749cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Translations/Bara.asset using Guid(7076156dbe6260b4db039e351da749cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec40e555ae0c7b7ad8598df70400e27') in 0.012396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000317 seconds.
+  path: Assets/Salita/Salita/Translations/Alat.asset
+  artifactKey: Guid(70fe93be2ce513e40b0ca16673b190a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Translations/Alat.asset using Guid(70fe93be2ce513e40b0ca16673b190a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cff330687f594218d705fd8ff0e7f64a') in 0.010174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/Salita/Salita/Translations/Balita.asset
+  artifactKey: Guid(c7d596fe88b6365429af459b4e395384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Translations/Balita.asset using Guid(c7d596fe88b6365429af459b4e395384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f15c1ddde7bf2b4b6c4baa269213b26') in 0.004101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.078929 seconds.
+  path: Assets/Salita/Salita/Tenses
+  artifactKey: Guid(c02356ac0d25ad042b3abb7a78a8ad89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses using Guid(c02356ac0d25ad042b3abb7a78a8ad89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a7df07f0a1567e48715fa652c8ce0f8') in 0.013496 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.017578 seconds.
+  path: Assets/Salita/Salita/Tenses/Abot.asset
+  artifactKey: Guid(d8029c38d83ecb843bde8651f0e3cde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Abot.asset using Guid(d8029c38d83ecb843bde8651f0e3cde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70ec9f548edb9881000c1a286ccec30d') in 0.003953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000464 seconds.
+  path: Assets/Salita/Salita/Tenses/Aga.asset
+  artifactKey: Guid(5c02556ad3d133844a24a12297417934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Aga.asset using Guid(5c02556ad3d133844a24a12297417934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233435789e30b5cfa91be889c16115d7') in 0.002765 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000555 seconds.
+  path: Assets/Salita/Salita/Tenses/Alam.asset
+  artifactKey: Guid(f5236c2f896303144b9039671e3b66e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Alam.asset using Guid(f5236c2f896303144b9039671e3b66e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'beaa625a5ac368b387ea1e2500e49f8f') in 0.002747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Salita/Salita/Tenses/Alat.asset
+  artifactKey: Guid(0311cf23fd0f45d46a1d3d6694a3bbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Alat.asset using Guid(0311cf23fd0f45d46a1d3d6694a3bbfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727e548c1539a1f14ef4f3fb2652b0d4') in 0.002894 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000469 seconds.
+  path: Assets/Salita/Salita/Tenses/Away.asset
+  artifactKey: Guid(dd876111f895fe044bd254b19276d263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Away.asset using Guid(dd876111f895fe044bd254b19276d263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31a470d1b741879c5825103ea0760c4') in 0.003464 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Salita/Salita/Tenses/Hawak.asset
+  artifactKey: Guid(8676ca32072571d4dbd357788c9601d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Hawak.asset using Guid(8676ca32072571d4dbd357788c9601d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '426a66094f4509a82c953f91e3ff7be4') in 0.003076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000366 seconds.
+  path: Assets/Salita/Salita/Tenses/Init.asset
+  artifactKey: Guid(647f86fd8c6c2104d9dc4a414a35d1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Init.asset using Guid(647f86fd8c6c2104d9dc4a414a35d1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b325c5abc5407779adf9503ae2574cb8') in 0.002915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000484 seconds.
+  path: Assets/Salita/Salita/Tenses/Punas.asset
+  artifactKey: Guid(c188665ed19842c4f93176d9e62bb248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Punas.asset using Guid(c188665ed19842c4f93176d9e62bb248) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3874bb0fe3ff3869383cb50256e55867') in 0.003921 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Salita/Salita/Tenses/Sagot.asset
+  artifactKey: Guid(19908fb17026ad04e8e2df0455d0a0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Sagot.asset using Guid(19908fb17026ad04e8e2df0455d0a0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6db4d077b39b5ecf087397f26d90df') in 0.003779 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Salita/Salita/Tenses/Takbo.asset
+  artifactKey: Guid(e689fd8fe5ccbf848931869d697d6f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Takbo.asset using Guid(e689fd8fe5ccbf848931869d697d6f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8148d69b20fe224155a54b346220ef') in 0.003697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000409 seconds.
+  path: Assets/Salita/Salita/Tenses/Bara.asset
+  artifactKey: Guid(4a2f7e6c83e0f1849a89a3fb52a71ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Bara.asset using Guid(4a2f7e6c83e0f1849a89a3fb52a71ca8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7efe75b23e91b911143c39af1e381c76') in 0.005602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000486 seconds.
+  path: Assets/Salita/Salita/Tenses/Tapon.asset
+  artifactKey: Guid(baa74709bb96a7f45a7bac88124d4485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Tapon.asset using Guid(baa74709bb96a7f45a7bac88124d4485) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122b25ddfe1141abdcf09dbb379287ce') in 0.003181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000489 seconds.
+  path: Assets/Salita/Salita/Tenses/Lamig.asset
+  artifactKey: Guid(1a2ee9cb6c35bea41a66f73f50301fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Lamig.asset using Guid(1a2ee9cb6c35bea41a66f73f50301fb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '329118204512f181622c901e93095a29') in 0.004026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000387 seconds.
+  path: Assets/Salita/Salita/Tenses/Hugas.asset
+  artifactKey: Guid(01012a6dc0d0c8f449b98320a8dea570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Hugas.asset using Guid(01012a6dc0d0c8f449b98320a8dea570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd97aa44c4edb66937de1eeaafe5ae9c') in 0.005371 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Salita/Salita/Tenses/Balita.asset
+  artifactKey: Guid(ff7ff0f2bef91da498e9d9271596972d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Balita.asset using Guid(ff7ff0f2bef91da498e9d9271596972d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '382f3719c0f89f5536ec545fcd267083') in 0.003272 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 60.692276 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate
+  artifactKey: Guid(f529b6094b3572b4ba87c9c75205c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate using Guid(f529b6094b3572b4ba87c9c75205c4a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96d7c3c46dcfd9e82761eff011fabe32') in 0.018962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.009534 seconds.
+  path: Assets/Salita/Salita/Articles
+  artifactKey: Guid(f91e1392341715046b89094de2bc1f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles using Guid(f91e1392341715046b89094de2bc1f3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36368404e8d6bf1e72616152ba080b45') in 0.011040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000406 seconds.
+  path: Assets/Salita/Salita/Articles/Ang ..asset
+  artifactKey: Guid(a19ea45eb2a0d6945bb59624520f589d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Ang ..asset using Guid(a19ea45eb2a0d6945bb59624520f589d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3617ffbed2bd7d0238922c9a9e384547') in 0.017905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013647 seconds.
+  path: Assets/Salita/Salita/Articles/ang mga.asset
+  artifactKey: Guid(1d7d7147a43934a4d9d0058640dd57d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/ang mga.asset using Guid(1d7d7147a43934a4d9d0058640dd57d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '234490e894a71e9623dadd37d4a93ef3') in 0.024119 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.006350 seconds.
+  path: Assets/Salita/Salita/Articles/Ang.asset
+  artifactKey: Guid(181dfe35b016ea44980d78312363b52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Ang.asset using Guid(181dfe35b016ea44980d78312363b52b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '402c5a4443d5529577767a36eef4f74e') in 0.016639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Salita/Salita/Articles/Kay.asset
+  artifactKey: Guid(7aa8602d96f637c4bafea4fbc2608e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Kay.asset using Guid(7aa8602d96f637c4bafea4fbc2608e4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '269f7561db94c5fb4ba253a2d9ec8156') in 0.008688 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000531 seconds.
+  path: Assets/Salita/Salita/Articles/Kay ..asset
+  artifactKey: Guid(806ca4cbec983a0429bb21786a37e767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Kay ..asset using Guid(806ca4cbec983a0429bb21786a37e767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f9aead0034beeab57680279d02a9f6e') in 0.009629 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000374 seconds.
+  path: Assets/Salita/Salita/Articles/Ni ..asset
+  artifactKey: Guid(2dee1c2533d432e489f5e69ed00535a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Ni ..asset using Guid(2dee1c2533d432e489f5e69ed00535a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390b50b17fe213ce8884b3046188d01e') in 0.008858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000611 seconds.
+  path: Assets/Salita/Salita/Articles/Ni.asset
+  artifactKey: Guid(fca5a37d342cfbf47b83a67d450036a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Ni.asset using Guid(fca5a37d342cfbf47b83a67d450036a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd788272b81d709a84a1c0b95881d444') in 0.021990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000432 seconds.
+  path: Assets/Salita/Salita/Articles/Nina ..asset
+  artifactKey: Guid(b57fed87c45ed7a468ad3fef8ccd2694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Nina ..asset using Guid(b57fed87c45ed7a468ad3fef8ccd2694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '657b58531ea267d6d3afa6207b9fb85a') in 0.015373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000266 seconds.
+  path: Assets/Salita/Salita/Articles/mga.asset
+  artifactKey: Guid(0c7b5579dee8f3e45b26f76dac5ef362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/mga.asset using Guid(0c7b5579dee8f3e45b26f76dac5ef362) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '949d7d57d485880cda4cb6779e9b9df9') in 0.009470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Salita/Salita/Articles/Sina.asset
+  artifactKey: Guid(9cae05ae142159f498252927e5da5ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Sina.asset using Guid(9cae05ae142159f498252927e5da5ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e987e30e339038515e9e985e90aa3146') in 0.012833 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000250 seconds.
+  path: Assets/Salita/Salita/Articles/Kina ..asset
+  artifactKey: Guid(279d82b36e871824eaa5487422ab0bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Kina ..asset using Guid(279d82b36e871824eaa5487422ab0bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1288410778bac244e47a6bcd971e001b') in 0.009461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Salita/Salita/Articles/Sina ..asset
+  artifactKey: Guid(05e28b22d9920324da2c57c55d0f4913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Sina ..asset using Guid(05e28b22d9920324da2c57c55d0f4913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f513d9766c499f8e0318f93b0eeab39') in 0.009270 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000294 seconds.
+  path: Assets/Salita/Salita/Articles/Kina.asset
+  artifactKey: Guid(731a03c7d9ae386488d0b54da7a52625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Kina.asset using Guid(731a03c7d9ae386488d0b54da7a52625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be2800e2cfb13734f15d6c66d4e80aa5') in 0.009062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000301 seconds.
+  path: Assets/Salita/Salita/Articles/Si ..asset
+  artifactKey: Guid(a0ddeaed515cdb740ade4658e37719b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Si ..asset using Guid(a0ddeaed515cdb740ade4658e37719b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd266c803a3be688101cfe56d4ab962f9') in 0.011967 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Salita/Salita/Articles/Nina.asset
+  artifactKey: Guid(c701d8399071d354c848ac2e97db76e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Nina.asset using Guid(c701d8399071d354c848ac2e97db76e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '969295f75bbc42a357831d66d9579656') in 0.028828 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Salita/Salita/Articles/si.asset
+  artifactKey: Guid(a6d79c5943bd72d47a266af8beb7ea9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/si.asset using Guid(a6d79c5943bd72d47a266af8beb7ea9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cc3e31b89a4c5dc80ade9d8a84107e2') in 0.009239 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 119.603706 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Aga.asset
+  artifactKey: Guid(de6530e2355c9cb4dba6db5c308f4fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Aga.asset using Guid(de6530e2355c9cb4dba6db5c308f4fb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ae1f484625d69a0e996d03145a8da7') in 0.044339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Alam.asset
+  artifactKey: Guid(acb9cf30ff846ad4f94a2e78684cee72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Alam.asset using Guid(acb9cf30ff846ad4f94a2e78684cee72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90571843a28c1caf30c18f645b8b29dd') in 0.004355 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000373 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Bara.asset
+  artifactKey: Guid(d516ca397882c144bb7e586f94775720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Bara.asset using Guid(d516ca397882c144bb7e586f94775720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a004c80f9ffea1d0c254ac70f3be3a9') in 0.002945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000440 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Hugas.asset
+  artifactKey: Guid(40b2d6eabd53fe443a7d022363b18e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Hugas.asset using Guid(40b2d6eabd53fe443a7d022363b18e52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477c19b4a1171b9f218f2fc294847763') in 0.003698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000461 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Takbo.asset
+  artifactKey: Guid(4133af241a0c7ea4495fbb185c6eb86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Takbo.asset using Guid(4133af241a0c7ea4495fbb185c6eb86a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1652d002a8814824a1f97aa85961b893') in 0.003598 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000357 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Init.asset
+  artifactKey: Guid(13a78b747a899d34ba53a2259cbd2a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Init.asset using Guid(13a78b747a899d34ba53a2259cbd2a0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f97953e7f95bdf6d5f250d3530ec51') in 0.005088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000365 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Sagot.asset
+  artifactKey: Guid(ebd18e9e6b6be0a429bd6b94b8817c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Sagot.asset using Guid(ebd18e9e6b6be0a429bd6b94b8817c79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ebcc740611a88909b0abe099187c7f') in 0.003659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000445 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Lamig.asset
+  artifactKey: Guid(22cb45df4bba0c6428a636285deb54c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Lamig.asset using Guid(22cb45df4bba0c6428a636285deb54c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f9782f5ce4dd5d73fff21a1aa29f9a8') in 0.003364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Punas.asset
+  artifactKey: Guid(7aca40917bc308440abd0fe8e11640c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Punas.asset using Guid(7aca40917bc308440abd0fe8e11640c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20d53de97622da636bcceddec23538a2') in 0.003804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000356 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Hawak.asset
+  artifactKey: Guid(92f1bbfedaa646b4e9c73c22754a1c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Hawak.asset using Guid(92f1bbfedaa646b4e9c73c22754a1c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb2b738edcd3289dc81971a7089005a4') in 0.003505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Tapon.asset
+  artifactKey: Guid(f61bc848bf1d88b478262d54d5d88e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Tapon.asset using Guid(f61bc848bf1d88b478262d54d5d88e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0d379aab92864fb1b1d4ee7f295ffa1') in 0.004536 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Balita.asset
+  artifactKey: Guid(7ede900a78d881d4286a5408e1b3d704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Balita.asset using Guid(7ede900a78d881d4286a5408e1b3d704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3695dc8436a0d6497602107534052357') in 0.020684 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000343 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Alat.asset
+  artifactKey: Guid(ddf92a59958a84a4a8623e95744d09af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Alat.asset using Guid(ddf92a59958a84a4a8623e95744d09af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60295f955a486614ef129388936be6fc') in 0.005659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000351 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Away.asset
+  artifactKey: Guid(75ee96dbeb7de0b46b7aa6e3a88642c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Away.asset using Guid(75ee96dbeb7de0b46b7aa6e3a88642c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b47804fb365bbb8c9cfa059e7b4104') in 0.003600 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.929998 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Bara.asset
+  artifactKey: Guid(d516ca397882c144bb7e586f94775720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Bara.asset using Guid(d516ca397882c144bb7e586f94775720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9327effec1ac3b66b4176bd0afeade1e') in 0.004220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.203690 seconds.
+  path: Assets/Salita/Placeholder Dialog.asset
+  artifactKey: Guid(aaa1b19b80637084c959495afa6888f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Placeholder Dialog.asset using Guid(aaa1b19b80637084c959495afa6888f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4889409b329c343a8ca02458b7bcdae') in 0.108411 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.413989 seconds.
+  path: Assets/Images/LevelImages/UI/Level/LockOnAnswer.png
+  artifactKey: Guid(e1cd7d107b049ac4c82bd45cad08f276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/LockOnAnswer.png using Guid(e1cd7d107b049ac4c82bd45cad08f276) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '829fbad58a01875fe2331f7c3a29132e') in 0.060987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.874912 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers
+  artifactKey: Guid(5d11014504197c74cbf3a2f4f0b231f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers using Guid(5d11014504197c74cbf3a2f4f0b231f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fa9855ad09db82943e48d3a17c48f18') in 0.107514 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000555 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/O.png
+  artifactKey: Guid(428242f04f1bc304dbb303d3c73b6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/O.png using Guid(428242f04f1bc304dbb303d3c73b6901) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd80a2befd829e007a93a087298f9f21d') in 0.122359 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/L.png
+  artifactKey: Guid(ef5ea76a786e9cc488d010bd93b6591c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/L.png using Guid(ef5ea76a786e9cc488d010bd93b6591c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3acd8ac6faa06ce01d16956e68f42b0') in 0.178039 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/F.png
+  artifactKey: Guid(4ddc409f8e289f44c8b593bf464fef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/F.png using Guid(4ddc409f8e289f44c8b593bf464fef94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08c418f1f8c2f158606d81f2a07547d4') in 0.044999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/G.png
+  artifactKey: Guid(744466cfcf3c6364fa8bddff744c6753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/G.png using Guid(744466cfcf3c6364fa8bddff744c6753) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0a2ec1e31eb1d459229364e4f389352') in 0.033972 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000323 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/K.png
+  artifactKey: Guid(21f2a8dcd81d7774589587e72bdf3e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/K.png using Guid(21f2a8dcd81d7774589587e72bdf3e4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8892f07dcbd66f5aa7c218cd69c4740e') in 0.074267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000306 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/D.png
+  artifactKey: Guid(f446d262252f0b84c913f6c86ee87218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/D.png using Guid(f446d262252f0b84c913f6c86ee87218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d7d36a075386a1f15c453899e55fedf') in 0.037768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/U.png
+  artifactKey: Guid(420f32ad055212f47bdb632eedf0bf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/U.png using Guid(420f32ad055212f47bdb632eedf0bf0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86438b4bcb4f78e465d515e3b660d22e') in 0.052301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000456 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/C.png
+  artifactKey: Guid(70ae7eb69390edd4295876a05c44cd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/C.png using Guid(70ae7eb69390edd4295876a05c44cd50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed9566aae458583149220b77bc47d9af') in 0.038341 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000429 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/ENTER.png
+  artifactKey: Guid(c8f630b69ebbcce49bb71f4e1c302aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/ENTER.png using Guid(c8f630b69ebbcce49bb71f4e1c302aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f3c7336e1a6871a24fe147ccf7e7f68') in 0.035177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000385 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/H.png
+  artifactKey: Guid(bcfe356a7cfb48b42827ef69b0fae767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/H.png using Guid(bcfe356a7cfb48b42827ef69b0fae767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '547e416f07efa8eb0c42d850d297affb') in 0.052773 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/R.png
+  artifactKey: Guid(84bb9f1de8c6bab4b83001965e0b586b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/R.png using Guid(84bb9f1de8c6bab4b83001965e0b586b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5c7088de98940e8010bd7cd1e1a151a') in 0.108080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000473 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/S.png
+  artifactKey: Guid(c42a2797c48e0604e9c864d2f5f9fa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/S.png using Guid(c42a2797c48e0604e9c864d2f5f9fa15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a8f70e202ac06516410706f96d7d02') in 0.068613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000592 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/Option.png
+  artifactKey: Guid(a28aa55215d92db499619c324a46c720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/Option.png using Guid(a28aa55215d92db499619c324a46c720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1809f9ca723f3ea72351f89213120501') in 0.160325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000436 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/E.png
+  artifactKey: Guid(4acdee5ae414d4649a1c712c7030b8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/E.png using Guid(4acdee5ae414d4649a1c712c7030b8fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008f68e25f2419fc81b5ecfb46068e1f') in 0.032524 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000466 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/M.png
+  artifactKey: Guid(934123d25e48048408e48f8c37c0d5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/M.png using Guid(934123d25e48048408e48f8c37c0d5cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32e60c1a433821afbfd1628abd6e7104') in 0.043530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/T.png
+  artifactKey: Guid(8e9eecc31d6fdab4482159885bf0a586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/T.png using Guid(8e9eecc31d6fdab4482159885bf0a586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c0b74443b408a9c3dc1e73a08f7a84') in 0.043215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000408 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/N.png
+  artifactKey: Guid(726922539c4208042baedf95fda68faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/N.png using Guid(726922539c4208042baedf95fda68faf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1bab218dd39589d6b540278e088742') in 0.068856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000427 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/J.png
+  artifactKey: Guid(3329574696fad7549a5428f44caae1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/J.png using Guid(3329574696fad7549a5428f44caae1a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '701731cb5679c0d6b4b755c29979e170') in 0.038236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Images/LevelImages/UI/Level/Level 1/Answers/P.png
+  artifactKey: Guid(af24471c1de52754eae82f58ec216dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Images/LevelImages/UI/Level/Level 1/Answers/P.png using Guid(af24471c1de52754eae82f58ec216dff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31776069706298ed7393370ebc106d6c') in 0.031901 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.501708 seconds.
+  path: Assets/Sample Level 1/Salita
+  artifactKey: Guid(e47a59afe2728bc4aa4e354692ff8906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sample Level 1/Salita using Guid(e47a59afe2728bc4aa4e354692ff8906) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a6866a8f522debf6e92cca614ed2ad8') in 0.010672 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.889530 seconds.
+  path: Assets/Salita
+  artifactKey: Guid(9854ee9200af25a499312e2caf6ab4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita using Guid(9854ee9200af25a499312e2caf6ab4e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce6dd10a3aa39ec8bfd710b746e39849') in 0.002953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 102.750807 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Alat.asset
+  artifactKey: Guid(ddf92a59958a84a4a8623e95744d09af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Alat.asset using Guid(ddf92a59958a84a4a8623e95744d09af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2c7a516e5ea60a953cbe5898c2e8a72') in 0.004333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 217.021993 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Away.asset
+  artifactKey: Guid(75ee96dbeb7de0b46b7aa6e3a88642c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Away.asset using Guid(75ee96dbeb7de0b46b7aa6e3a88642c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '219c21d5365dda6c6e0bcc9cfe9fb646') in 0.005133 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.015421 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Balita.asset
+  artifactKey: Guid(7ede900a78d881d4286a5408e1b3d704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Balita.asset using Guid(7ede900a78d881d4286a5408e1b3d704) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3bf174b443649f1ba130f31114231a2') in 0.006366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.556562 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Tapon.asset
+  artifactKey: Guid(f61bc848bf1d88b478262d54d5d88e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Tapon.asset using Guid(f61bc848bf1d88b478262d54d5d88e46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28355ec00b3012ca46da1b9c8390a550') in 0.005155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.902715 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Alam.asset
+  artifactKey: Guid(acb9cf30ff846ad4f94a2e78684cee72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Alam.asset using Guid(acb9cf30ff846ad4f94a2e78684cee72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffbb003350eb4cbb88790c6a9f098303') in 0.006370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 33.333170 seconds.
+  path: Assets/Salita/Salita/Subject-Predicate/Bara.asset
+  artifactKey: Guid(d516ca397882c144bb7e586f94775720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Subject-Predicate/Bara.asset using Guid(d516ca397882c144bb7e586f94775720) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df9cae67ce741cfafebd5677a96030d') in 0.003835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 144.033879 seconds.
+  path: Assets/Salita/Salita/Tenses/Hugas.asset
+  artifactKey: Guid(01012a6dc0d0c8f449b98320a8dea570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Hugas.asset using Guid(01012a6dc0d0c8f449b98320a8dea570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24100b6978b0eae94d13a32695d4ac7a') in 0.003916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.713428 seconds.
+  path: Assets/Salita/Salita/Tenses/Init.asset
+  artifactKey: Guid(647f86fd8c6c2104d9dc4a414a35d1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Init.asset using Guid(647f86fd8c6c2104d9dc4a414a35d1b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db47e739fcd9c9ebb88bc97909320910') in 0.004664 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.490395 seconds.
+  path: Assets/Salita/Salita/Tenses/Aga.asset
+  artifactKey: Guid(5c02556ad3d133844a24a12297417934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Aga.asset using Guid(5c02556ad3d133844a24a12297417934) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3b23b68dcd93fd33470ae1441704ab') in 0.005560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.713739 seconds.
+  path: Assets/Salita/Salita/Tenses/Sagot.asset
+  artifactKey: Guid(19908fb17026ad04e8e2df0455d0a0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Sagot.asset using Guid(19908fb17026ad04e8e2df0455d0a0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c427f6ac91de946190d52e8eadf8ac5b') in 0.019871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.030510 seconds.
+  path: Assets/Salita/Salita/Tenses/Abot.asset
+  artifactKey: Guid(d8029c38d83ecb843bde8651f0e3cde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Abot.asset using Guid(d8029c38d83ecb843bde8651f0e3cde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f224849c9d31e1a82ff39ddd9be2e4fb') in 0.004019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.652313 seconds.
+  path: Assets/Salita/Salita/Tenses/Abot.asset
+  artifactKey: Guid(d8029c38d83ecb843bde8651f0e3cde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Tenses/Abot.asset using Guid(d8029c38d83ecb843bde8651f0e3cde6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1de2709c6878df39e26c943d78bef790') in 0.004108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 130.569692 seconds.
+  path: Assets/Salita/Salita/Articles/Ang ..asset
+  artifactKey: Guid(a19ea45eb2a0d6945bb59624520f589d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Ang ..asset using Guid(a19ea45eb2a0d6945bb59624520f589d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c38b45992f8d4cd4dae1971509dc39') in 0.014339 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.707293 seconds.
+  path: Assets/Salita/Salita/Articles/si.asset
+  artifactKey: Guid(a6d79c5943bd72d47a266af8beb7ea9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/si.asset using Guid(a6d79c5943bd72d47a266af8beb7ea9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '191738a04b81e7642d68490807e44b79') in 0.005797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 72.440838 seconds.
+  path: Assets/Salita/Salita/Articles/Kay ..asset
+  artifactKey: Guid(806ca4cbec983a0429bb21786a37e767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Kay ..asset using Guid(806ca4cbec983a0429bb21786a37e767) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a8fa1dbbc935097afb4d5f3996aff6') in 0.004701 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.264916 seconds.
+  path: Assets/Salita/Salita/Articles/Sina ..asset
+  artifactKey: Guid(05e28b22d9920324da2c57c55d0f4913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Sina ..asset using Guid(05e28b22d9920324da2c57c55d0f4913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa23b1e670d76b5a4f95d55834186db') in 0.005865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.516568 seconds.
+  path: Assets/Salita/Salita/Articles/Sina ..asset
+  artifactKey: Guid(05e28b22d9920324da2c57c55d0f4913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Sina ..asset using Guid(05e28b22d9920324da2c57c55d0f4913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7863bfd554f7b749aa1175f2caab3065') in 0.005277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.479503 seconds.
+  path: Assets/Salita/Salita/Articles/Sina ..asset
+  artifactKey: Guid(05e28b22d9920324da2c57c55d0f4913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Sina ..asset using Guid(05e28b22d9920324da2c57c55d0f4913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b914e61e3ebb4d85bdc8bc4acc17a2d') in 0.003837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.684094 seconds.
+  path: Assets/Salita/Salita/Articles/Sina.asset
+  artifactKey: Guid(9cae05ae142159f498252927e5da5ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Sina.asset using Guid(9cae05ae142159f498252927e5da5ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b39eb1c04b1e962df5c26550814c806') in 0.005054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.529929 seconds.
+  path: Assets/Salita/Salita/Articles/Sina.asset
+  artifactKey: Guid(9cae05ae142159f498252927e5da5ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Sina.asset using Guid(9cae05ae142159f498252927e5da5ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b905c7652e1c20d199102c6f7e68bdc') in 0.004367 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.337101 seconds.
+  path: Assets/Salita/Salita/Articles/Sina.asset
+  artifactKey: Guid(9cae05ae142159f498252927e5da5ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Sina.asset using Guid(9cae05ae142159f498252927e5da5ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16d521d5c2accaf52da88a2215f870a4') in 0.003707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.406329 seconds.
+  path: Assets/Salita/Salita/Articles/Sina.asset
+  artifactKey: Guid(9cae05ae142159f498252927e5da5ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Sina.asset using Guid(9cae05ae142159f498252927e5da5ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a179bdb01742b0d818094aeff00c1c3') in 0.004052 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.494773 seconds.
+  path: Assets/Salita/Salita/Articles/Sina.asset
+  artifactKey: Guid(9cae05ae142159f498252927e5da5ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Sina.asset using Guid(9cae05ae142159f498252927e5da5ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b105515397ab4710bae131884e5c2e7') in 0.004014 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.656469 seconds.
+  path: Assets/Salita/Salita/Articles/Sina.asset
+  artifactKey: Guid(9cae05ae142159f498252927e5da5ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Sina.asset using Guid(9cae05ae142159f498252927e5da5ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a3c9b2de06e3ff61ad5e664410df7199') in 0.004079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.838889 seconds.
+  path: Assets/Salita/Salita/Articles/Sina.asset
+  artifactKey: Guid(9cae05ae142159f498252927e5da5ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Sina.asset using Guid(9cae05ae142159f498252927e5da5ba5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98348498c7a01b50da3a7f1917d05d5') in 0.003858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.242530 seconds.
+  path: Assets/Salita/Salita/Articles/Nina ..asset
+  artifactKey: Guid(b57fed87c45ed7a468ad3fef8ccd2694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Nina ..asset using Guid(b57fed87c45ed7a468ad3fef8ccd2694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62f953c4041a92980c5d4074fd49d987') in 0.011716 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.946065 seconds.
+  path: Assets/Salita/Salita/Articles/Nina ..asset
+  artifactKey: Guid(b57fed87c45ed7a468ad3fef8ccd2694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Nina ..asset using Guid(b57fed87c45ed7a468ad3fef8ccd2694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2d7f01430ece99c43ed542a1a6658eb') in 0.004842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.304919 seconds.
+  path: Assets/Salita/Salita/Articles/Nina.asset
+  artifactKey: Guid(c701d8399071d354c848ac2e97db76e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Nina.asset using Guid(c701d8399071d354c848ac2e97db76e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd50980910913d20d3b1ad400928dd1bf') in 0.004583 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001962 seconds.
+  path: Assets/Salita/Salita/Articles/Nina ..asset
+  artifactKey: Guid(b57fed87c45ed7a468ad3fef8ccd2694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Nina ..asset using Guid(b57fed87c45ed7a468ad3fef8ccd2694) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e29f2ba053050d0d392de603548e4375') in 0.004519 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 50.185251 seconds.
+  path: Assets/Salita/Salita/Articles/Kina ..asset
+  artifactKey: Guid(279d82b36e871824eaa5487422ab0bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Kina ..asset using Guid(279d82b36e871824eaa5487422ab0bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a926567c3ff0d7101b86a38833408ac2') in 0.004602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.229096 seconds.
+  path: Assets/Salita/Salita/Articles/Kina.asset
+  artifactKey: Guid(731a03c7d9ae386488d0b54da7a52625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Kina.asset using Guid(731a03c7d9ae386488d0b54da7a52625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7f8efa71c9804eb2c8bfba0c6194e4b') in 0.018144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.214842 seconds.
+  path: Assets/Salita/Salita/Articles/Kina.asset
+  artifactKey: Guid(731a03c7d9ae386488d0b54da7a52625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Salita/Salita/Articles/Kina.asset using Guid(731a03c7d9ae386488d0b54da7a52625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fddf27ee66b0c9c994811d64381e92a7') in 0.004472 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
